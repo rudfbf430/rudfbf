@@ -1,23 +1,23 @@
-# Homepage
+# FarmLink
 
-GitHub와 Vercel로 배포할 수 있는 정적 홈페이지입니다.
+전국 농장 위치, 재배 품목, 규모, 체험 가능 여부, 임대 가능 여부를 한 화면에서 탐색하는 농장 연결 지도 MVP입니다.
 
-## 로컬에서 확인
+## 현재 기능
 
-브라우저에서 `index.html`을 열면 바로 확인할 수 있습니다.
+- 농장명, 지역, 품목 검색
+- 지역/품목/체험/임대 필터
+- 지도형 마커 클릭
+- 농장 상세 정보 패널
+- 농장 카드 목록
+- Vercel 정적 배포
 
-## GitHub에 올리기
+## 데이터 수정
 
-```powershell
-git add .
-git commit -m "Initial homepage"
-git branch -M main
-git remote add origin https://github.com/USER/REPO.git
-git push -u origin main
-```
+샘플 농장 데이터는 `script.js`의 `farms` 배열에서 수정할 수 있습니다.
 
-## Vercel 배포
+## 다음 단계
 
-1. Vercel에서 `Add New Project`를 선택합니다.
-2. GitHub 저장소를 Import합니다.
-3. Framework Preset은 `Other`로 두고 Deploy합니다.
+- Kakao Map 또는 Naver Map API 연결
+- 실제 농장 데이터베이스 연동
+- 농장 등록 폼 추가
+- 문의/예약 기능 연결

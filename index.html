@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Git과 Vercel로 배포하는 개인 홈페이지입니다."
+      content="전국 농장 위치, 재배 품목, 규모, 체험과 임대 가능 여부를 한눈에 연결하는 농장 지도 서비스입니다."
     />
-    <title>Homepage</title>
+    <title>FarmLink | 전국 농장 연결 지도</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,83 +18,111 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#home" aria-label="홈으로 이동">Homepage</a>
+      <a class="brand" href="#app" aria-label="FarmLink 홈">FarmLink</a>
       <nav class="nav" aria-label="주요 메뉴">
-        <a href="#work">Work</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <a href="#app">지도</a>
+        <a href="#featured">추천 농장</a>
+        <a href="#partner">입점 문의</a>
       </nav>
     </header>
 
     <main>
-      <section id="home" class="hero">
-        <div class="hero-media" aria-hidden="true">
-          <div class="grid-surface"></div>
-          <div class="orb orb-a"></div>
-          <div class="orb orb-b"></div>
-        </div>
-        <div class="hero-content">
-          <p class="eyebrow">Git + Vercel ready</p>
-          <h1>깔끔하게 시작하는 나의 홈페이지</h1>
+      <section class="hero" id="app">
+        <div class="hero-copy">
+          <p class="eyebrow">전국 농장 연결 지도</p>
+          <h1>체험, 임대, 재배 정보를 지도에서 바로 찾기</h1>
           <p class="lead">
-            프로젝트, 소개, 연락처를 한 화면에서 명확하게 보여주는 정적
-            홈페이지입니다. GitHub에 올리고 Vercel에서 바로 배포할 수 있습니다.
+            지역별 농장을 찾고, 무엇을 키우는지, 규모는 어느 정도인지,
+            체험이나 임대형 농장으로 연결 가능한지 한 화면에서 확인합니다.
           </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#work">작업 보기</a>
-            <a class="button secondary" href="#contact">연락하기</a>
+        </div>
+
+        <section class="finder" aria-label="농장 검색">
+          <div class="toolbar">
+            <label class="search-field" for="searchInput">
+              <span>검색</span>
+              <input
+                id="searchInput"
+                type="search"
+                placeholder="농장명, 지역, 작물 검색"
+                autocomplete="off"
+              />
+            </label>
+            <label for="regionFilter">
+              <span>지역</span>
+              <select id="regionFilter">
+                <option value="all">전국</option>
+              </select>
+            </label>
+            <label for="productFilter">
+              <span>품목</span>
+              <select id="productFilter">
+                <option value="all">전체 품목</option>
+              </select>
+            </label>
+            <div class="toggle-group" aria-label="가능 서비스">
+              <button class="chip active" type="button" data-filter="all">전체</button>
+              <button class="chip" type="button" data-filter="experience">체험</button>
+              <button class="chip" type="button" data-filter="rental">임대</button>
+            </div>
           </div>
-        </div>
+
+          <div class="farm-layout">
+            <div class="map-panel" aria-label="전국 농장 위치 지도">
+              <div class="map-canvas" id="mapCanvas"></div>
+              <div class="map-legend">
+                <span><i class="dot experience"></i>체험 가능</span>
+                <span><i class="dot rental"></i>임대 가능</span>
+              </div>
+            </div>
+
+            <aside class="detail-panel" aria-live="polite">
+              <div class="detail-image" id="detailImage"></div>
+              <p class="eyebrow" id="detailRegion">지역</p>
+              <h2 id="detailName">농장을 선택하세요</h2>
+              <p id="detailSummary">
+                지도나 목록에서 농장을 누르면 재배 품목, 규모, 체험/임대 가능
+                여부를 확인할 수 있습니다.
+              </p>
+              <dl class="farm-meta" id="detailMeta"></dl>
+              <div class="program-list" id="programList"></div>
+              <a class="button primary" id="contactButton" href="#partner">문의 연결</a>
+            </aside>
+          </div>
+        </section>
       </section>
 
-      <section id="work" class="section">
+      <section class="section" id="featured">
         <div class="section-heading">
-          <p class="eyebrow">Selected work</p>
-          <h2>주요 작업</h2>
+          <div>
+            <p class="eyebrow">Farm directory</p>
+            <h2>등록 농장</h2>
+          </div>
+          <p class="result-count" id="resultCount">0개 농장</p>
         </div>
-        <div class="work-grid">
-          <article class="work-card">
-            <span class="card-number">01</span>
-            <h3>Portfolio</h3>
-            <p>진행한 프로젝트와 결과물을 정리하는 공간입니다.</p>
-          </article>
-          <article class="work-card">
-            <span class="card-number">02</span>
-            <h3>Profile</h3>
-            <p>관심 분야, 기술 스택, 활동 이력을 간단하게 소개합니다.</p>
-          </article>
-          <article class="work-card">
-            <span class="card-number">03</span>
-            <h3>Contact</h3>
-            <p>방문자가 빠르게 연락할 수 있는 연결 지점을 제공합니다.</p>
-          </article>
-        </div>
+        <div class="farm-grid" id="farmGrid"></div>
       </section>
 
-      <section id="about" class="section split">
+      <section class="section partner" id="partner">
         <div>
-          <p class="eyebrow">About</p>
-          <h2>필요한 내용만 선명하게 담았습니다.</h2>
+          <p class="eyebrow">For farm owners</p>
+          <h2>농장 등록과 체험 연결을 시작하세요.</h2>
         </div>
-        <p>
-          이 페이지는 별도 빌드 과정 없이 동작하는 정적 사이트입니다. 내용을
-          바꾸고 GitHub에 push하면 Vercel이 자동으로 새 버전을 배포하도록
-          연결할 수 있습니다.
-        </p>
-      </section>
-
-      <section id="contact" class="section contact">
-        <p class="eyebrow">Contact</p>
-        <h2>함께 이야기할 준비가 되어 있습니다.</h2>
-        <a class="contact-link" href="mailto:hello@example.com">
-          hello@example.com
-        </a>
+        <div class="partner-actions">
+          <p>
+            농장 위치, 생산 품목, 규모, 체험 프로그램, 임대 가능 여부를 등록하면
+            방문자와 예비 귀농인이 더 쉽게 농장을 찾을 수 있습니다.
+          </p>
+          <a class="button secondary" href="mailto:hello@example.com">
+            농장 등록 문의
+          </a>
+        </div>
       </section>
     </main>
 
     <footer class="site-footer">
       <span id="year"></span>
-      <span>Built for Vercel deployment.</span>
+      <span>전국 농장 정보 연결 MVP</span>
     </footer>
 
     <script src="./script.js"></script>
