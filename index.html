@@ -21,8 +21,8 @@
       <a class="brand" href="#app" aria-label="FarmLink 홈">FarmLink</a>
       <nav class="nav" aria-label="주요 메뉴">
         <a href="#app">지도</a>
-        <a href="#featured">추천 농장</a>
-        <a href="#partner">입점 문의</a>
+        <a href="#featured">농장 목록</a>
+        <a href="#partner">농장 등록</a>
       </nav>
     </header>
 
@@ -32,8 +32,8 @@
           <p class="eyebrow">전국 농장 연결 지도</p>
           <h1>체험, 임대, 재배 정보를 지도에서 바로 찾기</h1>
           <p class="lead">
-            지역별 농장을 찾고, 무엇을 키우는지, 규모는 어느 정도인지,
-            체험이나 임대형 농장으로 연결 가능한지 한 화면에서 확인합니다.
+            농장을 클릭하면 재배 품목, 규모, 운영 프로그램을 확인하고 전화,
+            예약, 길찾기, 임대 문의로 바로 연결할 수 있습니다.
           </p>
         </div>
 
@@ -76,17 +76,16 @@
               </div>
             </div>
 
-            <aside class="detail-panel" aria-live="polite">
+            <aside class="detail-panel" id="farmDetail" aria-live="polite">
               <div class="detail-image" id="detailImage"></div>
               <p class="eyebrow" id="detailRegion">지역</p>
               <h2 id="detailName">농장을 선택하세요</h2>
               <p id="detailSummary">
-                지도나 목록에서 농장을 누르면 재배 품목, 규모, 체험/임대 가능
-                여부를 확인할 수 있습니다.
+                지도나 목록에서 농장을 누르면 상세 정보와 연결 버튼이 표시됩니다.
               </p>
               <dl class="farm-meta" id="detailMeta"></dl>
               <div class="program-list" id="programList"></div>
-              <a class="button primary" id="contactButton" href="#partner">문의 연결</a>
+              <div class="detail-actions" id="detailActions"></div>
             </aside>
           </div>
         </section>
@@ -110,8 +109,8 @@
         </div>
         <div class="partner-actions">
           <p>
-            농장 위치, 생산 품목, 규모, 체험 프로그램, 임대 가능 여부를 등록하면
-            방문자와 예비 귀농인이 더 쉽게 농장을 찾을 수 있습니다.
+            농장 위치, 생산 품목, 규모, 체험 프로그램, 임대 가능 여부, 연락처를
+            등록하면 방문자와 예비 귀농인이 더 쉽게 농장을 찾을 수 있습니다.
           </p>
           <a class="button secondary" href="mailto:hello@example.com">
             농장 등록 문의

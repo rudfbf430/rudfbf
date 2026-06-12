@@ -351,6 +351,43 @@ select:focus {
   font-weight: 800;
 }
 
+.detail-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: auto;
+}
+
+.action-button {
+  display: inline-flex;
+  min-height: 46px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-strong);
+  color: var(--text);
+  padding: 0 12px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.action-button:hover {
+  border-color: rgba(47, 125, 77, 0.6);
+}
+
+.action-button.primary-action {
+  border-color: var(--green);
+  background: var(--green);
+  color: white;
+}
+
+.action-button.disabled {
+  background: #f0eee7;
+  color: #969084;
+  cursor: not-allowed;
+}
+
 .button {
   display: inline-flex;
   min-height: 48px;
@@ -456,6 +493,14 @@ select:focus {
   color: #1745a1;
 }
 
+.card-link {
+  display: inline-flex;
+  margin-top: 14px;
+  color: var(--green-dark);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
 .empty {
   grid-column: 1 / -1;
   padding: 36px;
@@ -555,6 +600,10 @@ select:focus {
   }
 
   .farm-meta {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-actions {
     grid-template-columns: 1fr;
   }
 }
