@@ -150,6 +150,77 @@ a {
   color: var(--green-dark);
 }
 
+.auth-widget {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.naver-login-button {
+  min-height: 40px;
+  border: 1px solid #03c75a;
+  border-radius: 8px;
+  background: #03c75a;
+  color: #ffffff;
+  padding: 0 13px;
+  font-size: 0.9rem;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.naver-login-button.connected {
+  border-color: var(--green-dark);
+  background: var(--green-dark);
+}
+
+.auth-panel {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 45;
+  width: min(360px, 84vw);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-strong);
+  box-shadow: var(--shadow);
+  padding: 14px;
+}
+
+.auth-panel strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--green-dark);
+  font-size: 1rem;
+}
+
+.auth-panel p {
+  margin-bottom: 10px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.auth-panel code {
+  display: block;
+  overflow-wrap: anywhere;
+  border-radius: 8px;
+  background: #f3f5ef;
+  color: var(--green-dark);
+  padding: 9px;
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
+.auth-panel button {
+  min-height: 36px;
+  margin-top: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--green-dark);
+  padding: 0 12px;
+  font-weight: 900;
+}
+
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(320px, 440px);
@@ -909,6 +980,20 @@ pre {
   .section-heading {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .auth-widget {
+    width: 100%;
+  }
+
+  .naver-login-button {
+    width: 100%;
+  }
+
+  .auth-panel {
+    right: auto;
+    left: 0;
+    width: 100%;
   }
 
   .nav {

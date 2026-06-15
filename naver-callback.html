@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>네이버 로그인 처리 | 근처밭</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&family=Noto+Sans+KR:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="detail-page">
+      <a class="back-link" href="./index.html">← 근처밭으로 돌아가기</a>
+      <section class="farm-cta-section">
+        <div class="farm-cta-copy">
+          <p class="eyebrow">Naver login</p>
+          <h1 id="callbackTitle">네이버 로그인 처리 중</h1>
+          <p id="callbackMessage">네이버 인증 응답을 확인하고 있습니다.</p>
+        </div>
+        <div class="farm-cta-actions">
+          <a class="primary-button" href="./index.html">홈으로 이동</a>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const stateKey = "geuncheobat-naver-oauth-state";
+      const sessionKey = "geuncheobat-naver-session";
+      const params = new URLSearchParams(window.location.search);
+      const title = document.querySelector("#callbackTitle");
+      const message = document.querySelector("#callbackMessage");
+      const error = params.get("error");
+      const code = params.get("code");
+      const state = params.get("state");
+      const savedState = localStorage.getItem(stateKey);
+
+      if (error) {
+        title.textContent = "네이버 로그인이 취소되었습니다";
+        message.textContent = params.get("error_description") || "다시 시도해 주세요.";
+      } else if (!code || !state || state !== savedState) {
+        title.textContent = "로그인 응답을 확인할 수 없습니다";
+        message.textContent = "state 값이 맞지 않거나 인증 코드가 없습니다. 처음부터 다시 로그인해 주세요.";
+      } else {
+        localStorage.setItem(
+          sessionKey,
+          JSON.stringify({
+            provider: "naver",
+            displayName: "네이버 사용자",
+            connectedAt: new Date().toISOString(),
+            codeReceived: true,
+          }),
+        );
+        localStorage.removeItem(stateKey);
+        title.textContent = "네이버 인증 응답을 받았습니다";
+        message.textContent =
+          "브라우저에 네이버 연결 상태를 저장했습니다. 프로필 조회까지 완성하려면 서버에서 인증 코드를 토큰으로 교환해야 합니다.";
+      }
+    </script>
+  </body>
+</html>

@@ -39,6 +39,15 @@
         <a href="#favorites">관심 작물</a>
         <a href="#data">데이터 구조</a>
       </nav>
+      <div class="auth-widget" id="naverAuthWidget">
+        <button class="naver-login-button" id="naverLoginButton" type="button">네이버 로그인</button>
+        <div class="auth-panel" id="naverAuthPanel" hidden>
+          <strong id="naverAuthTitle">네이버 로그인</strong>
+          <p id="naverAuthMessage">네이버 계정으로 관심 작물과 농장 후보를 관리할 수 있습니다.</p>
+          <code id="naverCallbackUrl"></code>
+          <button type="button" id="naverLogoutButton" hidden>로그아웃</button>
+        </div>
+      </div>
     </header>
 
     <main id="app">
@@ -304,5 +313,6 @@
 
     <script src="./real-farms.js"></script>
     <script src="./script.js"></script>
+    <script src="./naver-auth.js"></script>
   </body>
 </html>
