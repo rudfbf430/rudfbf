@@ -828,6 +828,7 @@ const elements = {
   todayCategory: document.querySelector("#todayCategory"),
   freshMeter: document.querySelector("#freshMeter"),
   searchInput: document.querySelector("#searchInput"),
+  searchSubmitButton: document.querySelector("#searchSubmitButton"),
   regionFilter: document.querySelector("#regionFilter"),
   categoryFilter: document.querySelector("#categoryFilter"),
   monthFilter: document.querySelector("#monthFilter"),
@@ -1313,6 +1314,11 @@ function scrollToTodayRecommendation() {
   document.querySelector("#finder").scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
+function submitSearch() {
+  render();
+  document.querySelector("#crop-list").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
 window.localSeasonData = {
   crops,
   FAVORITES_KEY,
@@ -1327,6 +1333,10 @@ if (elements.searchInput && elements.cropGrid) {
     state.search = event.target.value;
     render();
   });
+  elements.searchInput.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") submitSearch();
+  });
+  elements.searchSubmitButton.addEventListener("click", submitSearch);
 
   elements.regionFilter.addEventListener("change", (event) => {
     state.region = event.target.value;

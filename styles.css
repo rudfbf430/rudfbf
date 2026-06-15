@@ -527,11 +527,16 @@ dd {
 
 .toolbar-panel {
   display: grid;
-  grid-template-columns: minmax(220px, 1.5fr) repeat(3, minmax(140px, 0.7fr));
+  grid-template-columns: minmax(220px, 1.5fr) repeat(3, minmax(140px, 0.7fr)) minmax(140px, auto);
   gap: 12px;
   margin: 0 clamp(18px, 4vw, 56px) 18px;
   padding: 14px;
   background: rgba(255, 254, 250, 0.94);
+}
+
+.search-submit-button {
+  align-self: end;
+  width: 100%;
 }
 
 .overview-strip {
