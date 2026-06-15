@@ -929,11 +929,34 @@ function getSourcePoint(source) {
 
 function getFarmAddress(source) {
   if (!source) return "주소 정보 확인 필요";
-  const base = [source.region, source.city].filter(Boolean).join(" ");
+  const base = getFarmSearchQuery(source);
   if (source.lat && source.lng) {
     return `${base} · 좌표 ${Number(source.lat).toFixed(4)}, ${Number(source.lng).toFixed(4)}`;
   }
   return base || "주소 정보 확인 필요";
+}
+
+function getFarmSearchQuery(source) {
+  if (!source) return "";
+  const regionNames = {
+    경기: "경기도",
+    강원: "강원특별자치도",
+    충북: "충청북도",
+    충남: "충청남도",
+    전북: "전북특별자치도",
+    전남: "전라남도",
+    경북: "경상북도",
+    경남: "경상남도",
+    제주: "제주특별자치도",
+    부산: "부산광역시",
+  };
+  const city = source.city && !source.city.endsWith("권") ? source.city : "";
+  return [regionNames[source.region] || source.region, city, source.farmName].filter(Boolean).join(" ");
+}
+
+function getNaverMapUrl(source) {
+  if (!source) return "https://map.naver.com";
+  return `https://map.naver.com/p/search/${encodeURIComponent(getFarmSearchQuery(source))}`;
 }
 
 function getPriceInfo(crop) {
@@ -966,7 +989,7 @@ function getFarmVisitInfo(crop, source) {
   const mapText = source.osmUrl
     ? "OSM 원본 지도에서 위치를 확인할 수 있습니다."
     : "지도 좌표를 기준으로 위치를 확인할 수 있습니다.";
-  return `${source.city} 일대의 ${crop.name} 후보 농장입니다. ${mapText} 직거래 가격은 시기와 수확량에 따라 달라질 수 있어 방문 전 문의를 권장합니다.`;
+  return `${getFarmAddress(source)} 위치의 ${crop.name} 후보 농장입니다. ${mapText} 직거래 가격은 시기와 수확량에 따라 달라질 수 있어 방문 전 지도 확인을 권장합니다.`;
 }
 
 function distanceKm(from, to) {
@@ -1135,16 +1158,20 @@ function renderDetail(filteredCrops) {
   state.selectedId = selected.id;
   elements.detailImage.style.backgroundImage = `url("${selected.image}")`;
   elements.detailSeason.textContent = `제철 ${seasonLabel(selected.seasonMonths)}`;
-  elements.detailName.textContent = selected.name;
-  elements.detailDescription.textContent = selected.description;
   const localSource = getLocalSource(selected);
+  elements.detailName.textContent = localSource?.farmName || selected.name;
+  elements.detailDescription.textContent = selected.description;
   elements.detailMeta.innerHTML = `
     <dt>분류</dt>
     <dd>${selected.category}</dd>
     <dt>가까운 산지</dt>
     <dd>${selected.regions.join(", ")}</dd>
     <dt>추천 농장</dt>
-    <dd>${localSource ? `${localSource.farmName} (${localSource.city})` : "지역 정보 없음"}</dd>
+    <dd>${
+      localSource
+        ? `<a href="${getNaverMapUrl(localSource)}" target="_blank" rel="noreferrer">${localSource.farmName} · 네이버지도 보기</a>`
+        : "지역 정보 없음"
+    }</dd>
     <dt>주소/좌표</dt>
     <dd>${getFarmAddress(localSource)}</dd>
     <dt>농장 규모</dt>
@@ -1390,6 +1417,7 @@ window.localSeasonData = {
   getLocalSource,
   getFarmScale,
   getFarmAddress,
+  getNaverMapUrl,
   getPriceInfo,
   getFarmVisitInfo,
 };

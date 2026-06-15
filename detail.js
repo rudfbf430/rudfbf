@@ -9,6 +9,7 @@ const page = {
   image: document.querySelector("#pageImage"),
   season: document.querySelector("#pageSeason"),
   title: document.querySelector("#pageTitle"),
+  mapLink: document.querySelector("#pageMapLink"),
   description: document.querySelector("#pageDescription"),
   badges: document.querySelector("#pageBadges"),
   actions: document.querySelector("#pageActions"),
@@ -82,6 +83,9 @@ function renderDetailPage() {
   page.image.style.backgroundImage = `url("${crop.image}")`;
   page.season.textContent = `제철 ${data.seasonLabel(crop.seasonMonths)}`;
   page.title.textContent = farmTitle;
+  page.mapLink.innerHTML = source
+    ? `<a href="${data.getNaverMapUrl(source)}" target="_blank" rel="noreferrer">${data.getFarmAddress(source)} · 네이버지도에서 보기</a>`
+    : "";
   page.description.textContent = crop.description;
   page.badges.innerHTML = [
     `<span>${crop.name}</span>`,
@@ -89,12 +93,12 @@ function renderDetailPage() {
     `<span>신선도 ${data.freshnessScore(crop, selectedMonth)}점</span>`,
   ].join("");
   page.actions.innerHTML = [
-    `<a class="primary-button" href="https://map.naver.com/p/search/${encodeURIComponent(source ? `${source.city} ${source.farmName}` : crop.regions[0])}" target="_blank" rel="noreferrer">길찾기</a>`,
+    source
+      ? `<a class="primary-button" href="${data.getNaverMapUrl(source)}" target="_blank" rel="noreferrer">네이버지도에서 보기</a>`
+      : "",
     source?.lat && source?.lng
       ? `<a class="secondary-button" href="https://www.openstreetmap.org/?mlat=${source.lat}&mlon=${source.lng}#map=15/${source.lat}/${source.lng}" target="_blank" rel="noreferrer">좌표 지도</a>`
       : "",
-    `<a class="secondary-button" href="mailto:hello@example.com?subject=${encodeURIComponent(`${farmTitle} 구매 문의`)}">구매 문의</a>`,
-    `<a class="secondary-button" href="tel:01000000000">전화 문의</a>`,
     source?.osmUrl
       ? `<a class="secondary-button" href="${source.osmUrl}" target="_blank" rel="noreferrer">OSM 원본</a>`
       : "",
@@ -105,7 +109,7 @@ function renderDetailPage() {
     <dt>분류</dt>
     <dd>${crop.category}</dd>
     <dt>농장 위치</dt>
-    <dd>${source ? `${source.city} (${source.region})` : crop.regions.join(", ")}</dd>
+    <dd>${source ? data.getFarmAddress(source) : crop.regions.join(", ")}</dd>
     <dt>주소/좌표</dt>
     <dd>${source ? data.getFarmAddress(source) : "주소 정보 확인 필요"}</dd>
     <dt>농장 규모</dt>

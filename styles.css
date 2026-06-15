@@ -435,6 +435,18 @@ h3 {
   margin: 18px 0 8px;
 }
 
+.farm-map-link {
+  margin: -4px 0 14px;
+}
+
+.farm-map-link a,
+.detail-meta a {
+  color: var(--green);
+  font-weight: 900;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .detail-page-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
