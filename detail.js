@@ -76,7 +76,7 @@ function renderDetailPage() {
   const source = data.getLocalSource(crop, selectedRegion);
   const farmTitle = source ? source.farmName : crop.name;
 
-  document.title = `${farmTitle} | 동네밭`;
+  document.title = `${farmTitle} | 근처밭`;
   page.image.style.backgroundImage = `url("${crop.image}")`;
   page.season.textContent = `제철 ${data.seasonLabel(crop.seasonMonths)}`;
   page.title.textContent = farmTitle;
