@@ -1359,7 +1359,7 @@ if (elements.searchInput && elements.cropGrid) {
     window.location.href = `detail.html?${params.toString()}`;
   });
 
-  elements.todayButton.addEventListener("click", scrollToTodayRecommendation);
+  elements.todayButton?.addEventListener("click", scrollToTodayRecommendation);
   elements.locationButton.addEventListener("click", findNearMe);
   elements.favoriteButton.addEventListener("click", () => {
     if (elements.favoriteButton.dataset.id) {

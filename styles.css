@@ -253,6 +253,14 @@ a {
   justify-content: center;
 }
 
+.hero-title-only {
+  min-height: 420px;
+}
+
+.hero-title-only h1 {
+  margin-bottom: 0;
+}
+
 .eyebrow {
   margin: 0 0 10px;
   color: var(--green);

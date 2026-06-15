@@ -48,6 +48,34 @@
     </header>
 
     <main id="app">
+      <section class="hero" id="recommend">
+        <div class="hero-copy hero-title-only">
+          <h1>오늘 가장 가까운 제철 농장을 찾습니다.</h1>
+        </div>
+
+        <aside class="today-card" aria-label="주변 추천 요약">
+          <div class="today-image" id="todayImage"></div>
+          <div class="today-content">
+            <p class="eyebrow" id="todayDate">Today</p>
+            <h2 id="todayCropName">추천 신선작물</h2>
+            <p id="todaySummary">오늘 날짜와 선택한 지역을 기준으로 가까운 제철 작물을 계산합니다.</p>
+            <div class="fresh-meter" aria-label="제철 신선도">
+              <span id="freshMeter"></span>
+            </div>
+            <dl class="today-meta">
+              <div>
+                <dt>가까운 산지</dt>
+                <dd id="todayRegion">-</dd>
+              </div>
+              <div>
+                <dt>구매 방식</dt>
+                <dd id="todayCategory">-</dd>
+              </div>
+            </dl>
+          </div>
+        </aside>
+      </section>
+
       <section class="section location-section main-location" id="nearby">
         <div class="section-heading">
           <div>
@@ -102,47 +130,6 @@
           <span>월</span>
           <select id="monthFilter"></select>
         </label>
-      </section>
-
-      <section class="hero" id="recommend">
-        <div class="hero-copy">
-          <p class="eyebrow">Fresh horticulture guide</p>
-          <h2>오늘 가장 가까운 제철 농장을 찾습니다.</h2>
-          <p class="lead">
-            현재 위치나 지역을 기준으로 가까운 소규모 농장, 로컬푸드 매장, 제철 원예작물을 추천합니다.
-          </p>
-          <div class="hero-points" aria-label="서비스 핵심 요약">
-            <span>소규모 농장 노출</span>
-            <span>현재 위치 추천</span>
-            <span>제철 신선도</span>
-          </div>
-          <div class="hero-actions">
-            <a class="primary-button" href="#finder">내 지역 선택하기</a>
-            <button class="secondary-button" id="todayButton" type="button">오늘 주변 추천</button>
-          </div>
-        </div>
-
-        <aside class="today-card" aria-label="주변 추천 요약">
-          <div class="today-image" id="todayImage"></div>
-          <div class="today-content">
-            <p class="eyebrow" id="todayDate">Today</p>
-            <h2 id="todayCropName">추천 신선작물</h2>
-            <p id="todaySummary">오늘 날짜와 선택한 지역을 기준으로 가까운 제철 작물을 계산합니다.</p>
-            <div class="fresh-meter" aria-label="제철 신선도">
-              <span id="freshMeter"></span>
-            </div>
-            <dl class="today-meta">
-              <div>
-                <dt>가까운 산지</dt>
-                <dd id="todayRegion">-</dd>
-              </div>
-              <div>
-                <dt>구매 방식</dt>
-                <dd id="todayCategory">-</dd>
-              </div>
-            </dl>
-          </div>
-        </aside>
       </section>
 
       <section class="section small-farm-section" id="small-farms">
