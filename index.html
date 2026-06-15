@@ -134,33 +134,35 @@
       </section>
 
       <section class="dashboard">
-        <section class="crop-list-panel" aria-labelledby="listTitle">
+        <aside class="crop-list-panel" aria-labelledby="listTitle">
           <div class="section-heading">
             <div>
             <p class="eyebrow">Seasonal crops</p>
-              <h2 id="listTitle">내 주변 신선작물</h2>
+              <h2 id="listTitle">농장 목록</h2>
             </div>
             <p class="result-count" id="resultCount">0개</p>
           </div>
           <div class="crop-grid" id="cropGrid"></div>
-        </section>
+        </aside>
 
-        <aside class="detail-panel" id="cropDetail" aria-live="polite">
+        <section class="detail-panel" id="cropDetail" aria-live="polite">
           <div class="detail-image" id="detailImage"></div>
           <p class="eyebrow" id="detailSeason">근처 제철</p>
           <h2 id="detailName">작물을 선택하세요</h2>
           <p id="detailDescription">목록에서 작물을 누르면 가까운 산지와 구매 팁이 표시됩니다.</p>
           <dl class="detail-meta" id="detailMeta"></dl>
-          <div class="tip-box">
-            <h3>고르는 법</h3>
-            <p id="detailPick">-</p>
-          </div>
-          <div class="tip-box">
-            <h3>보관법</h3>
-            <p id="detailStorage">-</p>
+          <div class="detail-tips">
+            <div class="tip-box">
+              <h3>고르는 법</h3>
+              <p id="detailPick">-</p>
+            </div>
+            <div class="tip-box">
+              <h3>보관법</h3>
+              <p id="detailStorage">-</p>
+            </div>
           </div>
           <button class="favorite-button" id="favoriteButton" type="button">관심 작물 저장</button>
-        </aside>
+        </section>
       </section>
 
       <section class="section saved-section" id="favorites">

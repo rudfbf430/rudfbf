@@ -474,21 +474,23 @@ function renderCards(filteredCrops) {
 
   elements.cropGrid.innerHTML = filteredCrops
     .map(
-      (crop) => `
+      (crop) => {
+        const source = getLocalSource(crop);
+        return `
         <button class="crop-card ${crop.id === state.selectedId ? "active" : ""}" type="button" data-id="${crop.id}">
           <span class="crop-image" style="background-image: url('${crop.image}')"></span>
           <span class="crop-body">
-            <span class="eyebrow">${crop.category}</span>
-            <h3>${crop.name}</h3>
-            <p>${crop.description}</p>
+            <span class="eyebrow">${source?.city || crop.regions[0]} · ${crop.category}</span>
+            <h3>${source?.farmName || crop.name}</h3>
+            <p>${crop.name} · ${crop.description}</p>
             <span class="badge-row">
               <span class="badge gold">제철 ${seasonLabel(crop.seasonMonths)}</span>
-              <span class="badge sky">${getLocalSource(crop)?.city || crop.regions[0]}</span>
-              <span class="badge">${getFarmScale(getLocalSource(crop))}</span>
+              <span class="badge">${getFarmScale(source)}</span>
             </span>
           </span>
         </button>
-      `,
+      `;
+      },
     )
     .join("");
 }
