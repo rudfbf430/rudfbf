@@ -84,7 +84,7 @@ function renderDetailPage() {
   page.season.textContent = `제철 ${data.seasonLabel(crop.seasonMonths)}`;
   page.title.textContent = farmTitle;
   page.mapLink.innerHTML = source
-    ? `<a href="${data.getNaverMapUrl(source)}" target="_blank" rel="noreferrer">${data.getFarmAddress(source)} · 네이버지도에서 보기</a>`
+    ? `<a href="${data.getNaverDirectionsUrl(source)}" target="_blank" rel="noreferrer">${data.getFarmAddress(source)} · 길찾기</a>`
     : "";
   page.description.textContent = crop.description;
   page.badges.innerHTML = [
@@ -94,7 +94,7 @@ function renderDetailPage() {
   ].join("");
   page.actions.innerHTML = [
     source
-      ? `<a class="primary-button" href="${data.getNaverMapUrl(source)}" target="_blank" rel="noreferrer">네이버지도에서 보기</a>`
+      ? `<a class="primary-button" href="${data.getNaverDirectionsUrl(source)}" target="_blank" rel="noreferrer">길찾기</a>`
       : "",
     source?.lat && source?.lng
       ? `<a class="secondary-button" href="https://www.openstreetmap.org/?mlat=${source.lat}&mlon=${source.lng}#map=15/${source.lat}/${source.lng}" target="_blank" rel="noreferrer">좌표 지도</a>`

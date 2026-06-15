@@ -961,7 +961,7 @@ function getFarmAddress(source) {
 function getFarmSearchQuery(source) {
   if (!source) return "";
   const city = getFarmCity(source).replace(" 인근", "");
-  return [farmRegionNames[source.region] || source.region, city, source.farmName].filter(Boolean).join(" ");
+  return [farmRegionNames[source.region] || source.region, city].filter(Boolean).join(" ");
 }
 
 function getFarmDisplayLocation(source) {
@@ -995,6 +995,15 @@ function normalizeFarmCity(city) {
 function getNaverMapUrl(source) {
   if (!source) return "https://map.naver.com";
   return `https://map.naver.com/p/search/${encodeURIComponent(getFarmSearchQuery(source))}`;
+}
+
+function getNaverDirectionsUrl(source) {
+  if (!source) return "https://map.naver.com";
+  const destination = getFarmSearchQuery(source);
+  if (source.lat && source.lng) {
+    return `https://map.naver.com/p/directions/-/${source.lng},${source.lat},${encodeURIComponent(destination)},ADDRESS_POI/-/car`;
+  }
+  return getNaverMapUrl(source);
 }
 
 function getPriceInfo(crop) {
@@ -1207,7 +1216,7 @@ function renderDetail(filteredCrops) {
     <dt>추천 농장</dt>
     <dd>${
       localSource
-        ? `<a href="${getNaverMapUrl(localSource)}" target="_blank" rel="noreferrer">${localSource.farmName} · 네이버지도 보기</a>`
+        ? `<a href="${getNaverDirectionsUrl(localSource)}" target="_blank" rel="noreferrer">${localSource.farmName} · 길찾기</a>`
         : "지역 정보 없음"
     }</dd>
     <dt>주소/좌표</dt>
@@ -1456,6 +1465,7 @@ window.localSeasonData = {
   getFarmScale,
   getFarmAddress,
   getNaverMapUrl,
+  getNaverDirectionsUrl,
   getPriceInfo,
   getFarmVisitInfo,
 };
