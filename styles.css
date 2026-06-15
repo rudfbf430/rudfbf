@@ -241,9 +241,9 @@ a {
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(320px, 440px);
-  gap: clamp(24px, 5vw, 64px);
+  gap: clamp(20px, 4vw, 44px);
   align-items: stretch;
-  padding: 18px clamp(18px, 4vw, 56px) 24px;
+  padding: 20px clamp(18px, 4vw, 56px) 18px;
 }
 
 .hero-copy {
@@ -254,14 +254,22 @@ a {
 }
 
 .hero-title-only {
-  min-height: 320px;
+  min-height: 430px;
+  justify-content: flex-start;
+  padding-top: 2px;
 }
 
 .hero-title-only h1 {
-  max-width: 760px;
+  max-width: none;
   margin-bottom: 0;
-  font-size: clamp(2rem, 4vw, 3.55rem);
-  line-height: 1.12;
+  font-size: clamp(2.05rem, 3.35vw, 3.25rem);
+  line-height: 1.08;
+  white-space: nowrap;
+}
+
+.hero-search {
+  width: 100%;
+  margin: 0 0 clamp(88px, 12vw, 156px);
 }
 
 .eyebrow {
@@ -990,6 +998,18 @@ pre {
     min-height: auto;
   }
 
+  .hero-title-only {
+    gap: 28px;
+  }
+
+  .hero-search {
+    margin-bottom: 0;
+  }
+
+  .hero-title-only h1 {
+    white-space: normal;
+  }
+
   .crop-grid {
     grid-template-columns: 1fr;
   }
@@ -1056,7 +1076,7 @@ pre {
   }
 
   .hero-title-only {
-    min-height: 230px;
+    min-height: auto;
   }
 
   .hero-title-only h1 {

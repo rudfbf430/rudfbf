@@ -50,6 +50,31 @@
     <main id="app">
       <section class="hero" id="recommend">
         <div class="hero-copy hero-title-only">
+          <div class="toolbar-panel hero-search" id="finder" aria-label="내 주변 제철 작물 검색">
+            <label class="search-field">
+              <span>검색</span>
+              <input id="searchInput" type="search" placeholder="작물명, 농장명, 구매 방식 검색" autocomplete="off" />
+            </label>
+            <label>
+              <span>내 지역</span>
+              <select id="regionFilter">
+                <option value="all">전국</option>
+              </select>
+            </label>
+            <label>
+              <span>분류</span>
+              <select id="categoryFilter">
+                <option value="all">전체</option>
+              </select>
+            </label>
+            <label>
+              <span>월</span>
+              <select id="monthFilter"></select>
+            </label>
+            <button class="primary-button search-submit-button" id="searchSubmitButton" type="button">
+              검색 결과 보기
+            </button>
+          </div>
           <h1>오늘 가장 가까운 제철 농장을 찾습니다.</h1>
         </div>
 
@@ -107,32 +132,6 @@
           <strong id="monthTotal">0</strong>
           <p>지금 추천 가능한 작물</p>
         </article>
-      </section>
-
-      <section class="toolbar-panel" id="finder" aria-label="내 주변 제철 작물 검색">
-        <label class="search-field">
-          <span>검색</span>
-          <input id="searchInput" type="search" placeholder="작물명, 농장명, 구매 방식 검색" autocomplete="off" />
-        </label>
-        <label>
-          <span>내 지역</span>
-          <select id="regionFilter">
-            <option value="all">전국</option>
-          </select>
-        </label>
-        <label>
-          <span>분류</span>
-          <select id="categoryFilter">
-            <option value="all">전체</option>
-          </select>
-        </label>
-        <label>
-          <span>월</span>
-          <select id="monthFilter"></select>
-        </label>
-        <button class="primary-button search-submit-button" id="searchSubmitButton" type="button">
-          검색 결과 보기
-        </button>
       </section>
 
       <section class="section small-farm-section" id="small-farms">
