@@ -27,6 +27,19 @@ const cropImages = {
 
 const FAVORITES_KEY = "seasonal-horticulture-favorites";
 
+const regionCoordinates = {
+  경기: { lat: 37.4138, lng: 127.5183 },
+  강원: { lat: 37.8228, lng: 128.1555 },
+  충북: { lat: 36.8, lng: 127.7 },
+  충남: { lat: 36.5184, lng: 126.8 },
+  전북: { lat: 35.7175, lng: 127.153 },
+  전남: { lat: 34.8679, lng: 126.991 },
+  경북: { lat: 36.4919, lng: 128.8889 },
+  경남: { lat: 35.4606, lng: 128.2132 },
+  제주: { lat: 33.4996, lng: 126.5312 },
+  부산: { lat: 35.1796, lng: 129.0756 },
+};
+
 const crops = [
   {
     id: "tomato",
@@ -245,6 +258,9 @@ const elements = {
   categoryFilter: document.querySelector("#categoryFilter"),
   monthFilter: document.querySelector("#monthFilter"),
   monthStrip: document.querySelector("#monthStrip"),
+  locationButton: document.querySelector("#locationButton"),
+  locationStatus: document.querySelector("#locationStatus"),
+  nearbyList: document.querySelector("#nearbyList"),
   resultCount: document.querySelector("#resultCount"),
   cropGrid: document.querySelector("#cropGrid"),
   detailImage: document.querySelector("#detailImage"),
@@ -310,6 +326,40 @@ function getLocalSource(crop, region = state.region) {
     return crop.localSources.find((source) => source.region === region) || crop.localSources[0];
   }
   return crop.localSources[0];
+}
+
+function getSourcePoint(source) {
+  return regionCoordinates[source.region] || null;
+}
+
+function distanceKm(from, to) {
+  const radius = 6371;
+  const dLat = ((to.lat - from.lat) * Math.PI) / 180;
+  const dLng = ((to.lng - from.lng) * Math.PI) / 180;
+  const lat1 = (from.lat * Math.PI) / 180;
+  const lat2 = (to.lat * Math.PI) / 180;
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(lat1) * Math.cos(lat2) * Math.sin(dLng / 2) ** 2;
+  return radius * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function getNearbySources(position) {
+  return crops
+    .flatMap((crop) =>
+      (crop.localSources || []).map((source) => ({
+        crop,
+        source,
+        point: getSourcePoint(source),
+      })),
+    )
+    .filter((item) => item.point && item.crop.seasonMonths.includes(Number(state.month)))
+    .map((item) => ({
+      ...item,
+      distance: distanceKm(position, item.point),
+    }))
+    .sort((a, b) => a.distance - b.distance)
+    .slice(0, 3);
 }
 
 function getSeasonalCrops(month = state.month) {
@@ -558,6 +608,58 @@ function toggleFavorite(id) {
   render();
 }
 
+function renderNearbySources(items) {
+  if (!items.length) {
+    elements.nearbyList.innerHTML =
+      '<p class="empty">선택한 월에 가까운 제철 농장 후보가 없습니다. 월을 바꿔 다시 확인해보세요.</p>';
+    return;
+  }
+
+  elements.nearbyList.innerHTML = items
+    .map(
+      ({ crop, source, distance }) => `
+        <article class="nearby-item">
+          <strong>${source.farmName}</strong>
+          <span>${source.city} · 약 ${distance.toFixed(1)}km</span>
+          <span>${crop.name} · ${source.salesType}</span>
+          <span>제철 ${seasonLabel(crop.seasonMonths)} · 신선도 ${freshnessScore(crop)}점</span>
+        </article>
+      `,
+    )
+    .join("");
+}
+
+function findNearMe() {
+  if (!navigator.geolocation) {
+    elements.locationStatus.textContent = "이 브라우저에서는 현재 위치 기능을 사용할 수 없습니다.";
+    return;
+  }
+
+  elements.locationStatus.textContent = "현재 위치를 확인하는 중입니다...";
+
+  navigator.geolocation.getCurrentPosition(
+    (position) => {
+      const current = {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude,
+      };
+      const nearby = getNearbySources(current);
+      elements.locationStatus.textContent =
+        "현재 위치 기준 가까운 로컬 농장 후보를 거리순으로 정리했습니다.";
+      renderNearbySources(nearby);
+    },
+    () => {
+      elements.locationStatus.textContent =
+        "위치 권한을 허용하지 않아 현재 위치 추천을 사용할 수 없습니다. 지역 필터로도 가까운 작물을 찾을 수 있습니다.";
+    },
+    {
+      enableHighAccuracy: false,
+      timeout: 8000,
+      maximumAge: 300000,
+    },
+  );
+}
+
 function scrollToTodayRecommendation() {
   const seasonal = getSeasonalCrops();
   if (seasonal[0]) {
@@ -601,6 +703,7 @@ elements.cropGrid.addEventListener("click", (event) => {
 });
 
 elements.todayButton.addEventListener("click", scrollToTodayRecommendation);
+elements.locationButton.addEventListener("click", findNearMe);
 elements.favoriteButton.addEventListener("click", () => {
   if (elements.favoriteButton.dataset.id) {
     toggleFavorite(elements.favoriteButton.dataset.id);

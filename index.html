@@ -22,6 +22,7 @@
       <nav class="nav" aria-label="주요 메뉴">
         <a href="#recommend">주변 추천</a>
         <a href="#finder">지역 찾기</a>
+        <a href="#nearby">현재 위치</a>
         <a href="#favorites">관심 작물</a>
         <a href="#data">데이터 구조</a>
       </nav>
@@ -86,6 +87,20 @@
           <span>월</span>
           <select id="monthFilter"></select>
         </label>
+      </section>
+
+      <section class="section location-section" id="nearby">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Near me</p>
+            <h2>현재 위치로 가까운 농장 찾기</h2>
+          </div>
+          <button class="secondary-button" id="locationButton" type="button">내 위치 사용</button>
+        </div>
+        <p class="location-status" id="locationStatus">
+          위치 권한을 허용하면 현재 위치에서 가까운 로컬 농장과 제철 작물을 거리순으로 추천합니다.
+        </p>
+        <div class="nearby-list" id="nearbyList"></div>
       </section>
 
       <section class="section calendar-section" aria-labelledby="calendarTitle">

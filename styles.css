@@ -459,8 +459,15 @@ select:focus {
 .data-section,
 .calendar-section,
 .saved-section,
-.regional-section {
+.regional-section,
+.location-section {
   margin: 0 clamp(18px, 4vw, 56px) 34px;
+}
+
+.location-status {
+  margin-bottom: 14px;
+  color: var(--muted);
+  line-height: 1.7;
 }
 
 .month-strip {
@@ -489,14 +496,16 @@ select:focus {
 }
 
 .saved-list,
-.region-grid {
+.region-grid,
+.nearby-list {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
 }
 
 .saved-item,
-.region-item {
+.region-item,
+.nearby-item {
   display: grid;
   gap: 8px;
   min-height: 150px;
@@ -507,13 +516,15 @@ select:focus {
 }
 
 .saved-item strong,
-.region-item strong {
+.region-item strong,
+.nearby-item strong {
   color: var(--green-dark);
   font-size: 1.04rem;
 }
 
 .saved-item span,
-.region-item span {
+.region-item span,
+.nearby-item span {
   color: var(--muted);
   font-size: 0.86rem;
   font-weight: 800;
@@ -582,7 +593,8 @@ pre {
   .toolbar-panel,
   .impact-grid,
   .saved-list,
-  .region-grid {
+  .region-grid,
+  .nearby-list {
     grid-template-columns: 1fr;
   }
 
