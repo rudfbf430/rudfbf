@@ -88,7 +88,7 @@ function renderDetailPage() {
     `<span>신선도 ${data.freshnessScore(crop, selectedMonth)}점</span>`,
   ].join("");
   page.actions.innerHTML = [
-    `<a class="primary-button" href="https://map.naver.com/p/search/${encodeURIComponent(source ? source.city : crop.regions[0])}" target="_blank" rel="noreferrer">길찾기</a>`,
+    `<a class="primary-button" href="https://map.naver.com/p/search/${encodeURIComponent(source ? `${source.city} ${source.farmName}` : crop.regions[0])}" target="_blank" rel="noreferrer">길찾기</a>`,
     `<a class="secondary-button" href="mailto:hello@example.com?subject=${encodeURIComponent(`${farmTitle} 구매 문의`)}">구매 문의</a>`,
     `<a class="secondary-button" href="tel:01000000000">전화 문의</a>`,
     source?.osmUrl
@@ -102,10 +102,14 @@ function renderDetailPage() {
     <dd>${crop.category}</dd>
     <dt>농장 위치</dt>
     <dd>${source ? `${source.city} (${source.region})` : crop.regions.join(", ")}</dd>
+    <dt>주소/좌표</dt>
+    <dd>${source ? data.getFarmAddress(source) : "주소 정보 확인 필요"}</dd>
     <dt>농장 규모</dt>
     <dd>${source ? data.getFarmScale(source) : "확인 필요"}</dd>
     <dt>구매 방식</dt>
     <dd>${source ? source.salesType : "확인 필요"}</dd>
+    <dt>예상 판매가</dt>
+    <dd>${data.getPriceInfo(crop)} <small>직거래 참고가</small></dd>
     <dt>활용</dt>
     <dd>${crop.uses.join(", ")}</dd>
   `;

@@ -923,6 +923,40 @@ function getSourcePoint(source) {
   return regionCoordinates[source.region] || null;
 }
 
+function getFarmAddress(source) {
+  if (!source) return "주소 정보 확인 필요";
+  const base = [source.region, source.city].filter(Boolean).join(" ");
+  if (source.lat && source.lng) {
+    return `${base} · 좌표 ${Number(source.lat).toFixed(4)}, ${Number(source.lng).toFixed(4)}`;
+  }
+  return base || "주소 정보 확인 필요";
+}
+
+function getPriceInfo(crop) {
+  const priceByCategory = {
+    과일류: "1kg 8,000~18,000원",
+    과채류: "1kg 4,000~12,000원",
+    엽채류: "1봉 2,000~5,000원",
+    근채류: "1kg 3,000~8,000원",
+    양념채소: "1단/1kg 3,000~10,000원",
+    줄기채소: "1단 3,000~8,000원",
+    화채류: "1송이 3,000~7,000원",
+  };
+
+  const specialPrices = {
+    딸기: "500g 8,000~16,000원",
+    사과: "1kg 6,000~12,000원",
+    배: "1kg 7,000~14,000원",
+    포도: "1kg 10,000~25,000원",
+    감귤: "1kg 4,000~9,000원",
+    체리: "500g 12,000~25,000원",
+    키위: "1kg 7,000~14,000원",
+    밤: "1kg 6,000~13,000원",
+  };
+
+  return specialPrices[crop.name] || priceByCategory[crop.category] || "가격 문의 필요";
+}
+
 function distanceKm(from, to) {
   const radius = 6371;
   const dLat = ((to.lat - from.lat) * Math.PI) / 180;
@@ -1067,7 +1101,9 @@ function renderCards(filteredCrops) {
             <span class="badge-row">
               <span class="badge gold">제철 ${seasonLabel(crop.seasonMonths)}</span>
               <span class="badge">${getFarmScale(source)}</span>
+              <span class="badge">${getPriceInfo(crop)}</span>
             </span>
+            <span class="farm-extra">${source ? getFarmAddress(source) : "주소 정보 확인 필요"}</span>
           </span>
         </button>
       `;
@@ -1097,10 +1133,14 @@ function renderDetail(filteredCrops) {
     <dd>${selected.regions.join(", ")}</dd>
     <dt>추천 농장</dt>
     <dd>${localSource ? `${localSource.farmName} (${localSource.city})` : "지역 정보 없음"}</dd>
+    <dt>주소/좌표</dt>
+    <dd>${getFarmAddress(localSource)}</dd>
     <dt>농장 규모</dt>
     <dd>${localSource ? getFarmScale(localSource) : "확인 필요"}</dd>
     <dt>구매 방식</dt>
     <dd>${localSource ? localSource.salesType : "확인 필요"}</dd>
+    <dt>예상 판매가</dt>
+    <dd>${getPriceInfo(selected)} <small>직거래 참고가</small></dd>
     <dt>활용</dt>
     <dd>${selected.uses.join(", ")}</dd>
     <dt>신선도</dt>
@@ -1333,6 +1373,8 @@ window.localSeasonData = {
   freshnessScore,
   getLocalSource,
   getFarmScale,
+  getFarmAddress,
+  getPriceInfo,
 };
 
 if (elements.searchInput && elements.cropGrid) {

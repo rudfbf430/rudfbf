@@ -763,6 +763,15 @@ select:focus {
   margin-top: 6px;
 }
 
+.farm-extra {
+  display: block;
+  margin-top: 9px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
 .badge.gold {
   background: #fff1cf;
   color: #8a5a00;
