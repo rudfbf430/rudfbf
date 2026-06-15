@@ -1319,6 +1319,13 @@ function submitSearch() {
   document.querySelector("#crop-list").scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
+function revealDeferredSection() {
+  const targetId = window.location.hash.replace("#", "");
+  document.querySelectorAll(".deferred-section").forEach((section) => {
+    section.classList.toggle("section-visible", section.id === targetId);
+  });
+}
+
 window.localSeasonData = {
   crops,
   FAVORITES_KEY,
@@ -1381,6 +1388,8 @@ if (elements.searchInput && elements.cropGrid) {
     if (button) toggleFavorite(button.dataset.removeFavorite);
   });
 
+  window.addEventListener("hashchange", revealDeferredSection);
   setupFilters();
   render();
+  revealDeferredSection();
 }
