@@ -254,6 +254,7 @@ a {
 }
 
 .hero-title-only {
+  align-items: center;
   min-height: 430px;
   justify-content: flex-start;
   padding-top: 2px;
@@ -264,12 +265,14 @@ a {
   margin-bottom: 0;
   font-size: clamp(2.05rem, 3.35vw, 3.25rem);
   line-height: 1.08;
+  text-align: center;
   white-space: nowrap;
 }
 
 .hero-search {
   width: 100%;
-  margin: 0 0 clamp(88px, 12vw, 156px);
+  max-width: 940px;
+  margin: 0 auto clamp(88px, 12vw, 156px);
 }
 
 .eyebrow {
