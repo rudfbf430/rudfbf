@@ -25,6 +25,8 @@ const cropImages = {
     "https://images.unsplash.com/photo-1563114773-84221bd62daa?auto=format&fit=crop&w=900&q=80",
 };
 
+const FAVORITES_KEY = "seasonal-horticulture-favorites";
+
 const crops = [
   {
     id: "tomato",
@@ -178,6 +180,7 @@ const state = {
   category: "all",
   month: new Date().getMonth() + 1,
   selectedId: "",
+  favorites: loadFavorites(),
 };
 
 const elements = {
@@ -193,6 +196,7 @@ const elements = {
   regionFilter: document.querySelector("#regionFilter"),
   categoryFilter: document.querySelector("#categoryFilter"),
   monthFilter: document.querySelector("#monthFilter"),
+  monthStrip: document.querySelector("#monthStrip"),
   resultCount: document.querySelector("#resultCount"),
   cropGrid: document.querySelector("#cropGrid"),
   detailImage: document.querySelector("#detailImage"),
@@ -202,7 +206,23 @@ const elements = {
   detailMeta: document.querySelector("#detailMeta"),
   detailPick: document.querySelector("#detailPick"),
   detailStorage: document.querySelector("#detailStorage"),
+  favoriteButton: document.querySelector("#favoriteButton"),
+  favoriteCount: document.querySelector("#favoriteCount"),
+  favoriteList: document.querySelector("#favoriteList"),
+  regionGrid: document.querySelector("#regionGrid"),
 };
+
+function loadFavorites() {
+  try {
+    return JSON.parse(localStorage.getItem(FAVORITES_KEY)) || [];
+  } catch {
+    return [];
+  }
+}
+
+function saveFavorites() {
+  localStorage.setItem(FAVORITES_KEY, JSON.stringify(state.favorites));
+}
 
 function uniqueValues(values) {
   return [...new Set(values)].sort((a, b) => a.localeCompare(b, "ko"));
@@ -255,6 +275,19 @@ function setupFilters() {
     elements.monthFilter.insertAdjacentHTML("beforeend", `<option value="${month}">${month}월</option>`);
   }
   elements.monthFilter.value = String(state.month);
+}
+
+function renderCalendar() {
+  elements.monthStrip.innerHTML = Array.from({ length: 12 }, (_, index) => {
+    const month = index + 1;
+    const count = crops.filter((crop) => crop.seasonMonths.includes(month)).length;
+    return `
+      <button class="month-button ${month === Number(state.month) ? "active" : ""}" type="button" data-month="${month}">
+        ${month}월<br />
+        <small>${count}개</small>
+      </button>
+    `;
+  }).join("");
 }
 
 function getFilteredCrops() {
@@ -358,10 +391,74 @@ function renderDetail(filteredCrops) {
   `;
   elements.detailPick.textContent = selected.pickTip;
   elements.detailStorage.textContent = selected.storageTip;
+  renderFavoriteButton(selected);
+}
+
+function renderFavoriteButton(crop) {
+  const isSaved = state.favorites.includes(crop.id);
+  elements.favoriteButton.textContent = isSaved ? "관심 작물 해제" : "관심 작물 저장";
+  elements.favoriteButton.classList.toggle("saved", isSaved);
+  elements.favoriteButton.dataset.id = crop.id;
+}
+
+function renderFavorites() {
+  const savedCrops = state.favorites
+    .map((id) => crops.find((crop) => crop.id === id))
+    .filter(Boolean);
+
+  elements.favoriteCount.textContent = `${savedCrops.length}개 저장`;
+
+  if (!savedCrops.length) {
+    elements.favoriteList.innerHTML =
+      '<p class="empty">관심 작물이 없습니다. 상세 화면에서 관심 작물을 저장해보세요.</p>';
+    return;
+  }
+
+  elements.favoriteList.innerHTML = savedCrops
+    .map(
+      (crop) => `
+        <article class="saved-item">
+          <strong>${crop.name}</strong>
+          <span>${crop.category} · 제철 ${seasonLabel(crop.seasonMonths)}</span>
+          <span>${crop.regions.join(", ")}</span>
+          <button type="button" data-remove-favorite="${crop.id}">삭제</button>
+        </article>
+      `,
+    )
+    .join("");
+}
+
+function renderRegionalPicks() {
+  const regions = uniqueValues(crops.flatMap((crop) => crop.regions));
+  const cards = regions
+    .map((region) => {
+      const regionalCrops = crops
+        .filter((crop) => crop.regions.includes(region) && crop.seasonMonths.includes(Number(state.month)))
+        .sort((a, b) => freshnessScore(b) - freshnessScore(a));
+
+      if (!regionalCrops.length) return "";
+
+      const names = regionalCrops.slice(0, 3).map((crop) => crop.name).join(", ");
+      const top = regionalCrops[0];
+
+      return `
+        <article class="region-item">
+          <strong>${region}</strong>
+          <span>${state.month}월 추천: ${names}</span>
+          <span>대표 작물 ${top.name} · 신선도 ${freshnessScore(top)}점</span>
+        </article>
+      `;
+    })
+    .filter(Boolean);
+
+  elements.regionGrid.innerHTML = cards.length
+    ? cards.join("")
+    : '<p class="empty">선택한 월에 추천할 지역별 제철 작물이 없습니다.</p>';
 }
 
 function render() {
   const filteredCrops = getFilteredCrops();
+  renderCalendar();
   renderToday();
 
   if (filteredCrops.length && !filteredCrops.some((crop) => crop.id === state.selectedId)) {
@@ -370,6 +467,25 @@ function render() {
 
   renderCards(filteredCrops);
   renderDetail(filteredCrops);
+  renderFavorites();
+  renderRegionalPicks();
+}
+
+function setMonth(month) {
+  state.month = Number(month);
+  state.selectedId = "";
+  elements.monthFilter.value = String(state.month);
+  render();
+}
+
+function toggleFavorite(id) {
+  if (state.favorites.includes(id)) {
+    state.favorites = state.favorites.filter((favoriteId) => favoriteId !== id);
+  } else {
+    state.favorites = [...state.favorites, id];
+  }
+  saveFavorites();
+  render();
 }
 
 function scrollToTodayRecommendation() {
@@ -397,9 +513,12 @@ elements.categoryFilter.addEventListener("change", (event) => {
 });
 
 elements.monthFilter.addEventListener("change", (event) => {
-  state.month = Number(event.target.value);
-  state.selectedId = "";
-  render();
+  setMonth(event.target.value);
+});
+
+elements.monthStrip.addEventListener("click", (event) => {
+  const button = event.target.closest(".month-button");
+  if (button) setMonth(button.dataset.month);
 });
 
 elements.cropGrid.addEventListener("click", (event) => {
@@ -412,6 +531,15 @@ elements.cropGrid.addEventListener("click", (event) => {
 });
 
 elements.todayButton.addEventListener("click", scrollToTodayRecommendation);
+elements.favoriteButton.addEventListener("click", () => {
+  if (elements.favoriteButton.dataset.id) {
+    toggleFavorite(elements.favoriteButton.dataset.id);
+  }
+});
+elements.favoriteList.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-remove-favorite]");
+  if (button) toggleFavorite(button.dataset.removeFavorite);
+});
 
 setupFilters();
 render();

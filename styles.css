@@ -146,7 +146,8 @@ h3 {
 }
 
 .primary-button,
-.secondary-button {
+.secondary-button,
+.favorite-button {
   display: inline-flex;
   min-height: 46px;
   align-items: center;
@@ -166,6 +167,20 @@ h3 {
   border: 1px solid var(--line);
   background: var(--surface-strong);
   color: var(--text);
+}
+
+.favorite-button {
+  width: 100%;
+  margin-top: 12px;
+  border: 1px solid var(--green);
+  background: var(--green);
+  color: white;
+}
+
+.favorite-button.saved {
+  border-color: #e8c46d;
+  background: #fff4cf;
+  color: #6f4c00;
 }
 
 .today-card,
@@ -426,8 +441,73 @@ select:focus {
 }
 
 .impact-section,
-.data-section {
+.data-section,
+.calendar-section,
+.saved-section,
+.regional-section {
   margin: 0 clamp(18px, 4vw, 56px) 34px;
+}
+
+.month-strip {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(64px, 1fr));
+  gap: 8px;
+}
+
+.month-button {
+  min-height: 58px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-strong);
+  color: var(--text);
+  font-weight: 900;
+}
+
+.month-button.active {
+  border-color: var(--green);
+  background: var(--green);
+  color: white;
+}
+
+.saved-list,
+.region-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.saved-item,
+.region-item {
+  display: grid;
+  gap: 8px;
+  min-height: 150px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-strong);
+}
+
+.saved-item strong,
+.region-item strong {
+  color: var(--green-dark);
+  font-size: 1.04rem;
+}
+
+.saved-item span,
+.region-item span {
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.saved-item button {
+  min-height: 36px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--muted);
+  font-weight: 900;
 }
 
 .impact-grid {
@@ -481,7 +561,9 @@ pre {
   .hero,
   .dashboard,
   .toolbar-panel,
-  .impact-grid {
+  .impact-grid,
+  .saved-list,
+  .region-grid {
     grid-template-columns: 1fr;
   }
 
@@ -492,6 +574,10 @@ pre {
 
   .crop-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .month-strip {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
   .detail-panel {
@@ -522,6 +608,10 @@ pre {
   .today-meta,
   .crop-grid {
     grid-template-columns: 1fr;
+  }
+
+  .month-strip {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .detail-meta {

@@ -22,6 +22,7 @@
       <nav class="nav" aria-label="주요 메뉴">
         <a href="#recommend">오늘 추천</a>
         <a href="#finder">작물 찾기</a>
+        <a href="#favorites">관심 작물</a>
         <a href="#data">데이터 구조</a>
       </nav>
     </header>
@@ -87,6 +88,17 @@
         </label>
       </section>
 
+      <section class="section calendar-section" aria-labelledby="calendarTitle">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Season calendar</p>
+            <h2 id="calendarTitle">월별 제철 캘린더</h2>
+          </div>
+          <p class="result-count" id="calendarHint">월을 누르면 작물 목록이 바뀝니다</p>
+        </div>
+        <div class="month-strip" id="monthStrip"></div>
+      </section>
+
       <section class="dashboard">
         <section class="crop-list-panel" aria-labelledby="listTitle">
           <div class="section-heading">
@@ -113,7 +125,29 @@
             <h3>보관법</h3>
             <p id="detailStorage">-</p>
           </div>
+          <button class="favorite-button" id="favoriteButton" type="button">관심 작물 저장</button>
         </aside>
+      </section>
+
+      <section class="section saved-section" id="favorites">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">My basket</p>
+            <h2>관심 작물</h2>
+          </div>
+          <p class="result-count" id="favoriteCount">0개 저장</p>
+        </div>
+        <div class="saved-list" id="favoriteList"></div>
+      </section>
+
+      <section class="section regional-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Regional picks</p>
+            <h2>지역별 오늘의 추천</h2>
+          </div>
+        </div>
+        <div class="region-grid" id="regionGrid"></div>
       </section>
 
       <section class="section impact-section">
