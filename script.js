@@ -455,6 +455,50 @@ const crops = [
   },
 ];
 
+const generatedFarmCities = {
+  경기: ["수원", "화성", "평택", "안성", "이천", "여주", "양평", "파주", "고양", "남양주", "포천", "가평"],
+  강원: ["춘천", "원주", "강릉", "홍천", "횡성", "평창", "정선", "철원", "양구", "인제", "고성", "삼척"],
+  충북: ["청주", "충주", "제천", "보은", "옥천", "영동", "증평", "진천", "괴산", "음성", "단양", "미원"],
+  충남: ["천안", "공주", "보령", "아산", "서산", "논산", "계룡", "당진", "금산", "부여", "서천", "청양"],
+  전북: ["전주", "군산", "익산", "정읍", "남원", "김제", "완주", "진안", "무주", "장수", "임실", "고창"],
+  전남: ["목포", "여수", "순천", "나주", "광양", "담양", "고흥", "보성", "화순", "해남", "무안", "신안"],
+  경북: ["포항", "경주", "김천", "안동", "구미", "영주", "영천", "상주", "문경", "의성", "청송", "성주"],
+  경남: ["창원", "진주", "통영", "사천", "김해", "밀양", "거제", "양산", "의령", "창녕", "하동", "거창"],
+  제주: ["제주시", "서귀포", "애월", "한림", "구좌", "성산", "표선", "남원"],
+  부산: ["강서", "기장", "금정", "해운대", "사상", "사하", "북구", "동래"],
+};
+
+const farmSuffixes = ["소농장", "작목반", "직거래밭", "로컬팜"];
+const generatedSalesTypes = ["직거래", "로컬푸드 매장", "예약 구매", "산지 직송"];
+
+function buildGeneratedLocalSources(crop) {
+  return crop.regions.flatMap((region) => {
+    const cities = generatedFarmCities[region] || [];
+    return cities.flatMap((city, cityIndex) =>
+      farmSuffixes.map((suffix, suffixIndex) => ({
+        region,
+        farmName: `${city} ${crop.name} ${suffix}`,
+        city,
+        salesType: generatedSalesTypes[(cityIndex + suffixIndex) % generatedSalesTypes.length],
+        generated: true,
+      })),
+    );
+  });
+}
+
+crops.forEach((crop) => {
+  const originalSources = crop.localSources || [];
+  const sourceKeys = new Set(originalSources.map((source) => `${source.region}-${source.city}-${source.farmName}`));
+  const generatedSources = buildGeneratedLocalSources(crop).filter((source) => {
+    const key = `${source.region}-${source.city}-${source.farmName}`;
+    if (sourceKeys.has(key)) return false;
+    sourceKeys.add(key);
+    return true;
+  });
+
+  crop.localSources = [...originalSources, ...generatedSources];
+});
+
 const state = {
   search: "",
   region: "all",
