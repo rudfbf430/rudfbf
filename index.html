@@ -5,124 +5,161 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="전국 농장 위치, 재배 품목, 규모, 체험과 임대 가능 여부를 한눈에 연결하는 농장 지도 서비스입니다."
+      content="전국 원예작물의 제철 시기, 주요 산지, 고르는 법, 보관법을 오늘 날짜 기준으로 추천하는 농산물 정보 서비스입니다."
     />
-    <title>FarmLink | 전국 농장 연결 지도</title>
+    <title>오늘의 제철 | 전국 신선 원예작물 추천</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Noto+Sans+KR:wght@400;500;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&family=Noto+Sans+KR:wght@400;500;700;800;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#app" aria-label="FarmLink 홈">FarmLink</a>
+      <a class="brand" href="#app" aria-label="오늘의 제철 홈">오늘의 제철</a>
       <nav class="nav" aria-label="주요 메뉴">
-        <a href="#app">지도</a>
-        <a href="#featured">농장 목록</a>
-        <a href="#partner">농장 등록</a>
+        <a href="#recommend">오늘 추천</a>
+        <a href="#finder">작물 찾기</a>
+        <a href="#data">데이터 구조</a>
       </nav>
     </header>
 
-    <main>
-      <section class="hero" id="app">
+    <main id="app">
+      <section class="hero" id="recommend">
         <div class="hero-copy">
-          <p class="eyebrow">전국 농장 연결 지도</p>
-          <h1>전국 공개 농촌체험지를 지도에서 바로 찾기</h1>
+          <p class="eyebrow">Fresh horticulture guide</p>
+          <h1>전국에서 오늘 가장 신선한 원예작물을 고릅니다.</h1>
           <p class="lead">
-            공개 자료에서 확인한 농촌체험마을과 여행지를 모아 위치, 체험
-            프로그램, 출처, 길찾기 연결을 한 화면에서 확인합니다.
+            소비자는 제철 농산물을 한눈에 찾고, 지역 농산물은 더 쉽게 발견됩니다.
+            월별 제철 시기, 주요 산지, 고르는 법과 보관법을 함께 보여주는 농업 정보 서비스입니다.
           </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#finder">작물 둘러보기</a>
+            <button class="secondary-button" id="todayButton" type="button">오늘 추천 보기</button>
+          </div>
         </div>
 
-        <section class="finder" aria-label="농장 검색">
-          <div class="toolbar">
-            <label class="search-field" for="searchInput">
-              <span>검색</span>
-              <input
-                id="searchInput"
-                type="search"
-                placeholder="농장명, 지역, 작물 검색"
-                autocomplete="off"
-              />
-            </label>
-            <label for="regionFilter">
-              <span>지역</span>
-              <select id="regionFilter">
-                <option value="all">전국</option>
-              </select>
-            </label>
-            <label for="productFilter">
-              <span>품목</span>
-              <select id="productFilter">
-                <option value="all">전체 품목</option>
-              </select>
-            </label>
-            <div class="toggle-group" aria-label="가능 서비스">
-              <button class="chip active" type="button" data-filter="all">전체</button>
-              <button class="chip" type="button" data-filter="experience">체험</button>
-              <button class="chip" type="button" data-filter="rental">임대</button>
+        <aside class="today-card" aria-label="오늘의 추천 요약">
+          <div class="today-image" id="todayImage"></div>
+          <div class="today-content">
+            <p class="eyebrow" id="todayDate">Today</p>
+            <h2 id="todayCropName">추천 작물</h2>
+            <p id="todaySummary">오늘 날짜 기준으로 제철 작물을 계산합니다.</p>
+            <div class="fresh-meter" aria-label="제철 신선도">
+              <span id="freshMeter"></span>
             </div>
-          </div>
-
-          <div class="farm-layout">
-            <div class="map-panel" aria-label="전국 공개 농촌체험지 위치 지도">
-              <div class="map-canvas" id="mapCanvas"></div>
-              <div class="map-legend">
-                <span><i class="dot experience"></i>체험 가능</span>
-                <span><i class="dot rental"></i>임대 가능</span>
+            <dl class="today-meta">
+              <div>
+                <dt>대표 산지</dt>
+                <dd id="todayRegion">-</dd>
               </div>
-            </div>
-
-            <aside class="detail-panel" id="farmDetail" aria-live="polite">
-              <div class="detail-image" id="detailImage"></div>
-              <p class="eyebrow" id="detailRegion">지역</p>
-              <h2 id="detailName">농장을 선택하세요</h2>
-              <p id="detailSummary">
-                지도나 목록에서 장소를 누르면 상세 정보와 연결 버튼이 표시됩니다.
-              </p>
-              <dl class="farm-meta" id="detailMeta"></dl>
-              <div class="program-list" id="programList"></div>
-              <div class="detail-actions" id="detailActions"></div>
-            </aside>
+              <div>
+                <dt>분류</dt>
+                <dd id="todayCategory">-</dd>
+              </div>
+            </dl>
           </div>
-        </section>
+        </aside>
       </section>
 
-      <section class="section" id="featured">
+      <section class="toolbar-panel" id="finder" aria-label="제철 작물 검색">
+        <label class="search-field">
+          <span>검색</span>
+          <input id="searchInput" type="search" placeholder="작물명, 산지, 활용법 검색" autocomplete="off" />
+        </label>
+        <label>
+          <span>지역</span>
+          <select id="regionFilter">
+            <option value="all">전국</option>
+          </select>
+        </label>
+        <label>
+          <span>분류</span>
+          <select id="categoryFilter">
+            <option value="all">전체</option>
+          </select>
+        </label>
+        <label>
+          <span>월</span>
+          <select id="monthFilter"></select>
+        </label>
+      </section>
+
+      <section class="dashboard">
+        <section class="crop-list-panel" aria-labelledby="listTitle">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Seasonal crops</p>
+              <h2 id="listTitle">제철 원예작물</h2>
+            </div>
+            <p class="result-count" id="resultCount">0개</p>
+          </div>
+          <div class="crop-grid" id="cropGrid"></div>
+        </section>
+
+        <aside class="detail-panel" id="cropDetail" aria-live="polite">
+          <div class="detail-image" id="detailImage"></div>
+          <p class="eyebrow" id="detailSeason">제철</p>
+          <h2 id="detailName">작물을 선택하세요</h2>
+          <p id="detailDescription">목록에서 작물을 누르면 상세 정보가 표시됩니다.</p>
+          <dl class="detail-meta" id="detailMeta"></dl>
+          <div class="tip-box">
+            <h3>고르는 법</h3>
+            <p id="detailPick">-</p>
+          </div>
+          <div class="tip-box">
+            <h3>보관법</h3>
+            <p id="detailStorage">-</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section impact-section">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">Farm directory</p>
-            <h2>공개 체험지 목록</h2>
+            <p class="eyebrow">Agricultural problem</p>
+            <h2>이 서비스가 푸는 농업 문제</h2>
           </div>
-          <p class="result-count" id="resultCount">0개 농장</p>
         </div>
-        <div class="farm-grid" id="farmGrid"></div>
+        <div class="impact-grid">
+          <article>
+            <strong>정보 탐색 문제</strong>
+            <p>소비자는 지금 어떤 원예작물이 제철인지, 어느 지역 산지가 유명한지 빠르게 알기 어렵습니다.</p>
+          </article>
+          <article>
+            <strong>지역 농산물 발견성</strong>
+            <p>지역별 신선 작물을 노출해 산지 농산물과 소비자의 접점을 넓힙니다.</p>
+          </article>
+          <article>
+            <strong>구매 후 손실 감소</strong>
+            <p>고르는 법과 보관법을 함께 제공해 신선도 저하와 음식물 낭비를 줄이는 데 도움을 줍니다.</p>
+          </article>
+        </div>
       </section>
 
-      <section class="section partner" id="partner">
-        <div>
-          <p class="eyebrow">For farm owners</p>
-          <h2>농장 등록과 체험 연결을 시작하세요.</h2>
+      <section class="section data-section" id="data">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Data structure</p>
+            <h2>사용한 데이터 구조</h2>
+          </div>
         </div>
-        <div class="partner-actions">
-          <p>
-            농장 위치, 생산 품목, 규모, 체험 프로그램, 임대 가능 여부, 연락처를
-            등록하면 방문자와 예비 귀농인이 더 쉽게 농장을 찾을 수 있습니다.
-          </p>
-          <a class="button secondary" href="mailto:hello@example.com">
-            농장 등록 문의
-          </a>
-        </div>
+        <pre><code>{
+  id: "tomato",
+  name: "토마토",
+  category: "과채류",
+  regions: ["부산", "강원", "충남"],
+  seasonMonths: [5, 6, 7, 8, 9],
+  image: "작물 이미지 URL",
+  description: "작물 설명",
+  pickTip: "고르는 법",
+  storageTip: "보관법",
+  uses: ["샐러드", "소스"]
+}</code></pre>
       </section>
     </main>
-
-    <footer class="site-footer">
-      <span id="year"></span>
-      <span>전국 농장 정보 연결 MVP</span>
-    </footer>
 
     <script src="./script.js"></script>
   </body>
