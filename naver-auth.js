@@ -1,4 +1,4 @@
-const NAVER_CLIENT_ID = "";
+const NAVER_CLIENT_ID = "WTHeSYLqswJpPZIoopbh";
 const NAVER_AUTH_STATE_KEY = "geuncheobat-naver-oauth-state";
 const NAVER_AUTH_SESSION_KEY = "geuncheobat-naver-session";
 
