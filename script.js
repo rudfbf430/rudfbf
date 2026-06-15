@@ -803,8 +803,71 @@ function normalizeActualFarm(farm) {
 
 const actualFarmBuckets = new Map(crops.map((crop) => [crop.id, []]));
 
+const cropAliasMap = {
+  토마토: ["토마토", "tomato"],
+  오이: ["오이", "cucumber"],
+  멜론: ["멜론", "melon"],
+  복숭아: ["복숭아", "peach"],
+  자두: ["자두", "plum"],
+  감자: ["감자", "potato"],
+  상추: ["상추", "lettuce"],
+  블루베리: ["블루베리", "blueberry"],
+  마늘: ["마늘", "garlic"],
+  양파: ["양파", "onion"],
+  파프리카: ["파프리카", "paprika"],
+  수박: ["수박", "watermelon"],
+  딸기: ["딸기", "strawberry"],
+  사과: ["사과", "apple"],
+  배: ["배농", "배 ", "신고배", "pear"],
+  포도: ["포도", "grape"],
+  감귤: ["감귤", "귤", "mandarin", "tangerine"],
+  단감: ["단감", "감농", "persimmon"],
+  고구마: ["고구마", "sweet potato"],
+  시금치: ["시금치", "spinach"],
+  배추: ["배추", "cabbage"],
+  고추: ["고추", "pepper"],
+  당근: ["당근", "carrot"],
+  대파: ["대파", "green onion", "scallion"],
+  참외: ["참외"],
+  애호박: ["애호박", "호박", "zucchini"],
+  가지: ["가지", "eggplant"],
+  무: ["무농", "무 ", "radish"],
+  깻잎: ["깻잎"],
+  부추: ["부추"],
+  브로콜리: ["브로콜리", "broccoli"],
+  양배추: ["양배추"],
+  아스파라거스: ["아스파라거스", "asparagus"],
+  체리: ["체리", "cherry"],
+  키위: ["키위", "kiwi"],
+  대추: ["대추", "jujube"],
+  쑥갓: ["쑥갓"],
+  청경채: ["청경채"],
+  케일: ["케일", "kale"],
+  미나리: ["미나리"],
+  연근: ["연근"],
+  우엉: ["우엉"],
+  밤: ["밤농", "밤 ", "chestnut"],
+  매실: ["매실"],
+  오미자: ["오미자"],
+  유자: ["유자"],
+  무화과: ["무화과", "fig"],
+  셀러리: ["셀러리", "celery"],
+};
+
+function getMatchingCrop(farm, fallbackIndex) {
+  const text = `${farm.name || ""} ${farm.salesType || ""} ${farm.address || ""} ${farm.roadAddress || ""}`.toLowerCase();
+  const cropMatchOrder = [...crops].sort((a, b) => b.name.length - a.name.length);
+  const exact = cropMatchOrder.find((crop) =>
+    (cropAliasMap[crop.name] || [crop.name]).some((alias) => text.includes(alias.toLowerCase()))
+  );
+  if (exact) return exact;
+  if (farm.generatedName) return crops[fallbackIndex % crops.length];
+  return null;
+}
+
 actualFarmSources.forEach((farm, index) => {
-  const crop = crops[index % crops.length];
+  const crop = getMatchingCrop(farm, index);
+  if (!crop) return;
   actualFarmBuckets.get(crop.id).push(normalizeActualFarm(farm));
 });
 

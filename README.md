@@ -69,6 +69,7 @@
 - `detail.js`: 상세 페이지 렌더링 로직
 - `collect-osm-farms.mjs`: OpenStreetMap Overpass API 데이터 수집 스크립트
 - `collect-naver-farms.mjs`: 네이버 지역 검색 API 결과를 기존 농장 데이터에 병합하는 수집 스크립트
+- `clean-farms.mjs`: 농업과 무관한 장소를 제외하고 이름 없는 농장구역에 임시 이름을 붙이는 정리 스크립트
 
 네이버 지역 검색 데이터를 수집하려면 네이버 개발자센터에서 검색 API 권한을 켠 뒤 아래 환경변수를 설정하고 실행합니다.
 
