@@ -33,6 +33,10 @@ const crops = [
     name: "토마토",
     category: "과채류",
     regions: ["부산", "강원", "충남"],
+    localSources: [
+      { region: "충남", farmName: "논산 햇살토마토농장", city: "논산", salesType: "직거래 / 로컬푸드 매장" },
+      { region: "부산", farmName: "강서 대저토마토 농가", city: "부산 강서", salesType: "산지 직송" },
+    ],
     seasonMonths: [5, 6, 7, 8, 9],
     image: cropImages.tomato,
     description: "초여름부터 맛이 올라오는 대표 과채류입니다. 완숙 토마토는 생식과 소스용 모두 활용도가 높습니다.",
@@ -45,6 +49,10 @@ const crops = [
     name: "오이",
     category: "과채류",
     regions: ["충남", "경북", "강원"],
+    localSources: [
+      { region: "충남", farmName: "천안 아삭오이농장", city: "천안", salesType: "로컬푸드 매장" },
+      { region: "강원", farmName: "홍천 여름오이 작목반", city: "홍천", salesType: "직거래" },
+    ],
     seasonMonths: [5, 6, 7, 8],
     image: cropImages.cucumber,
     description: "수분감이 풍부해 더운 계절 식탁에 잘 맞는 원예작물입니다.",
@@ -57,6 +65,10 @@ const crops = [
     name: "멜론",
     category: "과일류",
     regions: ["전남", "충남", "경남"],
+    localSources: [
+      { region: "전남", farmName: "나주 달큰멜론농장", city: "나주", salesType: "예약 구매" },
+      { region: "충남", farmName: "부여 굿뜨래 멜론농가", city: "부여", salesType: "로컬푸드 매장" },
+    ],
     seasonMonths: [6, 7, 8],
     image: cropImages.melon,
     description: "6월부터 당도가 오르는 시설 원예 대표 과일입니다. 선물용과 디저트용 수요가 높습니다.",
@@ -69,6 +81,10 @@ const crops = [
     name: "복숭아",
     category: "과일류",
     regions: ["충북", "경북", "전북"],
+    localSources: [
+      { region: "충북", farmName: "충주 향기복숭아농원", city: "충주", salesType: "직거래 / 택배" },
+      { region: "경북", farmName: "영천 햇복숭아 작목반", city: "영천", salesType: "산지 직송" },
+    ],
     seasonMonths: [6, 7, 8, 9],
     image: cropImages.peach,
     description: "초여름부터 출하가 시작되는 향이 좋은 과일입니다. 산지와 품종에 따라 식감 차이가 큽니다.",
@@ -81,6 +97,10 @@ const crops = [
     name: "자두",
     category: "과일류",
     regions: ["경북", "충북", "경남"],
+    localSources: [
+      { region: "경북", farmName: "김천 새콤자두농장", city: "김천", salesType: "직거래" },
+      { region: "경남", farmName: "거창 여름자두 농가", city: "거창", salesType: "로컬푸드 매장" },
+    ],
     seasonMonths: [6, 7, 8],
     image: cropImages.plum,
     description: "새콤달콤한 맛이 특징인 여름 과일입니다. 짧은 제철 기간에 신선도가 중요합니다.",
@@ -93,6 +113,10 @@ const crops = [
     name: "감자",
     category: "근채류",
     regions: ["강원", "충남", "전북"],
+    localSources: [
+      { region: "강원", farmName: "평창 고랭지감자농장", city: "평창", salesType: "직거래 / 산지 직송" },
+      { region: "전북", farmName: "김제 햇감자 농가", city: "김제", salesType: "로컬푸드 매장" },
+    ],
     seasonMonths: [6, 7, 8, 9],
     image: cropImages.potato,
     description: "초여름 햇감자는 껍질이 얇고 포슬한 식감이 살아 있어 식탁 활용도가 높습니다.",
@@ -105,6 +129,10 @@ const crops = [
     name: "상추",
     category: "엽채류",
     regions: ["경기", "충남", "전북"],
+    localSources: [
+      { region: "경기", farmName: "남양주 싱싱쌈채농장", city: "남양주", salesType: "로컬푸드 매장" },
+      { region: "전북", farmName: "완주 신선상추 농가", city: "완주", salesType: "직거래" },
+    ],
     seasonMonths: [4, 5, 6, 9, 10],
     image: cropImages.lettuce,
     description: "봄과 초여름에 부드러운 잎맛이 좋은 대표 엽채류입니다.",
@@ -117,6 +145,10 @@ const crops = [
     name: "블루베리",
     category: "과일류",
     regions: ["전북", "경기", "충남"],
+    localSources: [
+      { region: "전북", farmName: "고창 블루베리팜", city: "고창", salesType: "체험 수확 / 직거래" },
+      { region: "경기", farmName: "양평 베리농원", city: "양평", salesType: "예약 구매" },
+    ],
     seasonMonths: [6, 7, 8],
     image: cropImages.blueberry,
     description: "국산 생과 출하가 집중되는 여름 베리류입니다. 신선할수록 과피 탄력이 좋습니다.",
@@ -129,6 +161,10 @@ const crops = [
     name: "마늘",
     category: "양념채소",
     regions: ["경남", "전남", "충남"],
+    localSources: [
+      { region: "경남", farmName: "남해 햇마늘 농가", city: "남해", salesType: "산지 직송" },
+      { region: "전남", farmName: "고흥 마늘 작목반", city: "고흥", salesType: "로컬푸드 매장" },
+    ],
     seasonMonths: [5, 6, 7],
     image: cropImages.garlic,
     description: "초여름 수확기에는 저장 마늘과 햇마늘을 구분해 활용할 수 있습니다.",
@@ -141,6 +177,10 @@ const crops = [
     name: "양파",
     category: "양념채소",
     regions: ["전남", "경남", "제주"],
+    localSources: [
+      { region: "전남", farmName: "무안 황토양파농장", city: "무안", salesType: "직거래 / 산지 직송" },
+      { region: "제주", farmName: "애월 햇양파 농가", city: "제주 애월", salesType: "로컬푸드 매장" },
+    ],
     seasonMonths: [4, 5, 6, 7],
     image: cropImages.onion,
     description: "봄부터 초여름까지 햇양파 출하가 이어져 단맛이 좋고 조직이 아삭합니다.",
@@ -153,6 +193,10 @@ const crops = [
     name: "파프리카",
     category: "과채류",
     regions: ["강원", "경남", "전북"],
+    localSources: [
+      { region: "강원", farmName: "철원 컬러파프리카팜", city: "철원", salesType: "산지 직송" },
+      { region: "전북", farmName: "익산 파프리카 농가", city: "익산", salesType: "로컬푸드 매장" },
+    ],
     seasonMonths: [5, 6, 7, 8, 9, 10],
     image: cropImages.paprika,
     description: "시설 원예 비중이 높은 고부가 과채류입니다. 색상별로 식탁 활용도가 좋습니다.",
@@ -165,6 +209,10 @@ const crops = [
     name: "수박",
     category: "과채류",
     regions: ["경북", "충북", "전북"],
+    localSources: [
+      { region: "경북", farmName: "성주 꿀수박 농가", city: "성주", salesType: "산지 직송" },
+      { region: "전북", farmName: "고창 여름수박 작목반", city: "고창", salesType: "직거래" },
+    ],
     seasonMonths: [6, 7, 8],
     image: cropImages.watermelon,
     description: "여름철 대표 과채류로 산지별 출하 시기에 따라 신선한 선택지가 달라집니다.",
@@ -256,9 +304,18 @@ function freshnessScore(crop, month = state.month) {
   return Math.max(72, Math.round(100 - distance * 12));
 }
 
+function getLocalSource(crop, region = state.region) {
+  if (!crop.localSources?.length) return null;
+  if (region !== "all") {
+    return crop.localSources.find((source) => source.region === region) || crop.localSources[0];
+  }
+  return crop.localSources[0];
+}
+
 function getSeasonalCrops(month = state.month) {
   return crops
     .filter((crop) => crop.seasonMonths.includes(month))
+    .filter((crop) => state.region === "all" || crop.regions.includes(state.region))
     .sort((a, b) => freshnessScore(b, month) - freshnessScore(a, month) || a.name.localeCompare(b.name, "ko"));
 }
 
@@ -303,6 +360,11 @@ function getFilteredCrops() {
         crop.storageTip,
         ...crop.regions,
         ...crop.uses,
+        ...(crop.localSources || []).flatMap((source) => [
+          source.farmName,
+          source.city,
+          source.salesType,
+        ]),
       ]
         .join(" ")
         .toLowerCase();
@@ -331,8 +393,11 @@ function renderToday() {
   elements.todayCropName.textContent = today.name;
   elements.todaySummary.textContent = today.description;
   elements.todayImage.style.backgroundImage = `url("${today.image}")`;
-  elements.todayRegion.textContent = today.regions.join(", ");
-  elements.todayCategory.textContent = today.category;
+  const localSource = getLocalSource(today);
+  elements.todayRegion.textContent = localSource
+    ? `${localSource.city} · ${localSource.farmName}`
+    : today.regions.join(", ");
+  elements.todayCategory.textContent = localSource ? localSource.salesType : today.category;
   elements.freshMeter.style.width = `${score}%`;
 
   if (!state.selectedId) state.selectedId = today.id;
@@ -357,7 +422,7 @@ function renderCards(filteredCrops) {
             <p>${crop.description}</p>
             <span class="badge-row">
               <span class="badge gold">제철 ${seasonLabel(crop.seasonMonths)}</span>
-              <span class="badge sky">${crop.regions[0]} 외 ${crop.regions.length - 1}곳</span>
+              <span class="badge sky">${getLocalSource(crop)?.city || crop.regions[0]}</span>
             </span>
           </span>
         </button>
@@ -379,11 +444,16 @@ function renderDetail(filteredCrops) {
   elements.detailSeason.textContent = `제철 ${seasonLabel(selected.seasonMonths)}`;
   elements.detailName.textContent = selected.name;
   elements.detailDescription.textContent = selected.description;
+  const localSource = getLocalSource(selected);
   elements.detailMeta.innerHTML = `
     <dt>분류</dt>
     <dd>${selected.category}</dd>
-    <dt>주요 산지</dt>
+    <dt>가까운 산지</dt>
     <dd>${selected.regions.join(", ")}</dd>
+    <dt>추천 농장</dt>
+    <dd>${localSource ? `${localSource.farmName} (${localSource.city})` : "지역 정보 없음"}</dd>
+    <dt>구매 방식</dt>
+    <dd>${localSource ? localSource.salesType : "확인 필요"}</dd>
     <dt>활용</dt>
     <dd>${selected.uses.join(", ")}</dd>
     <dt>신선도</dt>
@@ -420,7 +490,7 @@ function renderFavorites() {
         <article class="saved-item">
           <strong>${crop.name}</strong>
           <span>${crop.category} · 제철 ${seasonLabel(crop.seasonMonths)}</span>
-          <span>${crop.regions.join(", ")}</span>
+          <span>${getLocalSource(crop)?.farmName || crop.regions.join(", ")}</span>
           <button type="button" data-remove-favorite="${crop.id}">삭제</button>
         </article>
       `,
@@ -444,7 +514,7 @@ function renderRegionalPicks() {
       return `
         <article class="region-item">
           <strong>${region}</strong>
-          <span>${state.month}월 추천: ${names}</span>
+          <span>${state.month}월 근처 추천: ${names}</span>
           <span>대표 작물 ${top.name} · 신선도 ${freshnessScore(top)}점</span>
         </article>
       `;

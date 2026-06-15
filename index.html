@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="전국 원예작물의 제철 시기, 주요 산지, 고르는 법, 보관법을 오늘 날짜 기준으로 추천하는 농산물 정보 서비스입니다."
+      content="내가 사는 지역 근처에서 지금 구할 수 있는 신선한 제철 원예작물과 로컬 구매처를 추천하는 농산물 정보 서비스입니다."
     />
-    <title>오늘의 제철 | 전국 신선 원예작물 추천</title>
+    <title>로컬제철 | 내 주변 신선작물 추천</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,10 +18,10 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#app" aria-label="오늘의 제철 홈">오늘의 제철</a>
+      <a class="brand" href="#app" aria-label="로컬제철 홈">로컬제철</a>
       <nav class="nav" aria-label="주요 메뉴">
-        <a href="#recommend">오늘 추천</a>
-        <a href="#finder">작물 찾기</a>
+        <a href="#recommend">주변 추천</a>
+        <a href="#finder">지역 찾기</a>
         <a href="#favorites">관심 작물</a>
         <a href="#data">데이터 구조</a>
       </nav>
@@ -31,33 +31,33 @@
       <section class="hero" id="recommend">
         <div class="hero-copy">
           <p class="eyebrow">Fresh horticulture guide</p>
-          <h1>전국에서 오늘 가장 신선한 원예작물을 고릅니다.</h1>
+          <h1>내 주변에서 오늘 구하기 좋은 신선작물을 찾습니다.</h1>
           <p class="lead">
-            소비자는 제철 농산물을 한눈에 찾고, 지역 농산물은 더 쉽게 발견됩니다.
-            월별 제철 시기, 주요 산지, 고르는 법과 보관법을 함께 보여주는 농업 정보 서비스입니다.
+            사는 지역을 고르면 가까운 산지와 로컬푸드 매장에서 만날 수 있는 제철 원예작물을 추천합니다.
+            소비자는 더 신선하게 고르고, 지역 농가는 가까운 소비자에게 더 잘 발견됩니다.
           </p>
           <div class="hero-actions">
-            <a class="primary-button" href="#finder">작물 둘러보기</a>
-            <button class="secondary-button" id="todayButton" type="button">오늘 추천 보기</button>
+            <a class="primary-button" href="#finder">내 지역 선택하기</a>
+            <button class="secondary-button" id="todayButton" type="button">오늘 주변 추천</button>
           </div>
         </div>
 
-        <aside class="today-card" aria-label="오늘의 추천 요약">
+        <aside class="today-card" aria-label="주변 추천 요약">
           <div class="today-image" id="todayImage"></div>
           <div class="today-content">
             <p class="eyebrow" id="todayDate">Today</p>
-            <h2 id="todayCropName">추천 작물</h2>
-            <p id="todaySummary">오늘 날짜 기준으로 제철 작물을 계산합니다.</p>
+            <h2 id="todayCropName">추천 신선작물</h2>
+            <p id="todaySummary">오늘 날짜와 선택한 지역을 기준으로 가까운 제철 작물을 계산합니다.</p>
             <div class="fresh-meter" aria-label="제철 신선도">
               <span id="freshMeter"></span>
             </div>
             <dl class="today-meta">
               <div>
-                <dt>대표 산지</dt>
+                <dt>가까운 산지</dt>
                 <dd id="todayRegion">-</dd>
               </div>
               <div>
-                <dt>분류</dt>
+                <dt>구매 방식</dt>
                 <dd id="todayCategory">-</dd>
               </div>
             </dl>
@@ -65,13 +65,13 @@
         </aside>
       </section>
 
-      <section class="toolbar-panel" id="finder" aria-label="제철 작물 검색">
+      <section class="toolbar-panel" id="finder" aria-label="내 주변 제철 작물 검색">
         <label class="search-field">
           <span>검색</span>
-          <input id="searchInput" type="search" placeholder="작물명, 산지, 활용법 검색" autocomplete="off" />
+          <input id="searchInput" type="search" placeholder="작물명, 농장명, 구매 방식 검색" autocomplete="off" />
         </label>
         <label>
-          <span>지역</span>
+          <span>내 지역</span>
           <select id="regionFilter">
             <option value="all">전국</option>
           </select>
@@ -103,8 +103,8 @@
         <section class="crop-list-panel" aria-labelledby="listTitle">
           <div class="section-heading">
             <div>
-              <p class="eyebrow">Seasonal crops</p>
-              <h2 id="listTitle">제철 원예작물</h2>
+            <p class="eyebrow">Seasonal crops</p>
+              <h2 id="listTitle">내 주변 신선작물</h2>
             </div>
             <p class="result-count" id="resultCount">0개</p>
           </div>
@@ -113,9 +113,9 @@
 
         <aside class="detail-panel" id="cropDetail" aria-live="polite">
           <div class="detail-image" id="detailImage"></div>
-          <p class="eyebrow" id="detailSeason">제철</p>
+          <p class="eyebrow" id="detailSeason">근처 제철</p>
           <h2 id="detailName">작물을 선택하세요</h2>
-          <p id="detailDescription">목록에서 작물을 누르면 상세 정보가 표시됩니다.</p>
+          <p id="detailDescription">목록에서 작물을 누르면 가까운 산지와 구매 팁이 표시됩니다.</p>
           <dl class="detail-meta" id="detailMeta"></dl>
           <div class="tip-box">
             <h3>고르는 법</h3>
@@ -144,7 +144,7 @@
         <div class="section-heading">
           <div>
             <p class="eyebrow">Regional picks</p>
-            <h2>지역별 오늘의 추천</h2>
+            <h2>지역별 가까운 추천</h2>
           </div>
         </div>
         <div class="region-grid" id="regionGrid"></div>
@@ -160,15 +160,15 @@
         <div class="impact-grid">
           <article>
             <strong>정보 탐색 문제</strong>
-            <p>소비자는 지금 어떤 원예작물이 제철인지, 어느 지역 산지가 유명한지 빠르게 알기 어렵습니다.</p>
+            <p>소비자는 집 근처에서 지금 어떤 제철 작물을 구할 수 있는지 빠르게 알기 어렵습니다.</p>
           </article>
           <article>
-            <strong>지역 농산물 발견성</strong>
-            <p>지역별 신선 작물을 노출해 산지 농산물과 소비자의 접점을 넓힙니다.</p>
+            <strong>로컬푸드 발견성</strong>
+            <p>가까운 산지와 구매 방식을 함께 보여줘 지역 농산물과 소비자의 접점을 넓힙니다.</p>
           </article>
           <article>
-            <strong>구매 후 손실 감소</strong>
-            <p>고르는 법과 보관법을 함께 제공해 신선도 저하와 음식물 낭비를 줄이는 데 도움을 줍니다.</p>
+            <strong>신선도와 이동 거리</strong>
+            <p>제철 시기와 가까운 산지를 함께 고려해 더 신선한 선택을 돕습니다.</p>
           </article>
         </div>
       </section>
@@ -185,6 +185,7 @@
   name: "토마토",
   category: "과채류",
   regions: ["부산", "강원", "충남"],
+  localSources: [{ region: "충남", farmName: "논산 햇살토마토농장", city: "논산", salesType: "직거래 / 로컬푸드 매장" }],
   seasonMonths: [5, 6, 7, 8, 9],
   image: "작물 이미지 URL",
   description: "작물 설명",
