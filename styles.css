@@ -428,6 +428,42 @@ dd {
   background: rgba(255, 254, 250, 0.94);
 }
 
+.overview-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0 clamp(18px, 4vw, 56px) 18px;
+}
+
+.overview-strip article {
+  display: grid;
+  gap: 7px;
+  min-height: 128px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-strong);
+  box-shadow: var(--shadow);
+  padding: 16px;
+}
+
+.overview-strip span {
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 900;
+}
+
+.overview-strip strong {
+  color: var(--green-dark);
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1;
+}
+
+.overview-strip p {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 800;
+}
+
 label {
   display: grid;
   gap: 7px;
@@ -630,7 +666,8 @@ select:focus {
 .saved-section,
 .regional-section,
 .location-section,
-.small-farm-section {
+.small-farm-section,
+.flow-section {
   margin: 0 clamp(18px, 4vw, 56px) 34px;
 }
 
@@ -669,16 +706,22 @@ select:focus {
 .saved-list,
 .region-grid,
 .nearby-list,
-.small-farm-list {
+.small-farm-list,
+.flow-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
 }
 
+.flow-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .saved-item,
 .region-item,
 .nearby-item,
-.small-farm-item {
+.small-farm-item,
+.flow-grid article {
   display: grid;
   gap: 8px;
   min-height: 150px;
@@ -691,7 +734,8 @@ select:focus {
 .saved-item strong,
 .region-item strong,
 .nearby-item strong,
-.small-farm-item strong {
+.small-farm-item strong,
+.flow-grid strong {
   color: var(--green-dark);
   font-size: 1.04rem;
 }
@@ -704,6 +748,24 @@ select:focus {
   font-size: 0.86rem;
   font-weight: 800;
   line-height: 1.5;
+}
+
+.flow-grid span {
+  display: inline-flex;
+  width: 34px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: #edf5e6;
+  color: var(--green-dark);
+  font-weight: 900;
+}
+
+.flow-grid p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
 }
 
 .saved-item button {
@@ -768,11 +830,13 @@ pre {
   .detail-hero,
   .detail-page-grid,
   .toolbar-panel,
+  .overview-strip,
   .impact-grid,
   .saved-list,
   .region-grid,
   .nearby-list,
-  .small-farm-list {
+  .small-farm-list,
+  .flow-grid {
     grid-template-columns: 1fr;
   }
 

@@ -258,6 +258,10 @@ const elements = {
   categoryFilter: document.querySelector("#categoryFilter"),
   monthFilter: document.querySelector("#monthFilter"),
   monthStrip: document.querySelector("#monthStrip"),
+  cropTotal: document.querySelector("#cropTotal"),
+  farmTotal: document.querySelector("#farmTotal"),
+  monthTotal: document.querySelector("#monthTotal"),
+  currentMonthLabel: document.querySelector("#currentMonthLabel"),
   locationButton: document.querySelector("#locationButton"),
   locationStatus: document.querySelector("#locationStatus"),
   nearbyList: document.querySelector("#nearbyList"),
@@ -592,6 +596,16 @@ function renderRegionalPicks() {
     : '<p class="empty">선택한 월에 추천할 지역별 제철 작물이 없습니다.</p>';
 }
 
+function renderOverview() {
+  const farms = crops.flatMap((crop) => crop.localSources || []);
+  const monthlyCrops = crops.filter((crop) => crop.seasonMonths.includes(Number(state.month)));
+
+  elements.cropTotal.textContent = crops.length;
+  elements.farmTotal.textContent = farms.length;
+  elements.monthTotal.textContent = monthlyCrops.length;
+  elements.currentMonthLabel.textContent = `${state.month}월 추천`;
+}
+
 function renderSmallFarms() {
   const farmItems = crops
     .flatMap((crop) =>
@@ -616,12 +630,12 @@ function renderSmallFarms() {
   elements.smallFarmList.innerHTML = farmItems
     .map(
       ({ crop, source, scale }) => `
-        <article class="small-farm-item">
+        <a class="small-farm-item" href="./detail.html?id=${crop.id}&region=${source.region}&month=${state.month}">
           <strong>${source.farmName}</strong>
           <span>${source.city} · ${scale}</span>
           <span>${crop.name} · 제철 ${seasonLabel(crop.seasonMonths)}</span>
           <span>${source.salesType}</span>
-        </article>
+        </a>
       `,
     )
     .join("");
@@ -629,6 +643,7 @@ function renderSmallFarms() {
 
 function render() {
   const filteredCrops = getFilteredCrops();
+  renderOverview();
   renderCalendar();
   renderToday();
 
