@@ -10,6 +10,7 @@ const page = {
   title: document.querySelector("#pageTitle"),
   description: document.querySelector("#pageDescription"),
   badges: document.querySelector("#pageBadges"),
+  actions: document.querySelector("#pageActions"),
   favorite: document.querySelector("#pageFavorite"),
   meta: document.querySelector("#pageMeta"),
   pick: document.querySelector("#pagePick"),
@@ -85,6 +86,11 @@ function renderDetailPage() {
     `<span>${crop.name}</span>`,
     `<span>${source ? data.getFarmScale(source) : "소규모 농장"}</span>`,
     `<span>신선도 ${data.freshnessScore(crop, selectedMonth)}점</span>`,
+  ].join("");
+  page.actions.innerHTML = [
+    `<a class="primary-button" href="https://map.naver.com/p/search/${encodeURIComponent(source ? source.city : crop.regions[0])}" target="_blank" rel="noreferrer">길찾기</a>`,
+    `<a class="secondary-button" href="mailto:hello@example.com?subject=${encodeURIComponent(`${farmTitle} 구매 문의`)}">구매 문의</a>`,
+    `<a class="secondary-button" href="tel:01000000000">전화 문의</a>`,
   ].join("");
   page.meta.innerHTML = `
     <dt>작물</dt>

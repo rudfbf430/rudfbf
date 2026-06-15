@@ -275,6 +275,13 @@ h3 {
   min-width: 180px;
 }
 
+.detail-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 18px 0 8px;
+}
+
 .detail-page-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -667,8 +674,41 @@ select:focus {
 .regional-section,
 .location-section,
 .small-farm-section,
-.flow-section {
+.flow-section,
+.farm-cta-section {
   margin: 0 clamp(18px, 4vw, 56px) 34px;
+}
+
+.farm-cta-section {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+  align-items: center;
+  background: #173826;
+  color: white;
+}
+
+.farm-cta-section .eyebrow {
+  color: #a8e6bf;
+}
+
+.farm-cta-copy p {
+  max-width: 680px;
+  margin-bottom: 0;
+  color: #dceee2;
+  line-height: 1.75;
+}
+
+.farm-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.farm-cta-section .secondary-button {
+  background: transparent;
+  color: white;
 }
 
 .location-status,
@@ -829,6 +869,7 @@ pre {
   .dashboard,
   .detail-hero,
   .detail-page-grid,
+  .farm-cta-section,
   .toolbar-panel,
   .overview-strip,
   .impact-grid,
@@ -911,6 +952,10 @@ pre {
 
   .detail-tips {
     grid-template-columns: 1fr;
+  }
+
+  .farm-cta-actions {
+    justify-content: flex-start;
   }
 
   .detail-hero-image {
