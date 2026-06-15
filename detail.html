@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="로컬제철 농장 상세 페이지입니다. 가까운 농장, 제철 작물, 구매 방식, 고르는 법과 보관법을 확인합니다."
+    />
+    <title>농장 상세 | 로컬제철</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&family=Noto+Sans+KR:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./index.html" aria-label="로컬제철 홈">로컬제철</a>
+      <nav class="nav" aria-label="상세 메뉴">
+        <a href="./index.html#finder">목록</a>
+        <a href="./index.html#nearby">현재 위치</a>
+        <a href="./index.html#small-farms">작은 농장</a>
+      </nav>
+    </header>
+
+    <main class="detail-page">
+      <a class="back-link" href="./index.html#finder">← 농장 목록으로</a>
+
+      <section class="detail-hero">
+        <div class="detail-hero-image" id="pageImage"></div>
+        <div class="detail-hero-copy">
+          <p class="eyebrow" id="pageSeason">근처 제철</p>
+          <h1 id="pageTitle">농장 상세</h1>
+          <p class="lead" id="pageDescription">선택한 농장의 제철 작물 정보를 불러오는 중입니다.</p>
+          <div class="hero-points" id="pageBadges"></div>
+          <button class="favorite-button detail-favorite" id="pageFavorite" type="button">관심 작물 저장</button>
+        </div>
+      </section>
+
+      <section class="detail-page-grid">
+        <section class="section detail-info-section">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Farm info</p>
+              <h2>농장 정보</h2>
+            </div>
+          </div>
+          <dl class="detail-meta page-meta" id="pageMeta"></dl>
+        </section>
+
+        <section class="section detail-info-section">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Tips</p>
+              <h2>구매 전 확인</h2>
+            </div>
+          </div>
+          <div class="detail-tips">
+            <div class="tip-box">
+              <h3>고르는 법</h3>
+              <p id="pagePick">-</p>
+            </div>
+            <div class="tip-box">
+              <h3>보관법</h3>
+              <p id="pageStorage">-</p>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">More local farms</p>
+            <h2>같은 지역의 다른 농장</h2>
+          </div>
+        </div>
+        <div class="small-farm-list" id="relatedList"></div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+    <script src="./detail.js"></script>
+  </body>
+</html>

@@ -722,50 +722,64 @@ function scrollToTodayRecommendation() {
   document.querySelector("#finder").scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
-elements.searchInput.addEventListener("input", (event) => {
-  state.search = event.target.value;
+window.localSeasonData = {
+  crops,
+  FAVORITES_KEY,
+  seasonLabel,
+  freshnessScore,
+  getLocalSource,
+  getFarmScale,
+};
+
+if (elements.searchInput && elements.cropGrid) {
+  elements.searchInput.addEventListener("input", (event) => {
+    state.search = event.target.value;
+    render();
+  });
+
+  elements.regionFilter.addEventListener("change", (event) => {
+    state.region = event.target.value;
+    render();
+  });
+
+  elements.categoryFilter.addEventListener("change", (event) => {
+    state.category = event.target.value;
+    render();
+  });
+
+  elements.monthFilter.addEventListener("change", (event) => {
+    setMonth(event.target.value);
+  });
+
+  elements.monthStrip.addEventListener("click", (event) => {
+    const button = event.target.closest(".month-button");
+    if (button) setMonth(button.dataset.month);
+  });
+
+  elements.cropGrid.addEventListener("click", (event) => {
+    const card = event.target.closest(".crop-card");
+    if (!card) return;
+
+    const params = new URLSearchParams({
+      id: card.dataset.id,
+      region: state.region,
+      month: String(state.month),
+    });
+    window.location.href = `detail.html?${params.toString()}`;
+  });
+
+  elements.todayButton.addEventListener("click", scrollToTodayRecommendation);
+  elements.locationButton.addEventListener("click", findNearMe);
+  elements.favoriteButton.addEventListener("click", () => {
+    if (elements.favoriteButton.dataset.id) {
+      toggleFavorite(elements.favoriteButton.dataset.id);
+    }
+  });
+  elements.favoriteList.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-remove-favorite]");
+    if (button) toggleFavorite(button.dataset.removeFavorite);
+  });
+
+  setupFilters();
   render();
-});
-
-elements.regionFilter.addEventListener("change", (event) => {
-  state.region = event.target.value;
-  render();
-});
-
-elements.categoryFilter.addEventListener("change", (event) => {
-  state.category = event.target.value;
-  render();
-});
-
-elements.monthFilter.addEventListener("change", (event) => {
-  setMonth(event.target.value);
-});
-
-elements.monthStrip.addEventListener("click", (event) => {
-  const button = event.target.closest(".month-button");
-  if (button) setMonth(button.dataset.month);
-});
-
-elements.cropGrid.addEventListener("click", (event) => {
-  const card = event.target.closest(".crop-card");
-  if (!card) return;
-
-  state.selectedId = card.dataset.id;
-  render();
-  document.querySelector("#cropDetail").scrollIntoView({ behavior: "smooth", block: "nearest" });
-});
-
-elements.todayButton.addEventListener("click", scrollToTodayRecommendation);
-elements.locationButton.addEventListener("click", findNearMe);
-elements.favoriteButton.addEventListener("click", () => {
-  if (elements.favoriteButton.dataset.id) {
-    toggleFavorite(elements.favoriteButton.dataset.id);
-  }
-});
-elements.favoriteList.addEventListener("click", (event) => {
-  const button = event.target.closest("[data-remove-favorite]");
-  if (button) toggleFavorite(button.dataset.removeFavorite);
-});
-
-setupFilters();
-render();
+}
