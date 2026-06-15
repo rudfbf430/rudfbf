@@ -91,6 +91,9 @@ function renderDetailPage() {
     `<a class="primary-button" href="https://map.naver.com/p/search/${encodeURIComponent(source ? source.city : crop.regions[0])}" target="_blank" rel="noreferrer">길찾기</a>`,
     `<a class="secondary-button" href="mailto:hello@example.com?subject=${encodeURIComponent(`${farmTitle} 구매 문의`)}">구매 문의</a>`,
     `<a class="secondary-button" href="tel:01000000000">전화 문의</a>`,
+    source?.osmUrl
+      ? `<a class="secondary-button" href="${source.osmUrl}" target="_blank" rel="noreferrer">OSM 원본</a>`
+      : "",
   ].join("");
   page.meta.innerHTML = `
     <dt>작물</dt>
