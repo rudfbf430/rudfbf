@@ -59,7 +59,7 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding: 16px clamp(18px, 4vw, 56px);
+  padding: 16px clamp(8px, 2vw, 28px) 16px clamp(8px, 1.4vw, 20px);
   border-bottom: 1px solid rgba(222, 216, 201, 0.9);
   background: rgba(248, 248, 244, 0.92);
   backdrop-filter: blur(16px);
@@ -257,7 +257,7 @@ a {
   align-items: center;
   min-height: 430px;
   justify-content: space-between;
-  padding: clamp(18px, 4vw, 52px) 0 clamp(18px, 3vw, 38px);
+  padding: clamp(38px, 5vw, 72px) 0 clamp(18px, 3vw, 38px);
 }
 
 .hero-title-only h1 {
