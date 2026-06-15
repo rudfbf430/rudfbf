@@ -150,6 +150,23 @@ a {
   color: var(--green-dark);
 }
 
+.main-location {
+  padding-top: 34px;
+}
+
+.main-location .section-heading {
+  align-items: flex-end;
+}
+
+.main-location h1 {
+  margin-bottom: 10px;
+  font-size: clamp(2.25rem, 5vw, 4.2rem);
+}
+
+.main-location .lead {
+  margin-bottom: 0;
+}
+
 .auth-widget {
   position: relative;
   flex: 0 0 auto;
@@ -226,7 +243,7 @@ a {
   grid-template-columns: minmax(0, 1fr) minmax(320px, 440px);
   gap: clamp(24px, 5vw, 64px);
   align-items: stretch;
-  padding: 42px clamp(18px, 4vw, 56px) 24px;
+  padding: 18px clamp(18px, 4vw, 56px) 24px;
 }
 
 .hero-copy {
@@ -980,6 +997,10 @@ pre {
   .section-heading {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .main-location .section-heading {
+    align-items: flex-start;
   }
 
   .auth-widget {
