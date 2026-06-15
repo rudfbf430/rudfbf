@@ -23,6 +23,7 @@
         <a href="#recommend">주변 추천</a>
         <a href="#finder">지역 찾기</a>
         <a href="#nearby">현재 위치</a>
+        <a href="#small-farms">작은 농장</a>
         <a href="#favorites">관심 작물</a>
         <a href="#data">데이터 구조</a>
       </nav>
@@ -32,11 +33,15 @@
       <section class="hero" id="recommend">
         <div class="hero-copy">
           <p class="eyebrow">Fresh horticulture guide</p>
-          <h1>내 주변에서 오늘 구하기 좋은 신선작물을 찾습니다.</h1>
+          <h1>내 주변 작은 농장의 제철 작물을 찾습니다.</h1>
           <p class="lead">
-            사는 지역을 고르면 가까운 산지와 로컬푸드 매장에서 만날 수 있는 제철 원예작물을 추천합니다.
-            소비자는 더 신선하게 고르고, 지역 농가는 가까운 소비자에게 더 잘 발견됩니다.
+            현재 위치나 지역을 기준으로 가까운 소규모 농장, 로컬푸드 매장, 제철 원예작물을 추천합니다.
           </p>
+          <div class="hero-points" aria-label="서비스 핵심 요약">
+            <span>소규모 농장 노출</span>
+            <span>현재 위치 추천</span>
+            <span>제철 신선도</span>
+          </div>
           <div class="hero-actions">
             <a class="primary-button" href="#finder">내 지역 선택하기</a>
             <button class="secondary-button" id="todayButton" type="button">오늘 주변 추천</button>
@@ -101,6 +106,20 @@
           위치 권한을 허용하면 현재 위치에서 가까운 로컬 농장과 제철 작물을 거리순으로 추천합니다.
         </p>
         <div class="nearby-list" id="nearbyList"></div>
+      </section>
+
+      <section class="section small-farm-section" id="small-farms">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Small farms</p>
+            <h2>작은 농장도 함께 발견하기</h2>
+          </div>
+          <p class="result-count" id="smallFarmCount">0곳</p>
+        </div>
+        <p class="section-note">
+          대형 산지뿐 아니라 직거래가 가능한 농가, 작목반, 체험형 소규모 농장도 함께 보여줍니다.
+        </p>
+        <div class="small-farm-list" id="smallFarmList"></div>
       </section>
 
       <section class="section calendar-section" aria-labelledby="calendarTitle">

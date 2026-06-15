@@ -261,6 +261,8 @@ const elements = {
   locationButton: document.querySelector("#locationButton"),
   locationStatus: document.querySelector("#locationStatus"),
   nearbyList: document.querySelector("#nearbyList"),
+  smallFarmCount: document.querySelector("#smallFarmCount"),
+  smallFarmList: document.querySelector("#smallFarmList"),
   resultCount: document.querySelector("#resultCount"),
   cropGrid: document.querySelector("#cropGrid"),
   detailImage: document.querySelector("#detailImage"),
@@ -326,6 +328,14 @@ function getLocalSource(crop, region = state.region) {
     return crop.localSources.find((source) => source.region === region) || crop.localSources[0];
   }
   return crop.localSources[0];
+}
+
+function getFarmScale(source) {
+  if (!source) return "소규모 농장";
+  if (source.farmName.includes("작목반")) return "소규모 작목반";
+  if (source.farmName.includes("농가")) return "소규모 농가";
+  if (source.farmName.includes("팜") || source.farmName.includes("농원")) return "체험형 작은 농장";
+  return "소규모 직거래 농장";
 }
 
 function getSourcePoint(source) {
@@ -414,6 +424,7 @@ function getFilteredCrops() {
           source.farmName,
           source.city,
           source.salesType,
+          getFarmScale(source),
         ]),
       ]
         .join(" ")
@@ -473,6 +484,7 @@ function renderCards(filteredCrops) {
             <span class="badge-row">
               <span class="badge gold">제철 ${seasonLabel(crop.seasonMonths)}</span>
               <span class="badge sky">${getLocalSource(crop)?.city || crop.regions[0]}</span>
+              <span class="badge">${getFarmScale(getLocalSource(crop))}</span>
             </span>
           </span>
         </button>
@@ -502,6 +514,8 @@ function renderDetail(filteredCrops) {
     <dd>${selected.regions.join(", ")}</dd>
     <dt>추천 농장</dt>
     <dd>${localSource ? `${localSource.farmName} (${localSource.city})` : "지역 정보 없음"}</dd>
+    <dt>농장 규모</dt>
+    <dd>${localSource ? getFarmScale(localSource) : "확인 필요"}</dd>
     <dt>구매 방식</dt>
     <dd>${localSource ? localSource.salesType : "확인 필요"}</dd>
     <dt>활용</dt>
@@ -576,6 +590,41 @@ function renderRegionalPicks() {
     : '<p class="empty">선택한 월에 추천할 지역별 제철 작물이 없습니다.</p>';
 }
 
+function renderSmallFarms() {
+  const farmItems = crops
+    .flatMap((crop) =>
+      (crop.localSources || []).map((source) => ({
+        crop,
+        source,
+        scale: getFarmScale(source),
+      })),
+    )
+    .filter((item) => item.crop.seasonMonths.includes(Number(state.month)))
+    .filter((item) => state.region === "all" || item.source.region === state.region)
+    .slice(0, 8);
+
+  elements.smallFarmCount.textContent = `${farmItems.length}곳`;
+
+  if (!farmItems.length) {
+    elements.smallFarmList.innerHTML =
+      '<p class="empty">선택한 조건에 맞는 작은 농장 후보가 없습니다. 지역이나 월을 바꿔보세요.</p>';
+    return;
+  }
+
+  elements.smallFarmList.innerHTML = farmItems
+    .map(
+      ({ crop, source, scale }) => `
+        <article class="small-farm-item">
+          <strong>${source.farmName}</strong>
+          <span>${source.city} · ${scale}</span>
+          <span>${crop.name} · 제철 ${seasonLabel(crop.seasonMonths)}</span>
+          <span>${source.salesType}</span>
+        </article>
+      `,
+    )
+    .join("");
+}
+
 function render() {
   const filteredCrops = getFilteredCrops();
   renderCalendar();
@@ -589,6 +638,7 @@ function render() {
   renderDetail(filteredCrops);
   renderFavorites();
   renderRegionalPicks();
+  renderSmallFarms();
 }
 
 function setMonth(month) {
@@ -621,7 +671,8 @@ function renderNearbySources(items) {
         <article class="nearby-item">
           <strong>${source.farmName}</strong>
           <span>${source.city} · 약 ${distance.toFixed(1)}km</span>
-          <span>${crop.name} · ${source.salesType}</span>
+          <span>${crop.name} · ${getFarmScale(source)}</span>
+          <span>${source.salesType}</span>
           <span>제철 ${seasonLabel(crop.seasonMonths)} · 신선도 ${freshnessScore(crop)}점</span>
         </article>
       `,
