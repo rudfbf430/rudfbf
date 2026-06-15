@@ -65,6 +65,73 @@ a {
   backdrop-filter: blur(16px);
 }
 
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.quick-menu {
+  position: relative;
+}
+
+.quick-menu summary {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-strong);
+  color: var(--green-dark);
+  padding: 0 12px;
+  font-weight: 900;
+  list-style: none;
+  cursor: pointer;
+}
+
+.quick-menu summary::-webkit-details-marker {
+  display: none;
+}
+
+.quick-menu summary::before {
+  margin-right: 7px;
+  content: "☰";
+  font-size: 0.95rem;
+}
+
+.quick-menu[open] summary {
+  border-color: var(--green);
+  box-shadow: 0 0 0 3px rgba(34, 105, 71, 0.12);
+}
+
+.quick-menu-panel {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  z-index: 40;
+  display: grid;
+  width: 190px;
+  gap: 4px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-strong);
+  box-shadow: var(--shadow);
+  padding: 8px;
+}
+
+.quick-menu-panel a {
+  border-radius: 8px;
+  color: var(--text);
+  padding: 10px 11px;
+  font-weight: 900;
+}
+
+.quick-menu-panel a:hover {
+  background: #edf5e6;
+  color: var(--green-dark);
+}
+
 .brand {
   color: var(--green-dark);
   font-size: 1.15rem;
@@ -742,6 +809,15 @@ pre {
   .nav {
     width: 100%;
     justify-content: space-between;
+  }
+
+  .header-left {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .quick-menu-panel {
+    width: min(78vw, 230px);
   }
 
   .hero {
