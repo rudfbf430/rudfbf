@@ -254,11 +254,14 @@ a {
 }
 
 .hero-title-only {
-  min-height: 420px;
+  min-height: 320px;
 }
 
 .hero-title-only h1 {
+  max-width: 760px;
   margin-bottom: 0;
+  font-size: clamp(2rem, 4vw, 3.55rem);
+  line-height: 1.12;
 }
 
 .eyebrow {
@@ -1044,7 +1047,15 @@ pre {
   }
 
   h1 {
-    font-size: clamp(2.2rem, 12vw, 3.6rem);
+    font-size: clamp(2.05rem, 10vw, 3.2rem);
+  }
+
+  .hero-title-only {
+    min-height: 230px;
+  }
+
+  .hero-title-only h1 {
+    font-size: clamp(1.95rem, 9vw, 2.75rem);
   }
 
   .today-meta,
