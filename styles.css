@@ -256,8 +256,8 @@ a {
 .hero-title-only {
   align-items: center;
   min-height: 430px;
-  justify-content: flex-start;
-  padding-top: 2px;
+  justify-content: center;
+  padding-top: 0;
 }
 
 .hero-title-only h1 {
@@ -272,7 +272,7 @@ a {
 .hero-search {
   width: 100%;
   max-width: 940px;
-  margin: 0 auto clamp(88px, 12vw, 156px);
+  margin: clamp(56px, 8vw, 96px) auto 0;
 }
 
 .eyebrow {
