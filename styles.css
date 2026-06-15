@@ -318,6 +318,69 @@ a {
   font-weight: 900;
 }
 
+.register-page {
+  padding: 118px clamp(18px, 4vw, 56px) 48px;
+}
+
+.register-hero {
+  max-width: 900px;
+  margin: 0 auto 26px;
+  text-align: center;
+}
+
+.register-hero h1 {
+  margin: 0 auto 14px;
+  font-size: clamp(2rem, 4vw, 4.2rem);
+  line-height: 1.08;
+}
+
+.register-hero p {
+  max-width: 680px;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+.register-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.78fr);
+  gap: 28px;
+}
+
+.register-list {
+  display: grid;
+  gap: 12px;
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.register-list li {
+  border-bottom: 1px solid rgba(31, 49, 38, 0.1);
+  padding: 0 0 12px;
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.register-contact {
+  border-left: 1px solid rgba(31, 49, 38, 0.12);
+  padding-left: 28px;
+}
+
+.register-contact p {
+  color: var(--muted);
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+.register-contact .primary-button,
+.register-contact .secondary-button {
+  width: 100%;
+  margin-top: 10px;
+}
+
 .eyebrow {
   margin: 0 0 10px;
   color: var(--green);
@@ -1077,7 +1140,8 @@ pre {
   .region-grid,
   .nearby-list,
   .small-farm-list,
-  .flow-grid {
+  .flow-grid,
+  .register-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1098,6 +1162,13 @@ pre {
 
   .hero-search {
     margin-bottom: 0;
+  }
+
+  .register-contact {
+    border-left: 0;
+    border-top: 1px solid rgba(31, 49, 38, 0.12);
+    padding-top: 24px;
+    padding-left: 0;
   }
 
   .hero-title-only h1 {

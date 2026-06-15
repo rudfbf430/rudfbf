@@ -17,7 +17,7 @@
 - 현재 위치 기반 가까운 농장 TOP 3 추천
 - 농장 목록 클릭 시 별도 상세 페이지로 이동
 - 작물별 가까운 산지, 추천 농장, 구매 방식 제공
-- 상세 페이지에서 길찾기, 구매 문의, 전화 문의 제공
+- 상세 페이지에서 네이버지도 길찾기 제공
 - 소규모 농가, 작목반, 체험형 작은 농장 별도 노출
 - 작은 농장 카드에서 상세 페이지 바로 이동
 - 농가 등록 문의 CTA
@@ -68,4 +68,11 @@
 - `real-farms.js`: OpenStreetMap에서 수집한 실제 농장·농산물 판매 지점 데이터
 - `detail.js`: 상세 페이지 렌더링 로직
 - `collect-osm-farms.mjs`: OpenStreetMap Overpass API 데이터 수집 스크립트
+- `collect-naver-farms.mjs`: 네이버 지역 검색 API 결과를 기존 농장 데이터에 병합하는 수집 스크립트
+
+네이버 지역 검색 데이터를 수집하려면 네이버 개발자센터에서 검색 API 권한을 켠 뒤 아래 환경변수를 설정하고 실행합니다.
+
+```powershell
+$env:NAVER_CLIENT_ID="발급받은_ID"; $env:NAVER_CLIENT_SECRET="발급받은_SECRET"; node collect-naver-farms.mjs
+```
 - `naver-auth.js`: 네이버 로그인 버튼, 인증 요청 URL, 로그인 상태 관리 로직

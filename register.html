@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="근처밭에 농장, 로컬푸드 매장, 체험 농장을 등록하기 위한 안내 페이지입니다."
+    />
+    <title>농장 등록 문의 | 근처밭</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&family=Noto+Sans+KR:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-left">
+        <a class="brand" href="./index.html" aria-label="근처밭">근처밭</a>
+      </div>
+      <nav class="nav" aria-label="등록 문의 메뉴">
+        <a href="./index.html#finder">농장 찾기</a>
+        <a href="./index.html#small-farms">작은 농장</a>
+        <a href="./index.html#nearby">주변 농장</a>
+      </nav>
+    </header>
+
+    <main class="register-page">
+      <section class="register-hero">
+        <p class="eyebrow">Farm registration</p>
+        <h1>우리 농장도 근처밭에 등록하세요.</h1>
+        <p>
+          농장명, 판매 작물, 지역, 판매 방식만 알려주시면 근처에서 제철 작물을 찾는 사람들에게
+          농장을 소개할 수 있습니다.
+        </p>
+      </section>
+
+      <section class="section register-grid">
+        <article>
+          <p class="eyebrow">필수 정보</p>
+          <h2>등록할 때 필요한 내용</h2>
+          <ul class="register-list">
+            <li>농장명 또는 로컬푸드 판매처명</li>
+            <li>주소 또는 네이버지도에서 확인되는 지역명</li>
+            <li>대표 작물과 제철 시기</li>
+            <li>직거래, 택배, 체험 수확 등 판매 방식</li>
+            <li>연락 가능한 전화번호 또는 문의 채널</li>
+          </ul>
+        </article>
+
+        <article class="register-contact">
+          <p class="eyebrow">Contact</p>
+          <h2>등록 문의하기</h2>
+          <p>
+            아래 버튼을 누르면 농장 등록 내용을 바로 작성할 수 있습니다. 메일 앱이 없는 경우에는
+            내용을 복사해서 학교 과제 제출용 설명에 활용해도 됩니다.
+          </p>
+          <a
+            class="primary-button"
+            href="mailto:hello@example.com?subject=근처밭 농장 등록 문의&body=농장명:%0D%0A주소:%0D%0A대표 작물:%0D%0A판매 방식:%0D%0A연락처:%0D%0A기타 설명:"
+          >
+            메일로 등록 문의
+          </a>
+          <a class="secondary-button" href="./index.html">홈으로 돌아가기</a>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

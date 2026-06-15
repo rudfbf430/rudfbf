@@ -791,6 +791,8 @@ function normalizeActualFarm(farm) {
     region: farm.region,
     farmName: farm.name,
     city: farm.city,
+    address: farm.address,
+    roadAddress: farm.roadAddress,
     salesType: `${farm.salesType} · ${farm.source}`,
     lat: farm.lat,
     lng: farm.lng,
@@ -954,12 +956,14 @@ const farmCityCenters = [
 
 function getFarmAddress(source) {
   if (!source) return "주소 정보 확인 필요";
+  if (source.roadAddress || source.address) return source.roadAddress || source.address;
   const location = getFarmDisplayLocation(source);
   return location || "주소 정보 확인 필요";
 }
 
 function getFarmSearchQuery(source) {
   if (!source) return "";
+  if (source.roadAddress || source.address) return source.roadAddress || source.address;
   const city = getFarmCity(source).replace(" 인근", "");
   return [farmRegionNames[source.region] || source.region, city].filter(Boolean).join(" ");
 }
