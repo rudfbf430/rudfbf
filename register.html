@@ -55,18 +55,57 @@
           <p class="eyebrow">Contact</p>
           <h2>등록 문의하기</h2>
           <p>
-            아래 버튼을 누르면 농장 등록 내용을 바로 작성할 수 있습니다. 메일 앱이 없는 경우에는
-            내용을 복사해서 학교 과제 제출용 설명에 활용해도 됩니다.
+            메일 앱을 열지 않고 이 화면에서 바로 등록 내용을 남길 수 있습니다. 제출한 내용은
+            브라우저에 임시 저장되어 등록 시스템 흐름을 확인할 수 있습니다.
           </p>
-          <a
-            class="primary-button"
-            href="mailto:hello@example.com?subject=근처밭 농장 등록 문의&body=농장명:%0D%0A주소:%0D%0A대표 작물:%0D%0A판매 방식:%0D%0A연락처:%0D%0A기타 설명:"
-          >
-            메일로 등록 문의
-          </a>
+          <form class="register-form" id="registerForm">
+            <label>
+              <span>농장명</span>
+              <input name="farmName" type="text" placeholder="예: 논산 햇살토마토농장" required />
+            </label>
+            <label>
+              <span>주소</span>
+              <input name="address" type="text" placeholder="예: 충청남도 논산시" required />
+            </label>
+            <label>
+              <span>대표 작물</span>
+              <input name="crops" type="text" placeholder="예: 토마토, 딸기" required />
+            </label>
+            <label>
+              <span>판매 방식</span>
+              <select name="salesType">
+                <option>직거래</option>
+                <option>택배</option>
+                <option>체험 수확</option>
+                <option>로컬푸드 매장</option>
+              </select>
+            </label>
+            <label>
+              <span>연락처</span>
+              <input name="contact" type="text" placeholder="전화번호 또는 오픈채팅" required />
+            </label>
+            <button class="primary-button" type="submit">등록 신청하기</button>
+          </form>
+          <div class="register-result" id="registerResult" hidden></div>
           <a class="secondary-button" href="./index.html">홈으로 돌아가기</a>
         </article>
       </section>
     </main>
+    <script>
+      const form = document.querySelector("#registerForm");
+      const result = document.querySelector("#registerResult");
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const data = Object.fromEntries(new FormData(form).entries());
+        localStorage.setItem("geuncheobatFarmRequest", JSON.stringify(data));
+        result.hidden = false;
+        result.innerHTML = `
+          <strong>등록 신청이 저장됐습니다.</strong>
+          <span>${data.farmName} · ${data.address} · ${data.crops}</span>
+        `;
+        form.reset();
+      });
+    </script>
   </body>
 </html>

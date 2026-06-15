@@ -100,7 +100,7 @@ function renderDetailPage() {
       ? `<a class="secondary-button" href="https://www.openstreetmap.org/?mlat=${source.lat}&mlon=${source.lng}#map=15/${source.lat}/${source.lng}" target="_blank" rel="noreferrer">좌표 지도</a>`
       : "",
     source?.osmUrl
-      ? `<a class="secondary-button" href="${source.osmUrl}" target="_blank" rel="noreferrer">OSM 원본</a>`
+      ? `<a class="secondary-button" href="${source.osmUrl}" target="_blank" rel="noreferrer">${source.osmUrl.includes("openstreetmap.org") ? "OSM 원본" : "농장 정보"}</a>`
       : "",
   ].join("");
   page.meta.innerHTML = `
