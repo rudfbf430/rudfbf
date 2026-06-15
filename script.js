@@ -787,6 +787,7 @@ const actualFarmSources = Array.isArray(window.realFarmSources) ? window.realFar
 
 function normalizeActualFarm(farm) {
   return {
+    sourceId: farm.id,
     region: farm.region,
     farmName: farm.name,
     city: farm.city,
@@ -901,8 +902,11 @@ function freshnessScore(crop, month = state.month) {
   return Math.max(72, Math.round(100 - distance * 12));
 }
 
-function getLocalSource(crop, region = state.region) {
+function getLocalSource(crop, region = state.region, sourceId = "") {
   if (!crop.localSources?.length) return null;
+  if (sourceId) {
+    return crop.localSources.find((source) => source.sourceId === sourceId) || crop.localSources[0];
+  }
   if (region !== "all") {
     return crop.localSources.find((source) => source.region === region) || crop.localSources[0];
   }
@@ -955,6 +959,14 @@ function getPriceInfo(crop) {
   };
 
   return specialPrices[crop.name] || priceByCategory[crop.category] || "가격 문의 필요";
+}
+
+function getFarmVisitInfo(crop, source) {
+  if (!source) return "방문 전 운영 여부와 재고를 확인하는 것이 좋습니다.";
+  const mapText = source.osmUrl
+    ? "OSM 원본 지도에서 위치를 확인할 수 있습니다."
+    : "지도 좌표를 기준으로 위치를 확인할 수 있습니다.";
+  return `${source.city} 일대의 ${crop.name} 후보 농장입니다. ${mapText} 직거래 가격은 시기와 수확량에 따라 달라질 수 있어 방문 전 문의를 권장합니다.`;
 }
 
 function distanceKm(from, to) {
@@ -1092,7 +1104,7 @@ function renderCards(filteredCrops) {
       (crop) => {
         const source = getLocalSource(crop);
         return `
-        <button class="crop-card ${crop.id === state.selectedId ? "active" : ""}" type="button" data-id="${crop.id}">
+        <button class="crop-card ${crop.id === state.selectedId ? "active" : ""}" type="button" data-id="${crop.id}" data-source-id="${source?.sourceId || ""}">
           <span class="crop-image" style="background-image: url('${crop.image}')"></span>
           <span class="crop-body">
             <span class="eyebrow">${source?.city || crop.regions[0]} · ${crop.category}</span>
@@ -1141,6 +1153,8 @@ function renderDetail(filteredCrops) {
     <dd>${localSource ? localSource.salesType : "확인 필요"}</dd>
     <dt>예상 판매가</dt>
     <dd>${getPriceInfo(selected)} <small>직거래 참고가</small></dd>
+    <dt>방문 안내</dt>
+    <dd>${getFarmVisitInfo(selected, localSource)}</dd>
     <dt>활용</dt>
     <dd>${selected.uses.join(", ")}</dd>
     <dt>신선도</dt>
@@ -1247,7 +1261,7 @@ function renderSmallFarms() {
   elements.smallFarmList.innerHTML = farmItems
     .map(
       ({ crop, source, scale }) => `
-        <a class="small-farm-item" href="./detail.html?id=${crop.id}&region=${source.region}&month=${state.month}">
+        <a class="small-farm-item" href="./detail.html?id=${crop.id}&region=${source.region}&source=${encodeURIComponent(source.sourceId || "")}&month=${state.month}">
           <strong>${source.farmName}</strong>
           <span>${source.city} · ${scale}</span>
           <span>${crop.name} · 제철 ${seasonLabel(crop.seasonMonths)}</span>
@@ -1302,13 +1316,15 @@ function renderNearbySources(items) {
   elements.nearbyList.innerHTML = items
     .map(
       ({ crop, source, distance }) => `
-        <article class="nearby-item">
+        <a class="nearby-item" href="./detail.html?id=${crop.id}&region=${source.region}&source=${encodeURIComponent(source.sourceId || "")}&month=${state.month}">
           <strong>${source.farmName}</strong>
           <span>${source.city} · 약 ${distance.toFixed(1)}km</span>
           <span>${crop.name} · ${getFarmScale(source)}</span>
           <span>${source.salesType}</span>
+          <span>${getFarmAddress(source)}</span>
+          <span>예상 판매가 ${getPriceInfo(crop)}</span>
           <span>제철 ${seasonLabel(crop.seasonMonths)} · 신선도 ${freshnessScore(crop)}점</span>
-        </article>
+        </a>
       `,
     )
     .join("");
@@ -1375,6 +1391,7 @@ window.localSeasonData = {
   getFarmScale,
   getFarmAddress,
   getPriceInfo,
+  getFarmVisitInfo,
 };
 
 if (elements.searchInput && elements.cropGrid) {
@@ -1415,6 +1432,7 @@ if (elements.searchInput && elements.cropGrid) {
       region: state.region,
       month: String(state.month),
     });
+    if (card.dataset.sourceId) params.set("source", card.dataset.sourceId);
     window.location.href = `detail.html?${params.toString()}`;
   });
 

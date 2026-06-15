@@ -2,6 +2,7 @@ const data = window.localSeasonData;
 const params = new URLSearchParams(window.location.search);
 const cropId = params.get("id");
 const selectedRegion = params.get("region") || "all";
+const selectedSourceId = params.get("source") || "";
 const selectedMonth = Number(params.get("month")) || new Date().getMonth() + 1;
 
 const page = {
@@ -61,7 +62,7 @@ function renderRelated(crop, source) {
   page.related.innerHTML = related
     .map(
       ({ crop: item, source: itemSource }) => `
-        <a class="small-farm-item" href="./detail.html?id=${item.id}&region=${itemSource.region}&month=${selectedMonth}">
+        <a class="small-farm-item" href="./detail.html?id=${item.id}&region=${itemSource.region}&source=${encodeURIComponent(itemSource.sourceId || "")}&month=${selectedMonth}">
           <strong>${itemSource.farmName}</strong>
           <span>${itemSource.city} · ${data.getFarmScale(itemSource)}</span>
           <span>${item.name} · 제철 ${data.seasonLabel(item.seasonMonths)}</span>
@@ -74,7 +75,7 @@ function renderRelated(crop, source) {
 
 function renderDetailPage() {
   const crop = data.crops.find((item) => item.id === cropId) || data.crops[0];
-  const source = data.getLocalSource(crop, selectedRegion);
+  const source = data.getLocalSource(crop, selectedRegion, selectedSourceId);
   const farmTitle = source ? source.farmName : crop.name;
 
   document.title = `${farmTitle} | 근처밭`;
@@ -89,6 +90,9 @@ function renderDetailPage() {
   ].join("");
   page.actions.innerHTML = [
     `<a class="primary-button" href="https://map.naver.com/p/search/${encodeURIComponent(source ? `${source.city} ${source.farmName}` : crop.regions[0])}" target="_blank" rel="noreferrer">길찾기</a>`,
+    source?.lat && source?.lng
+      ? `<a class="secondary-button" href="https://www.openstreetmap.org/?mlat=${source.lat}&mlon=${source.lng}#map=15/${source.lat}/${source.lng}" target="_blank" rel="noreferrer">좌표 지도</a>`
+      : "",
     `<a class="secondary-button" href="mailto:hello@example.com?subject=${encodeURIComponent(`${farmTitle} 구매 문의`)}">구매 문의</a>`,
     `<a class="secondary-button" href="tel:01000000000">전화 문의</a>`,
     source?.osmUrl
@@ -110,6 +114,10 @@ function renderDetailPage() {
     <dd>${source ? source.salesType : "확인 필요"}</dd>
     <dt>예상 판매가</dt>
     <dd>${data.getPriceInfo(crop)} <small>직거래 참고가</small></dd>
+    <dt>지도 데이터</dt>
+    <dd>${source?.sourceId || "OSM 객체 ID 확인 필요"}</dd>
+    <dt>방문 안내</dt>
+    <dd>${data.getFarmVisitInfo(crop, source)}</dd>
     <dt>활용</dt>
     <dd>${crop.uses.join(", ")}</dd>
   `;
