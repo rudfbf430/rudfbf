@@ -888,6 +888,7 @@ const state = {
 
 const NEARBY_RADIUS_KM = 100;
 const SEARCH_RADIUS_KM = 30;
+let searchPositionRequestId = 0;
 
 const elements = {
   todayButton: document.querySelector("#todayButton"),
@@ -1279,7 +1280,7 @@ function getSearchResultSources(crop) {
     return matchesKeyword && matchesRegion;
   });
 
-  if (keyword) return filteredSources.slice(0, 24);
+  if (keyword) return filteredSources;
   const source = getLocalSource(crop);
   return source ? [source] : [];
 }
@@ -1666,35 +1667,42 @@ function scrollToTodayRecommendation() {
 }
 
 function submitSearch() {
-  const scrollToResults = () => {
-    document.querySelector("#crop-list").scrollIntoView({ behavior: "smooth", block: "start" });
-  };
+  requestSearchPosition({ scroll: true });
+}
 
-  if (state.search.trim() && !state.currentPosition && navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(
-      (position) => {
-        state.currentPosition = {
-          lat: position.coords.latitude,
-          lng: position.coords.longitude,
-        };
-        render();
-        scrollToResults();
-      },
-      () => {
-        render();
-        scrollToResults();
-      },
-      {
-        enableHighAccuracy: false,
-        timeout: 8000,
-        maximumAge: 300000,
-      },
-    );
+function requestSearchPosition({ scroll = false } = {}) {
+  const keyword = state.search.trim();
+  if (!keyword || state.currentPosition || !navigator.geolocation) {
+    render();
+    if (scroll) document.querySelector("#crop-list").scrollIntoView({ behavior: "smooth", block: "start" });
     return;
   }
 
-  render();
-  scrollToResults();
+  const requestId = ++searchPositionRequestId;
+  elements.resultCount.textContent = "위치 확인중";
+  elements.cropGrid.innerHTML = '<p class="empty">현재 위치를 확인해서 가까운 농장부터 정렬하고 있습니다.</p>';
+
+  navigator.geolocation.getCurrentPosition(
+    (position) => {
+      if (requestId !== searchPositionRequestId) return;
+      state.currentPosition = {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude,
+      };
+      render();
+      if (scroll) document.querySelector("#crop-list").scrollIntoView({ behavior: "smooth", block: "start" });
+    },
+    () => {
+      if (requestId !== searchPositionRequestId) return;
+      render();
+      if (scroll) document.querySelector("#crop-list").scrollIntoView({ behavior: "smooth", block: "start" });
+    },
+    {
+      enableHighAccuracy: false,
+      timeout: 8000,
+      maximumAge: 300000,
+    },
+  );
 }
 
 function revealDeferredSection() {
@@ -1722,7 +1730,7 @@ window.localSeasonData = {
 if (elements.searchInput && elements.cropGrid) {
   elements.searchInput.addEventListener("input", (event) => {
     state.search = event.target.value;
-    render();
+    requestSearchPosition();
   });
   elements.searchInput.addEventListener("keydown", (event) => {
     if (event.key === "Enter") submitSearch();
