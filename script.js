@@ -1056,9 +1056,14 @@ function getFarmAddress(source) {
 
 function getFarmSearchQuery(source) {
   if (!source) return "";
-  if (source.roadAddress || source.address) return source.roadAddress || source.address;
+  const address = source.roadAddress || source.address || "";
   const city = getFarmCity(source).replace(" 인근", "");
-  return [farmRegionNames[source.region] || source.region, city].filter(Boolean).join(" ");
+  const location = address || [farmRegionNames[source.region] || source.region, city].filter(Boolean).join(" ");
+  const regionName = farmRegionNames[source.region] || source.region || "";
+  const farmName = source.farmName && !source.farmName.includes(location)
+    ? source.farmName.replace(regionName, "").trim()
+    : "";
+  return [location, farmName].filter(Boolean).join(" ");
 }
 
 function getFarmDisplayLocation(source) {
@@ -1100,7 +1105,7 @@ function getNaverDirectionsUrl(source) {
   if (source.lat && source.lng) {
     return `https://map.naver.com/p/directions/-/${source.lng},${source.lat},${encodeURIComponent(destination)},ADDRESS_POI/-/car`;
   }
-  return getNaverMapUrl(source);
+  return `https://map.naver.com/p/search/${encodeURIComponent(destination)}`;
 }
 
 function getPriceInfo(crop) {
