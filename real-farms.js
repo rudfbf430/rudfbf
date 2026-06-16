@@ -3463,28 +3463,6 @@ const realFarmSources = [
     "osmUrl": "https://www.openstreetmap.org/way/1299934741"
   },
   {
-    "id": "way/1205686952",
-    "name": "삼양대관령목장1단지",
-    "region": "강원",
-    "city": "강원권",
-    "lat": 37.732316,
-    "lng": 128.721177,
-    "salesType": "지도 등록 농장구역",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/1205686952"
-  },
-  {
-    "id": "way/1205674803",
-    "name": "삼양대관령목장2단지",
-    "region": "강원",
-    "city": "강원권",
-    "lat": 37.76358,
-    "lng": 128.696109,
-    "salesType": "지도 등록 농장구역",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/1205674803"
-  },
-  {
     "id": "way/1299909535",
     "name": "석정농장",
     "region": "강원",
@@ -3505,17 +3483,6 @@ const realFarmSources = [
     "salesType": "지도 등록 농장구역",
     "source": "OpenStreetMap",
     "osmUrl": "https://www.openstreetmap.org/way/475097832"
-  },
-  {
-    "id": "way/1309185845",
-    "name": "우전목장",
-    "region": "강원",
-    "city": "강원권",
-    "lat": 37.843545,
-    "lng": 127.485587,
-    "salesType": "지도 등록 농장구역",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/1309185845"
   },
   {
     "id": "way/538292361",
@@ -16498,28 +16465,6 @@ const realFarmSources = [
     "osmUrl": "https://www.openstreetmap.org/way/990892105"
   },
   {
-    "id": "way/1159595744",
-    "name": "돌우물목장",
-    "region": "경기",
-    "city": "수도권",
-    "lat": 37.674044,
-    "lng": 126.550255,
-    "salesType": "지도 등록 농장구역",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/1159595744"
-  },
-  {
-    "id": "way/1202327117",
-    "name": "매정목장",
-    "region": "경기",
-    "city": "수도권",
-    "lat": 37.664952,
-    "lng": 126.553707,
-    "salesType": "지도 등록 농장구역",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/1202327117"
-  },
-  {
     "id": "way/1441661211",
     "name": "베르아델 승마클럽",
     "region": "경기",
@@ -16575,28 +16520,6 @@ const realFarmSources = [
     "osmUrl": "https://www.openstreetmap.org/way/1188593542"
   },
   {
-    "id": "way/1204399330",
-    "name": "선정목장",
-    "region": "경기",
-    "city": "수도권",
-    "lat": 37.669477,
-    "lng": 126.585683,
-    "salesType": "지도 등록 농장구역",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/1204399330"
-  },
-  {
-    "id": "way/1159129396",
-    "name": "세자매목장",
-    "region": "경기",
-    "city": "수도권",
-    "lat": 37.682786,
-    "lng": 126.540915,
-    "salesType": "지도 등록 농장구역",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/1159129396"
-  },
-  {
     "id": "way/1208417454",
     "name": "수현농장",
     "region": "경기",
@@ -16617,17 +16540,6 @@ const realFarmSources = [
     "salesType": "지도 등록 농장구역",
     "source": "OpenStreetMap",
     "osmUrl": "https://www.openstreetmap.org/way/1198517107"
-  },
-  {
-    "id": "way/1205093144",
-    "name": "시암목장",
-    "region": "경기",
-    "city": "수도권",
-    "lat": 37.765132,
-    "lng": 126.647015,
-    "salesType": "지도 등록 농장구역",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/1205093144"
   },
   {
     "id": "way/678542207",
@@ -16674,28 +16586,6 @@ const realFarmSources = [
     "osmUrl": "https://www.openstreetmap.org/way/677219961"
   },
   {
-    "id": "way/1188940076",
-    "name": "연보람목장",
-    "region": "경기",
-    "city": "수도권",
-    "lat": 37.694275,
-    "lng": 126.615293,
-    "salesType": "지도 등록 농장구역",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/1188940076"
-  },
-  {
-    "id": "way/1204583434",
-    "name": "우응목장",
-    "region": "경기",
-    "city": "수도권",
-    "lat": 37.675501,
-    "lng": 126.585291,
-    "salesType": "지도 등록 농장구역",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/1204583434"
-  },
-  {
     "id": "way/471664027",
     "name": "인삼밭",
     "region": "경기",
@@ -16705,17 +16595,6 @@ const realFarmSources = [
     "salesType": "지도 등록 농장구역",
     "source": "OpenStreetMap",
     "osmUrl": "https://www.openstreetmap.org/way/471664027"
-  },
-  {
-    "id": "way/1150831417",
-    "name": "입지목장",
-    "region": "경기",
-    "city": "수도권",
-    "lat": 37.688527,
-    "lng": 126.543279,
-    "salesType": "지도 등록 농장구역",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/1150831417"
   },
   {
     "id": "way/1157232869",
@@ -16738,17 +16617,6 @@ const realFarmSources = [
     "salesType": "지도 등록 농장구역",
     "source": "OpenStreetMap",
     "osmUrl": "https://www.openstreetmap.org/way/1204785908"
-  },
-  {
-    "id": "way/1203372304",
-    "name": "청능목장",
-    "region": "경기",
-    "city": "수도권",
-    "lat": 37.687894,
-    "lng": 126.542438,
-    "salesType": "지도 등록 농장구역",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/1203372304"
   },
   {
     "id": "way/1155958996",
@@ -16804,28 +16672,6 @@ const realFarmSources = [
     "salesType": "지도 등록 농장구역",
     "source": "OpenStreetMap",
     "osmUrl": "https://www.openstreetmap.org/way/1216225602"
-  },
-  {
-    "id": "way/1204368127",
-    "name": "혜원목장",
-    "region": "경기",
-    "city": "수도권",
-    "lat": 37.665931,
-    "lng": 126.58493,
-    "salesType": "지도 등록 농장구역",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/1204368127"
-  },
-  {
-    "id": "way/1196308738",
-    "name": "황소목장",
-    "region": "경기",
-    "city": "수도권",
-    "lat": 37.644235,
-    "lng": 126.57112,
-    "salesType": "지도 등록 농장구역",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/1196308738"
   },
   {
     "id": "way/1195603958",
@@ -38796,17 +38642,6 @@ const realFarmSources = [
     "source": "OpenStreetMap",
     "osmUrl": "https://www.openstreetmap.org/way/508413791",
     "generatedName": true
-  },
-  {
-    "id": "way/469043247",
-    "name": "호서목장",
-    "region": "충남",
-    "city": "충남권",
-    "lat": 36.843472,
-    "lng": 126.753658,
-    "salesType": "지도 등록 농장구역",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/469043247"
   },
   {
     "id": "naver/b6eead45c4872a8f",
