@@ -1230,13 +1230,43 @@ function getFilteredCrops() {
         .toLowerCase();
 
       const matchesSearch = !keyword || haystack.includes(keyword);
-      const matchesRegion = state.region === "all" || crop.regions.includes(state.region);
+      const hasRegionSource = (crop.localSources || []).some((source) => source.region === state.region);
+      const matchesRegion = state.region === "all" || crop.regions.includes(state.region) || (keyword && hasRegionSource);
       const matchesCategory = state.category === "all" || crop.category === state.category;
-      const matchesMonth = crop.seasonMonths.includes(Number(state.month));
+      const matchesMonth = keyword ? true : crop.seasonMonths.includes(Number(state.month));
 
       return matchesSearch && matchesRegion && matchesCategory && matchesMonth;
     })
     .sort((a, b) => freshnessScore(b) - freshnessScore(a) || a.name.localeCompare(b.name, "ko"));
+}
+
+function getSearchResultSources(crop) {
+  const keyword = state.search.trim().toLowerCase();
+  const cropMatchesKeyword = keyword
+    ? [crop.name, crop.category, crop.description, ...crop.uses].join(" ").toLowerCase().includes(keyword)
+    : false;
+
+  const sources = crop.localSources || [];
+  const filteredSources = sources.filter((source) => {
+    const haystack = [
+      source.farmName,
+      source.city,
+      source.address,
+      source.roadAddress,
+      source.salesType,
+      getFarmAddress(source),
+      getFarmScale(source),
+    ]
+      .join(" ")
+      .toLowerCase();
+    const matchesKeyword = !keyword || cropMatchesKeyword || haystack.includes(keyword);
+    const matchesRegion = state.region === "all" || source.region === state.region;
+    return matchesKeyword && matchesRegion;
+  });
+
+  if (keyword) return filteredSources.slice(0, 24);
+  const source = getLocalSource(crop);
+  return source ? [source] : [];
 }
 
 function renderToday() {
@@ -1264,18 +1294,21 @@ function renderToday() {
 }
 
 function renderCards(filteredCrops) {
-  elements.resultCount.textContent = `${filteredCrops.length}개`;
+  const resultItems = filteredCrops.flatMap((crop) =>
+    getSearchResultSources(crop).map((source) => ({ crop, source })),
+  );
+  elements.resultCount.textContent = state.search.trim()
+    ? `${resultItems.length}곳`
+    : `${filteredCrops.length}개`;
 
-  if (!filteredCrops.length) {
-    elements.cropGrid.innerHTML = '<p class="empty">조건에 맞는 제철 작물이 없습니다. 월이나 필터를 바꿔보세요.</p>';
+  if (!resultItems.length) {
+    elements.cropGrid.innerHTML = '<p class="empty">조건에 맞는 농장이 없습니다. 작물명이나 지역 필터를 바꿔보세요.</p>';
     return;
   }
 
-  elements.cropGrid.innerHTML = filteredCrops
+  elements.cropGrid.innerHTML = resultItems
     .map(
-      (crop) => {
-        const source = getLocalSource(crop);
-        return `
+      ({ crop, source }) => `
         <button class="crop-card ${crop.id === state.selectedId ? "active" : ""}" type="button" data-id="${crop.id}" data-source-id="${source?.sourceId || ""}">
           <span class="crop-image" style="background-image: url('${crop.image}')"></span>
           <span class="crop-body">
@@ -1290,8 +1323,7 @@ function renderCards(filteredCrops) {
             <span class="farm-extra">${source ? getFarmAddress(source) : "주소 정보 확인 필요"}</span>
           </span>
         </button>
-      `;
-      },
+      `,
     )
     .join("");
 }
