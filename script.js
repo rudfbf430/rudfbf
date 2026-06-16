@@ -909,6 +909,8 @@ const elements = {
   nearbyList: document.querySelector("#nearbyList"),
   smallFarmCount: document.querySelector("#smallFarmCount"),
   smallFarmList: document.querySelector("#smallFarmList"),
+  gradeFarmCount: document.querySelector("#gradeFarmCount"),
+  farmGradeGrid: document.querySelector("#farmGradeGrid"),
   resultCount: document.querySelector("#resultCount"),
   cropGrid: document.querySelector("#cropGrid"),
   detailImage: document.querySelector("#detailImage"),
@@ -986,6 +988,33 @@ function getFarmScale(source) {
   if (source.farmName.includes("농가")) return "소규모 농가";
   if (source.farmName.includes("팜") || source.farmName.includes("농원")) return "체험형 작은 농장";
   return "소규모 직거래 농장";
+}
+
+function getFarmGrade(source) {
+  if (!source || source.generatedName) {
+    return {
+      key: "level1",
+      level: "1단계",
+      title: "등록 후보 농장",
+      description: "지도 구역 기반 임시 정보",
+    };
+  }
+
+  if (source.roadAddress || source.address || source.salesType?.includes("Naver Local Search")) {
+    return {
+      key: "level3",
+      level: "3단계",
+      title: "주소 확인 농장",
+      description: "주소 또는 네이버 지역 검색 연결",
+    };
+  }
+
+  return {
+    key: "level2",
+    level: "2단계",
+    title: "지도 확인 농장",
+    description: "지도 좌표와 원본 데이터 확인",
+  };
 }
 
 function getSourcePoint(source) {
@@ -1414,6 +1443,57 @@ function renderSmallFarms() {
     .join("");
 }
 
+function renderFarmGrades() {
+  const farms = crops.flatMap((crop) =>
+    (crop.localSources || []).map((source) => ({
+      crop,
+      source,
+      grade: getFarmGrade(source),
+    })),
+  );
+
+  const gradeGroups = [
+    { key: "level1", level: "1단계", title: "등록 후보 농장" },
+    { key: "level2", level: "2단계", title: "지도 확인 농장" },
+    { key: "level3", level: "3단계", title: "주소 확인 농장" },
+  ];
+
+  elements.gradeFarmCount.textContent = `${farms.length}곳`;
+  elements.farmGradeGrid.innerHTML = gradeGroups
+    .map((group) => {
+      const groupFarms = farms.filter((item) => item.grade.key === group.key);
+      const preview = groupFarms.slice(0, 36);
+
+      return `
+        <article class="farm-grade-column">
+          <div class="farm-grade-heading">
+            <span>${group.level}</span>
+            <strong>${group.title}</strong>
+            <small>${groupFarms.length}곳</small>
+          </div>
+          <div class="farm-grade-list">
+            ${
+              preview.length
+                ? preview
+                    .map(
+                      ({ crop, source, grade }) => `
+                        <a class="farm-grade-item" href="./detail.html?id=${crop.id}&region=${source.region}&source=${encodeURIComponent(source.sourceId || "")}&month=${state.month}">
+                          <strong>${source.farmName}</strong>
+                          <span>${crop.name} · ${getFarmAddress(source)}</span>
+                          <small>${grade.description}</small>
+                        </a>
+                      `,
+                    )
+                    .join("")
+                : '<p class="empty">해당 등급 농장이 없습니다.</p>'
+            }
+          </div>
+        </article>
+      `;
+    })
+    .join("");
+}
+
 function render() {
   const filteredCrops = getFilteredCrops();
   renderOverview();
@@ -1429,6 +1509,7 @@ function render() {
   renderFavorites();
   renderRegionalPicks();
   renderSmallFarms();
+  renderFarmGrades();
 }
 
 function setMonth(month) {
@@ -1534,6 +1615,7 @@ window.localSeasonData = {
   getFarmAddress,
   getNaverMapUrl,
   getNaverDirectionsUrl,
+  getFarmGrade,
   getPriceInfo,
   getFarmVisitInfo,
 };

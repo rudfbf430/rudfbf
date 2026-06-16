@@ -78,30 +78,6 @@ function renderRelated(crop, source) {
     .join("");
 }
 
-function getFarmGrade(source) {
-  if (!source || source.generatedName) {
-    return {
-      level: "1단계",
-      title: "등록 후보 농장",
-      description: "지도 구역 기반 임시 정보입니다. 이름과 상세 정보는 추후 보완이 필요합니다.",
-    };
-  }
-
-  if (source.roadAddress || source.address || source.salesType?.includes("Naver Local Search")) {
-    return {
-      level: "3단계",
-      title: "주소 확인 농장",
-      description: "네이버 지역 검색 또는 주소 정보가 연결된 농장입니다.",
-    };
-  }
-
-  return {
-    level: "2단계",
-    title: "지도 확인 농장",
-    description: "지도 좌표와 원본 데이터로 위치를 확인할 수 있는 농장입니다.",
-  };
-}
-
 function getCommentKey(crop, source) {
   return `farmComments:${source?.sourceId || crop.id}`;
 }
@@ -173,7 +149,7 @@ function renderDetailPage() {
   const crop = data.crops.find((item) => item.id === cropId) || data.crops[0];
   const source = data.getLocalSource(crop, selectedRegion, selectedSourceId);
   const farmTitle = source ? source.farmName : crop.name;
-  const grade = getFarmGrade(source);
+  const grade = data.getFarmGrade(source);
 
   document.title = `${farmTitle} | 근처밭`;
   page.image.style.backgroundImage = `url("${crop.image}")`;
