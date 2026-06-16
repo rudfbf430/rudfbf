@@ -887,6 +887,7 @@ const state = {
 };
 
 const NEARBY_RADIUS_KM = 100;
+const SEARCH_RADIUS_KM = 30;
 
 const elements = {
   todayButton: document.querySelector("#todayButton"),
@@ -1308,23 +1309,29 @@ function renderToday() {
 }
 
 function renderCards(filteredCrops) {
-  const resultItems = filteredCrops.flatMap((crop) =>
-    getSearchResultSources(crop).map((source) => ({ crop, source })),
-  ).sort((a, b) => {
-    if (!state.search.trim()) return 0;
-    const distanceSort = getResultDistance(a) - getResultDistance(b);
-    if (Number.isFinite(distanceSort) && distanceSort !== 0) return distanceSort;
-    return farmGradeRank(b.source) - farmGradeRank(a.source)
-      || freshnessScore(b.crop) - freshnessScore(a.crop)
-      || a.crop.name.localeCompare(b.crop.name, "ko")
-      || (a.source?.farmName || "").localeCompare(b.source?.farmName || "", "ko");
-  });
+  const hasLocationSearch = Boolean(state.search.trim() && state.currentPosition);
+  const resultItems = filteredCrops
+    .flatMap((crop) =>
+      getSearchResultSources(crop).map((source) => ({ crop, source })),
+    )
+    .filter((item) => !hasLocationSearch || getResultDistance(item) <= SEARCH_RADIUS_KM)
+    .sort((a, b) => {
+      if (!state.search.trim()) return 0;
+      const distanceSort = getResultDistance(a) - getResultDistance(b);
+      if (Number.isFinite(distanceSort) && distanceSort !== 0) return distanceSort;
+      return farmGradeRank(b.source) - farmGradeRank(a.source)
+        || freshnessScore(b.crop) - freshnessScore(a.crop)
+        || a.crop.name.localeCompare(b.crop.name, "ko")
+        || (a.source?.farmName || "").localeCompare(b.source?.farmName || "", "ko");
+    });
   elements.resultCount.textContent = state.search.trim()
     ? `${resultItems.length}곳`
     : `${filteredCrops.length}개`;
 
   if (!resultItems.length) {
-    elements.cropGrid.innerHTML = '<p class="empty">조건에 맞는 농장이 없습니다. 작물명이나 지역 필터를 바꿔보세요.</p>';
+    elements.cropGrid.innerHTML = hasLocationSearch
+      ? `<p class="empty">현재 위치 ${SEARCH_RADIUS_KM}km 안에 조건에 맞는 농장이 없습니다. 작물명이나 지역 필터를 바꿔보세요.</p>`
+      : '<p class="empty">조건에 맞는 농장이 없습니다. 작물명이나 지역 필터를 바꿔보세요.</p>';
     return;
   }
 
