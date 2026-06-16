@@ -885,6 +885,8 @@ const state = {
   favorites: loadFavorites(),
 };
 
+const NEARBY_RADIUS_KM = 100;
+
 const elements = {
   todayButton: document.querySelector("#todayButton"),
   todayDate: document.querySelector("#todayDate"),
@@ -1172,8 +1174,8 @@ function getNearbySources(position) {
       ...item,
       distance: distanceKm(position, item.point),
     }))
-    .filter((item) => item.distance <= 50)
-    .sort((a, b) => a.distance - b.distance)
+    .filter((item) => item.distance <= NEARBY_RADIUS_KM)
+    .sort((a, b) => a.distance - b.distance);
 }
 
 function getSeasonalCrops(month = state.month) {
@@ -1580,7 +1582,7 @@ function toggleFavorite(id) {
 function renderNearbySources(items) {
   if (!items.length) {
     elements.nearbyList.innerHTML =
-      '<p class="empty">선택한 월에 가까운 제철 농장 후보가 없습니다. 월을 바꿔 다시 확인해보세요.</p>';
+      `<p class="empty">현재 위치 ${NEARBY_RADIUS_KM}km 안에 표시할 농장 후보가 없습니다. 지역 필터나 검색어를 바꿔 확인해보세요.</p>`;
     return;
   }
 
@@ -1617,7 +1619,7 @@ function findNearMe() {
       };
       const nearby = getNearbySources(current);
       elements.locationStatus.textContent =
-        "현재 위치 기준 가까운 로컬 농장 후보를 거리순으로 정리했습니다.";
+        `현재 위치 기준 ${NEARBY_RADIUS_KM}km 안의 로컬 농장 후보를 가까운 순서로 정리했습니다.`;
       renderNearbySources(nearby);
     },
     () => {
