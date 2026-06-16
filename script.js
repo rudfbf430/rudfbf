@@ -1017,6 +1017,11 @@ function getFarmGrade(source) {
   };
 }
 
+function farmGradeRank(source) {
+  const grade = getFarmGrade(source);
+  return { level3: 3, level2: 2, level1: 1 }[grade.key] || 0;
+}
+
 function getSourcePoint(source) {
   if (source.lat && source.lng) return { lat: source.lat, lng: source.lng };
   return regionCoordinates[source.region] || null;
@@ -1162,13 +1167,13 @@ function getNearbySources(position) {
         point: getSourcePoint(source),
       })),
     )
-    .filter((item) => item.point && item.crop.seasonMonths.includes(Number(state.month)))
+    .filter((item) => item.point)
     .map((item) => ({
       ...item,
       distance: distanceKm(position, item.point),
     }))
+    .filter((item) => item.distance <= 50)
     .sort((a, b) => a.distance - b.distance)
-    .slice(0, 3);
 }
 
 function getSeasonalCrops(month = state.month) {
@@ -1296,7 +1301,13 @@ function renderToday() {
 function renderCards(filteredCrops) {
   const resultItems = filteredCrops.flatMap((crop) =>
     getSearchResultSources(crop).map((source) => ({ crop, source })),
-  );
+  ).sort((a, b) => {
+    if (!state.search.trim()) return 0;
+    return farmGradeRank(b.source) - farmGradeRank(a.source)
+      || freshnessScore(b.crop) - freshnessScore(a.crop)
+      || a.crop.name.localeCompare(b.crop.name, "ko")
+      || (a.source?.farmName || "").localeCompare(b.source?.farmName || "", "ko");
+  });
   elements.resultCount.textContent = state.search.trim()
     ? `${resultItems.length}곳`
     : `${filteredCrops.length}개`;
