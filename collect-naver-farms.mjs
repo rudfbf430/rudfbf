@@ -8,17 +8,49 @@ if (!clientId || !clientSecret) {
   throw new Error("NAVER_CLIENT_ID와 NAVER_CLIENT_SECRET 환경변수가 필요합니다.");
 }
 
+const queryDelayMs = Number(process.env.NAVER_QUERY_DELAY_MS || 80);
+const maxQueries = Number(process.env.NAVER_MAX_QUERIES || 24000);
+
 const regions = [
-  "경기", "강원", "충북", "충남", "전북", "전남", "경북", "경남", "제주", "부산",
-  "논산", "천안", "아산", "부여", "공주", "청주", "충주", "나주", "해남", "무안",
-  "고흥", "김천", "영천", "성주", "청송", "창원", "밀양", "남해", "평창", "홍천",
-  "서귀포", "제주 애월",
+  "서울", "부산", "대구", "인천", "광주", "대전", "울산", "세종",
+  "수원", "고양", "용인", "성남", "화성", "부천", "남양주", "안산", "평택", "안양", "시흥",
+  "파주", "김포", "의정부", "광주 경기", "하남", "광명", "군포", "양주", "오산", "이천",
+  "안성", "구리", "의왕", "포천", "양평", "여주", "동두천", "과천", "가평", "연천",
+  "춘천", "원주", "강릉", "동해", "태백", "속초", "삼척", "홍천", "횡성", "영월",
+  "평창", "정선", "철원", "화천", "양구", "인제", "고성 강원", "양양",
+  "청주", "충주", "제천", "보은", "옥천", "영동", "진천", "괴산", "음성", "단양", "증평",
+  "천안", "공주", "보령", "아산", "서산", "논산", "계룡", "당진", "금산", "부여",
+  "서천", "청양", "홍성", "예산", "태안",
+  "전주", "군산", "익산", "정읍", "남원", "김제", "완주", "진안", "무주", "장수",
+  "임실", "순창", "고창", "부안",
+  "목포", "여수", "순천", "나주", "광양", "담양", "곡성", "구례", "고흥", "보성",
+  "화순", "장흥", "강진", "해남", "영암", "무안", "함평", "영광", "장성", "완도",
+  "진도", "신안",
+  "포항", "경주", "김천", "안동", "구미", "영주", "영천", "상주", "문경", "경산",
+  "의성", "청송", "영양", "영덕", "청도", "고령", "성주", "칠곡", "예천", "봉화",
+  "울진", "울릉",
+  "창원", "진주", "통영", "사천", "김해", "밀양", "거제", "양산", "의령", "함안",
+  "창녕", "고성 경남", "남해", "하동", "산청", "함양", "거창", "합천",
+  "제주", "서귀포", "애월", "한림", "구좌", "조천", "성산", "표선", "남원 제주", "대정", "안덕",
+];
+
+const cropNames = [
+  "토마토", "오이", "멜론", "복숭아", "자두", "감자", "상추", "블루베리", "마늘", "양파",
+  "파프리카", "수박", "딸기", "사과", "배", "포도", "감귤", "귤", "단감", "고구마",
+  "시금치", "배추", "고추", "당근", "대파", "참외", "애호박", "가지", "무", "깻잎",
+  "부추", "브로콜리", "양배추", "아스파라거스", "체리", "키위", "대추", "쑥갓", "청경채",
+  "케일", "미나리", "연근", "우엉", "밤", "매실", "오미자", "유자", "무화과", "셀러리",
+];
+
+const baseFarmKeywords = [
+  "농장", "농원", "농가", "팜", "과수원", "작목반", "체험농장", "농산물 직거래",
 ];
 
 const farmKeywords = [
-  "농장", "농원", "농가", "팜", "체험농장", "로컬푸드", "농산물 직거래",
-  "딸기농장", "토마토농장", "사과농장", "포도농장", "감귤농장", "복숭아농장",
-  "블루베리농장", "멜론농장", "고구마농장", "감자농장", "마늘농가", "양파농가",
+  ...baseFarmKeywords,
+  ...cropNames.map((crop) => `${crop}농장`),
+  ...cropNames.map((crop) => `${crop}농원`),
+  ...cropNames.map((crop) => `${crop}체험`),
 ];
 
 const regionAliases = [
@@ -114,11 +146,15 @@ for (const farm of existingFarms) {
 
 let fetched = 0;
 let added = 0;
+let requested = 0;
+const totalQueries = regions.length * farmKeywords.length;
 
 for (const region of regions) {
   for (const keyword of farmKeywords) {
+    if (maxQueries && requested >= maxQueries) break;
     const query = `${region} ${keyword}`;
     try {
+      requested += 1;
       const items = await fetchLocal(query);
       fetched += items.length;
 
@@ -149,8 +185,12 @@ for (const region of regions) {
       }
       console.error(error.message);
     }
-    await sleep(120);
+    if (requested % 100 === 0) {
+      console.log(`progress: ${requested}/${maxQueries || totalQueries}, fetched ${fetched}, added ${added}`);
+    }
+    await sleep(queryDelayMs);
   }
+  if (maxQueries && requested >= maxQueries) break;
 }
 
 const farms = [...farmsByKey.values()].sort((a, b) =>
@@ -161,4 +201,5 @@ const output = `const realFarmSources = ${JSON.stringify(farms, null, 2)};\n\nwi
 await writeFile("real-farms.js", output, "utf8");
 console.log(`naver fetched: ${fetched}`);
 console.log(`naver added: ${added}`);
+console.log(`naver queries: ${requested}/${totalQueries}`);
 console.log(`saved real-farms.js: ${farms.length}`);

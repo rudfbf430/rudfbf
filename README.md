@@ -76,4 +76,10 @@
 ```powershell
 $env:NAVER_CLIENT_ID="발급받은_ID"; $env:NAVER_CLIENT_SECRET="발급받은_SECRET"; node collect-naver-farms.mjs
 ```
+
+전국 단위로 더 많은 후보를 모으기 위해 `collect-naver-farms.mjs`는 전국 주요 시군구와 작물별 농장/농원/체험 키워드를 조합해 검색합니다. 네이버 검색 API 하루 한도를 넘기지 않도록 기본 수집량은 24,000회로 제한되어 있으며, 필요하면 아래처럼 조절할 수 있습니다.
+
+```powershell
+$env:NAVER_MAX_QUERIES="5000"; $env:NAVER_QUERY_DELAY_MS="80"; node collect-naver-farms.mjs
+```
 - `naver-auth.js`: 네이버 로그인 버튼, 인증 요청 URL, 로그인 상태 관리 로직
