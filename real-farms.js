@@ -1,38 +1,5 @@
 const realFarmSources = [
   {
-    "id": "naver/2dbc98bd6a9589d7",
-    "name": "메디팜 임영약국",
-    "region": "강원",
-    "city": "강릉시",
-    "address": "강원특별자치도 강릉시 율곡로 2937",
-    "roadAddress": "강원특별자치도 강릉시 율곡로 2937",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B0%95%EB%A6%89%EC%8B%9C%20%EC%9C%A8%EA%B3%A1%EB%A1%9C%202937"
-  },
-  {
-    "id": "naver/3296d304eae31395",
-    "name": "산골짜기  농장",
-    "region": "강원",
-    "city": "강릉시",
-    "address": "강원특별자치도 강릉시 연곡면 진고개로 1397-13",
-    "roadAddress": "강원특별자치도 강릉시 연곡면 진고개로 1397-13",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/kjh294922"
-  },
-  {
-    "id": "naver/2caa9c58d5ab21c8",
-    "name": "수플베르",
-    "region": "강원",
-    "city": "강릉시",
-    "address": "강원특별자치도 강릉시 선수촌로63번길 26-5 1층 수플베르",
-    "roadAddress": "강원특별자치도 강릉시 선수촌로63번길 26-5 1층 수플베르",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/souplevert"
-  },
-  {
     "id": "naver/21cbbad2dd3c7535",
     "name": "이레사과농장",
     "region": "강원",
@@ -42,28 +9,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://www.instagram.com/7applefarm"
-  },
-  {
-    "id": "naver/ccfe6380ccc924d4",
-    "name": "풀냄새",
-    "region": "강원",
-    "city": "강릉시",
-    "address": "강원특별자치도 강릉시 강릉대로 195 1층",
-    "roadAddress": "강원특별자치도 강릉시 강릉대로 195 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.fullofscent.com/HOME"
-  },
-  {
-    "id": "way/1027121300",
-    "name": "감곡농협 농산물 산지유통센터",
-    "region": "강원",
-    "city": "강원권",
-    "lat": 37.118558,
-    "lng": 127.656943,
-    "salesType": "생산 품목: peach",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/1027121300"
   },
   {
     "id": "way/1138013130",
@@ -3595,17 +3540,6 @@ const realFarmSources = [
     "osmUrl": "https://www.yeogafarm.com"
   },
   {
-    "id": "naver/c87359cdd0ae0037",
-    "name": "하늬라벤더팜",
-    "region": "강원",
-    "city": "고성군",
-    "address": "강원특별자치도 고성군 간성읍 꽃대마을길 175",
-    "roadAddress": "강원특별자치도 고성군 간성읍 꽃대마을길 175",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://lavenderfarm.co.kr"
-  },
-  {
     "id": "naver/9d12f7693c462f6e",
     "name": "증산꿀고구마체험농장",
     "region": "강원",
@@ -3672,17 +3606,6 @@ const realFarmSources = [
     "osmUrl": "http://www.bkfarm.co.kr"
   },
   {
-    "id": "naver/58737f8964d83c65",
-    "name": "배꼽농장",
-    "region": "강원",
-    "city": "양구군",
-    "address": "강원특별자치도 양구군 국토정중앙면 창리 574-2",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.bkfarm.co.kt/"
-  },
-  {
     "id": "naver/347570dd66a1e219",
     "name": "쌍둥이사과농장",
     "region": "강원",
@@ -3692,17 +3615,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://blog.naver.com/lkwoo801"
-  },
-  {
-    "id": "naver/57f021c40200894e",
-    "name": "양양로컬푸드마켓 매일아홉시",
-    "region": "강원",
-    "city": "양양군",
-    "address": "강원특별자치도 양양군 양양읍 일출로 570",
-    "roadAddress": "강원특별자치도 양양군 양양읍 일출로 570",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%96%91%EC%96%91%EA%B5%B0%20%EC%96%91%EC%96%91%EC%9D%8D%20%EC%9D%BC%EC%B6%9C%EB%A1%9C%20570"
   },
   {
     "id": "way/584910255",
@@ -3716,17 +3628,6 @@ const realFarmSources = [
     "osmUrl": "https://www.openstreetmap.org/way/584910255"
   },
   {
-    "id": "naver/42013ca5ec2daeb6",
-    "name": "개척농장",
-    "region": "강원",
-    "city": "영월군",
-    "address": "강원특별자치도 영월군 무릉도원면 중방길 25",
-    "roadAddress": "강원특별자치도 영월군 무릉도원면 중방길 25",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.gaechuk.co.kr/"
-  },
-  {
     "id": "naver/d206f19d447dfd2a",
     "name": "부부포도농장",
     "region": "강원",
@@ -3738,50 +3639,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EA%B9%80%EC%82%BF%EA%B0%93%EB%A9%B4%20%EC%98%81%EC%9B%94%EB%8F%99%EB%A1%9C%201726-3"
   },
   {
-    "id": "naver/d1632c10615e193f",
-    "name": "솔치골농장",
-    "region": "강원",
-    "city": "영월군",
-    "address": "강원특별자치도 영월군 주천면 솔치로 296-7",
-    "roadAddress": "강원특별자치도 영월군 주천면 솔치로 296-7",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/mkjj25"
-  },
-  {
-    "id": "naver/78b3ab5ce10eb118",
-    "name": "영월성경산채체험농장",
-    "region": "강원",
-    "city": "영월군",
-    "address": "강원특별자치도 영월군 산솔면 태백산로 270-94",
-    "roadAddress": "강원특별자치도 영월군 산솔면 태백산로 270-94",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%98%81%EC%9B%94%EA%B5%B0%20%EC%82%B0%EC%86%94%EB%A9%B4%20%ED%83%9C%EB%B0%B1%EC%82%B0%EB%A1%9C%20270-94"
-  },
-  {
-    "id": "naver/6530e2c40a01c9d9",
-    "name": "해밀농장",
-    "region": "강원",
-    "city": "영월군",
-    "address": "강원특별자치도 영월군 주천면 금산길 80",
-    "roadAddress": "강원특별자치도 영월군 주천면 금산길 80",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/hamilfarm"
-  },
-  {
-    "id": "naver/c9c7eaa2297a96c6",
-    "name": "햇살좋은농장",
-    "region": "강원",
-    "city": "영월군",
-    "address": "강원특별자치도 영월군 무릉도원면 중방길 55-29 햇살좋은농장",
-    "roadAddress": "강원특별자치도 영월군 무릉도원면 중방길 55-29 햇살좋은농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/snowflowerp"
-  },
-  {
     "id": "naver/534ab5ca880a169d",
     "name": "가나안복숭아농장",
     "region": "강원",
@@ -3791,17 +3648,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%9B%90%EC%A3%BC%EC%8B%9C%20%ED%9D%A5%EC%97%85%EB%A9%B4%20%EB%8C%80%EC%95%88%EB%A1%9C%20878%20%EA%B0%80%EB%82%98%EC%95%88%20%EA%BF%80%EA%BF%80%EA%BF%80%20%EB%B3%B5%EC%88%AD%EC%95%84%20%EB%86%8D%EC%9E%A5"
-  },
-  {
-    "id": "naver/372ead48f6ba009d",
-    "name": "관설동화훼단지",
-    "region": "강원",
-    "city": "원주시",
-    "address": "강원특별자치도 원주시 치악로 1439",
-    "roadAddress": "강원특별자치도 원주시 치악로 1439",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%9B%90%EC%A3%BC%EC%8B%9C%20%EC%B9%98%EC%95%85%EB%A1%9C%201439"
   },
   {
     "id": "naver/646dd47a3f9fe749",
@@ -3848,17 +3694,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%9B%90%EC%A3%BC%EC%8B%9C%20%EB%B1%85%EC%9D%B4%EB%91%91%EA%B8%B8%2075"
   },
   {
-    "id": "naver/00de737299c846f9",
-    "name": "베이크팜",
-    "region": "강원",
-    "city": "원주시",
-    "address": "강원특별자치도 원주시 판부면 매봉길 16-8 1층",
-    "roadAddress": "강원특별자치도 원주시 판부면 매봉길 16-8 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/bakefarm_dessertshop"
-  },
-  {
     "id": "naver/d65797ffa7a9ac63",
     "name": "수암토마토농장",
     "region": "강원",
@@ -3892,17 +3727,6 @@ const realFarmSources = [
     "osmUrl": "https://www.instagram.com/oppa_ddalgi_official"
   },
   {
-    "id": "naver/764f9489c72dcf76",
-    "name": "채가원농장",
-    "region": "강원",
-    "city": "원주시",
-    "address": "강원특별자치도 원주시 신림면 솔치안길 5 1층",
-    "roadAddress": "강원특별자치도 원주시 신림면 솔치안길 5 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/kwdajimai"
-  },
-  {
     "id": "naver/114d6ebad9cceff2",
     "name": "치악산블루베리농장",
     "region": "강원",
@@ -3912,28 +3736,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%9B%90%EC%A3%BC%EC%8B%9C%20%EC%8B%A0%EB%A6%BC%EB%A9%B4%20%EB%AC%B4%EC%8B%9C%EC%A0%95%EA%B8%B8%2017"
-  },
-  {
-    "id": "naver/6e3e2682e378fe69",
-    "name": "황둔농장",
-    "region": "강원",
-    "city": "원주시",
-    "address": "강원특별자치도 원주시 신림면 신림황둔로 931",
-    "roadAddress": "강원특별자치도 원주시 신림면 신림황둔로 931",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/hwangdunfarm"
-  },
-  {
-    "id": "naver/13bbe7b41c5314e3",
-    "name": "하추리산촌마을",
-    "region": "강원",
-    "city": "인제군",
-    "address": "강원특별자치도 인제군 인제읍 하추로 187",
-    "roadAddress": "강원특별자치도 인제군 인제읍 하추로 187",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.hachuri.kr"
   },
   {
     "id": "naver/c9b3440eec809921",
@@ -3947,17 +3749,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%95%EC%84%A0%EA%B5%B0%20%EC%9E%84%EA%B3%84%EB%A9%B4%20%EB%8B%AC%ED%83%842%EA%B8%B8%2019-5"
   },
   {
-    "id": "naver/86a702d66982c85e",
-    "name": "산아래농가",
-    "region": "강원",
-    "city": "정선군",
-    "address": "강원특별자치도 정선군 정선읍 정선로 1370",
-    "roadAddress": "강원특별자치도 정선군 정선읍 정선로 1370",
-    "salesType": "네이버 지역검색 등록 판매처",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.snongga.com"
-  },
-  {
     "id": "naver/ec4898019ae725f3",
     "name": "씨없는포도농원",
     "region": "강원",
@@ -3967,28 +3758,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%95%EC%84%A0%EA%B5%B0%20%EB%B6%81%ED%8F%89%EB%A9%B4"
-  },
-  {
-    "id": "naver/7b6620e872f92e6e",
-    "name": "농가",
-    "region": "강원",
-    "city": "철원군",
-    "address": "강원특별자치도 철원군 갈말읍 호국로 4914-10 농가",
-    "roadAddress": "강원특별자치도 철원군 갈말읍 호국로 4914-10 농가",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%B2%A0%EC%9B%90%EA%B5%B0%20%EA%B0%88%EB%A7%90%EC%9D%8D%20%ED%98%B8%EA%B5%AD%EB%A1%9C%204914-10%20%EB%86%8D%EA%B0%80"
-  },
-  {
-    "id": "naver/eeac079eb8520663",
-    "name": "농가농원",
-    "region": "강원",
-    "city": "철원군",
-    "address": "강원특별자치도 철원군 갈말읍 호국로 4914-10",
-    "roadAddress": "강원특별자치도 철원군 갈말읍 호국로 4914-10",
-    "salesType": "네이버 지역검색 등록 판매처",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%B2%A0%EC%9B%90%EA%B5%B0%20%EA%B0%88%EB%A7%90%EC%9D%8D%20%ED%98%B8%EA%B5%AD%EB%A1%9C%204914-10"
   },
   {
     "id": "naver/2d551c88a5cbb633",
@@ -4013,17 +3782,6 @@ const realFarmSources = [
     "osmUrl": "https://youtu.be/mHEzOUBax2I?si=DyJxbYqE0ByqORSR"
   },
   {
-    "id": "naver/ef86124d99005bc4",
-    "name": "1004 치유 농장",
-    "region": "강원",
-    "city": "춘천시",
-    "address": "강원특별자치도 춘천시 신북읍 맥국길 77-11",
-    "roadAddress": "강원특별자치도 춘천시 신북읍 맥국길 77-11",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/mssm68"
-  },
-  {
     "id": "naver/b337da5b3e79c160",
     "name": "곰돌이토마토농장",
     "region": "강원",
@@ -4035,17 +3793,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%B6%98%EC%B2%9C%EC%8B%9C%20%EC%8B%A0%EB%B6%81%EC%9D%8D%20%EC%9C%A8%EB%AC%B8%EB%A6%AC%20831"
   },
   {
-    "id": "naver/769c5dfd66a1860a",
-    "name": "농가닭갈비",
-    "region": "강원",
-    "city": "춘천시",
-    "address": "강원특별자치도 춘천시 신북읍 신샘밭로 622-5",
-    "roadAddress": "강원특별자치도 춘천시 신북읍 신샘밭로 622-5",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%B6%98%EC%B2%9C%EC%8B%9C%20%EC%8B%A0%EB%B6%81%EC%9D%8D%20%EC%8B%A0%EC%83%98%EB%B0%AD%EB%A1%9C%20622-5"
-  },
-  {
     "id": "naver/cad22cdebec11fc0",
     "name": "다둥이아빠토마토농장",
     "region": "강원",
@@ -4055,28 +3802,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%B6%98%EC%B2%9C%EC%8B%9C%20%EB%8F%99%EB%82%B4%EB%A9%B4%20%ED%96%A5%EA%B5%B0%EA%B8%B8%2070"
-  },
-  {
-    "id": "naver/34d44ff2e793f34e",
-    "name": "땅두더지농장",
-    "region": "강원",
-    "city": "춘천시",
-    "address": "강원특별자치도 춘천시 사북면 춘화로 783",
-    "roadAddress": "강원특별자치도 춘천시 사북면 춘화로 783",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%B6%98%EC%B2%9C%EC%8B%9C%20%EC%82%AC%EB%B6%81%EB%A9%B4%20%EC%B6%98%ED%99%94%EB%A1%9C%20783"
-  },
-  {
-    "id": "naver/9a67654e7deca392",
-    "name": "맑은농가",
-    "region": "강원",
-    "city": "춘천시",
-    "address": "강원특별자치도 춘천시 동내면 학곡서3길 4 맑은농가",
-    "roadAddress": "강원특별자치도 춘천시 동내면 학곡서3길 4 맑은농가",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%B6%98%EC%B2%9C%EC%8B%9C%20%EB%8F%99%EB%82%B4%EB%A9%B4%20%ED%95%99%EA%B3%A1%EC%84%9C3%EA%B8%B8%204%20%EB%A7%91%EC%9D%80%EB%86%8D%EA%B0%80"
   },
   {
     "id": "naver/ef61c4b80da26267",
@@ -4101,72 +3826,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%B6%98%EC%B2%9C%EC%8B%9C%20%EC%84%9C%EB%A9%B4"
   },
   {
-    "id": "naver/9edc96c84b044551",
-    "name": "별하늘농장",
-    "region": "강원",
-    "city": "춘천시",
-    "address": "강원특별자치도 춘천시 서면 방동2길 10-15",
-    "roadAddress": "강원특별자치도 춘천시 서면 방동2길 10-15",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%B6%98%EC%B2%9C%EC%8B%9C%20%EC%84%9C%EB%A9%B4%20%EB%B0%A9%EB%8F%992%EA%B8%B8%2010-15"
-  },
-  {
-    "id": "naver/7d45579894fc6e92",
-    "name": "사레울 체험농장",
-    "region": "강원",
-    "city": "춘천시",
-    "address": "강원특별자치도 춘천시 서면 방동1길 100-100",
-    "roadAddress": "강원특별자치도 춘천시 서면 방동1길 100-100",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%B6%98%EC%B2%9C%EC%8B%9C%20%EC%84%9C%EB%A9%B4%20%EB%B0%A9%EB%8F%991%EA%B8%B8%20100-100"
-  },
-  {
-    "id": "naver/7f29797f8e713abf",
-    "name": "새주니골농장",
-    "region": "강원",
-    "city": "춘천시",
-    "address": "강원특별자치도 춘천시 동면 버들숲길 109-54",
-    "roadAddress": "강원특별자치도 춘천시 동면 버들숲길 109-54",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/pkj19"
-  },
-  {
-    "id": "naver/512a641c2c383a6a",
-    "name": "소양강농장",
-    "region": "강원",
-    "city": "춘천시",
-    "address": "강원특별자치도 춘천시 신북읍 지내고탄로 202-41",
-    "roadAddress": "강원특별자치도 춘천시 신북읍 지내고탄로 202-41",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.soyanggangtomato.cafe24.com/"
-  },
-  {
-    "id": "naver/eb3c5abab8414f32",
-    "name": "신바람농장",
-    "region": "강원",
-    "city": "춘천시",
-    "address": "강원특별자치도 춘천시 신북읍 용산리 382",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%B6%98%EC%B2%9C%EC%8B%9C%20%EC%8B%A0%EB%B6%81%EC%9D%8D%20%EC%9A%A9%EC%82%B0%EB%A6%AC%20382"
-  },
-  {
-    "id": "naver/a4efcfe42049d439",
-    "name": "신북농협 로컬푸드직매장",
-    "region": "강원",
-    "city": "춘천시",
-    "address": "강원특별자치도 춘천시 동면 춘천순환로 901",
-    "roadAddress": "강원특별자치도 춘천시 동면 춘천순환로 901",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%B6%98%EC%B2%9C%EC%8B%9C%20%EB%8F%99%EB%A9%B4%20%EC%B6%98%EC%B2%9C%EC%88%9C%ED%99%98%EB%A1%9C%20901"
-  },
-  {
     "id": "naver/d367c897d481bafe",
     "name": "여름복숭아농장",
     "region": "강원",
@@ -4176,17 +3835,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://blog.naver.com/gemma0"
-  },
-  {
-    "id": "naver/6f60845f559df82d",
-    "name": "유림농장",
-    "region": "강원",
-    "city": "춘천시",
-    "address": "강원특별자치도 춘천시 신북읍 맥국길 105",
-    "roadAddress": "강원특별자치도 춘천시 신북읍 맥국길 105",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/wjdal6786"
   },
   {
     "id": "naver/34828016ec866798",
@@ -4222,28 +3870,6 @@ const realFarmSources = [
     "osmUrl": "http://www.먹자고.com/mobile/deal/shop_url.html?shop_code=1496"
   },
   {
-    "id": "naver/6b7d950e4698ede9",
-    "name": "함누리농장",
-    "region": "강원",
-    "city": "춘천시",
-    "address": "강원특별자치도 춘천시 신북읍 장본2길 3",
-    "roadAddress": "강원특별자치도 춘천시 신북읍 장본2길 3",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/wodudgkz"
-  },
-  {
-    "id": "naver/04ac7fb796529e81",
-    "name": "해피초원목장",
-    "region": "강원",
-    "city": "춘천시",
-    "address": "강원특별자치도 춘천시 사북면 춘화로 330-48 해피초원목장",
-    "roadAddress": "강원특별자치도 춘천시 사북면 춘화로 330-48 해피초원목장",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://happy-chowon.co.kr"
-  },
-  {
     "id": "naver/d7eb72d7a7be27b0",
     "name": "헬로토마토 교육농장",
     "region": "강원",
@@ -4253,17 +3879,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 체험 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%B6%98%EC%B2%9C%EC%8B%9C%20%EC%8B%A0%EB%B6%81%EC%9D%8D%20%EB%AC%B8%EC%A0%953%EA%B8%B8%2011-28"
-  },
-  {
-    "id": "naver/44bd6acdc1d07541",
-    "name": "화인꽃농원",
-    "region": "강원",
-    "city": "춘천시",
-    "address": "강원특별자치도 춘천시 동면 도일길 34",
-    "roadAddress": "강원특별자치도 춘천시 동면 도일길 34",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/mpo5100"
   },
   {
     "id": "naver/9471e645b682adc9",
@@ -4286,105 +3901,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%8F%89%EC%B0%BD%EA%B5%B0%20%ED%8F%89%EC%B0%BD%EC%9D%8D%20%ED%8F%89%EC%B0%BD%EA%B0%95%EB%A1%9C%20166"
-  },
-  {
-    "id": "naver/5e32c2b1783b698b",
-    "name": "농가",
-    "region": "강원",
-    "city": "평창군",
-    "address": "강원특별자치도 평창군 대관령면 솔봉로 193-13 1층",
-    "roadAddress": "강원특별자치도 평창군 대관령면 솔봉로 193-13 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%8F%89%EC%B0%BD%EA%B5%B0%20%EB%8C%80%EA%B4%80%EB%A0%B9%EB%A9%B4%20%EC%86%94%EB%B4%89%EB%A1%9C%20193-13%201%EC%B8%B5"
-  },
-  {
-    "id": "naver/36dbb1a134dcbd17",
-    "name": "늘예솔 농장",
-    "region": "강원",
-    "city": "평창군",
-    "address": "강원특별자치도 평창군 방림면 서동로 1557-16 1557-34",
-    "roadAddress": "강원특별자치도 평창군 방림면 서동로 1557-16 1557-34",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/ctsjin"
-  },
-  {
-    "id": "naver/ad230d9d42e38e7e",
-    "name": "다원화원",
-    "region": "강원",
-    "city": "평창군",
-    "address": "강원특별자치도 평창군 평창읍 마지리 187-1",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%8F%89%EC%B0%BD%EA%B5%B0%20%ED%8F%89%EC%B0%BD%EC%9D%8D%20%EB%A7%88%EC%A7%80%EB%A6%AC%20187-1"
-  },
-  {
-    "id": "naver/ca0714692991c29a",
-    "name": "달오개농장",
-    "region": "강원",
-    "city": "평창군",
-    "address": "강원특별자치도 평창군 진부면 상월거문로 374-21 달오개농장",
-    "roadAddress": "강원특별자치도 평창군 진부면 상월거문로 374-21 달오개농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/tmdgmlclsrn7"
-  },
-  {
-    "id": "naver/5a4656e7cdb7f888",
-    "name": "대화농협로컬푸드직매장 평창4호점",
-    "region": "강원",
-    "city": "평창군",
-    "address": "강원특별자치도 평창군 대화면 대화1길 14 농협하나로마트",
-    "roadAddress": "강원특별자치도 평창군 대화면 대화1길 14 농협하나로마트",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%8F%89%EC%B0%BD%EA%B5%B0%20%EB%8C%80%ED%99%94%EB%A9%B4%20%EB%8C%80%ED%99%941%EA%B8%B8%2014%20%EB%86%8D%ED%98%91%ED%95%98%EB%82%98%EB%A1%9C%EB%A7%88%ED%8A%B8"
-  },
-  {
-    "id": "naver/876346f358c699b2",
-    "name": "별이네농장",
-    "region": "강원",
-    "city": "평창군",
-    "address": "강원특별자치도 평창군 평창읍 평창강로 190-16",
-    "roadAddress": "강원특별자치도 평창군 평창읍 평창강로 190-16",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%8F%89%EC%B0%BD%EA%B5%B0%20%ED%8F%89%EC%B0%BD%EC%9D%8D%20%ED%8F%89%EC%B0%BD%EA%B0%95%EB%A1%9C%20190-16"
-  },
-  {
-    "id": "naver/5fbd612b9679347c",
-    "name": "봄이네농장",
-    "region": "강원",
-    "city": "평창군",
-    "address": "강원특별자치도 평창군 미탄면 서동로 3820-28",
-    "roadAddress": "강원특별자치도 평창군 미탄면 서동로 3820-28",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%8F%89%EC%B0%BD%EA%B5%B0%20%EB%AF%B8%ED%83%84%EB%A9%B4%20%EC%84%9C%EB%8F%99%EB%A1%9C%203820-28"
-  },
-  {
-    "id": "naver/dbd85279d9d8d621",
-    "name": "비타리농장",
-    "region": "강원",
-    "city": "평창군",
-    "address": "강원특별자치도 평창군 대화면 평창대로 686",
-    "roadAddress": "강원특별자치도 평창군 대화면 평창대로 686",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%8F%89%EC%B0%BD%EA%B5%B0%20%EB%8C%80%ED%99%94%EB%A9%B4%20%ED%8F%89%EC%B0%BD%EB%8C%80%EB%A1%9C%20686"
-  },
-  {
-    "id": "naver/2a12c8bfc55e4583",
-    "name": "산너미목장",
-    "region": "강원",
-    "city": "평창군",
-    "address": "강원특별자치도 평창군 미탄면 산너미길 210 산너미목장",
-    "roadAddress": "강원특별자치도 평창군 미탄면 산너미길 210 산너미목장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/sanneomi.farm/"
   },
   {
     "id": "naver/1e2c10763c890b49",
@@ -4420,17 +3936,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%8F%89%EC%B0%BD%EA%B5%B0%20%EC%A7%84%EB%B6%80%EB%A9%B4%20%EC%8B%A0%EA%B8%B0%EB%B4%89%EC%82%B0%EB%A1%9C%20171"
   },
   {
-    "id": "naver/533816767b0bcf92",
-    "name": "육백마지기농장",
-    "region": "강원",
-    "city": "평창군",
-    "address": "강원특별자치도 평창군 미탄면 청옥산길 583-68",
-    "roadAddress": "강원특별자치도 평창군 미탄면 청옥산길 583-68",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%8F%89%EC%B0%BD%EA%B5%B0%20%EB%AF%B8%ED%83%84%EB%A9%B4%20%EC%B2%AD%EC%98%A5%EC%82%B0%EA%B8%B8%20583-68"
-  },
-  {
     "id": "naver/e7258cd8b5101b49",
     "name": "이슬사과농장",
     "region": "강원",
@@ -4440,39 +3945,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%8F%89%EC%B0%BD%EA%B5%B0%20%ED%8F%89%EC%B0%BD%EC%9D%8D%20%EC%A2%85%EB%B6%802%EA%B8%B8%2071"
-  },
-  {
-    "id": "naver/0b63b387bc5445c9",
-    "name": "최종수농가",
-    "region": "강원",
-    "city": "평창군",
-    "address": "강원특별자치도 평창군 봉평면 수림대길 200",
-    "roadAddress": "강원특별자치도 평창군 봉평면 수림대길 200",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.033-332-1075.kti114.net/"
-  },
-  {
-    "id": "naver/dbe204d6d1802152",
-    "name": "평창군 로컬푸드 직매장 1호점",
-    "region": "강원",
-    "city": "평창군",
-    "address": "강원특별자치도 평창군 용평면 탑거리길 63",
-    "roadAddress": "강원특별자치도 평창군 용평면 탑거리길 63",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.pcfood.kr/"
-  },
-  {
-    "id": "naver/06813107e037c718",
-    "name": "평창군 로컬푸드 직매장 2호점",
-    "region": "강원",
-    "city": "평창군",
-    "address": "강원특별자치도 평창군 대관령면 대관령로 81",
-    "roadAddress": "강원특별자치도 평창군 대관령면 대관령로 81",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://band.us/band/87997766"
   },
   {
     "id": "naver/a56e97857db304e1",
@@ -4497,83 +3969,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%8F%89%EC%B0%BD%EA%B5%B0%20%EB%B0%A9%EB%A6%BC%EB%A9%B4"
   },
   {
-    "id": "naver/246dd121421c4b40",
-    "name": "평창라벤다팜",
-    "region": "강원",
-    "city": "평창군",
-    "address": "강원특별자치도 평창군 진부면 두일길 279-16",
-    "roadAddress": "강원특별자치도 평창군 진부면 두일길 279-16",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/pclavender"
-  },
-  {
-    "id": "naver/17284160d874a8a8",
-    "name": "평창로컬푸드직매장 2호점",
-    "region": "강원",
-    "city": "평창군",
-    "address": "강원특별자치도 평창군 진부면 진부중앙로 27 진부농협중앙지점",
-    "roadAddress": "강원특별자치도 평창군 진부면 진부중앙로 27 진부농협중앙지점",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%8F%89%EC%B0%BD%EA%B5%B0%20%EC%A7%84%EB%B6%80%EB%A9%B4%20%EC%A7%84%EB%B6%80%EC%A4%91%EC%95%99%EB%A1%9C%2027%20%EC%A7%84%EB%B6%80%EB%86%8D%ED%98%91%EC%A4%91%EC%95%99%EC%A7%80%EC%A0%90"
-  },
-  {
-    "id": "naver/6642df2bcd6f2b5d",
-    "name": "평창보타닉가든",
-    "region": "강원",
-    "city": "평창군",
-    "address": "강원특별자치도 평창군 방림면 고원로 63 평창보타닉가든",
-    "roadAddress": "강원특별자치도 평창군 방림면 고원로 63 평창보타닉가든",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%8F%89%EC%B0%BD%EA%B5%B0%20%EB%B0%A9%EB%A6%BC%EB%A9%B4%20%EA%B3%A0%EC%9B%90%EB%A1%9C%2063%20%ED%8F%89%EC%B0%BD%EB%B3%B4%ED%83%80%EB%8B%89%EA%B0%80%EB%93%A0"
-  },
-  {
-    "id": "naver/8b2dd01e8bf9eafc",
-    "name": "평창팜",
-    "region": "강원",
-    "city": "평창군",
-    "address": "강원특별자치도 평창군 방림면 고원로 898-43",
-    "roadAddress": "강원특별자치도 평창군 방림면 고원로 898-43",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.pcfarm.kr"
-  },
-  {
-    "id": "naver/94e097f9d62737f1",
-    "name": "평창팜",
-    "region": "강원",
-    "city": "평창군",
-    "address": "강원특별자치도 평창군 평창읍 향교길 89",
-    "roadAddress": "강원특별자치도 평창군 평창읍 향교길 89",
-    "salesType": "네이버 지역검색 등록 판매처",
-    "source": "Naver Local Search",
-    "osmUrl": "http://smartstore.naver.com/pcfarm2"
-  },
-  {
-    "id": "naver/20a72b7658f4e608",
-    "name": "평창팜스토리",
-    "region": "강원",
-    "city": "평창군",
-    "address": "강원특별자치도 평창군 대화면 상안미옛길 136-48",
-    "roadAddress": "강원특별자치도 평창군 대화면 상안미옛길 136-48",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%8F%89%EC%B0%BD%EA%B5%B0%20%EB%8C%80%ED%99%94%EB%A9%B4%20%EC%83%81%EC%95%88%EB%AF%B8%EC%98%9B%EA%B8%B8%20136-48"
-  },
-  {
-    "id": "naver/9d7854297fad8db0",
-    "name": "허브나라농원",
-    "region": "강원",
-    "city": "평창군",
-    "address": "강원특별자치도 평창군 봉평면 흥정계곡길 225 허브나라농원",
-    "roadAddress": "강원특별자치도 평창군 봉평면 흥정계곡길 225 허브나라농원",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://herbnara.com"
-  },
-  {
     "id": "naver/9fac9704277a662f",
     "name": "흥주네사과농원",
     "region": "강원",
@@ -4583,50 +3978,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%8F%89%EC%B0%BD%EA%B5%B0%20%ED%8F%89%EC%B0%BD%EC%9D%8D"
-  },
-  {
-    "id": "naver/980f987a2325eee0",
-    "name": "곰바위농장",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 영귀미면 방량로 311-29",
-    "roadAddress": "강원특별자치도 홍천군 영귀미면 방량로 311-29",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/csshin04041"
-  },
-  {
-    "id": "naver/12d780297f63c1f6",
-    "name": "금무리농장",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 북방면 성동로 950-29",
-    "roadAddress": "강원특별자치도 홍천군 북방면 성동로 950-29",
-    "salesType": "네이버 지역검색 등록 판매처",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%99%8D%EC%B2%9C%EA%B5%B0%20%EB%B6%81%EB%B0%A9%EB%A9%B4%20%EC%84%B1%EB%8F%99%EB%A1%9C%20950-29"
-  },
-  {
-    "id": "naver/f69f48160733339b",
-    "name": "길벗사이더하우스",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 서석면 장수원로 75-51 길벗사이더하우스",
-    "roadAddress": "강원특별자치도 홍천군 서석면 장수원로 75-51 길벗사이더하우스",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/nongdang"
-  },
-  {
-    "id": "naver/59ce9d78920abcec",
-    "name": "너브내농장",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 남면 시동로 36-5 1층",
-    "roadAddress": "강원특별자치도 홍천군 남면 시동로 36-5 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://m.smartstore.naver.com/farm_farmer"
   },
   {
     "id": "naver/1283941b5f8faa9a",
@@ -4640,28 +3991,6 @@ const realFarmSources = [
     "osmUrl": "https://smartstore.naver.com/appleheart_"
   },
   {
-    "id": "naver/1781b36df428711f",
-    "name": "노후주택 헌집수리 농가한옥 개조보수 주택수리",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 홍천읍 너브내길 123",
-    "roadAddress": "강원특별자치도 홍천군 홍천읍 너브내길 123",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%99%8D%EC%B2%9C%EA%B5%B0%20%ED%99%8D%EC%B2%9C%EC%9D%8D%20%EB%84%88%EB%B8%8C%EB%82%B4%EA%B8%B8%20123"
-  },
-  {
-    "id": "naver/e2a1968de0f7a662",
-    "name": "달달 소리농장",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 남면 가작골길 138-7",
-    "roadAddress": "강원특별자치도 홍천군 남면 가작골길 138-7",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%99%8D%EC%B2%9C%EA%B5%B0%20%EB%82%A8%EB%A9%B4%20%EA%B0%80%EC%9E%91%EA%B3%A8%EA%B8%B8%20138-7"
-  },
-  {
     "id": "naver/358a3154e08e8366",
     "name": "대홍복숭아농원",
     "region": "강원",
@@ -4671,94 +4000,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%99%8D%EC%B2%9C%EA%B5%B0%20%EB%82%A8%EB%A9%B4%20%EB%82%A8%EB%85%B8%EC%9D%BC%EB%A1%9C%201047-14"
-  },
-  {
-    "id": "naver/e07ba12dc42b3326",
-    "name": "로컬푸드행복장터",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 화촌면 서울양양고속도로 83",
-    "roadAddress": "강원특별자치도 홍천군 화촌면 서울양양고속도로 83",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%99%8D%EC%B2%9C%EA%B5%B0%20%ED%99%94%EC%B4%8C%EB%A9%B4%20%EC%84%9C%EC%9A%B8%EC%96%91%EC%96%91%EA%B3%A0%EC%86%8D%EB%8F%84%EB%A1%9C%2083"
-  },
-  {
-    "id": "naver/718dc9d335a96051",
-    "name": "마을장터해뜨락",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 서석면 풍암장터2길 49-39 1층 서편호",
-    "roadAddress": "강원특별자치도 홍천군 서석면 풍암장터2길 49-39 1층 서편호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%99%8D%EC%B2%9C%EA%B5%B0%20%EC%84%9C%EC%84%9D%EB%A9%B4%20%ED%92%8D%EC%95%94%EC%9E%A5%ED%84%B02%EA%B8%B8%2049-39%201%EC%B8%B5%20%EC%84%9C%ED%8E%B8%ED%98%B8"
-  },
-  {
-    "id": "naver/83dd096614ed4529",
-    "name": "메디팜 조약국",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 홍천읍 석화로 4",
-    "roadAddress": "강원특별자치도 홍천군 홍천읍 석화로 4",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%99%8D%EC%B2%9C%EA%B5%B0%20%ED%99%8D%EC%B2%9C%EC%9D%8D%20%EC%84%9D%ED%99%94%EB%A1%9C%204"
-  },
-  {
-    "id": "naver/0088572f37dd9ab0",
-    "name": "명천농장",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 영귀미면 금계로 1507-14",
-    "roadAddress": "강원특별자치도 홍천군 영귀미면 금계로 1507-14",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/mcfarmkr"
-  },
-  {
-    "id": "naver/49bfd29f382d14c7",
-    "name": "모길농원",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 서면 동막리 243-1",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/komhi"
-  },
-  {
-    "id": "naver/27591f4c9d0772e6",
-    "name": "미르농장",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 홍천읍 와동로 63 미르농장",
-    "roadAddress": "강원특별자치도 홍천군 홍천읍 와동로 63 미르농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://open.kakao.com/o/s8v720sd"
-  },
-  {
-    "id": "naver/9df9cfa0dccbad11",
-    "name": "미키팜약국",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 홍천읍 홍천로 326 키즈메디빌딩",
-    "roadAddress": "강원특별자치도 홍천군 홍천읍 홍천로 326 키즈메디빌딩",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%99%8D%EC%B2%9C%EA%B5%B0%20%ED%99%8D%EC%B2%9C%EC%9D%8D%20%ED%99%8D%EC%B2%9C%EB%A1%9C%20326%20%ED%82%A4%EC%A6%88%EB%A9%94%EB%94%94%EB%B9%8C%EB%94%A9"
-  },
-  {
-    "id": "naver/ba3abddda2ea5750",
-    "name": "복골농장",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 화촌면 구룡령로 287-21 복골농장",
-    "roadAddress": "강원특별자치도 홍천군 화촌면 구룡령로 287-21 복골농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://m.smartstore.naver.com/episode570"
   },
   {
     "id": "naver/4aa9090d9a05afe4",
@@ -4794,17 +4035,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%99%8D%EC%B2%9C%EA%B5%B0%20%EB%82%B4%EC%B4%8C%EB%A9%B4%20%EB%AC%BC%EA%B1%B8%EB%A6%AC%20544"
   },
   {
-    "id": "naver/614dea26cf2b43d8",
-    "name": "소현이네농장",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 내면",
-    "roadAddress": "강원특별자치도 홍천군 내면",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%99%8D%EC%B2%9C%EA%B5%B0%20%EB%82%B4%EB%A9%B4"
-  },
-  {
     "id": "naver/f733f6629db713f5",
     "name": "수림포도교육농장",
     "region": "강원",
@@ -4827,39 +4057,6 @@ const realFarmSources = [
     "osmUrl": "http://www.먹자고.com/mobile/deal/shop_url.html?shop_code=1710"
   },
   {
-    "id": "naver/5a582150970eeaaf",
-    "name": "실링베리스마트팜",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 남면 신대로 289-32",
-    "roadAddress": "강원특별자치도 홍천군 남면 신대로 289-32",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://sealingberry.netlify.app"
-  },
-  {
-    "id": "naver/9dc67887cc1f6a6a",
-    "name": "아리 주말농장",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 서면 한서로 1468-71",
-    "roadAddress": "강원특별자치도 홍천군 서면 한서로 1468-71",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.ariji.kr/"
-  },
-  {
-    "id": "naver/d8a500f27bd84240",
-    "name": "플라팜 팩토리",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 홍천읍 와동로 300 플라팜팩토리",
-    "roadAddress": "강원특별자치도 홍천군 홍천읍 와동로 300 플라팜팩토리",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://plafarmmall.com"
-  },
-  {
     "id": "naver/7019113227437f9a",
     "name": "홍천강블루베리체험농장",
     "region": "강원",
@@ -4869,28 +4066,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%99%8D%EC%B2%9C%EA%B5%B0%20%EC%84%9C%EB%A9%B4%20%EB%B0%98%EA%B3%A1%EB%A6%AC%20226-1"
-  },
-  {
-    "id": "naver/53a78a1d209b6c8c",
-    "name": "홍천동키마을",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 화촌면 구룡령로 170 홍천동키마을",
-    "roadAddress": "강원특별자치도 홍천군 화촌면 구룡령로 170 홍천동키마을",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/sampo1754"
-  },
-  {
-    "id": "naver/c8fdf3e0da40d67c",
-    "name": "홍천로컬푸드센터",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 홍천읍 너브내길 119 홍천로컬푸드센터 1층",
-    "roadAddress": "강원특별자치도 홍천군 홍천읍 너브내길 119 홍천로컬푸드센터 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%99%8D%EC%B2%9C%EA%B5%B0%20%ED%99%8D%EC%B2%9C%EC%9D%8D%20%EB%84%88%EB%B8%8C%EB%82%B4%EA%B8%B8%20119%20%ED%99%8D%EC%B2%9C%EB%A1%9C%EC%BB%AC%ED%91%B8%EB%93%9C%EC%84%BC%ED%84%B0%201%EC%B8%B5"
   },
   {
     "id": "naver/f6638c2cb0e3cdcd",
@@ -4915,28 +4090,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%99%8D%EC%B2%9C%EA%B5%B0%20%EB%82%A8%EB%A9%B4"
   },
   {
-    "id": "naver/8821db9418af4d1c",
-    "name": "화촌농협 로컬푸드 행복장터",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 화촌면 서울양양고속도로 84",
-    "roadAddress": "강원특별자치도 홍천군 화촌면 서울양양고속도로 84",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%99%8D%EC%B2%9C%EA%B5%B0%20%ED%99%94%EC%B4%8C%EB%A9%B4%20%EC%84%9C%EC%9A%B8%EC%96%91%EC%96%91%EA%B3%A0%EC%86%8D%EB%8F%84%EB%A1%9C%2084"
-  },
-  {
-    "id": "naver/3178cec008e65bb5",
-    "name": "히포크라테스 농장",
-    "region": "강원",
-    "city": "홍천군",
-    "address": "강원특별자치도 홍천군 서석면 마리소리길 409",
-    "roadAddress": "강원특별자치도 홍천군 서석면 마리소리길 409",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%99%8D%EC%B2%9C%EA%B5%B0%20%EC%84%9C%EC%84%9D%EB%A9%B4%20%EB%A7%88%EB%A6%AC%EC%86%8C%EB%A6%AC%EA%B8%B8%20409"
-  },
-  {
     "id": "naver/250ba595eaf0e188",
     "name": "달코매토마토농장",
     "region": "강원",
@@ -4946,17 +4099,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%99%94%EC%B2%9C%EA%B5%B0%20%EC%82%AC%EB%82%B4%EB%A9%B4%20%ED%8F%AC%ED%99%94%EB%A1%9C%20835"
-  },
-  {
-    "id": "naver/2a78912a5b333974",
-    "name": "은혜농장",
-    "region": "강원",
-    "city": "화천군",
-    "address": "강원특별자치도 화천군 상서면 토고미길 9",
-    "roadAddress": "강원특별자치도 화천군 상서면 토고미길 9",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.eunhyefarm.net/"
   },
   {
     "id": "way/1366980087",
@@ -5007,72 +4149,6 @@ const realFarmSources = [
     "generatedName": true
   },
   {
-    "id": "naver/cf82aef812173478",
-    "name": "횡성군농업발전농산물직거래및마케팅분과위원회",
-    "region": "강원",
-    "city": "횡성군",
-    "address": "강원특별자치도 횡성군 횡성읍 읍상로 42",
-    "roadAddress": "강원특별자치도 횡성군 횡성읍 읍상로 42",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%ED%9A%A1%EC%84%B1%EA%B5%B0%20%ED%9A%A1%EC%84%B1%EC%9D%8D%20%EC%9D%8D%EC%83%81%EB%A1%9C%2042"
-  },
-  {
-    "id": "naver/e26476ec16361d78",
-    "name": "횡성군농특산물직거래센터",
-    "region": "강원",
-    "city": "횡성군",
-    "address": "강원특별자치도 횡성군 횡성읍 읍상로 42 1층",
-    "roadAddress": "강원특별자치도 횡성군 횡성읍 읍상로 42 1층",
-    "salesType": "네이버 지역검색 등록 판매처",
-    "source": "Naver Local Search",
-    "osmUrl": "http://asamae.com/"
-  },
-  {
-    "id": "node/13724422663",
-    "name": "돌밭포도",
-    "region": "경기",
-    "city": "가평군",
-    "lat": 37.822876,
-    "lng": 127.290108,
-    "salesType": "농산물 직매장",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/node/13724422663"
-  },
-  {
-    "id": "naver/bf571403d9bced5d",
-    "name": "미스터허브식물공방",
-    "region": "경기",
-    "city": "고양시",
-    "address": "경기도 고양시 덕양구 충장로350번길 126 미스터허브 식물공방",
-    "roadAddress": "경기도 고양시 덕양구 충장로350번길 126 미스터허브 식물공방",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/park860921"
-  },
-  {
-    "id": "naver/9446397a9508b13d",
-    "name": "원두막주말농장",
-    "region": "경기",
-    "city": "고양시",
-    "address": "경기도 고양시 덕양구 북한산로 473-7",
-    "roadAddress": "경기도 고양시 덕양구 북한산로 473-7",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.wondoomak.com/"
-  },
-  {
-    "id": "naver/b905f2f5b7cf33ce",
-    "name": "한국화훼농협 케이플라워 대화점",
-    "region": "경기",
-    "city": "고양시",
-    "address": "경기도 고양시 일산서구 대화로 362 한국화훼농협 케이플라워마트 대화점",
-    "roadAddress": "경기도 고양시 일산서구 대화로 362 한국화훼농협 케이플라워마트 대화점",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/kflowerekflower"
-  },
-  {
     "id": "naver/5e4d98c858535a45",
     "name": "나래토마토농장",
     "region": "경기",
@@ -5093,17 +4169,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EA%B4%91%EC%A3%BC%EC%8B%9C%20%EC%B4%88%EC%9B%94%EC%9D%8D%20%EB%AC%B4%EA%B0%91%EB%A6%AC%20870"
-  },
-  {
-    "id": "naver/3831d5cca0632460",
-    "name": "오전리농산물직거래장터",
-    "region": "경기",
-    "city": "광주시",
-    "address": "경기도 광주시 남한산성면 남한산성로 227-18",
-    "roadAddress": "경기도 광주시 남한산성면 남한산성로 227-18",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EA%B4%91%EC%A3%BC%EC%8B%9C%20%EB%82%A8%ED%95%9C%EC%82%B0%EC%84%B1%EB%A9%B4%20%EB%82%A8%ED%95%9C%EC%82%B0%EC%84%B1%EB%A1%9C%20227-18"
   },
   {
     "id": "naver/1c3ea810ac2f91a2",
@@ -5128,28 +4193,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EA%B4%91%EC%A3%BC%EC%8B%9C%20%ED%87%B4%EC%B4%8C%EB%A9%B4"
   },
   {
-    "id": "naver/b4f42779f2c02e72",
-    "name": "김포고촌농협 로컬푸드직매장 장곡점",
-    "region": "경기",
-    "city": "김포시",
-    "address": "경기도 김포시 고촌읍 장곡로3번길 28 1층",
-    "roadAddress": "경기도 김포시 고촌읍 장곡로3번길 28 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://gochon.nonghyup.com/"
-  },
-  {
-    "id": "naver/4751d17872200200",
-    "name": "이학농가함흥냉면 김포점",
-    "region": "경기",
-    "city": "김포시",
-    "address": "경기도 김포시 양촌읍 석모로 17",
-    "roadAddress": "경기도 김포시 양촌읍 석모로 17",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EA%B9%80%ED%8F%AC%EC%8B%9C%20%EC%96%91%EC%B4%8C%EC%9D%8D%20%EC%84%9D%EB%AA%A8%EB%A1%9C%2017"
-  },
-  {
     "id": "way/1051788122",
     "name": "한강농장",
     "region": "경기",
@@ -5170,39 +4213,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://www.instagram.com/starvillagefarm"
-  },
-  {
-    "id": "naver/fbfad400f80c41ee",
-    "name": "오프투팜",
-    "region": "경기",
-    "city": "남양주시",
-    "address": "경기도 남양주시 오남읍 진건오남로 714-9",
-    "roadAddress": "경기도 남양주시 오남읍 진건오남로 714-9",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EB%82%A8%EC%96%91%EC%A3%BC%EC%8B%9C%20%EC%98%A4%EB%82%A8%EC%9D%8D%20%EC%A7%84%EA%B1%B4%EC%98%A4%EB%82%A8%EB%A1%9C%20714-9"
-  },
-  {
-    "id": "way/858769147",
-    "name": "진접농협로컬푸드직매장",
-    "region": "경기",
-    "city": "남양주시",
-    "lat": 37.709717,
-    "lng": 127.185041,
-    "salesType": "농산물 직매장",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/858769147"
-  },
-  {
-    "id": "naver/d25258a9a41715f9",
-    "name": "가자크린팜대학약국",
-    "region": "경기",
-    "city": "성남시",
-    "address": "경기도 성남시 분당구 금곡로 233 상가1층 약국",
-    "roadAddress": "경기도 성남시 분당구 금곡로 233 상가1층 약국",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%EA%B8%88%EA%B3%A1%EB%A1%9C%20233%20%EC%83%81%EA%B0%801%EC%B8%B5%20%EC%95%BD%EA%B5%AD"
   },
   {
     "id": "way/678382508",
@@ -17444,17 +16454,6 @@ const realFarmSources = [
     "generatedName": true
   },
   {
-    "id": "node/4670542928",
-    "name": "고양낙농치즈체험장",
-    "region": "경기",
-    "city": "수도권",
-    "lat": 37.697206,
-    "lng": 126.853333,
-    "salesType": "농산물 직매장",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/node/4670542928"
-  },
-  {
     "id": "way/1204399342",
     "name": "길농장",
     "region": "경기",
@@ -17519,17 +16518,6 @@ const realFarmSources = [
     "salesType": "지도 등록 농장구역",
     "source": "OpenStreetMap",
     "osmUrl": "https://www.openstreetmap.org/way/1202327117"
-  },
-  {
-    "id": "way/293855280",
-    "name": "먹골배직판장",
-    "region": "경기",
-    "city": "수도권",
-    "lat": 37.695475,
-    "lng": 127.127723,
-    "salesType": "농산물 직매장",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/293855280"
   },
   {
     "id": "way/1441661211",
@@ -17675,17 +16663,6 @@ const realFarmSources = [
     "osmUrl": "https://www.openstreetmap.org/way/1204399318"
   },
   {
-    "id": "node/10581853492",
-    "name": "양곡식품",
-    "region": "경기",
-    "city": "수도권",
-    "lat": 37.655114,
-    "lng": 126.623515,
-    "salesType": "농산물 직매장",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/node/10581853492"
-  },
-  {
     "id": "way/677219961",
     "name": "양주축협",
     "region": "경기",
@@ -17717,17 +16694,6 @@ const realFarmSources = [
     "salesType": "지도 등록 농장구역",
     "source": "OpenStreetMap",
     "osmUrl": "https://www.openstreetmap.org/way/1204583434"
-  },
-  {
-    "id": "way/1027121307",
-    "name": "음성농협 농산물 산지유통센터",
-    "region": "경기",
-    "city": "수도권",
-    "lat": 36.918951,
-    "lng": 127.68842,
-    "salesType": "생산 품목: peach;apple;watermelon",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/1027121307"
   },
   {
     "id": "way/471664027",
@@ -17862,17 +16828,6 @@ const realFarmSources = [
     "osmUrl": "https://www.openstreetmap.org/way/1196308738"
   },
   {
-    "id": "node/4423671953",
-    "name": "Azota Farm",
-    "region": "경기",
-    "city": "수도권",
-    "lat": 37.518004,
-    "lng": 127.293374,
-    "salesType": "농산물 직매장",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/node/4423671953"
-  },
-  {
     "id": "way/1195603958",
     "name": "OK농장",
     "region": "경기",
@@ -17884,17 +16839,6 @@ const realFarmSources = [
     "osmUrl": "https://www.openstreetmap.org/way/1195603958"
   },
   {
-    "id": "naver/a3737eb92ec0f482",
-    "name": "림피딧",
-    "region": "경기",
-    "city": "수원시",
-    "address": "경기도 수원시 장안구 팔달로292번길 17 퀸즈하임 A동 1층 101호",
-    "roadAddress": "경기도 수원시 장안구 팔달로292번길 17 퀸즈하임 A동 1층 101호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/limpidite25"
-  },
-  {
     "id": "naver/50f4acac788f5c4a",
     "name": "석호포도농장",
     "region": "경기",
@@ -17904,17 +16848,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%88%98%EC%9B%90%EC%8B%9C%20%EC%9E%A5%EC%95%88%EA%B5%AC%20%EA%B4%91%EA%B5%90%EC%82%B0%EB%A1%9C332%EB%B2%88%EA%B8%B8%2024-105"
-  },
-  {
-    "id": "naver/84b4248ea25ab7a8",
-    "name": "수원탑동시민농장",
-    "region": "경기",
-    "city": "수원시",
-    "address": "경기도 수원시 권선구 서둔로 155 서울대학농과대학부속",
-    "roadAddress": "경기도 수원시 권선구 서둔로 155 서울대학농과대학부속",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%88%98%EC%9B%90%EC%8B%9C%20%EA%B6%8C%EC%84%A0%EA%B5%AC%20%EC%84%9C%EB%91%94%EB%A1%9C%20155%20%EC%84%9C%EC%9A%B8%EB%8C%80%ED%95%99%EB%86%8D%EA%B3%BC%EB%8C%80%ED%95%99%EB%B6%80%EC%86%8D"
   },
   {
     "id": "naver/d033f9b4fcfe13c0",
@@ -17970,17 +16903,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%8B%9C%ED%9D%A5%EC%8B%9C%20%EA%B3%84%EC%88%98%EB%8F%99%20653-8"
-  },
-  {
-    "id": "naver/a295758cf34745c3",
-    "name": "안양원예농협 로컬푸드직매장",
-    "region": "경기",
-    "city": "시흥시",
-    "address": "경기도 시흥시 수인로 2411 안양원예농협로컬푸드직매장",
-    "roadAddress": "경기도 시흥시 수인로 2411 안양원예농협로컬푸드직매장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://aywy.nonghyup.com"
   },
   {
     "id": "naver/52d06590f881a4d0",
@@ -18060,61 +16982,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%95%88%EC%84%B1%EC%8B%9C%20%EB%AF%B8%EC%96%91%EB%A9%B4%20%EC%96%91%EC%A7%80%EB%A6%AC%2082-1"
   },
   {
-    "id": "naver/7d133edf33b3b238",
-    "name": "안성밤뜰농장",
-    "region": "경기",
-    "city": "안성시",
-    "address": "경기도 안성시 중리동 109-1",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/funnypapa"
-  },
-  {
-    "id": "naver/332d3975b8d0a344",
-    "name": "한살림 호계매장",
-    "region": "경기",
-    "city": "안양시",
-    "address": "경기도 안양시 동안구 경수대로 561 다몬빌딩 1층",
-    "roadAddress": "경기도 안양시 동안구 경수대로 561 다몬빌딩 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%95%88%EC%96%91%EC%8B%9C%20%EB%8F%99%EC%95%88%EA%B5%AC%20%EA%B2%BD%EC%88%98%EB%8C%80%EB%A1%9C%20561%20%EB%8B%A4%EB%AA%AC%EB%B9%8C%EB%94%A9%201%EC%B8%B5"
-  },
-  {
-    "id": "node/13273325624",
-    "name": "샙표식품 의정부영업소",
-    "region": "경기",
-    "city": "양주시",
-    "lat": 37.817693,
-    "lng": 127.075328,
-    "salesType": "농산물 직매장",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/node/13273325624"
-  },
-  {
-    "id": "naver/e7ec2032ae210e46",
-    "name": "양주화훼단지",
-    "region": "경기",
-    "city": "양주시",
-    "address": "경기도 양주시 장흥면 일영로327번길 36 양주화훼단지",
-    "roadAddress": "경기도 양주시 장흥면 일영로327번길 36 양주화훼단지",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%96%91%EC%A3%BC%EC%8B%9C%20%EC%9E%A5%ED%9D%A5%EB%A9%B4%20%EC%9D%BC%EC%98%81%EB%A1%9C327%EB%B2%88%EA%B8%B8%2036%20%EC%96%91%EC%A3%BC%ED%99%94%ED%9B%BC%EB%8B%A8%EC%A7%80"
-  },
-  {
-    "id": "naver/8b582c5e08ba44de",
-    "name": "달북농장",
-    "region": "경기",
-    "city": "양평군",
-    "address": "경기도 양평군 양평읍 경강로 1664 달북농장",
-    "roadAddress": "경기도 양평군 양평읍 경강로 1664 달북농장",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%96%91%ED%8F%89%EA%B5%B0%20%EC%96%91%ED%8F%89%EC%9D%8D%20%EA%B2%BD%EA%B0%95%EB%A1%9C%201664%20%EB%8B%AC%EB%B6%81%EB%86%8D%EC%9E%A5"
-  },
-  {
     "id": "naver/9f122efa87456ab8",
     "name": "물오른딸기",
     "region": "경기",
@@ -18137,105 +17004,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/dudghs2143"
   },
   {
-    "id": "naver/3a66af40438987cb",
-    "name": "이든팜",
-    "region": "경기",
-    "city": "양평군",
-    "address": "경기도 양평군 용문면 상망길 23 이든팜 체험농장",
-    "roadAddress": "경기도 양평군 용문면 상망길 23 이든팜 체험농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%96%91%ED%8F%89%EA%B5%B0%20%EC%9A%A9%EB%AC%B8%EB%A9%B4%20%EC%83%81%EB%A7%9D%EA%B8%B8%2023%20%EC%9D%B4%EB%93%A0%ED%8C%9C%20%EC%B2%B4%ED%97%98%EB%86%8D%EC%9E%A5"
-  },
-  {
-    "id": "naver/ffecc5bf8ec27272",
-    "name": "토이앤 버니팜",
-    "region": "경기",
-    "city": "양평군",
-    "address": "경기도 양평군 용문면 용문산로 120-5 토이앤 버니팜",
-    "roadAddress": "경기도 양평군 용문면 용문산로 120-5 토이앤 버니팜",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://youtube.com/@yp_bunnyfarm"
-  },
-  {
-    "id": "naver/19dc652948f25d4f",
-    "name": "농가",
-    "region": "경기",
-    "city": "여주시",
-    "address": "경기도 여주시 학동1길 3",
-    "roadAddress": "경기도 여주시 학동1길 3",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%97%AC%EC%A3%BC%EC%8B%9C%20%ED%95%99%EB%8F%991%EA%B8%B8%203"
-  },
-  {
-    "id": "naver/a5197713382e563a",
-    "name": "피크니코",
-    "region": "경기",
-    "city": "여주시",
-    "address": "경기도 여주시 흥천면 금대울로 204-10",
-    "roadAddress": "경기도 여주시 흥천면 금대울로 204-10",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/picnicofarm"
-  },
-  {
-    "id": "naver/43e9b94fc3c79727",
-    "name": "가든온 마당",
-    "region": "경기",
-    "city": "용인시",
-    "address": "경기도 용인시 처인구 모현읍 오산로 45-28 가든온 마당",
-    "roadAddress": "경기도 용인시 처인구 모현읍 오산로 45-28 가든온 마당",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/garden-on"
-  },
-  {
-    "id": "naver/07eb392d9f33bb8c",
-    "name": "고기리농장",
-    "region": "경기",
-    "city": "용인시",
-    "address": "경기도 용인시 수지구 호수로 11-4",
-    "roadAddress": "경기도 용인시 수지구 호수로 11-4",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.gogirifarm.org/"
-  },
-  {
-    "id": "naver/4821d916107511dc",
-    "name": "코스트팜 약국",
-    "region": "경기",
-    "city": "용인시",
-    "address": "경기도 용인시 기흥구 용구대로 2427-1 1층 코스트팜",
-    "roadAddress": "경기도 용인시 기흥구 용구대로 2427-1 1층 코스트팜",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://costpharm.com/"
-  },
-  {
-    "id": "naver/2ce1eb05985a2c56",
-    "name": "포레스트벨 체험농장",
-    "region": "경기",
-    "city": "용인시",
-    "address": "경기도 용인시 처인구 원삼면 맹리로 85-1 포레스트벨",
-    "roadAddress": "경기도 용인시 처인구 원삼면 맹리로 85-1 포레스트벨",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/kbg7700"
-  },
-  {
-    "id": "naver/c37317f3d8ee03c9",
-    "name": "헤븐온어스 체험농장",
-    "region": "경기",
-    "city": "용인시",
-    "address": "경기도 용인시 처인구 원삼면 이원로1116번길 42-4 남용인ic 5분 거리",
-    "roadAddress": "경기도 용인시 처인구 원삼면 이원로1116번길 42-4 남용인ic 5분 거리",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://헤븐온어스.shop"
-  },
-  {
     "id": "naver/30d0d26895870edd",
     "name": "현대포도농장",
     "region": "경기",
@@ -18245,50 +17013,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%9A%A9%EC%9D%B8%EC%8B%9C%20%EA%B8%B0%ED%9D%A5%EA%B5%AC%20%EC%9A%A9%EA%B5%AC%EB%8C%80%EB%A1%9C2325%EB%B2%88%EA%B8%B8%2049"
-  },
-  {
-    "id": "naver/94c5ddf57ec0f861",
-    "name": "서현농원",
-    "region": "경기",
-    "city": "의왕시",
-    "address": "경기도 의왕시 왕림길 86 서현농원",
-    "roadAddress": "경기도 의왕시 왕림길 86 서현농원",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/sowongarden"
-  },
-  {
-    "id": "naver/e79639ba011ba6b4",
-    "name": "오매기마을농산물직거래장터",
-    "region": "경기",
-    "city": "의왕시",
-    "address": "경기도 의왕시",
-    "roadAddress": "경기도 의왕시",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%9D%98%EC%99%95%EC%8B%9C"
-  },
-  {
-    "id": "naver/d8618cbcd785c429",
-    "name": "싱싱농산물직거래",
-    "region": "경기",
-    "city": "의정부시",
-    "address": "경기도 의정부시 평화로168번길 5 싱싱농산물직거래",
-    "roadAddress": "경기도 의정부시 평화로168번길 5 싱싱농산물직거래",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%9D%98%EC%A0%95%EB%B6%80%EC%8B%9C%20%ED%8F%89%ED%99%94%EB%A1%9C168%EB%B2%88%EA%B8%B8%205%20%EC%8B%B1%EC%8B%B1%EB%86%8D%EC%82%B0%EB%AC%BC%EC%A7%81%EA%B1%B0%EB%9E%98"
-  },
-  {
-    "id": "naver/acffcd7d90166881",
-    "name": "동키스타즈",
-    "region": "경기",
-    "city": "이천시",
-    "address": "경기도 이천시 호법면 동산로 154 동키스타즈",
-    "roadAddress": "경기도 이천시 호법면 동산로 154 동키스타즈",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/donkeystarz"
   },
   {
     "id": "naver/f3d01148baaaaaad",
@@ -18380,28 +17104,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%ED%8C%8C%EC%A3%BC%EC%8B%9C%20%EB%8B%B9%ED%95%98%EB%8F%99%20189-28"
   },
   {
-    "id": "naver/fd2a5f362af684e8",
-    "name": "농가",
-    "region": "경기",
-    "city": "파주시",
-    "address": "경기도 파주시 광탄면 보광로 1530 농가",
-    "roadAddress": "경기도 파주시 광탄면 보광로 1530 농가",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%ED%8C%8C%EC%A3%BC%EC%8B%9C%20%EA%B4%91%ED%83%84%EB%A9%B4%20%EB%B3%B4%EA%B4%91%EB%A1%9C%201530%20%EB%86%8D%EA%B0%80"
-  },
-  {
-    "id": "naver/d9c061318bce78c6",
-    "name": "농산물직거래",
-    "region": "경기",
-    "city": "파주시",
-    "address": "경기도 파주시 광탄면 혜음로 1118",
-    "roadAddress": "경기도 파주시 광탄면 혜음로 1118",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%ED%8C%8C%EC%A3%BC%EC%8B%9C%20%EA%B4%91%ED%83%84%EB%A9%B4%20%ED%98%9C%EC%9D%8C%EB%A1%9C%201118"
-  },
-  {
     "id": "naver/2e84ac1396a732b4",
     "name": "주은사과농장",
     "region": "경기",
@@ -18411,17 +17113,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%ED%8C%8C%EC%A3%BC%EC%8B%9C%20%EC%A1%B0%EB%A6%AC%EC%9D%8D%20%EB%8C%80%EC%9B%90%EB%A6%AC%20589-9"
-  },
-  {
-    "id": "naver/a8f1d1d15f3405dc",
-    "name": "파주장단콩웰빙마루 파주로컬푸드직매장 문산점",
-    "region": "경기",
-    "city": "파주시",
-    "address": "경기도 파주시 문산읍 통일로 1718 1층",
-    "roadAddress": "경기도 파주시 문산읍 통일로 1718 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%ED%8C%8C%EC%A3%BC%EC%8B%9C%20%EB%AC%B8%EC%82%B0%EC%9D%8D%20%ED%86%B5%EC%9D%BC%EB%A1%9C%201718%201%EC%B8%B5"
   },
   {
     "id": "naver/32bf64a51a8cc548",
@@ -18512,39 +17203,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%ED%95%98%EB%82%A8%EC%8B%9C"
   },
   {
-    "id": "naver/a058d8e817848654",
-    "name": "비욘더팜 치유농장 셀프 바베큐장",
-    "region": "경기",
-    "city": "하남시",
-    "address": "경기도 하남시 학암로 37-15 비욘더팜",
-    "roadAddress": "경기도 하남시 학암로 37-15 비욘더팜",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/beyondthefarm_/"
-  },
-  {
-    "id": "naver/7b14fc0354d56e0d",
-    "name": "농가 맷돌손두부&농가 화로구이",
-    "region": "경기",
-    "city": "화성시",
-    "address": "경기도 화성시 병점2로 23",
-    "roadAddress": "경기도 화성시 병점2로 23",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%ED%99%94%EC%84%B1%EC%8B%9C%20%EB%B3%91%EC%A0%902%EB%A1%9C%2023"
-  },
-  {
-    "id": "naver/cedcae7b118beb16",
-    "name": "농가의하루 동탄 본점",
-    "region": "경기",
-    "city": "화성시",
-    "address": "경기도 화성시 동탄구 왕배산1길 3-16 1층",
-    "roadAddress": "경기도 화성시 동탄구 왕배산1길 3-16 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/orgavio/products/11529967388"
-  },
-  {
     "id": "naver/545bdd0d604f54c1",
     "name": "달콤 딸기체험농장",
     "region": "경기",
@@ -18576,28 +17234,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%ED%99%94%EC%84%B1%EC%8B%9C%20%EA%B8%88%EA%B3%A1%EB%A1%9C%2084%20%EB%8F%99%ED%83%84%EC%82%AC%EB%9E%91%EC%95%A0%EB%94%B8%EA%B8%B0%EB%86%8D%EC%9E%A5"
-  },
-  {
-    "id": "naver/c1123867fc2cf6ce",
-    "name": "태안농협 로컬푸드직매장",
-    "region": "경기",
-    "city": "화성시",
-    "address": "경기도 화성시 효행구 기안남로 70 1층",
-    "roadAddress": "경기도 화성시 효행구 기안남로 70 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%ED%99%94%EC%84%B1%EC%8B%9C%20%ED%9A%A8%ED%96%89%EA%B5%AC%20%EA%B8%B0%EC%95%88%EB%82%A8%EB%A1%9C%2070%201%EC%B8%B5"
-  },
-  {
-    "id": "naver/0adad9fa826efa95",
-    "name": "거제로컬푸드",
-    "region": "경남",
-    "city": "거제시",
-    "address": "경상남도 거제시 거제대로 3697-25 상가동 105호",
-    "roadAddress": "경상남도 거제시 거제대로 3697-25 상가동 105호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EA%B1%B0%EC%A0%9C%EC%8B%9C%20%EA%B1%B0%EC%A0%9C%EB%8C%80%EB%A1%9C%203697-25%20%EC%83%81%EA%B0%80%EB%8F%99%20105%ED%98%B8"
   },
   {
     "id": "naver/4df75f77251d43ae",
@@ -18644,17 +17280,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EA%B1%B0%EC%A0%9C%EC%8B%9C%20%EB%91%94%EB%8D%95%EB%A9%B4%20%EB%B0%A9%ED%95%98%EB%A6%AC%20600"
   },
   {
-    "id": "naver/0c55320690670f0d",
-    "name": "지석농장",
-    "region": "경남",
-    "city": "거제시",
-    "address": "경상남도 거제시 사등면 거제대로 5916-28",
-    "roadAddress": "경상남도 거제시 사등면 거제대로 5916-28",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://naver.me/xU4G01lt"
-  },
-  {
     "id": "naver/246c304ab97c8cf2",
     "name": "진선포도농장",
     "region": "경남",
@@ -18677,39 +17302,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/chosuk03"
   },
   {
-    "id": "naver/c2ff1aabfc9a1c66",
-    "name": "장미네 농산물 직거래 장터",
-    "region": "경남",
-    "city": "거창군",
-    "address": "경상남도 거창군 마리면 황마로 1275-15",
-    "roadAddress": "경상남도 거창군 마리면 황마로 1275-15",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/ju100477"
-  },
-  {
-    "id": "naver/8613fee9ed9b9d44",
-    "name": "해플스 팜사이더리",
-    "region": "경남",
-    "city": "거창군",
-    "address": "경상남도 거창군 거창읍 갈지2길 192-8",
-    "roadAddress": "경상남도 거창군 거창읍 갈지2길 192-8",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.facebook.com/happlesfarmcidery"
-  },
-  {
-    "id": "naver/76a4323678dbe32f",
-    "name": "해오름농장",
-    "region": "경남",
-    "city": "고성군",
-    "address": "경상남도 고성군 마암면 옥천로 501 해오름농장",
-    "roadAddress": "경상남도 고성군 마암면 옥천로 501 해오름농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/gssrf"
-  },
-  {
     "id": "naver/ab4d782bd0339121",
     "name": "김해장유오디감귤체험농장",
     "region": "경남",
@@ -18721,39 +17313,6 @@ const realFarmSources = [
     "osmUrl": "https://odifarm.co.kr/"
   },
   {
-    "id": "naver/4fe35e07fdf96271",
-    "name": "김해화훼종합유통센터",
-    "region": "경남",
-    "city": "김해시",
-    "address": "경상남도 김해시 호계로 293",
-    "roadAddress": "경상남도 김해시 호계로 293",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EA%B9%80%ED%95%B4%EC%8B%9C%20%ED%98%B8%EA%B3%84%EB%A1%9C%20293"
-  },
-  {
-    "id": "naver/46f893ca7bb3c197",
-    "name": "농가옥 숯불갈비",
-    "region": "경남",
-    "city": "김해시",
-    "address": "경상남도 김해시 대청로26번길 13 1층 농가옥",
-    "roadAddress": "경상남도 김해시 대청로26번길 13 1층 농가옥",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EA%B9%80%ED%95%B4%EC%8B%9C%20%EB%8C%80%EC%B2%AD%EB%A1%9C26%EB%B2%88%EA%B8%B8%2013%201%EC%B8%B5%20%EB%86%8D%EA%B0%80%EC%98%A5"
-  },
-  {
-    "id": "naver/194ca4a44ca40c7d",
-    "name": "로컬푸드장유점",
-    "region": "경남",
-    "city": "김해시",
-    "address": "경상남도 김해시 유하로59번길 19",
-    "roadAddress": "경상남도 김해시 유하로59번길 19",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EA%B9%80%ED%95%B4%EC%8B%9C%20%EC%9C%A0%ED%95%98%EB%A1%9C59%EB%B2%88%EA%B8%B8%2019"
-  },
-  {
     "id": "naver/7cadc70285aa2a67",
     "name": "빨간진주 토마토농장",
     "region": "경남",
@@ -18763,17 +17322,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://blog.naver.com/aquamg"
-  },
-  {
-    "id": "naver/2fca922389ef92ef",
-    "name": "소민농장",
-    "region": "경남",
-    "city": "김해시",
-    "address": "경상남도 김해시 진영읍 상룡마을길 78 소민농장",
-    "roadAddress": "경상남도 김해시 진영읍 상룡마을길 78 소민농장",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EA%B9%80%ED%95%B4%EC%8B%9C%20%EC%A7%84%EC%98%81%EC%9D%8D%20%EC%83%81%EB%A3%A1%EB%A7%88%EC%9D%84%EA%B8%B8%2078%20%EC%86%8C%EB%AF%BC%EB%86%8D%EC%9E%A5"
   },
   {
     "id": "naver/9508645cf20cdcb0",
@@ -18809,94 +17357,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/chlcjfrms6744"
   },
   {
-    "id": "naver/1aac07fed64d3ef2",
-    "name": "친환경농산물직거래상",
-    "region": "경남",
-    "city": "김해시",
-    "address": "경상남도 김해시 해반천로168번길 10-16",
-    "roadAddress": "경상남도 김해시 해반천로168번길 10-16",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EA%B9%80%ED%95%B4%EC%8B%9C%20%ED%95%B4%EB%B0%98%EC%B2%9C%EB%A1%9C168%EB%B2%88%EA%B8%B8%2010-16"
-  },
-  {
-    "id": "naver/84750242faffc908",
-    "name": "클라우드베리",
-    "region": "경남",
-    "city": "김해시",
-    "address": "경상남도 김해시 이동 19-18",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://WWW.CLOUD-BERRY.CO.KR"
-  },
-  {
-    "id": "naver/7482cc77124c8c1d",
-    "name": "꽃뜰",
-    "region": "경남",
-    "city": "남해군",
-    "address": "경상남도 남해군 남해읍 평현로51번길 33-5 꽃뜰",
-    "roadAddress": "경상남도 남해군 남해읍 평현로51번길 33-5 꽃뜰",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/hflowergarden"
-  },
-  {
-    "id": "naver/78278983e2ba9c74",
-    "name": "꽃마당이야기",
-    "region": "경남",
-    "city": "남해군",
-    "address": "경상남도 남해군 서면 노구리 1200-4 번지",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%82%A8%ED%95%B4%EA%B5%B0%20%EC%84%9C%EB%A9%B4%20%EB%85%B8%EA%B5%AC%EB%A6%AC%201200-4%20%EB%B2%88%EC%A7%80"
-  },
-  {
-    "id": "naver/00d51e5b4c3d75a3",
-    "name": "남해로컬푸드직매장",
-    "region": "경남",
-    "city": "남해군",
-    "address": "경상남도 남해군 창선면 동부대로 2420 남해로컬푸드직매장",
-    "roadAddress": "경상남도 남해군 창선면 동부대로 2420 남해로컬푸드직매장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/namhaemade?igsh=bnViZDd6eXhidHMx&utm_source=qr"
-  },
-  {
-    "id": "naver/a895cf5d3d7bd1b1",
-    "name": "남해서울농장",
-    "region": "경남",
-    "city": "남해군",
-    "address": "경상남도 남해군 상주면 양아로 534",
-    "roadAddress": "경상남도 남해군 상주면 양아로 534",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%82%A8%ED%95%B4%EA%B5%B0%20%EC%83%81%EC%A3%BC%EB%A9%B4%20%EC%96%91%EC%95%84%EB%A1%9C%20534"
-  },
-  {
-    "id": "naver/3a24394a415247c4",
-    "name": "농가섬",
-    "region": "경남",
-    "city": "남해군",
-    "address": "경상남도 남해군 삼동면 지족리",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%82%A8%ED%95%B4%EA%B5%B0%20%EC%82%BC%EB%8F%99%EB%A9%B4%20%EC%A7%80%EC%A1%B1%EB%A6%AC"
-  },
-  {
-    "id": "naver/575e62e3933bc8f1",
-    "name": "농가섬공방",
-    "region": "경남",
-    "city": "남해군",
-    "address": "경상남도 남해군 삼동면 지족리 산133",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%82%A8%ED%95%B4%EA%B5%B0%20%EC%82%BC%EB%8F%99%EB%A9%B4%20%EC%A7%80%EC%A1%B1%EB%A6%AC%20%EC%82%B0133"
-  },
-  {
     "id": "naver/4ac89d73afae2fbd",
     "name": "다랭이팜",
     "region": "경남",
@@ -18906,116 +17366,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://smartstore.naver.com/dr1111"
-  },
-  {
-    "id": "naver/3cff305b6366383f",
-    "name": "당산농장",
-    "region": "경남",
-    "city": "남해군",
-    "address": "경상남도 남해군 이동면 남해대로2264번길 42-7",
-    "roadAddress": "경상남도 남해군 이동면 남해대로2264번길 42-7",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%82%A8%ED%95%B4%EA%B5%B0%20%EC%9D%B4%EB%8F%99%EB%A9%B4%20%EB%82%A8%ED%95%B4%EB%8C%80%EB%A1%9C2264%EB%B2%88%EA%B8%B8%2042-7"
-  },
-  {
-    "id": "naver/7af4bd821ee1593e",
-    "name": "메디팜현대약국",
-    "region": "경남",
-    "city": "남해군",
-    "address": "경상남도 남해군 남해읍 망운로 4 메디팜현대약국",
-    "roadAddress": "경상남도 남해군 남해읍 망운로 4 메디팜현대약국",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%82%A8%ED%95%B4%EA%B5%B0%20%EB%82%A8%ED%95%B4%EC%9D%8D%20%EB%A7%9D%EC%9A%B4%EB%A1%9C%204%20%EB%A9%94%EB%94%94%ED%8C%9C%ED%98%84%EB%8C%80%EC%95%BD%EA%B5%AD"
-  },
-  {
-    "id": "naver/af3aff4f05fbbbef",
-    "name": "물댄동산농장",
-    "region": "경남",
-    "city": "남해군",
-    "address": "경상남도 남해군 서면 남서대로 1790-16",
-    "roadAddress": "경상남도 남해군 서면 남서대로 1790-16",
-    "salesType": "네이버 지역검색 등록 판매처",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%82%A8%ED%95%B4%EA%B5%B0%20%EC%84%9C%EB%A9%B4%20%EB%82%A8%EC%84%9C%EB%8C%80%EB%A1%9C%201790-16"
-  },
-  {
-    "id": "naver/90b4d6bc08f22eca",
-    "name": "보물섬 치유농원",
-    "region": "경남",
-    "city": "남해군",
-    "address": "경상남도 남해군 남해읍 오동로 80-26",
-    "roadAddress": "경상남도 남해군 남해읍 오동로 80-26",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://bhv.kr"
-  },
-  {
-    "id": "naver/b08e67188775873d",
-    "name": "새남해농협 남해로컬푸드직매장",
-    "region": "경남",
-    "city": "남해군",
-    "address": "경상남도 남해군 고현면 남해대로 3487-4",
-    "roadAddress": "경상남도 남해군 고현면 남해대로 3487-4",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%82%A8%ED%95%B4%EA%B5%B0%20%EA%B3%A0%ED%98%84%EB%A9%B4%20%EB%82%A8%ED%95%B4%EB%8C%80%EB%A1%9C%203487-4"
-  },
-  {
-    "id": "naver/049fe85db601f1ae",
-    "name": "석교팜",
-    "region": "경남",
-    "city": "남해군",
-    "address": "경상남도 남해군 남면 남면로 98",
-    "roadAddress": "경상남도 남해군 남면 남면로 98",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%82%A8%ED%95%B4%EA%B5%B0%20%EB%82%A8%EB%A9%B4%20%EB%82%A8%EB%A9%B4%EB%A1%9C%2098"
-  },
-  {
-    "id": "naver/d7a6ece5f51d8da0",
-    "name": "에덴농촌교육농장",
-    "region": "경남",
-    "city": "남해군",
-    "address": "경상남도 남해군 창선면 동부대로 2058-12",
-    "roadAddress": "경상남도 남해군 창선면 동부대로 2058-12",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%82%A8%ED%95%B4%EA%B5%B0%20%EC%B0%BD%EC%84%A0%EB%A9%B4%20%EB%8F%99%EB%B6%80%EB%8C%80%EB%A1%9C%202058-12"
-  },
-  {
-    "id": "naver/00d566e32fa65089",
-    "name": "연뜰농원",
-    "region": "경남",
-    "city": "남해군",
-    "address": "경상남도 남해군 미조면 송정리 1313-1",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%82%A8%ED%95%B4%EA%B5%B0%20%EB%AF%B8%EC%A1%B0%EB%A9%B4%20%EC%86%A1%EC%A0%95%EB%A6%AC%201313-1"
-  },
-  {
-    "id": "naver/1c0bf5ea5df8e003",
-    "name": "윤용현의도끼농장 남해점",
-    "region": "경남",
-    "city": "남해군",
-    "address": "경상남도 남해군 삼동면 삼이로4번길 16",
-    "roadAddress": "경상남도 남해군 삼동면 삼이로4번길 16",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%82%A8%ED%95%B4%EA%B5%B0%20%EC%82%BC%EB%8F%99%EB%A9%B4%20%EC%82%BC%EC%9D%B4%EB%A1%9C4%EB%B2%88%EA%B8%B8%2016"
-  },
-  {
-    "id": "naver/e169dc4f4b2b928a",
-    "name": "은혜농원 만년청",
-    "region": "경남",
-    "city": "남해군",
-    "address": "경상남도 남해군 남해읍 화전로38번길 29",
-    "roadAddress": "경상남도 남해군 남해읍 화전로38번길 29",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.omoto.co.kr/"
   },
   {
     "id": "naver/ed44dd1b5e7b07e1",
@@ -19029,17 +17379,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/pcs580401"
   },
   {
-    "id": "naver/7d45eed78ccbbb2a",
-    "name": "헤비메탈플라워",
-    "region": "경남",
-    "city": "남해군",
-    "address": "경상남도 남해군 서면 남서대로 1682 1층 2호",
-    "roadAddress": "경상남도 남해군 서면 남서대로 1682 1층 2호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/heavymetalflower"
-  },
-  {
     "id": "naver/c6764c210569b358",
     "name": "1943 밀양 딸기마을",
     "region": "경남",
@@ -19049,61 +17388,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://blog.naver.com/pjh353/223407549335"
-  },
-  {
-    "id": "naver/c80038536d91f71d",
-    "name": "경남 스마트팜 혁신밸리",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 삼랑진읍 임천리 1538",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EC%82%BC%EB%9E%91%EC%A7%84%EC%9D%8D%20%EC%9E%84%EC%B2%9C%EB%A6%AC%201538"
-  },
-  {
-    "id": "naver/0e8cc9ec80d61314",
-    "name": "꽃단장 화원",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 단장면 구미1길 29 꽃단장 화원",
-    "roadAddress": "경상남도 밀양시 단장면 구미1길 29 꽃단장 화원",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EB%8B%A8%EC%9E%A5%EB%A9%B4%20%EA%B5%AC%EB%AF%B81%EA%B8%B8%2029%20%EA%BD%83%EB%8B%A8%EC%9E%A5%20%ED%99%94%EC%9B%90"
-  },
-  {
-    "id": "naver/5fb81c68612070a4",
-    "name": "농업회사법인산내천",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 산내면 산내로 363-26",
-    "roadAddress": "경상남도 밀양시 산내면 산내로 363-26",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://jmhapple.com/"
-  },
-  {
-    "id": "naver/25db4bccebf16035",
-    "name": "더숲 밀양",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 무안면 무안로 646",
-    "roadAddress": "경상남도 밀양시 무안면 무안로 646",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/jin666009"
-  },
-  {
-    "id": "naver/720903422da1ad34",
-    "name": "동호농장",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 상남면 상삼로 115",
-    "roadAddress": "경상남도 밀양시 상남면 상삼로 115",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://m.blog.naver.com/miryangsi/222023449814"
   },
   {
     "id": "naver/9b0c44fc97f96997",
@@ -19117,39 +17401,6 @@ const realFarmSources = [
     "osmUrl": "https://band.us/@ddax3"
   },
   {
-    "id": "naver/23a34d96e3225619",
-    "name": "로컬푸드특산물판매장",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 상동면 안인로 224",
-    "roadAddress": "경상남도 밀양시 상동면 안인로 224",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EC%83%81%EB%8F%99%EB%A9%B4%20%EC%95%88%EC%9D%B8%EB%A1%9C%20224"
-  },
-  {
-    "id": "naver/61176cd5cfc53415",
-    "name": "밀양로컬푸드",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 하남읍 성만남전로 383-11",
-    "roadAddress": "경상남도 밀양시 하남읍 성만남전로 383-11",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%ED%95%98%EB%82%A8%EC%9D%8D%20%EC%84%B1%EB%A7%8C%EB%82%A8%EC%A0%84%EB%A1%9C%20383-11"
-  },
-  {
-    "id": "naver/8e49555115ce29ab",
-    "name": "밀양시로컬푸드행복장터",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 무안면",
-    "roadAddress": "경상남도 밀양시 무안면",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EB%AC%B4%EC%95%88%EB%A9%B4"
-  },
-  {
     "id": "naver/99134b0ed5c16f26",
     "name": "밀양얼음골백동사과농장",
     "region": "경남",
@@ -19159,17 +17410,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "http://www.bdap.co.kr/"
-  },
-  {
-    "id": "naver/081ab708033db017",
-    "name": "밀양팜",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 상남면 상남로 1008-13",
-    "roadAddress": "경상남도 밀양시 상남면 상남로 1008-13",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.miryangfarm.co.kr"
   },
   {
     "id": "naver/4c381a7c62397d14",
@@ -19183,17 +17423,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EC%82%B0%EB%82%B4%EB%A9%B4%20%EC%82%B0%EB%82%B4%EB%A1%9C%20898"
   },
   {
-    "id": "naver/cef1299a51515c29",
-    "name": "산수농원",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 단장면 구미1길 19",
-    "roadAddress": "경상남도 밀양시 단장면 구미1길 19",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/dongkuk4427"
-  },
-  {
     "id": "naver/86c6f7a55c4487b1",
     "name": "삼솔사과농장",
     "region": "경남",
@@ -19203,28 +17432,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EC%82%B0%EB%82%B4%EB%A9%B4"
-  },
-  {
-    "id": "naver/7fa5fba06d35e484",
-    "name": "솔라루트팜",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 상남면 외산길 54-192",
-    "roadAddress": "경상남도 밀양시 상남면 외산길 54-192",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EC%83%81%EB%82%A8%EB%A9%B4%20%EC%99%B8%EC%82%B0%EA%B8%B8%2054-192"
-  },
-  {
-    "id": "naver/afd2e36fec3e929b",
-    "name": "아이베리팜",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 초동면 검암4길 6 아이베리팜",
-    "roadAddress": "경상남도 밀양시 초동면 검암4길 6 아이베리팜",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/i_berry_farm"
   },
   {
     "id": "naver/56a85ea721f1bf02",
@@ -19238,39 +17445,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EC%82%B0%EB%82%B4%EB%A9%B4%20%EC%9B%90%EC%84%9C3%EA%B8%B8%2038-10"
   },
   {
-    "id": "naver/eba4ac103f34fc14",
-    "name": "열매가푸른날",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 부북면 위양로 310",
-    "roadAddress": "경상남도 밀양시 부북면 위양로 310",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/berry_good.day"
-  },
-  {
-    "id": "naver/94a3f68bc3861793",
-    "name": "용암농원",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 산내면 밀양대로 3666-52 용암농원",
-    "roadAddress": "경상남도 밀양시 산내면 밀양대로 3666-52 용암농원",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.yiceapple.co.kr/"
-  },
-  {
-    "id": "naver/45b0c5babcf19efb",
-    "name": "위양지관광농원",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 부북면 위양2길 114",
-    "roadAddress": "경상남도 밀양시 부북면 위양2길 114",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EB%B6%80%EB%B6%81%EB%A9%B4%20%EC%9C%84%EC%96%912%EA%B8%B8%20114"
-  },
-  {
     "id": "naver/983a178a08d30feb",
     "name": "이원희사과농장",
     "region": "경남",
@@ -19280,28 +17454,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EC%82%B0%EB%82%B4%EB%A9%B4%20%EB%AF%B8%EB%9D%BC%EA%B8%B8%20105-4"
-  },
-  {
-    "id": "naver/5c8add683ec6327b",
-    "name": "잣뜰농장",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 산내면 송백2길 44",
-    "roadAddress": "경상남도 밀양시 산내면 송백2길 44",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.saga42so.co.kr"
-  },
-  {
-    "id": "naver/7dfd091d2310c25e",
-    "name": "제이농장",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 삼랑진읍 임천리 1551 임대3동 제이농장",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/j_farmtv/products/7987820593"
   },
   {
     "id": "naver/ae84baec01da60a0",
@@ -19326,28 +17478,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EC%B4%88%EB%8F%99%EB%A9%B4%20%EC%B4%88%EB%8F%99%EC%A4%91%EC%95%99%EB%A1%9C%20366-169"
   },
   {
-    "id": "naver/10d475617ad3b671",
-    "name": "창창농원",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 삼랑진읍 상삼로 390-14 창창농원",
-    "roadAddress": "경상남도 밀양시 삼랑진읍 상삼로 390-14 창창농원",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EC%82%BC%EB%9E%91%EC%A7%84%EC%9D%8D%20%EC%83%81%EC%82%BC%EB%A1%9C%20390-14%20%EC%B0%BD%EC%B0%BD%EB%86%8D%EC%9B%90"
-  },
-  {
-    "id": "naver/fa4bc56cbecfe794",
-    "name": "플로우팜 밀양점",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 상동면 가곡리 457-1",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/flowfarm"
-  },
-  {
     "id": "naver/38102a23af23cee5",
     "name": "하늘빛라벤더&블루베리농장",
     "region": "경남",
@@ -19359,39 +17489,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EB%B6%80%EB%B6%81%EB%A9%B4%20%EC%9C%84%EC%96%912%EA%B8%B8%2070-36"
   },
   {
-    "id": "naver/b05fb37415e515b9",
-    "name": "혀니네농장",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 상남면 평촌리 2190",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/__berry_vely"
-  },
-  {
-    "id": "naver/73b8772de2c76869",
-    "name": "호두숲",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 단장면 사연리 1120-2",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EB%8B%A8%EC%9E%A5%EB%A9%B4%20%EC%82%AC%EC%97%B0%EB%A6%AC%201120-2"
-  },
-  {
-    "id": "naver/2db347620a72c1ce",
-    "name": "흥부농원",
-    "region": "경남",
-    "city": "밀양시",
-    "address": "경상남도 밀양시 산내면 얼음골로 32",
-    "roadAddress": "경상남도 밀양시 산내면 얼음골로 32",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EB%B0%80%EC%96%91%EC%8B%9C%20%EC%82%B0%EB%82%B4%EB%A9%B4%20%EC%96%BC%EC%9D%8C%EA%B3%A8%EB%A1%9C%2032"
-  },
-  {
     "id": "naver/ba3fdcbe7b6d27a6",
     "name": "건우네 토마토농장",
     "region": "경남",
@@ -19401,17 +17498,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://smartstore.naver.com/건우네토마토농장"
-  },
-  {
-    "id": "naver/d0be5292c33e46e9",
-    "name": "농가소돼지도매센터",
-    "region": "경남",
-    "city": "사천시",
-    "address": "경상남도 사천시 서부시장길 57 합동페인트상사",
-    "roadAddress": "경상남도 사천시 서부시장길 57 합동페인트상사",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EC%84%9C%EB%B6%80%EC%8B%9C%EC%9E%A5%EA%B8%B8%2057%20%ED%95%A9%EB%8F%99%ED%8E%98%EC%9D%B8%ED%8A%B8%EC%83%81%EC%82%AC"
   },
   {
     "id": "naver/bae2e9ad2c92cfb0",
@@ -19436,39 +17522,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/rdrsong"
   },
   {
-    "id": "naver/ee018bcce93f0ba5",
-    "name": "시골집정리-전원,농가주택,빈집정리-가정생활이사폐기물처리",
-    "region": "경남",
-    "city": "사천시",
-    "address": "경상남도 사천시 대방동",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%AC%EC%B2%9C%EC%8B%9C%20%EB%8C%80%EB%B0%A9%EB%8F%99"
-  },
-  {
-    "id": "naver/b63b3dbf22782b4b",
-    "name": "비온뒤햇살농장",
-    "region": "경남",
-    "city": "산청군",
-    "address": "경상남도 산청군 신안면 소이리 548-9",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%B0%EC%B2%AD%EA%B5%B0%20%EC%8B%A0%EC%95%88%EB%A9%B4%20%EC%86%8C%EC%9D%B4%EB%A6%AC%20548-9"
-  },
-  {
-    "id": "naver/d758e1c05df2b5e9",
-    "name": "호농원",
-    "region": "경남",
-    "city": "산청군",
-    "address": "경상남도 산청군 생비량면 비량로49번길 31-34",
-    "roadAddress": "경상남도 산청군 생비량면 비량로49번길 31-34",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%82%B0%EC%B2%AD%EA%B5%B0%20%EC%83%9D%EB%B9%84%EB%9F%89%EB%A9%B4%20%EB%B9%84%EB%9F%89%EB%A1%9C49%EB%B2%88%EA%B8%B8%2031-34"
-  },
-  {
     "id": "naver/03c39f50b9447c40",
     "name": "사과농장",
     "region": "경남",
@@ -19480,17 +17533,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%9B%90%EB%8F%99%EB%A9%B4%20%EB%8B%A4%EB%A6%84%EC%A0%9C%EA%B8%B8%20148-94"
   },
   {
-    "id": "naver/51be141925d5cfef",
-    "name": "양산농가쌈밥",
-    "region": "경남",
-    "city": "양산시",
-    "address": "경상남도 양산시 동면 양산대로 524",
-    "roadAddress": "경상남도 양산시 동면 양산대로 524",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EB%8F%99%EB%A9%B4%20%EC%96%91%EC%82%B0%EB%8C%80%EB%A1%9C%20524"
-  },
-  {
     "id": "naver/56ad0a203adcf5b1",
     "name": "원동토야매실농가",
     "region": "경남",
@@ -19500,61 +17542,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%9B%90%EB%8F%99%EB%A9%B4%20%EB%B0%B0%ED%83%9C%EA%B8%B8%2037-18"
-  },
-  {
-    "id": "naver/f8ab4347a1a77eb4",
-    "name": "조아저씨의 수제소시지",
-    "region": "경남",
-    "city": "양산시",
-    "address": "경상남도 양산시 하북면 서리마을2길 76 통나무집",
-    "roadAddress": "경상남도 양산시 하북면 서리마을2길 76 통나무집",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://m.cafe.naver.com/ca-fe/sausagelove?tc=section_home_my_cafe"
-  },
-  {
-    "id": "naver/0f8610e68189068c",
-    "name": "희야농원",
-    "region": "경남",
-    "city": "양산시",
-    "address": "경상남도 양산시 원동면 원리 482",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%96%91%EC%82%B0%EC%8B%9C%20%EC%9B%90%EB%8F%99%EB%A9%B4%20%EC%9B%90%EB%A6%AC%20482"
-  },
-  {
-    "id": "naver/66bd21541f4d6bea",
-    "name": "백세농원",
-    "region": "경남",
-    "city": "의령군",
-    "address": "경상남도 의령군 정곡면 성황로 293-3",
-    "roadAddress": "경상남도 의령군 정곡면 성황로 293-3",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/abgon5566"
-  },
-  {
-    "id": "naver/dacaae01d86614f2",
-    "name": "의령농가밥상",
-    "region": "경남",
-    "city": "의령군",
-    "address": "경상남도 의령군 의령읍 의병로14길 19-5 의령농가밥상",
-    "roadAddress": "경상남도 의령군 의령읍 의병로14길 19-5 의령농가밥상",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/tj5635tj"
-  },
-  {
-    "id": "naver/6bf0f1e36ac8d89e",
-    "name": "금월농장",
-    "region": "경남",
-    "city": "진주시",
-    "address": "경상남도 진주시 금산면 용아리 461-1",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://smartstore.naver.com/8414429"
   },
   {
     "id": "naver/f4ab2fc41d240edf",
@@ -19579,116 +17566,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EB%8C%80%EA%B3%A1%EB%A9%B4"
   },
   {
-    "id": "naver/cc33943703c6c6c2",
-    "name": "버드골체험농장",
-    "region": "경남",
-    "city": "진주시",
-    "address": "경상남도 진주시 내동면 산유로77번길 10 버드골체험농장",
-    "roadAddress": "경상남도 진주시 내동면 산유로77번길 10 버드골체험농장",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/ieun1028"
-  },
-  {
-    "id": "naver/d2b0940ef56e479f",
-    "name": "오가네농장",
-    "region": "경남",
-    "city": "진주시",
-    "address": "경상남도 진주시 대곡면 유곡로 62 오가네농장",
-    "roadAddress": "경상남도 진주시 대곡면 유곡로 62 오가네농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/ogane.farm"
-  },
-  {
-    "id": "naver/b72fc82a52e36f5e",
-    "name": "장군생태체험농장",
-    "region": "경남",
-    "city": "진주시",
-    "address": "경상남도 진주시 명석면 광제산로 832",
-    "roadAddress": "경상남도 진주시 명석면 광제산로 832",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://장군농장.com"
-  },
-  {
-    "id": "naver/3ebb92572c42357a",
-    "name": "정씨네농장",
-    "region": "경남",
-    "city": "진주시",
-    "address": "경상남도 진주시 일반성면 창촌길 56",
-    "roadAddress": "경상남도 진주시 일반성면 창촌길 56",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%A7%84%EC%A3%BC%EC%8B%9C%20%EC%9D%BC%EB%B0%98%EC%84%B1%EB%A9%B4%20%EC%B0%BD%EC%B4%8C%EA%B8%B8%2056"
-  },
-  {
-    "id": "naver/50002acd4386a5ad",
-    "name": "진주금곡농협 하나로마트 로컬푸드",
-    "region": "경남",
-    "city": "진주시",
-    "address": "경상남도 진주시 가호방아길43번길 32",
-    "roadAddress": "경상남도 진주시 가호방아길43번길 32",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/nhgeumgok/"
-  },
-  {
-    "id": "naver/837bb9c4c10c4874",
-    "name": "해피풀스데이",
-    "region": "경남",
-    "city": "진주시",
-    "address": "경상남도 진주시 솔밭로 79",
-    "roadAddress": "경상남도 진주시 솔밭로 79",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/happy_pulthday?igsh=MXBpcWZmZmd1N3NtMw%3D%3D&utm_source=qr"
-  },
-  {
-    "id": "naver/23896c05d166d620",
-    "name": "숲속애체험농장",
-    "region": "경남",
-    "city": "창녕군",
-    "address": "경상남도 창녕군 창녕읍 화왕산관룡사길 55-60",
-    "roadAddress": "경상남도 창녕군 창녕읍 화왕산관룡사길 55-60",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/forestinlove_"
-  },
-  {
-    "id": "naver/899dc8eb480f186d",
-    "name": "우주농원",
-    "region": "경남",
-    "city": "창녕군",
-    "address": "경상남도 창녕군 부곡면 온정청암로 291-21",
-    "roadAddress": "경상남도 창녕군 부곡면 온정청암로 291-21",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/woojoo24"
-  },
-  {
-    "id": "naver/92e96a92be05607c",
-    "name": "갈매기농장",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 의창구 북면 외감리 975-3",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%B0%BD%EC%9B%90%EC%8B%9C%20%EC%9D%98%EC%B0%BD%EA%B5%AC%20%EB%B6%81%EB%A9%B4%20%EC%99%B8%EA%B0%90%EB%A6%AC%20975-3"
-  },
-  {
-    "id": "naver/0b0c32f9dfbb88f3",
-    "name": "감누리마을 농촌체험휴양마을",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 의창구 북면 마산길 51 감누리마을 농촌체험휴양마을",
-    "roadAddress": "경상남도 창원시 의창구 북면 마산길 51 감누리마을 농촌체험휴양마을",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%B0%BD%EC%9B%90%EC%8B%9C%20%EC%9D%98%EC%B0%BD%EA%B5%AC%20%EB%B6%81%EB%A9%B4%20%EB%A7%88%EC%82%B0%EA%B8%B8%2051%20%EA%B0%90%EB%88%84%EB%A6%AC%EB%A7%88%EC%9D%84%20%EB%86%8D%EC%B4%8C%EC%B2%B4%ED%97%98%ED%9C%B4%EC%96%91%EB%A7%88%EC%9D%84"
-  },
-  {
     "id": "naver/5d203dcb538f2a34",
     "name": "감이귤이농장",
     "region": "경남",
@@ -19711,171 +17588,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%B0%BD%EC%9B%90%EC%8B%9C%20%EC%A7%84%ED%95%B4%EA%B5%AC%20%EC%9B%85%EC%B2%9C%EB%A1%9C%20209"
   },
   {
-    "id": "naver/dde18e0ddb57978e",
-    "name": "경남친환경로컬푸드협동조합 직영점 도시농부",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 성산구 외동반림로 44",
-    "roadAddress": "경상남도 창원시 성산구 외동반림로 44",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%B0%BD%EC%9B%90%EC%8B%9C%20%EC%84%B1%EC%82%B0%EA%B5%AC%20%EC%99%B8%EB%8F%99%EB%B0%98%EB%A6%BC%EB%A1%9C%2044"
-  },
-  {
-    "id": "naver/9ada73680d9b91d4",
-    "name": "곰메로컬푸드",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 진해구 충장로575번길 42",
-    "roadAddress": "경상남도 창원시 진해구 충장로575번길 42",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%B0%BD%EC%9B%90%EC%8B%9C%20%EC%A7%84%ED%95%B4%EA%B5%AC%20%EC%B6%A9%EC%9E%A5%EB%A1%9C575%EB%B2%88%EA%B8%B8%2042"
-  },
-  {
-    "id": "naver/9a23a5906cd448ea",
-    "name": "내가키워팜",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 의창구 동읍 봉강가술로 134-23 내가키워팜",
-    "roadAddress": "경상남도 창원시 의창구 동읍 봉강가술로 134-23 내가키워팜",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/i_farm0924"
-  },
-  {
-    "id": "naver/51d36b2d6aec5900",
-    "name": "다감농원",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 의창구 대산면 진산대로505번길 51-17",
-    "roadAddress": "경상남도 창원시 의창구 대산면 진산대로505번길 51-17",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://booking.naver.com/booking/12/bizes/648613"
-  },
-  {
-    "id": "naver/1c69fe50b7adf6a8",
-    "name": "대성농원",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 의창구 동읍 죽동리 505-9",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%B0%BD%EC%9B%90%EC%8B%9C%20%EC%9D%98%EC%B0%BD%EA%B5%AC%20%EB%8F%99%EC%9D%8D%20%EC%A3%BD%EB%8F%99%EB%A6%AC%20505-9"
-  },
-  {
-    "id": "naver/82871a2b5592738c",
-    "name": "동창원식물원영농조합",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 의창구 동읍 의창대로 996 동창원식물원 영농조합법인",
-    "roadAddress": "경상남도 창원시 의창구 동읍 의창대로 996 동창원식물원 영농조합법인",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.동창원식물원.com/"
-  },
-  {
-    "id": "naver/052c85b8a01579df",
-    "name": "로컬푸드경남통합센터",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 성산구 원이대로 627",
-    "roadAddress": "경상남도 창원시 성산구 원이대로 627",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%B0%BD%EC%9B%90%EC%8B%9C%20%EC%84%B1%EC%82%B0%EA%B5%AC%20%EC%9B%90%EC%9D%B4%EB%8C%80%EB%A1%9C%20627"
-  },
-  {
-    "id": "naver/f12e6c4ae53bb399",
-    "name": "메디팜 엄마손약국",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 성산구 원이대로580번길 16 성한빌딩",
-    "roadAddress": "경상남도 창원시 성산구 원이대로580번길 16 성한빌딩",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%B0%BD%EC%9B%90%EC%8B%9C%20%EC%84%B1%EC%82%B0%EA%B5%AC%20%EC%9B%90%EC%9D%B4%EB%8C%80%EB%A1%9C580%EB%B2%88%EA%B8%B8%2016%20%EC%84%B1%ED%95%9C%EB%B9%8C%EB%94%A9"
-  },
-  {
-    "id": "naver/12377ab57945081e",
-    "name": "메디팜중앙약국",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 마산회원구 내서읍 삼계4길 17 메디팜중앙약국",
-    "roadAddress": "경상남도 창원시 마산회원구 내서읍 삼계4길 17 메디팜중앙약국",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%B0%BD%EC%9B%90%EC%8B%9C%20%EB%A7%88%EC%82%B0%ED%9A%8C%EC%9B%90%EA%B5%AC%20%EB%82%B4%EC%84%9C%EC%9D%8D%20%EC%82%BC%EA%B3%844%EA%B8%B8%2017%20%EB%A9%94%EB%94%94%ED%8C%9C%EC%A4%91%EC%95%99%EC%95%BD%EA%B5%AD"
-  },
-  {
-    "id": "naver/43ca928473841a40",
-    "name": "메디팜피아노약국",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 성산구 마디미로21번길 17 102호",
-    "roadAddress": "경상남도 창원시 성산구 마디미로21번길 17 102호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/hdjwin"
-  },
-  {
-    "id": "naver/ce4b6961a7301262",
-    "name": "민성이네자연농원",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 의창구 동읍 신방로 58-15 61, 민성이네 자연농원",
-    "roadAddress": "경상남도 창원시 의창구 동읍 신방로 58-15 61, 민성이네 자연농원",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%B0%BD%EC%9B%90%EC%8B%9C%20%EC%9D%98%EC%B0%BD%EA%B5%AC%20%EB%8F%99%EC%9D%8D%20%EC%8B%A0%EB%B0%A9%EB%A1%9C%2058-15%2061%2C%20%EB%AF%BC%EC%84%B1%EC%9D%B4%EB%84%A4%20%EC%9E%90%EC%97%B0%EB%86%8D%EC%9B%90"
-  },
-  {
-    "id": "naver/6ac12568d011a69e",
-    "name": "보네르 가든",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 의창구 사림로158번길 26-28 1층 103호",
-    "roadAddress": "경상남도 창원시 의창구 사림로158번길 26-28 1층 103호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/jflower2376"
-  },
-  {
-    "id": "naver/3464d16f77025957",
-    "name": "보타미 가드닝",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 성산구 외동반림로 270-1 지하1층",
-    "roadAddress": "경상남도 창원시 성산구 외동반림로 270-1 지하1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/votami"
-  },
-  {
-    "id": "naver/9f3192bdf259a064",
-    "name": "사회적 농장 밀알",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 의창구 동읍 동읍로 823-12 사회적농장 밀알",
-    "roadAddress": "경상남도 창원시 의창구 동읍 동읍로 823-12 사회적농장 밀알",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%B0%BD%EC%9B%90%EC%8B%9C%20%EC%9D%98%EC%B0%BD%EA%B5%AC%20%EB%8F%99%EC%9D%8D%20%EB%8F%99%EC%9D%8D%EB%A1%9C%20823-12%20%EC%82%AC%ED%9A%8C%EC%A0%81%EB%86%8D%EC%9E%A5%20%EB%B0%80%EC%95%8C"
-  },
-  {
-    "id": "naver/406bee17f1e7e083",
-    "name": "삼국토기",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 진해구 석동로73번길 28",
-    "roadAddress": "경상남도 창원시 진해구 석동로73번길 28",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%B0%BD%EC%9B%90%EC%8B%9C%20%EC%A7%84%ED%95%B4%EA%B5%AC%20%EC%84%9D%EB%8F%99%EB%A1%9C73%EB%B2%88%EA%B8%B8%2028"
-  },
-  {
     "id": "naver/eef39ea41ad7253f",
     "name": "삼일블루베리농장",
     "region": "경남",
@@ -19885,17 +17597,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://blog.naver.com/felix100"
-  },
-  {
-    "id": "naver/a6235286748f727e",
-    "name": "새잎이",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 의창구 도계두리길6번길 29 2층",
-    "roadAddress": "경상남도 창원시 의창구 도계두리길6번길 29 2층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://pf.kakao.com/_xlLMrxj"
   },
   {
     "id": "naver/b4a7556b29d3d2c7",
@@ -19920,50 +17621,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/hee7"
   },
   {
-    "id": "naver/f41d0b02c44118b3",
-    "name": "윤가네농장",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 의창구 대산면 북부리 13-3",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%B0%BD%EC%9B%90%EC%8B%9C%20%EC%9D%98%EC%B0%BD%EA%B5%AC%20%EB%8C%80%EC%82%B0%EB%A9%B4%20%EB%B6%81%EB%B6%80%EB%A6%AC%2013-3"
-  },
-  {
-    "id": "naver/0054fc2a92490b91",
-    "name": "은실농장",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 마산합포구 묘촌2길 24-248 1층",
-    "roadAddress": "경상남도 창원시 마산합포구 묘촌2길 24-248 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/querenciafarm"
-  },
-  {
-    "id": "naver/3a8b7f5e07aea774",
-    "name": "주남농부더하기",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 의창구 동읍 주남로101번길 134-16 주남농부더하기",
-    "roadAddress": "경상남도 창원시 의창구 동읍 주남로101번길 134-16 주남농부더하기",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://instagram.com/junam_nongbu"
-  },
-  {
-    "id": "naver/2e2558ec624d04e2",
-    "name": "진돌이팜",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 의창구 대산면 진산대로184번길 78 진돌이팜",
-    "roadAddress": "경상남도 창원시 의창구 대산면 진산대로184번길 78 진돌이팜",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/jindori_farmm"
-  },
-  {
     "id": "naver/0fa57071a2525627",
     "name": "창원 애플수박농장",
     "region": "경남",
@@ -19986,39 +17643,6 @@ const realFarmSources = [
     "osmUrl": "http://www.창원블루베리.kr/"
   },
   {
-    "id": "naver/94676d568473cec2",
-    "name": "창원시 로컬푸드직매장",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 성산구 창원대로 524 경남사회적경제혁신타운 본관동 1층 창원시 로컬푸드직매장",
-    "roadAddress": "경상남도 창원시 성산구 창원대로 524 경남사회적경제혁신타운 본관동 1층 창원시 로컬푸드직매장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%B0%BD%EC%9B%90%EC%8B%9C%20%EC%84%B1%EC%82%B0%EA%B5%AC%20%EC%B0%BD%EC%9B%90%EB%8C%80%EB%A1%9C%20524%20%EA%B2%BD%EB%82%A8%EC%82%AC%ED%9A%8C%EC%A0%81%EA%B2%BD%EC%A0%9C%ED%98%81%EC%8B%A0%ED%83%80%EC%9A%B4%20%EB%B3%B8%EA%B4%80%EB%8F%99%201%EC%B8%B5%20%EC%B0%BD%EC%9B%90%EC%8B%9C%20%EB%A1%9C%EC%BB%AC%ED%91%B8%EB%93%9C%EC%A7%81%EB%A7%A4%EC%9E%A5"
-  },
-  {
-    "id": "naver/c2012f60bc5a308e",
-    "name": "쵸코네 농장",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 의창구 동읍 금산리 423",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/schokosfarm"
-  },
-  {
-    "id": "naver/18c290fa7878e5f8",
-    "name": "캐럿농장",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 진해구 충장로468번길 32-9",
-    "roadAddress": "경상남도 창원시 진해구 충장로468번길 32-9",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/carrot_farm"
-  },
-  {
     "id": "naver/aa46eec3658f1d57",
     "name": "태봉블루베리농장",
     "region": "경남",
@@ -20028,39 +17652,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%B0%BD%EC%9B%90%EC%8B%9C%20%EC%9D%98%EC%B0%BD%EA%B5%AC%20%EB%8F%99%EC%9D%8D%20%EB%B4%89%EA%B0%95%EA%B0%80%EC%88%A0%EB%A1%9C%20254"
-  },
-  {
-    "id": "naver/1fbad4e354e034c6",
-    "name": "팜프라자약국",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 마산회원구 삼호로 80",
-    "roadAddress": "경상남도 창원시 마산회원구 삼호로 80",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%B0%BD%EC%9B%90%EC%8B%9C%20%EB%A7%88%EC%82%B0%ED%9A%8C%EC%9B%90%EA%B5%AC%20%EC%82%BC%ED%98%B8%EB%A1%9C%2080"
-  },
-  {
-    "id": "naver/5cee61fa002520f7",
-    "name": "허준농장",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 마산합포구 진북면 진북정곡길 110-106",
-    "roadAddress": "경상남도 창원시 마산합포구 진북면 진북정곡길 110-106",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%EC%B0%BD%EC%9B%90%EC%8B%9C%20%EB%A7%88%EC%82%B0%ED%95%A9%ED%8F%AC%EA%B5%AC%20%EC%A7%84%EB%B6%81%EB%A9%B4%20%EC%A7%84%EB%B6%81%EC%A0%95%EA%B3%A1%EA%B8%B8%20110-106"
-  },
-  {
-    "id": "naver/2f193a44e6d337ce",
-    "name": "화니미야농장",
-    "region": "경남",
-    "city": "창원시",
-    "address": "경상남도 창원시 의창구 대산면 우암로 252-28 화니미야농장",
-    "roadAddress": "경상남도 창원시 의창구 대산면 우암로 252-28 화니미야농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/hwanymiya"
   },
   {
     "id": "naver/5a76ef3bf2d75abd",
@@ -20074,28 +17665,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%86%B5%EC%98%81%EC%8B%9C%20%EC%9A%95%EC%A7%80%EB%A9%B4"
   },
   {
-    "id": "naver/da13496e842fdd99",
-    "name": "가야농산물직거래장터공중화장실",
-    "region": "경남",
-    "city": "함안군",
-    "address": "경상남도 함안군 가야읍 가야8길 11-3",
-    "roadAddress": "경상남도 함안군 가야읍 가야8길 11-3",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%A8%EC%95%88%EA%B5%B0%20%EA%B0%80%EC%95%BC%EC%9D%8D%20%EA%B0%80%EC%95%BC8%EA%B8%B8%2011-3"
-  },
-  {
-    "id": "naver/7b6a054b272983c9",
-    "name": "가야읍농산물직거래장터",
-    "region": "경남",
-    "city": "함안군",
-    "address": "경상남도 함안군 가야읍 중앙북길 84",
-    "roadAddress": "경상남도 함안군 가야읍 중앙북길 84",
-    "salesType": "네이버 지역검색 등록 판매처",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%A8%EC%95%88%EA%B5%B0%20%EA%B0%80%EC%95%BC%EC%9D%8D%20%EC%A4%91%EC%95%99%EB%B6%81%EA%B8%B8%2084"
-  },
-  {
     "id": "naver/d9405e629f29f302",
     "name": "경원포도단감농장",
     "region": "경남",
@@ -20105,17 +17674,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%A8%EC%95%88%EA%B5%B0%20%EC%B9%A0%EB%B6%81%EB%A9%B4%20%EB%A0%B9%EC%84%9C%EA%B8%B8%2043-17"
-  },
-  {
-    "id": "naver/00a59c8440075c22",
-    "name": "굿모닝팜",
-    "region": "경남",
-    "city": "함안군",
-    "address": "경상남도 함안군 군북면 덕대리 35-3",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/gmtomato_"
   },
   {
     "id": "naver/2e3e5412da0159f5",
@@ -20129,94 +17687,6 @@ const realFarmSources = [
     "osmUrl": "https://smartstore.naver.com/"
   },
   {
-    "id": "naver/7648f8c4fc617748",
-    "name": "만나아로니아농장",
-    "region": "경남",
-    "city": "함안군",
-    "address": "경상남도 함안군 대산면 서촌3길 211-8",
-    "roadAddress": "경상남도 함안군 대산면 서촌3길 211-8",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://만나아로니아농장.kr/"
-  },
-  {
-    "id": "naver/562afdd4e534818a",
-    "name": "뽕이네 오디농장",
-    "region": "경남",
-    "city": "함안군",
-    "address": "경상남도 함안군 대산면 하기리 1664-2",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%A8%EC%95%88%EA%B5%B0%20%EB%8C%80%EC%82%B0%EB%A9%B4%20%ED%95%98%EA%B8%B0%EB%A6%AC%201664-2"
-  },
-  {
-    "id": "naver/f113ac8385251500",
-    "name": "새샘농장",
-    "region": "경남",
-    "city": "함안군",
-    "address": "경상남도 함안군 칠북면 봉촌2길 267-2 광심정",
-    "roadAddress": "경상남도 함안군 칠북면 봉촌2길 267-2 광심정",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.baro.tel"
-  },
-  {
-    "id": "naver/517fa0733a235b0e",
-    "name": "일반농가농기계보관창고",
-    "region": "경남",
-    "city": "함안군",
-    "address": "경상남도 함안군 법수면 대송로 198",
-    "roadAddress": "경상남도 함안군 법수면 대송로 198",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%A8%EC%95%88%EA%B5%B0%20%EB%B2%95%EC%88%98%EB%A9%B4%20%EB%8C%80%EC%86%A1%EB%A1%9C%20198"
-  },
-  {
-    "id": "naver/f74534e047e14b00",
-    "name": "정현농산",
-    "region": "경남",
-    "city": "함안군",
-    "address": "경상남도 함안군 칠북면 온천로 384",
-    "roadAddress": "경상남도 함안군 칠북면 온천로 384",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%A8%EC%95%88%EA%B5%B0%20%EC%B9%A0%EB%B6%81%EB%A9%B4%20%EC%98%A8%EC%B2%9C%EB%A1%9C%20384"
-  },
-  {
-    "id": "naver/8f17fb5b10d1e717",
-    "name": "채소의 온기",
-    "region": "경남",
-    "city": "함안군",
-    "address": "경상남도 함안군 칠서면 태곡리 74",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/chaeonplus"
-  },
-  {
-    "id": "naver/ebfb8adea34658e9",
-    "name": "함안강나루생태마을농장",
-    "region": "경남",
-    "city": "함안군",
-    "address": "경상남도 함안군 칠북면 덕촌2길 117",
-    "roadAddress": "경상남도 함안군 칠북면 덕촌2길 117",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/kanghosub88"
-  },
-  {
-    "id": "naver/2c9c82b1d2ba8db3",
-    "name": "햇살찬농원",
-    "region": "경남",
-    "city": "함안군",
-    "address": "경상남도 함안군 칠북면 가연3길 8 1층 햇살찬농원",
-    "roadAddress": "경상남도 함안군 칠북면 가연3길 8 1층 햇살찬농원",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/gachigayastore/products/8455078828"
-  },
-  {
     "id": "naver/8c3fc2a5b33d0fea",
     "name": "아침노을사과농장",
     "region": "경남",
@@ -20228,17 +17698,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%A8%EC%96%91%EA%B5%B0%20%EC%9C%A0%EB%A6%BC%EB%A9%B4%20%EC%95%88%ED%8F%89%EA%B8%B8%2014-131"
   },
   {
-    "id": "naver/3720e9b9993c1694",
-    "name": "합천우량이농장",
-    "region": "경남",
-    "city": "합천군",
-    "address": "경상남도 합천군 초계면 우회로 284",
-    "roadAddress": "경상남도 합천군 초계면 우회로 284",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%A9%EC%B2%9C%EA%B5%B0%20%EC%B4%88%EA%B3%84%EB%A9%B4%20%EC%9A%B0%ED%9A%8C%EB%A1%9C%20284"
-  },
-  {
     "id": "naver/317c1de81d5200e9",
     "name": "해인사과농장",
     "region": "경남",
@@ -20248,94 +17707,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84%20%ED%95%A9%EC%B2%9C%EA%B5%B0%20%EA%B0%80%EC%95%BC%EB%A9%B4%20%EA%B0%80%EC%A1%B0%EA%B0%80%EC%95%BC%EB%A1%9C%202173"
-  },
-  {
-    "id": "naver/6b78f9974da32cef",
-    "name": "경산시도시농업공영농장",
-    "region": "경북",
-    "city": "경산시",
-    "address": "경상북도 경산시",
-    "roadAddress": "경상북도 경산시",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C"
-  },
-  {
-    "id": "naver/3dddd5a34d8ffafd",
-    "name": "경산시로컬푸드",
-    "region": "경북",
-    "city": "경산시",
-    "address": "경상북도 경산시 진량읍 대학로 1089",
-    "roadAddress": "경상북도 경산시 진량읍 대학로 1089",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%A7%84%EB%9F%89%EC%9D%8D%20%EB%8C%80%ED%95%99%EB%A1%9C%201089"
-  },
-  {
-    "id": "naver/b6d4b72b050ff37e",
-    "name": "달큰농장",
-    "region": "경북",
-    "city": "경산시",
-    "address": "경상북도 경산시 압량읍 당리리 53",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/jami79425"
-  },
-  {
-    "id": "naver/ce1988d924a9f6ba",
-    "name": "모이세농원",
-    "region": "경북",
-    "city": "경산시",
-    "address": "경상북도 경산시 하양읍 한사들길 24-71",
-    "roadAddress": "경상북도 경산시 하양읍 한사들길 24-71",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://blog.naver.com/gss1001/60123856320"
-  },
-  {
-    "id": "naver/4344f07ead7f74db",
-    "name": "쑥쑥농장",
-    "region": "경북",
-    "city": "경산시",
-    "address": "경상북도 경산시 자인면 오목천동길 198-17 쑥쑥농장",
-    "roadAddress": "경상북도 경산시 자인면 오목천동길 198-17 쑥쑥농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.ssukfarm.com"
-  },
-  {
-    "id": "naver/de2665a8e951957f",
-    "name": "압량농협 로컬푸드직매장",
-    "region": "경북",
-    "city": "경산시",
-    "address": "경상북도 경산시 압량읍 대학로75길 2",
-    "roadAddress": "경상북도 경산시 압량읍 대학로75길 2",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://band.us/band/83668483"
-  },
-  {
-    "id": "naver/9c80d0271f175750",
-    "name": "윤훈식 농가쌈밥 경산임당점",
-    "region": "경북",
-    "city": "경산시",
-    "address": "경상북도 경산시 남매공원로1길 14 101, 102, 103, 104, 201, 202, 203, 204호",
-    "roadAddress": "경상북도 경산시 남매공원로1길 14 101, 102, 103, 104, 201, 202, 203, 204호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/farmhouserice?igsh=OWY5M3R0NG9pNTBu"
-  },
-  {
-    "id": "naver/e1a214eb8deaae19",
-    "name": "자연정원로컬푸드직매장",
-    "region": "경북",
-    "city": "경산시",
-    "address": "경상북도 경산시 압량읍 건흥길 11",
-    "roadAddress": "경상북도 경산시 압량읍 건흥길 11",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%95%95%EB%9F%89%EC%9D%8D%20%EA%B1%B4%ED%9D%A5%EA%B8%B8%2011"
   },
   {
     "id": "naver/3f9508eed7e10820",
@@ -20360,28 +17731,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%82%B0%EC%8B%9C%20%EC%9E%90%EC%9D%B8%EB%A9%B4%20%EA%B3%84%EC%A0%95%EA%B8%B8%207"
   },
   {
-    "id": "naver/79cd61628c113dfb",
-    "name": "경주농협 로컬푸드직매장 용황점",
-    "region": "경북",
-    "city": "경주시",
-    "address": "경상북도 경주시 광중길 21 경주농협 로컬푸드직매장 용황점",
-    "roadAddress": "경상북도 경주시 광중길 21 경주농협 로컬푸드직매장 용황점",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://pf.kakao.com/_mxgxnvb?fbclid=PAAaY-OI3_acJ54RA4bDHGxkHOeMo1CndWxaM_2Es1D1pzbszgF4-XwATugNU"
-  },
-  {
-    "id": "naver/2c27b3ebb82bb3cf",
-    "name": "곰돌이체험농장",
-    "region": "경북",
-    "city": "경주시",
-    "address": "경상북도 경주시 강동면 왕신오금길 203",
-    "roadAddress": "경상북도 경주시 강동면 왕신오금길 203",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%A3%BC%EC%8B%9C%20%EA%B0%95%EB%8F%99%EB%A9%B4%20%EC%99%95%EC%8B%A0%EC%98%A4%EA%B8%88%EA%B8%B8%20203"
-  },
-  {
     "id": "naver/cfe3f6fe9fb07485",
     "name": "깐깐한농부 신동욱'S 서라벌 딸기명가",
     "region": "경북",
@@ -20402,17 +17751,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B2%BD%EC%A3%BC%EC%8B%9C%20%ED%98%84%EA%B3%A1%EB%A9%B4"
-  },
-  {
-    "id": "naver/60f16aa952f6de4f",
-    "name": "드림농원",
-    "region": "경북",
-    "city": "경주시",
-    "address": "경상북도 경주시 문무대왕면 감은로 458",
-    "roadAddress": "경상북도 경주시 문무대왕면 감은로 458",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/dream_farm458"
   },
   {
     "id": "naver/904807adbff86de5",
@@ -20448,72 +17786,6 @@ const realFarmSources = [
     "osmUrl": "http://대가야블루베리.com/"
   },
   {
-    "id": "naver/1bb98656a4d0d538",
-    "name": "동화농장",
-    "region": "경북",
-    "city": "고령군",
-    "address": "경상북도 고령군 대가야읍 본관리 724 동화농장",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/"
-  },
-  {
-    "id": "naver/0ba03afffbdd9930",
-    "name": "로컬푸드",
-    "region": "경북",
-    "city": "고령군",
-    "address": "경상북도 고령군 성산면 성산로 898",
-    "roadAddress": "경상북도 고령군 성산면 성산로 898",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B3%A0%EB%A0%B9%EA%B5%B0%20%EC%84%B1%EC%82%B0%EB%A9%B4%20%EC%84%B1%EC%82%B0%EB%A1%9C%20898"
-  },
-  {
-    "id": "naver/0af53ac7381e65c3",
-    "name": "팜스빌드",
-    "region": "경북",
-    "city": "고령군",
-    "address": "경상북도 고령군 성산면 박곡1길 1",
-    "roadAddress": "경상북도 고령군 성산면 박곡1길 1",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B3%A0%EB%A0%B9%EA%B5%B0%20%EC%84%B1%EC%82%B0%EB%A9%B4%20%EB%B0%95%EA%B3%A11%EA%B8%B8%201"
-  },
-  {
-    "id": "naver/2417b1400b4c1f7f",
-    "name": "농부의정원 체험농장",
-    "region": "경북",
-    "city": "구미시",
-    "address": "경상북도 구미시 무을면 수다사길 96 농부의정원",
-    "roadAddress": "경상북도 구미시 무을면 수다사길 96 농부의정원",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://instagram.com/farmer_garden_"
-  },
-  {
-    "id": "naver/b47a377e24cb3299",
-    "name": "동구미농협 하나로마트 로컬푸드직매장",
-    "region": "경북",
-    "city": "구미시",
-    "address": "경상북도 구미시 산동읍 해마루공원로 345 동구미농협 하나로마트 로컬푸드직매장",
-    "roadAddress": "경상북도 구미시 산동읍 해마루공원로 345 동구미농협 하나로마트 로컬푸드직매장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B5%AC%EB%AF%B8%EC%8B%9C%20%EC%82%B0%EB%8F%99%EC%9D%8D%20%ED%95%B4%EB%A7%88%EB%A3%A8%EA%B3%B5%EC%9B%90%EB%A1%9C%20345%20%EB%8F%99%EA%B5%AC%EB%AF%B8%EB%86%8D%ED%98%91%20%ED%95%98%EB%82%98%EB%A1%9C%EB%A7%88%ED%8A%B8%20%EB%A1%9C%EC%BB%AC%ED%91%B8%EB%93%9C%EC%A7%81%EB%A7%A4%EC%9E%A5"
-  },
-  {
-    "id": "naver/d7df66dd11c748cc",
-    "name": "무동이농장",
-    "region": "경북",
-    "city": "구미시",
-    "address": "경상북도 구미시 선산읍 유학길 486",
-    "roadAddress": "경상북도 구미시 선산읍 유학길 486",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/ss1945s"
-  },
-  {
     "id": "naver/173f00568f223305",
     "name": "빨강토마토농장",
     "region": "경북",
@@ -20523,116 +17795,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://blog.naver.com/rwskba"
-  },
-  {
-    "id": "naver/c5d7c248bf0a8d39",
-    "name": "수카드팜",
-    "region": "경북",
-    "city": "구미시",
-    "address": "경상북도 구미시 장천면 묵어리 398",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/398-7112?nl-ts-pid=j7X68lqptbNssT1uQV4ssssstQd-484099&tr=slsmn"
-  },
-  {
-    "id": "naver/9d8ad3708a4df771",
-    "name": "연의하루 체험농장",
-    "region": "경북",
-    "city": "구미시",
-    "address": "경상북도 구미시 해평면 금호연지1길 38 연의하루 체험농장",
-    "roadAddress": "경상북도 구미시 해평면 금호연지1길 38 연의하루 체험농장",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/lotusday_"
-  },
-  {
-    "id": "naver/3e3b097db06f7001",
-    "name": "옥계식물원",
-    "region": "경북",
-    "city": "구미시",
-    "address": "경상북도 구미시 산동읍 산호대로 1180",
-    "roadAddress": "경상북도 구미시 산동읍 산호대로 1180",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/okay_plants"
-  },
-  {
-    "id": "naver/009752753b621a1f",
-    "name": "윤훈식농가쌈밥인동점",
-    "region": "경북",
-    "city": "구미시",
-    "address": "경상북도 구미시 인동남길 74 경북 구미시 진평동 5ㅡ7",
-    "roadAddress": "경상북도 구미시 인동남길 74 경북 구미시 진평동 5ㅡ7",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B5%AC%EB%AF%B8%EC%8B%9C%20%EC%9D%B8%EB%8F%99%EB%82%A8%EA%B8%B8%2074%20%EA%B2%BD%EB%B6%81%20%EA%B5%AC%EB%AF%B8%EC%8B%9C%20%EC%A7%84%ED%8F%89%EB%8F%99%205%E3%85%A17"
-  },
-  {
-    "id": "naver/0cafbf9ad078fc6a",
-    "name": "하늘농장",
-    "region": "경북",
-    "city": "구미시",
-    "address": "경상북도 구미시 해평면 낙성4길 53",
-    "roadAddress": "경상북도 구미시 해평면 낙성4길 53",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/qotkfeodhkd"
-  },
-  {
-    "id": "naver/34287b27168947a0",
-    "name": "하송길7농원",
-    "region": "경북",
-    "city": "구미시",
-    "address": "경상북도 구미시 선산읍 하송길 7",
-    "roadAddress": "경상북도 구미시 선산읍 하송길 7",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B5%AC%EB%AF%B8%EC%8B%9C%20%EC%84%A0%EC%82%B0%EC%9D%8D%20%ED%95%98%EC%86%A1%EA%B8%B8%207"
-  },
-  {
-    "id": "naver/4d84d2d34c31e8ad",
-    "name": "건강딱농장",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 대항면 덕전리 216",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 판매처",
-    "source": "Naver Local Search",
-    "osmUrl": "http://storefarm.naver.com/healthddag"
-  },
-  {
-    "id": "naver/d303037b643f3e27",
-    "name": "골드봉농장",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 남면 옥산리 439-1",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/goldbong.farm_official"
-  },
-  {
-    "id": "naver/58c0cae3a88d5a1c",
-    "name": "금모래농장",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 구성면 강곡3길 258-336",
-    "roadAddress": "경상북도 김천시 구성면 강곡3길 258-336",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B9%80%EC%B2%9C%EC%8B%9C%20%EA%B5%AC%EC%84%B1%EB%A9%B4%20%EA%B0%95%EA%B3%A13%EA%B8%B8%20258-336"
-  },
-  {
-    "id": "naver/3fc641fcfe473e21",
-    "name": "김천농협 로컬푸드복합문화센터",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 부곡길 91",
-    "roadAddress": "경상북도 김천시 부곡길 91",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B9%80%EC%B2%9C%EC%8B%9C%20%EB%B6%80%EA%B3%A1%EA%B8%B8%2091"
   },
   {
     "id": "naver/4e6da96aac40003e",
@@ -20646,50 +17808,6 @@ const realFarmSources = [
     "osmUrl": "https://smartstore.naver.com/p600110"
   },
   {
-    "id": "naver/423999f3714e06ce",
-    "name": "김천땡큐농장",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 어모면 옥율길 269-8",
-    "roadAddress": "경상북도 김천시 어모면 옥율길 269-8",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/grape-peach"
-  },
-  {
-    "id": "naver/e8ef48110e575541",
-    "name": "김천시로컬푸드연합회",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 감문면 은림로 426-118",
-    "roadAddress": "경상북도 김천시 감문면 은림로 426-118",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B9%80%EC%B2%9C%EC%8B%9C%20%EA%B0%90%EB%AC%B8%EB%A9%B4%20%EC%9D%80%EB%A6%BC%EB%A1%9C%20426-118"
-  },
-  {
-    "id": "naver/b4e36d7a6bf840c8",
-    "name": "김천시로컬푸드행복장터점",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 농소면 경부고속도로 194",
-    "roadAddress": "경상북도 김천시 농소면 경부고속도로 194",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B9%80%EC%B2%9C%EC%8B%9C%20%EB%86%8D%EC%86%8C%EB%A9%B4%20%EA%B2%BD%EB%B6%80%EA%B3%A0%EC%86%8D%EB%8F%84%EB%A1%9C%20194"
-  },
-  {
-    "id": "naver/475cfeb10f9568da",
-    "name": "남경오디세이오디체험농장",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 지례면 울곡1길 217-6",
-    "roadAddress": "경상북도 김천시 지례면 울곡1길 217-6",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B9%80%EC%B2%9C%EC%8B%9C%20%EC%A7%80%EB%A1%80%EB%A9%B4%20%EC%9A%B8%EA%B3%A11%EA%B8%B8%20217-6"
-  },
-  {
     "id": "naver/6c377aed3ebc1c32",
     "name": "넘버원 복숭아농장",
     "region": "경북",
@@ -20699,39 +17817,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "http://www.ybone.kr/"
-  },
-  {
-    "id": "naver/a38a5978feb6c0b7",
-    "name": "녹색농장",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 남면 오봉로 745-6",
-    "roadAddress": "경상북도 김천시 남면 오봉로 745-6",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B9%80%EC%B2%9C%EC%8B%9C%20%EB%82%A8%EB%A9%B4%20%EC%98%A4%EB%B4%89%EB%A1%9C%20745-6"
-  },
-  {
-    "id": "naver/38144a931485765d",
-    "name": "놀숲농원",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 증산면 수도길 1149-351",
-    "roadAddress": "경상북도 김천시 증산면 수도길 1149-351",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.facebook.com/allie2766"
-  },
-  {
-    "id": "naver/238de171fdd68331",
-    "name": "농우종묘사",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 양금로 248",
-    "roadAddress": "경상북도 김천시 양금로 248",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B9%80%EC%B2%9C%EC%8B%9C%20%EC%96%91%EA%B8%88%EB%A1%9C%20248"
   },
   {
     "id": "naver/b84eb7bd60b28fe6",
@@ -20745,17 +17830,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/ssagame"
   },
   {
-    "id": "naver/0513b1610808255a",
-    "name": "대야농장",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 부항면 대야길 44-109",
-    "roadAddress": "경상북도 김천시 부항면 대야길 44-109",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.daeyablueberry.com/"
-  },
-  {
     "id": "naver/be62521e50349c39",
     "name": "덕수고구마농장",
     "region": "경북",
@@ -20767,39 +17841,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B9%80%EC%B2%9C%EC%8B%9C%20%EC%95%84%ED%8F%AC%EC%9D%8D%20%EB%8C%80%EC%84%B1%EC%A7%801%EA%B8%B8%20378"
   },
   {
-    "id": "naver/4c24865aad97fe57",
-    "name": "모산농원",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 남면 모산길 6-11 모산농원",
-    "roadAddress": "경상북도 김천시 남면 모산길 6-11 모산농원",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B9%80%EC%B2%9C%EC%8B%9C%20%EB%82%A8%EB%A9%B4%20%EB%AA%A8%EC%82%B0%EA%B8%B8%206-11%20%EB%AA%A8%EC%82%B0%EB%86%8D%EC%9B%90"
-  },
-  {
-    "id": "naver/0d803792f4dbe7b0",
-    "name": "못골농원",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 농소면",
-    "roadAddress": "경상북도 김천시 농소면",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B9%80%EC%B2%9C%EC%8B%9C%20%EB%86%8D%EC%86%8C%EB%A9%B4"
-  },
-  {
-    "id": "naver/40b315b684478707",
-    "name": "바구니가득농장",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 조마면 신안2길 113-87",
-    "roadAddress": "경상북도 김천시 조마면 신안2길 113-87",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://naver.me/5yWJKdUV"
-  },
-  {
     "id": "naver/466dda720bc200b9",
     "name": "백쌤네포도농장",
     "region": "경북",
@@ -20809,39 +17850,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B9%80%EC%B2%9C%EC%8B%9C%20%EA%B1%B0%EB%AC%B8%EB%93%A41%EA%B8%B8%2029%20%EC%BA%A0%ED%8D%BC%EC%8A%A4%EC%9B%90%EB%A3%B8%203%EC%B8%B5"
-  },
-  {
-    "id": "naver/b8e1c98ba4e25a4a",
-    "name": "베리파파농장",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 농소면 신촌리 81",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/berrypapapa"
-  },
-  {
-    "id": "naver/1ebcc304d469f540",
-    "name": "봄날가득농장",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 구성면 금평길 184-20 안쪽",
-    "roadAddress": "경상북도 김천시 구성면 금평길 184-20 안쪽",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/seven2403"
-  },
-  {
-    "id": "naver/3ed6675d76400955",
-    "name": "분홍빛다육",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 대항면 향천리 819-7",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://youtube.com/"
   },
   {
     "id": "naver/e880478661a551f5",
@@ -20910,72 +17918,6 @@ const realFarmSources = [
     "osmUrl": "http://www.샙띠복숭아.kr"
   },
   {
-    "id": "naver/074eb651a9ac2b63",
-    "name": "생기농원",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 남면 오봉로 159-16",
-    "roadAddress": "경상북도 김천시 남면 오봉로 159-16",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B9%80%EC%B2%9C%EC%8B%9C%20%EB%82%A8%EB%A9%B4%20%EC%98%A4%EB%B4%89%EB%A1%9C%20159-16"
-  },
-  {
-    "id": "naver/8a3f21517cd492e3",
-    "name": "솔내음베리",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 모암사랑1길 95",
-    "roadAddress": "경상북도 김천시 모암사랑1길 95",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://solnaeum.alltheway.kr/"
-  },
-  {
-    "id": "naver/421cb7e3edc61e02",
-    "name": "솔이네농장",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 구성면 마산로 440",
-    "roadAddress": "경상북도 김천시 구성면 마산로 440",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/leesolfarmstead"
-  },
-  {
-    "id": "naver/4845ecc51e9421c3",
-    "name": "아리시아로사",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 어모면 군자2길 97",
-    "roadAddress": "경상북도 김천시 어모면 군자2길 97",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/alisiarosa"
-  },
-  {
-    "id": "naver/94d42304ae5f87b0",
-    "name": "안가네애플농장",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 조마면 금감로 678-30",
-    "roadAddress": "경상북도 김천시 조마면 금감로 678-30",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B9%80%EC%B2%9C%EC%8B%9C%20%EC%A1%B0%EB%A7%88%EB%A9%B4%20%EA%B8%88%EA%B0%90%EB%A1%9C%20678-30"
-  },
-  {
-    "id": "naver/3b94287a7ebd7b64",
-    "name": "영글리오농장",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 감천면 금감로 1541-79",
-    "roadAddress": "경상북도 김천시 감천면 금감로 1541-79",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/yongliofarm/products/9043167409"
-  },
-  {
     "id": "naver/d37e961c1ccd95f2",
     "name": "원두막복숭아포도농장",
     "region": "경북",
@@ -20985,94 +17927,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "http://www.gcnodaji.com/q2/"
-  },
-  {
-    "id": "naver/4e4be91565640357",
-    "name": "윤훈식농가쌈밥 김천혁신도시점",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 남면 모산길 31-32 1층",
-    "roadAddress": "경상북도 김천시 남면 모산길 31-32 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B9%80%EC%B2%9C%EC%8B%9C%20%EB%82%A8%EB%A9%B4%20%EB%AA%A8%EC%82%B0%EA%B8%B8%2031-32%201%EC%B8%B5"
-  },
-  {
-    "id": "naver/d66ec5fb1f9191e9",
-    "name": "인선농장",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 어모면 남산4길 45-10",
-    "roadAddress": "경상북도 김천시 어모면 남산4길 45-10",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/regard2406"
-  },
-  {
-    "id": "naver/881606b28f71c6ab",
-    "name": "장터꽃화원",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 김천로 228",
-    "roadAddress": "경상북도 김천시 김천로 228",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B9%80%EC%B2%9C%EC%8B%9C%20%EA%B9%80%EC%B2%9C%EB%A1%9C%20228"
-  },
-  {
-    "id": "naver/493e1886a27c0691",
-    "name": "정은농장",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 감천면 금송용암로 38-88",
-    "roadAddress": "경상북도 김천시 감천면 금송용암로 38-88",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B9%80%EC%B2%9C%EC%8B%9C%20%EA%B0%90%EC%B2%9C%EB%A9%B4%20%EA%B8%88%EC%86%A1%EC%9A%A9%EC%95%94%EB%A1%9C%2038-88"
-  },
-  {
-    "id": "naver/af5421dd58e32e38",
-    "name": "청운농장",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 대덕면 대리 616 청운농장",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B9%80%EC%B2%9C%EC%8B%9C%20%EB%8C%80%EB%8D%95%EB%A9%B4%20%EB%8C%80%EB%A6%AC%20616%20%EC%B2%AD%EC%9A%B4%EB%86%8D%EC%9E%A5"
-  },
-  {
-    "id": "naver/da19c32fe0c0ddd3",
-    "name": "팜스프링캠프관광농원",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 봉산면 광천4길 232-24",
-    "roadAddress": "경상북도 김천시 봉산면 광천4길 232-24",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.팜스프링파크골프장.com"
-  },
-  {
-    "id": "naver/0fe109933f8d7f92",
-    "name": "팜앤키친 라비브 김천본점",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 부곡길 91 로컬푸드복합문화센터 2층 팜앤키친 라비브 김천본점",
-    "roadAddress": "경상북도 김천시 부곡길 91 로컬푸드복합문화센터 2층 팜앤키친 라비브 김천본점",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/raviv_fnk"
-  },
-  {
-    "id": "naver/1100eea61c51246a",
-    "name": "풀잎농장",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 조마면 조마로 1656-40",
-    "roadAddress": "경상북도 김천시 조마면 조마로 1656-40",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B9%80%EC%B2%9C%EC%8B%9C%20%EC%A1%B0%EB%A7%88%EB%A9%B4%20%EC%A1%B0%EB%A7%88%EB%A1%9C%201656-40"
   },
   {
     "id": "naver/bf5d3f8c9fcf2dcc",
@@ -21086,28 +17940,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B9%80%EC%B2%9C%EC%8B%9C%20%EB%82%A8%EB%A9%B4"
   },
   {
-    "id": "naver/550aa00164922cd6",
-    "name": "행복농장",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 감천면 금감로 1770 행복농장",
-    "roadAddress": "경상북도 김천시 감천면 금감로 1770 행복농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/happyfarm_strawberry?igsh=cnB0YTNwbDV0Znc4"
-  },
-  {
-    "id": "naver/ee0eb321c5af1f68",
-    "name": "헤어팜",
-    "region": "경북",
-    "city": "김천시",
-    "address": "경상북도 김천시 시청로 46",
-    "roadAddress": "경상북도 김천시 시청로 46",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B9%80%EC%B2%9C%EC%8B%9C%20%EC%8B%9C%EC%B2%AD%EB%A1%9C%2046"
-  },
-  {
     "id": "naver/383230c1be20b5e1",
     "name": "경천호블루베리농장",
     "region": "경북",
@@ -21117,17 +17949,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EB%AC%B8%EA%B2%BD%EC%8B%9C%20%EB%8F%99%EB%A1%9C%EB%A9%B4%20%EC%9D%B8%EA%B3%A1%EB%A6%AC%20530"
-  },
-  {
-    "id": "naver/1eda5fa803d5e8a6",
-    "name": "문경휴게소(양평방향)문경시으뜸농산물직거래장터",
-    "region": "경북",
-    "city": "문경시",
-    "address": "경상북도 문경시 중부내륙고속도로 174",
-    "roadAddress": "경상북도 문경시 중부내륙고속도로 174",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EB%AC%B8%EA%B2%BD%EC%8B%9C%20%EC%A4%91%EB%B6%80%EB%82%B4%EB%A5%99%EA%B3%A0%EC%86%8D%EB%8F%84%EB%A1%9C%20174"
   },
   {
     "id": "naver/651cc5685c5220e6",
@@ -21185,28 +18006,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/goodfarmer33"
   },
   {
-    "id": "naver/60bf93d28c30726b",
-    "name": "가야산주말체험농장",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 가천면 법전리 1249",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%84%B1%EC%A3%BC%EA%B5%B0%20%EA%B0%80%EC%B2%9C%EB%A9%B4%20%EB%B2%95%EC%A0%84%EB%A6%AC%201249"
-  },
-  {
-    "id": "naver/08e638f1f2ddd72a",
-    "name": "가야산중원농장",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 수륜면 가야산식물원길 2",
-    "roadAddress": "경상북도 성주군 수륜면 가야산식물원길 2",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%84%B1%EC%A3%BC%EA%B5%B0%20%EC%88%98%EB%A5%9C%EB%A9%B4%20%EA%B0%80%EC%95%BC%EC%82%B0%EC%8B%9D%EB%AC%BC%EC%9B%90%EA%B8%B8%202"
-  },
-  {
     "id": "naver/02bafa7ecc391ab5",
     "name": "가야체리농장",
     "region": "경북",
@@ -21227,105 +18026,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%84%B1%EC%A3%BC%EA%B5%B0%20%EA%B0%80%EC%B2%9C%EB%A9%B4%20%EB%8F%99%EC%8B%A0%EB%A1%9C%20145"
-  },
-  {
-    "id": "naver/15961b487a435fb6",
-    "name": "길자네체험농장",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 성주읍 성주순환로 243-11",
-    "roadAddress": "경상북도 성주군 성주읍 성주순환로 243-11",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%84%B1%EC%A3%BC%EA%B5%B0%20%EC%84%B1%EC%A3%BC%EC%9D%8D%20%EC%84%B1%EC%A3%BC%EC%88%9C%ED%99%98%EB%A1%9C%20243-11"
-  },
-  {
-    "id": "naver/c52bdf5910149766",
-    "name": "꿈틀꿈틀치유농장",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 성주읍 대황길 227-6",
-    "roadAddress": "경상북도 성주군 성주읍 대황길 227-6",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://blog.naver.com/yky4580"
-  },
-  {
-    "id": "naver/dc4f8dbd224670b9",
-    "name": "단풍농원",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 가천면 용사2길 79",
-    "roadAddress": "경상북도 성주군 가천면 용사2길 79",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/jtw5786-"
-  },
-  {
-    "id": "naver/cb2543f0da6cf11a",
-    "name": "대산농장",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 월항면 주산로 398-24",
-    "roadAddress": "경상북도 성주군 월항면 주산로 398-24",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://daesanfarm.com/"
-  },
-  {
-    "id": "naver/93bb179f55647e29",
-    "name": "땡큐베리블루팜",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 금수강산면 광산3길 72-11",
-    "roadAddress": "경상북도 성주군 금수강산면 광산3길 72-11",
-    "salesType": "네이버 지역검색 등록 판매처",
-    "source": "Naver Local Search",
-    "osmUrl": "Allthatbb.com"
-  },
-  {
-    "id": "naver/8d3852c20bcc8a86",
-    "name": "레오농장",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 용암면 운용로 1358",
-    "roadAddress": "경상북도 성주군 용암면 운용로 1358",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://instagram.com/leo_farm_sj"
-  },
-  {
-    "id": "naver/20e7ed18b679d05f",
-    "name": "로컬푸드",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 성주읍 시장길 43-1 102-111",
-    "roadAddress": "경상북도 성주군 성주읍 시장길 43-1 102-111",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%84%B1%EC%A3%BC%EA%B5%B0%20%EC%84%B1%EC%A3%BC%EC%9D%8D%20%EC%8B%9C%EC%9E%A5%EA%B8%B8%2043-1%20102-111"
-  },
-  {
-    "id": "naver/d41eacfeb5ca22b0",
-    "name": "미드므로 농장",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 초전면 봉정리 488",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://storefarm.naver.com/happyseongiu"
-  },
-  {
-    "id": "naver/747f848b80abf1f5",
-    "name": "베리모아",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 월항면 안포길 144-4",
-    "roadAddress": "경상북도 성주군 월항면 안포길 144-4",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%84%B1%EC%A3%BC%EA%B5%B0%20%EC%9B%94%ED%95%AD%EB%A9%B4%20%EC%95%88%ED%8F%AC%EA%B8%B8%20144-4"
   },
   {
     "id": "naver/b0060012c6768b8f",
@@ -21350,17 +18050,6 @@ const realFarmSources = [
     "osmUrl": "http://www.starskyland.kr/"
   },
   {
-    "id": "naver/269fb22016baa639",
-    "name": "선학농장",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 벽진면 봉학리 393-1",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/wellyou300"
-  },
-  {
     "id": "naver/8f9a0b3615c1bbc1",
     "name": "성주블루베리농장",
     "region": "경북",
@@ -21370,28 +18059,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "http://www.sjberry.co.kr/"
-  },
-  {
-    "id": "naver/19f17f881c107fcb",
-    "name": "수야네농장",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 대가면 참별로 2368",
-    "roadAddress": "경상북도 성주군 대가면 참별로 2368",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://suyaman.tistory.com/"
-  },
-  {
-    "id": "naver/78e64e21e1811f74",
-    "name": "에덴농장",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 성주읍 용산리 418-3",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%84%B1%EC%A3%BC%EA%B5%B0%20%EC%84%B1%EC%A3%BC%EC%9D%8D%20%EC%9A%A9%EC%82%B0%EB%A6%AC%20418-3"
   },
   {
     "id": "naver/0f3d1be256d7630b",
@@ -21405,50 +18072,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%84%B1%EC%A3%BC%EA%B5%B0%20%EB%B2%BD%EC%A7%84%EB%A9%B4%20%EC%9B%94%EC%A0%84%EA%B8%B8%2058"
   },
   {
-    "id": "naver/9e28fd383a6af158",
-    "name": "윤훈식농가쌈밥 성주점",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 성주읍 참별로 2503",
-    "roadAddress": "경상북도 성주군 성주읍 참별로 2503",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%84%B1%EC%A3%BC%EA%B5%B0%20%EC%84%B1%EC%A3%BC%EC%9D%8D%20%EC%B0%B8%EB%B3%84%EB%A1%9C%202503"
-  },
-  {
-    "id": "naver/5bccf0e648ad8473",
-    "name": "은하수농장",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 선남면 소학2길 46-15",
-    "roadAddress": "경상북도 성주군 선남면 소학2길 46-15",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%84%B1%EC%A3%BC%EA%B5%B0%20%EC%84%A0%EB%82%A8%EB%A9%B4%20%EC%86%8C%ED%95%992%EA%B8%B8%2046-15"
-  },
-  {
-    "id": "naver/1572590b014f647c",
-    "name": "지산 벨라농장",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 월항면 지산로 30-36",
-    "roadAddress": "경상북도 성주군 월항면 지산로 30-36",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%84%B1%EC%A3%BC%EA%B5%B0%20%EC%9B%94%ED%95%AD%EB%A9%B4%20%EC%A7%80%EC%82%B0%EB%A1%9C%2030-36"
-  },
-  {
-    "id": "naver/ade900cff8ec2a02",
-    "name": "참앤팜",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 성주읍 대흥길 26-36",
-    "roadAddress": "경상북도 성주군 성주읍 대흥길 26-36",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://chamnfarm.com/"
-  },
-  {
     "id": "naver/2b02d25b925d4e44",
     "name": "참외팜",
     "region": "경북",
@@ -21458,39 +18081,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://smartstore.naver.com/melonfarming"
-  },
-  {
-    "id": "naver/2521e57ef8c97caa",
-    "name": "클린팜",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 월항면 보암공단길 12",
-    "roadAddress": "경상북도 성주군 월항면 보암공단길 12",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/clean._.farm"
-  },
-  {
-    "id": "naver/0e7fcb112cc22ef5",
-    "name": "하이농장",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 수륜면 동강한강로 249-3 하이농장",
-    "roadAddress": "경상북도 성주군 수륜면 동강한강로 249-3 하이농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://silkwormlab.com"
-  },
-  {
-    "id": "naver/511922cdb2b9a32a",
-    "name": "해동농장",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 성주읍 성산리 2211",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%84%B1%EC%A3%BC%EA%B5%B0%20%EC%84%B1%EC%A3%BC%EC%9D%8D%20%EC%84%B1%EC%82%B0%EB%A6%AC%202211"
   },
   {
     "id": "naver/e587b14e2618c63d",
@@ -21504,72 +18094,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/adek1225"
   },
   {
-    "id": "naver/17dd7771eabbd325",
-    "name": "현아농장",
-    "region": "경북",
-    "city": "성주군",
-    "address": "경상북도 성주군 용암면 문명1길 117",
-    "roadAddress": "경상북도 성주군 용암면 문명1길 117",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%84%B1%EC%A3%BC%EA%B5%B0%20%EC%9A%A9%EC%95%94%EB%A9%B4%20%EB%AC%B8%EB%AA%851%EA%B8%B8%20117"
-  },
-  {
-    "id": "naver/b587506d1e367ebb",
-    "name": "그로우베리",
-    "region": "경북",
-    "city": "안동시",
-    "address": "경상북도 안동시 임하면 임하길 460-24 그로우베리",
-    "roadAddress": "경상북도 안동시 임하면 임하길 460-24 그로우베리",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://pf.kakao.com/_Drlhxj"
-  },
-  {
-    "id": "naver/1babd4d5c83a734e",
-    "name": "안동마뜰농장",
-    "region": "경북",
-    "city": "안동시",
-    "address": "경상북도 안동시 서후면 명리옹기마길 7",
-    "roadAddress": "경상북도 안동시 서후면 명리옹기마길 7",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/rotusco"
-  },
-  {
-    "id": "naver/ea88f2f7ed0a512b",
-    "name": "한살림 안동용상매장",
-    "region": "경북",
-    "city": "안동시",
-    "address": "경상북도 안동시 보현로 40",
-    "roadAddress": "경상북도 안동시 보현로 40",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://gb.hansalim.or.kr/"
-  },
-  {
-    "id": "naver/7e88186262479941",
-    "name": "혜성농장",
-    "region": "경북",
-    "city": "안동시",
-    "address": "경상북도 안동시 서후면 이송천길 114-67 혜성농장",
-    "roadAddress": "경상북도 안동시 서후면 이송천길 114-67 혜성농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://youtube.com/channel/UC9DwbD2znAjddDJWXn-_gu"
-  },
-  {
-    "id": "naver/fd57e4b3e55d83a9",
-    "name": "주원농장",
-    "region": "경북",
-    "city": "영덕군",
-    "address": "경상북도 영덕군 지품면 경동로 6522",
-    "roadAddress": "경상북도 영덕군 지품면 경동로 6522",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8D%95%EA%B5%B0%20%EC%A7%80%ED%92%88%EB%A9%B4%20%EA%B2%BD%EB%8F%99%EB%A1%9C%206522"
-  },
-  {
     "id": "naver/3558189e44275679",
     "name": "청딸기농원",
     "region": "경북",
@@ -21579,50 +18103,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%96%91%EA%B5%B0%20%EC%84%9D%EB%B3%B4%EB%A9%B4%20%EC%9B%90%EC%9A%94%EB%A1%9C%20399"
-  },
-  {
-    "id": "naver/9ede68daf01ef862",
-    "name": "경북팜",
-    "region": "경북",
-    "city": "영주시",
-    "address": "경상북도 영주시 구성로 306",
-    "roadAddress": "경상북도 영주시 구성로 306",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EA%B5%AC%EC%84%B1%EB%A1%9C%20306"
-  },
-  {
-    "id": "naver/d21d24592a6677c8",
-    "name": "우가네농장",
-    "region": "경북",
-    "city": "영주시",
-    "address": "경상북도 영주시 문수면 종릉로105번길 16-2 B동",
-    "roadAddress": "경상북도 영주시 문수면 종릉로105번길 16-2 B동",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EB%AC%B8%EC%88%98%EB%A9%B4%20%EC%A2%85%EB%A6%89%EB%A1%9C105%EB%B2%88%EA%B8%B8%2016-2%20B%EB%8F%99"
-  },
-  {
-    "id": "naver/ba573e8df1223ad4",
-    "name": "피끝녹색농촌체험마을",
-    "region": "경북",
-    "city": "영주시",
-    "address": "경상북도 영주시 안정면 안정로 490-32",
-    "roadAddress": "경상북도 영주시 안정면 안정로 490-32",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%A3%BC%EC%8B%9C%20%EC%95%88%EC%A0%95%EB%A9%B4%20%EC%95%88%EC%A0%95%EB%A1%9C%20490-32"
-  },
-  {
-    "id": "naver/dc643cb254c4059c",
-    "name": "가겸농장",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 화남면 구전로 335",
-    "roadAddress": "경상북도 영천시 화남면 구전로 335",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/kakyeomfarm"
   },
   {
     "id": "naver/0fd5c28dad6c6779",
@@ -21658,61 +18138,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%EB%B6%81%EC%95%88%EB%A9%B4%20%EB%8F%8C%ED%95%A0%EB%A7%A4%EB%A1%9C%20177-14"
   },
   {
-    "id": "naver/0ae80d1e2acd3064",
-    "name": "달포농장",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 대창면 조곡리 727",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/na2337"
-  },
-  {
-    "id": "naver/9bc8bd83a4993e6b",
-    "name": "대성농원",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 고경면 거곡로 50",
-    "roadAddress": "경상북도 영천시 고경면 거곡로 50",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%EA%B3%A0%EA%B2%BD%EB%A9%B4%20%EA%B1%B0%EA%B3%A1%EB%A1%9C%2050"
-  },
-  {
-    "id": "naver/abfeb208981523e1",
-    "name": "대영농원",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 청통면 애련길 103",
-    "roadAddress": "경상북도 영천시 청통면 애련길 103",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%EC%B2%AD%ED%86%B5%EB%A9%B4%20%EC%95%A0%EB%A0%A8%EA%B8%B8%20103"
-  },
-  {
-    "id": "naver/55cc994b89c2df3c",
-    "name": "메디팜중원약국",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 완산로 52 중원약국",
-    "roadAddress": "경상북도 영천시 완산로 52 중원약국",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/darkys7"
-  },
-  {
-    "id": "naver/d40c36855c3443a5",
-    "name": "명성농장",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 대창면 금창로 493",
-    "roadAddress": "경상북도 영천시 대창면 금창로 493",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%EB%8C%80%EC%B0%BD%EB%A9%B4%20%EA%B8%88%EC%B0%BD%EB%A1%9C%20493"
-  },
-  {
     "id": "naver/537d6b9e99ee1e8b",
     "name": "무지개포도농장",
     "region": "경북",
@@ -21722,39 +18147,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%EC%9E%84%EA%B3%A0%EB%A9%B4"
-  },
-  {
-    "id": "naver/bdd5bbf2a4734ef7",
-    "name": "벅스누리팜 농업회사법인",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 화산면 대안1길 73-41 벅스누리팜 농업회사법인",
-    "roadAddress": "경상북도 영천시 화산면 대안1길 73-41 벅스누리팜 농업회사법인",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://link.inpock.co.kr/oscbugs"
-  },
-  {
-    "id": "naver/e7bc698bd22b478f",
-    "name": "별빛농부",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 임고면 삼매매곡길 88-26 별빛농부체험농장",
-    "roadAddress": "경상북도 영천시 임고면 삼매매곡길 88-26 별빛농부체험농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/soonga"
-  },
-  {
-    "id": "naver/3ea379dcc7e8733e",
-    "name": "별빛담은농장",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 화북면 입석리 27",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%ED%99%94%EB%B6%81%EB%A9%B4%20%EC%9E%85%EC%84%9D%EB%A6%AC%2027"
   },
   {
     "id": "naver/1c85d3677c81ae7c",
@@ -21801,28 +18193,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%EA%B4%B4%EC%97%B0%EB%8F%99%20508-1"
   },
   {
-    "id": "naver/01ffe301c2bdbdc0",
-    "name": "산908",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 북안면 유상리 908",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/san908_farmresort"
-  },
-  {
-    "id": "naver/4e74d0cecd3a6aeb",
-    "name": "서원농원",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 고경면 추곡길 70",
-    "roadAddress": "경상북도 영천시 고경면 추곡길 70",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://cafe.naver.com/green2101"
-  },
-  {
     "id": "naver/f809a7f1d5af60b4",
     "name": "수니피아사과농장",
     "region": "경북",
@@ -21832,28 +18202,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%EC%9E%84%EA%B3%A0%EB%A9%B4%20%EC%82%AC%EB%8D%95%EB%A1%9C%20227"
-  },
-  {
-    "id": "naver/70c63fd52d632d5f",
-    "name": "아이니농원",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 고경면 도암리 121 아이니농원",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/aini_apple_farm"
-  },
-  {
-    "id": "naver/7811a3c18b567f11",
-    "name": "언덕마루체험교육농장",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 창녕길 39-22",
-    "roadAddress": "경상북도 영천시 창녕길 39-22",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%EC%B0%BD%EB%85%95%EA%B8%B8%2039-22"
   },
   {
     "id": "naver/359d524a5ab83257",
@@ -21867,17 +18215,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%EC%9E%84%EA%B3%A0%EB%A9%B4%20%EC%9A%B4%EC%A3%BC%EB%A1%9C%20123-16%20%EC%98%81%EA%B5%AC%EB%94%B8%EA%B8%B0%EB%86%8D%EC%9E%A5"
   },
   {
-    "id": "naver/f3cb93675c8183f3",
-    "name": "영목농장",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 화남면 월령길 211-6",
-    "roadAddress": "경상북도 영천시 화남면 월령길 211-6",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://dydwi25.shop.blogpay.co.kr/"
-  },
-  {
     "id": "naver/36ef91526eca318b",
     "name": "영천복숭아임금농장",
     "region": "경북",
@@ -21889,17 +18226,6 @@ const realFarmSources = [
     "osmUrl": "https://smartstore.naver.com/imgeum"
   },
   {
-    "id": "naver/ce3afaeb3d53e03f",
-    "name": "영천시 농산물 직거래장터",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 천문로 622-13 농업기술센터 과수한방과 내",
-    "roadAddress": "경상북도 영천시 천문로 622-13 농업기술센터 과수한방과 내",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.01000m.com/"
-  },
-  {
     "id": "naver/997816db507b02d9",
     "name": "예술사과농원",
     "region": "경북",
@@ -21909,17 +18235,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%ED%99%94%EC%82%B0%EB%A9%B4%20%EB%B6%80%EA%B3%84%EA%B8%B8%2043-7"
-  },
-  {
-    "id": "naver/09a4a69d07aa1d31",
-    "name": "윤훈식농가쌈밥 영천점",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 중앙동3길 27",
-    "roadAddress": "경상북도 영천시 중앙동3길 27",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%EC%A4%91%EC%95%99%EB%8F%993%EA%B8%B8%2027"
   },
   {
     "id": "naver/68f386bffa975158",
@@ -21944,17 +18259,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%ED%99%94%EB%82%A8%EB%A9%B4"
   },
   {
-    "id": "naver/dd96421a43a32e10",
-    "name": "주말농장체험스타가든빌리지",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 자양면 별빛로 922-296",
-    "roadAddress": "경상북도 영천시 자양면 별빛로 922-296",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%EC%9E%90%EC%96%91%EB%A9%B4%20%EB%B3%84%EB%B9%9B%EB%A1%9C%20922-296"
-  },
-  {
     "id": "naver/39eb710531805f8b",
     "name": "죽전산사과농장",
     "region": "경북",
@@ -21977,39 +18281,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%EC%B2%AD%ED%86%B5%EB%A9%B4%20%EC%86%A1%EC%B2%9C%EB%A6%AC%20719-1"
   },
   {
-    "id": "naver/283b616a8d93c54d",
-    "name": "찬솔농장",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 금호읍 관정리 566-5",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%EA%B8%88%ED%98%B8%EC%9D%8D%20%EA%B4%80%EC%A0%95%EB%A6%AC%20566-5"
-  },
-  {
-    "id": "naver/561f4cdc4b3d7776",
-    "name": "키즈팜 글램핑",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 대창면 금박로 1004 키즈팜 글램핑",
-    "roadAddress": "경상북도 영천시 대창면 금박로 1004 키즈팜 글램핑",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://키즈팜글램핑.com/"
-  },
-  {
-    "id": "naver/cc049386b693f94b",
-    "name": "키즈팜 글램핑체험농장",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 대창면 대창리 969",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%EB%8C%80%EC%B0%BD%EB%A9%B4%20%EB%8C%80%EC%B0%BD%EB%A6%AC%20969"
-  },
-  {
     "id": "naver/23306e4ad5a19119",
     "name": "토마토농원",
     "region": "경북",
@@ -22021,17 +18292,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%ED%98%B8%EA%B5%AD%EB%A1%9C%20754-19"
   },
   {
-    "id": "naver/ffa7c892194e89a8",
-    "name": "팔공농가인력",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 모란4길 40",
-    "roadAddress": "경상북도 영천시 모란4길 40",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%EB%AA%A8%EB%9E%804%EA%B8%B8%2040"
-  },
-  {
     "id": "naver/00f68983818c39b4",
     "name": "하명블루베리농원",
     "region": "경북",
@@ -22041,50 +18301,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "http://www.하명베리농원.com/"
-  },
-  {
-    "id": "naver/dae17d521bddb80a",
-    "name": "한편농원",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 임고면 효자로 462-3 한편농원",
-    "roadAddress": "경상북도 영천시 임고면 효자로 462-3 한편농원",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://band.us/@hpfarm"
-  },
-  {
-    "id": "naver/8e25115a0aa6a445",
-    "name": "해인들농장",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 고경면 용담로 1669 해인들농장",
-    "roadAddress": "경상북도 영천시 고경면 용담로 1669 해인들농장",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://naver.me/IgYaSQpQ"
-  },
-  {
-    "id": "naver/a356f9289924c7d8",
-    "name": "현산농장",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 자양면 가마들길 51-15",
-    "roadAddress": "경상북도 영천시 자양면 가마들길 51-15",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%EC%9E%90%EC%96%91%EB%A9%B4%20%EA%B0%80%EB%A7%88%EB%93%A4%EA%B8%B8%2051-15"
-  },
-  {
-    "id": "naver/4bf367a14118a981",
-    "name": "화북농산물직거래장터",
-    "region": "경북",
-    "city": "영천시",
-    "address": "경상북도 영천시 화북면 천문로 2146",
-    "roadAddress": "경상북도 영천시 화북면 천문로 2146",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%81%EC%B2%9C%EC%8B%9C%20%ED%99%94%EB%B6%81%EB%A9%B4%20%EC%B2%9C%EB%AC%B8%EB%A1%9C%202146"
   },
   {
     "id": "naver/563d55355eb850b6",
@@ -22109,17 +18325,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/oarmberry"
   },
   {
-    "id": "naver/8ddd58020c010758",
-    "name": "윤훈식농가쌈밥 경북도청점",
-    "region": "경북",
-    "city": "예천군",
-    "address": "경상북도 예천군 호명읍 새움1로 10 126호",
-    "roadAddress": "경상북도 예천군 호명읍 새움1로 10 126호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%ED%98%B8%EB%AA%85%EC%9D%8D%20%EC%83%88%EC%9B%801%EB%A1%9C%2010%20126%ED%98%B8"
-  },
-  {
     "id": "naver/d431f0a4e66b9115",
     "name": "정가네 토마토 농장",
     "region": "경북",
@@ -22129,17 +18334,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EA%B0%90%EC%B2%9C%EB%A9%B4%20%EB%8D%95%EC%9C%A8%EB%A6%AC%20491-9"
-  },
-  {
-    "id": "naver/f9be839c900bb856",
-    "name": "풍년농산물직거래장터",
-    "region": "경북",
-    "city": "예천군",
-    "address": "경상북도 예천군 개포면 경서로 1402",
-    "roadAddress": "경상북도 예천군 개포면 경서로 1402",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%98%88%EC%B2%9C%EA%B5%B0%20%EA%B0%9C%ED%8F%AC%EB%A9%B4%20%EA%B2%BD%EC%84%9C%EB%A1%9C%201402"
   },
   {
     "id": "naver/012a749f1d89db83",
@@ -22153,28 +18347,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/sunny10hp"
   },
   {
-    "id": "naver/98c167280bc41c9e",
-    "name": "초록의파랑",
-    "region": "경북",
-    "city": "울진군",
-    "address": "경상북도 울진군 북면 섶실길 72-35",
-    "roadAddress": "경상북도 울진군 북면 섶실길 72-35",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/green-of-blue"
-  },
-  {
-    "id": "naver/7eb95d17e32c6769",
-    "name": "봉양한우농가 영농조합법인",
-    "region": "경북",
-    "city": "의성군",
-    "address": "경상북도 의성군 봉양면 봉기길 19 봉양한우농가 영농조합법인",
-    "roadAddress": "경상북도 의성군 봉양면 봉기길 19 봉양한우농가 영농조합법인",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%9D%98%EC%84%B1%EA%B5%B0%20%EB%B4%89%EC%96%91%EB%A9%B4%20%EB%B4%89%EA%B8%B0%EA%B8%B8%2019%20%EB%B4%89%EC%96%91%ED%95%9C%EC%9A%B0%EB%86%8D%EA%B0%80%20%EC%98%81%EB%86%8D%EC%A1%B0%ED%95%A9%EB%B2%95%EC%9D%B8"
-  },
-  {
     "id": "naver/a9d7dca151991a47",
     "name": "쌍둥이블루베리농장",
     "region": "경북",
@@ -22184,39 +18356,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://blog.naver.com/mmzzc"
-  },
-  {
-    "id": "naver/073e51c20fb05b39",
-    "name": "나의집 나의정원",
-    "region": "경북",
-    "city": "청도군",
-    "address": "경상북도 청도군 이서면 수야길 378",
-    "roadAddress": "경상북도 청도군 이서면 수야길 378",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EB%8F%84%EA%B5%B0%20%EC%9D%B4%EC%84%9C%EB%A9%B4%20%EC%88%98%EC%95%BC%EA%B8%B8%20378"
-  },
-  {
-    "id": "naver/9ae6c440b2cd9477",
-    "name": "청도로컬푸드판매장 청도새마을휴게소",
-    "region": "경북",
-    "city": "청도군",
-    "address": "경상북도 청도군 청도읍 하지길 59-49",
-    "roadAddress": "경상북도 청도군 청도읍 하지길 59-49",
-    "salesType": "네이버 지역검색 등록 판매처",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EB%8F%84%EA%B5%B0%20%EC%B2%AD%EB%8F%84%EC%9D%8D%20%ED%95%98%EC%A7%80%EA%B8%B8%2059-49"
-  },
-  {
-    "id": "naver/20277050632f0293",
-    "name": "청도아기염소체험농장고트힐",
-    "region": "경북",
-    "city": "청도군",
-    "address": "경상북도 청도군 금천면 금천로 711 청도아기염소체험농장고트힐",
-    "roadAddress": "경상북도 청도군 금천면 금천로 711 청도아기염소체험농장고트힐",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/nine9372"
   },
   {
     "id": "naver/1211d08493064353",
@@ -22230,17 +18369,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EB%8F%84%EA%B5%B0%20%ED%99%94%EC%96%91%EC%9D%8D%20%EC%9D%B4%EC%8A%AC%EB%AF%B8%EB%A1%9C%20164"
   },
   {
-    "id": "naver/a4a634ba53664c96",
-    "name": "황금농장",
-    "region": "경북",
-    "city": "청도군",
-    "address": "경상북도 청도군 풍각면 흑석리 1502",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EB%8F%84%EA%B5%B0%20%ED%92%8D%EA%B0%81%EB%A9%B4%20%ED%9D%91%EC%84%9D%EB%A6%AC%201502"
-  },
-  {
     "id": "naver/73a09d7f56937a1a",
     "name": "SC복숭아체험농원",
     "region": "경북",
@@ -22250,94 +18378,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 체험 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EB%8F%84%EA%B5%B0%20%EA%B0%81%EB%B6%81%EB%A9%B4%20%EC%9A%B0%EC%82%B02%EA%B8%B8%208-7"
-  },
-  {
-    "id": "naver/408119698cf03988",
-    "name": "노적농원",
-    "region": "경북",
-    "city": "청송군",
-    "address": "경상북도 청송군 부남면 부남로 1454-12",
-    "roadAddress": "경상북도 청송군 부남면 부남로 1454-12",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%EB%B6%80%EB%82%A8%EB%A9%B4%20%EB%B6%80%EB%82%A8%EB%A1%9C%201454-12"
-  },
-  {
-    "id": "naver/b04fd7f2cf273546",
-    "name": "메디팜사랑약국",
-    "region": "경북",
-    "city": "청송군",
-    "address": "경상북도 청송군 청송읍",
-    "roadAddress": "경상북도 청송군 청송읍",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%EC%B2%AD%EC%86%A1%EC%9D%8D"
-  },
-  {
-    "id": "naver/f301a1d4dbfc55cb",
-    "name": "백석탄가는길치유농장",
-    "region": "경북",
-    "city": "청송군",
-    "address": "경상북도 청송군 안덕면 백석탄로 149-31",
-    "roadAddress": "경상북도 청송군 안덕면 백석탄로 149-31",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/drag345"
-  },
-  {
-    "id": "naver/ac7ab5018fd969ea",
-    "name": "백자청계닭농장",
-    "region": "경북",
-    "city": "청송군",
-    "address": "경상북도 청송군 현서면 고모길 509",
-    "roadAddress": "경상북도 청송군 현서면 고모길 509",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%ED%98%84%EC%84%9C%EB%A9%B4%20%EA%B3%A0%EB%AA%A8%EA%B8%B8%20509"
-  },
-  {
-    "id": "naver/4e6625f65465420c",
-    "name": "비봉농장",
-    "region": "경북",
-    "city": "청송군",
-    "address": "경상북도 청송군 진보면 경동로 4776-55",
-    "roadAddress": "경상북도 청송군 진보면 경동로 4776-55",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://cafe.naver.com/bibongww"
-  },
-  {
-    "id": "naver/1ab2ee970ddb8fea",
-    "name": "은화농장 마음정원",
-    "region": "경북",
-    "city": "청송군",
-    "address": "경상북도 청송군 주왕산면 공원길 71",
-    "roadAddress": "경상북도 청송군 주왕산면 공원길 71",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%EC%A3%BC%EC%99%95%EC%82%B0%EB%A9%B4%20%EA%B3%B5%EC%9B%90%EA%B8%B8%2071"
-  },
-  {
-    "id": "naver/62b0612a965c8c45",
-    "name": "이삭힐링팜",
-    "region": "경북",
-    "city": "청송군",
-    "address": "경상북도 청송군 진보면 광덕세장길 368 이삭힐링팜",
-    "roadAddress": "경상북도 청송군 진보면 광덕세장길 368 이삭힐링팜",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/isaac_dream"
-  },
-  {
-    "id": "naver/aff45a00308b1795",
-    "name": "작은하늘농가레스토랑",
-    "region": "경북",
-    "city": "청송군",
-    "address": "경상북도 청송군 주왕산면 교하로 246",
-    "roadAddress": "경상북도 청송군 주왕산면 교하로 246",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%EC%A3%BC%EC%99%95%EC%82%B0%EB%A9%B4%20%EA%B5%90%ED%95%98%EB%A1%9C%20246"
   },
   {
     "id": "naver/5083d89cfb0738b0",
@@ -22351,17 +18391,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%EC%A3%BC%EC%99%95%EC%82%B0%EB%A9%B4%20%EC%A3%BC%EC%82%B0%EC%A7%80%EA%B8%B8%2030"
   },
   {
-    "id": "naver/896e5c58d0001325",
-    "name": "주왕산 자생식물원",
-    "region": "경북",
-    "city": "청송군",
-    "address": "경상북도 청송군 부남면 청송로 3914",
-    "roadAddress": "경상북도 청송군 부남면 청송로 3914",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.juwangflower.com/"
-  },
-  {
     "id": "naver/f884c9b398053924",
     "name": "청송꿀사과농장",
     "region": "경북",
@@ -22371,28 +18400,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://blog.naver.com/lwm3800"
-  },
-  {
-    "id": "naver/2034289d1cf22554",
-    "name": "청송로컬푸드센터",
-    "region": "경북",
-    "city": "청송군",
-    "address": "경상북도 청송군 청송읍 주왕산로 266",
-    "roadAddress": "경상북도 청송군 청송읍 주왕산로 266",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/fhzjf27481"
-  },
-  {
-    "id": "naver/3e0ccfcd9d6fd065",
-    "name": "청송반딧불농장",
-    "region": "경북",
-    "city": "청송군",
-    "address": "경상북도 청송군 안덕면 백석탄로 504 백석탄로504",
-    "roadAddress": "경상북도 청송군 안덕면 백석탄로 504 백석탄로504",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://청송반딧불농장.kr/"
   },
   {
     "id": "naver/d11ffeaaaf15857e",
@@ -22417,17 +18424,6 @@ const realFarmSources = [
     "osmUrl": "http://storefarm.naver.com/reopard33"
   },
   {
-    "id": "naver/a21cffdcf89b28f3",
-    "name": "청송에이스팜협동조합",
-    "region": "경북",
-    "city": "청송군",
-    "address": "경상북도 청송군 현서면 청송로 347-9",
-    "roadAddress": "경상북도 청송군 현서면 청송로 347-9",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.jegreen.kr/"
-  },
-  {
     "id": "naver/7b4a324d2a34177e",
     "name": "청송우가네사과농장",
     "region": "경북",
@@ -22437,72 +18433,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "http://www.woogane.com/"
-  },
-  {
-    "id": "naver/de25b0d363184b3f",
-    "name": "청송해뜨는농장",
-    "region": "경북",
-    "city": "청송군",
-    "address": "경상북도 청송군 현동면 안현로 1012",
-    "roadAddress": "경상북도 청송군 현동면 안현로 1012",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/yesapple"
-  },
-  {
-    "id": "naver/6ba9d5fc1dc5b37a",
-    "name": "텃골농장",
-    "region": "경북",
-    "city": "청송군",
-    "address": "경상북도 청송군 진보면 텃골길 33-5",
-    "roadAddress": "경상북도 청송군 진보면 텃골길 33-5",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%EC%A7%84%EB%B3%B4%EB%A9%B4%20%ED%85%83%EA%B3%A8%EA%B8%B8%2033-5"
-  },
-  {
-    "id": "naver/84f0d1a62cc24a79",
-    "name": "파인애플팜",
-    "region": "경북",
-    "city": "청송군",
-    "address": "경상북도 청송군 현서면 구덕길 52 파인애플팜",
-    "roadAddress": "경상북도 청송군 현서면 구덕길 52 파인애플팜",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/fineapplefarm"
-  },
-  {
-    "id": "naver/7b01ddd8f77fa513",
-    "name": "팜케미칼",
-    "region": "경북",
-    "city": "청송군",
-    "address": "경상북도 청송군 현동면 새마을로 5315",
-    "roadAddress": "경상북도 청송군 현동면 새마을로 5315",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%ED%98%84%EB%8F%99%EB%A9%B4%20%EC%83%88%EB%A7%88%EC%9D%84%EB%A1%9C%205315"
-  },
-  {
-    "id": "naver/2b9712089736efd9",
-    "name": "푸른솔 로컬푸드",
-    "region": "경북",
-    "city": "청송군",
-    "address": "경상북도 청송군 청송읍 초막본길 25",
-    "roadAddress": "경상북도 청송군 청송읍 초막본길 25",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://cafe.naver.com/greenlocalfood"
-  },
-  {
-    "id": "naver/828beff6dd21cc26",
-    "name": "현금농원",
-    "region": "경북",
-    "city": "청송군",
-    "address": "경상북도 청송군 부남면 부남로 863",
-    "roadAddress": "경상북도 청송군 부남면 부남로 863",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%86%A1%EA%B5%B0%20%EB%B6%80%EB%82%A8%EB%A9%B4%20%EB%B6%80%EB%82%A8%EB%A1%9C%20863"
   },
   {
     "id": "naver/361c0efdcbb5e093",
@@ -22538,72 +18468,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B9%A0%EA%B3%A1%EA%B5%B0%20%EB%B6%81%EC%82%BC%EC%9D%8D%20%EC%9C%A8%EB%A6%AC%20560-5"
   },
   {
-    "id": "naver/c9c5d7ce381f6302",
-    "name": "비가림 자연농장",
-    "region": "경북",
-    "city": "칠곡군",
-    "address": "경상북도 칠곡군 왜관읍 낙산리 780-3",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B9%A0%EA%B3%A1%EA%B5%B0%20%EC%99%9C%EA%B4%80%EC%9D%8D%20%EB%82%99%EC%82%B0%EB%A6%AC%20780-3"
-  },
-  {
-    "id": "naver/ed37a0909cb23399",
-    "name": "성훈농장",
-    "region": "경북",
-    "city": "칠곡군",
-    "address": "경상북도 칠곡군 기산면 주산로 1057",
-    "roadAddress": "경상북도 칠곡군 기산면 주산로 1057",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/sunghoonfarm"
-  },
-  {
-    "id": "naver/a622092049a0b84d",
-    "name": "왜관농협 로컬푸드",
-    "region": "경북",
-    "city": "칠곡군",
-    "address": "경상북도 칠곡군 왜관읍 중앙로 143",
-    "roadAddress": "경상북도 칠곡군 왜관읍 중앙로 143",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B9%A0%EA%B3%A1%EA%B5%B0%20%EC%99%9C%EA%B4%80%EC%9D%8D%20%EC%A4%91%EC%95%99%EB%A1%9C%20143"
-  },
-  {
-    "id": "naver/07fc16cc720fe1ac",
-    "name": "왜관농협 로컬푸드직매장",
-    "region": "경북",
-    "city": "칠곡군",
-    "address": "경상북도 칠곡군 왜관읍 중앙로 220",
-    "roadAddress": "경상북도 칠곡군 왜관읍 중앙로 220",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B9%A0%EA%B3%A1%EA%B5%B0%20%EC%99%9C%EA%B4%80%EC%9D%8D%20%EC%A4%91%EC%95%99%EB%A1%9C%20220"
-  },
-  {
-    "id": "naver/ae4e10ccb9bb384d",
-    "name": "왜관농협 로컬푸드직매장2호점",
-    "region": "경북",
-    "city": "칠곡군",
-    "address": "경상북도 칠곡군 왜관읍 중앙로 220",
-    "roadAddress": "경상북도 칠곡군 왜관읍 중앙로 220",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B9%A0%EA%B3%A1%EA%B5%B0%20%EC%99%9C%EA%B4%80%EC%9D%8D%20%EC%A4%91%EC%95%99%EB%A1%9C%20220"
-  },
-  {
-    "id": "naver/ae5277ce3e308ba7",
-    "name": "윤훈식농가쌈밥 왜관점",
-    "region": "경북",
-    "city": "칠곡군",
-    "address": "경상북도 칠곡군 왜관읍 석전로 57",
-    "roadAddress": "경상북도 칠곡군 왜관읍 석전로 57",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B9%A0%EA%B3%A1%EA%B5%B0%20%EC%99%9C%EA%B4%80%EC%9D%8D%20%EC%84%9D%EC%A0%84%EB%A1%9C%2057"
-  },
-  {
     "id": "naver/f30ba252bc72fafc",
     "name": "착한딸기농장",
     "region": "경북",
@@ -22626,50 +18490,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B9%A0%EA%B3%A1%EA%B5%B0%20%EC%99%9C%EA%B4%80%EC%9D%8D%20%EC%82%BC%EC%B2%AD4%EA%B8%B8%2028-95%20%ED%8F%AC%EB%8F%99%ED%8F%AC%EB%8F%84%EB%86%8D%EC%9E%A5"
   },
   {
-    "id": "naver/951638d2889797af",
-    "name": "하루체험농장",
-    "region": "경북",
-    "city": "칠곡군",
-    "address": "경상북도 칠곡군 석적읍 석적로 361-46 하루체험농장",
-    "roadAddress": "경상북도 칠곡군 석적읍 석적로 361-46 하루체험농장",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/haarujjang"
-  },
-  {
-    "id": "naver/d263e21b7c3d9966",
-    "name": "해피브레드호이맘로컬푸드",
-    "region": "경북",
-    "city": "칠곡군",
-    "address": "경상북도 칠곡군 석적읍 석적로 194-10",
-    "roadAddress": "경상북도 칠곡군 석적읍 석적로 194-10",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EC%B9%A0%EA%B3%A1%EA%B5%B0%20%EC%84%9D%EC%A0%81%EC%9D%8D%20%EC%84%9D%EC%A0%81%EB%A1%9C%20194-10"
-  },
-  {
-    "id": "naver/e0683f1787f242ba",
-    "name": "꿈바라기 체험센타",
-    "region": "경북",
-    "city": "포항시",
-    "address": "경상북도 포항시 남구 오천읍 도솔로 17 꿈바라기",
-    "roadAddress": "경상북도 포항시 남구 오천읍 도솔로 17 꿈바라기",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%ED%8F%AC%ED%95%AD%EC%8B%9C%20%EB%82%A8%EA%B5%AC%20%EC%98%A4%EC%B2%9C%EC%9D%8D%20%EB%8F%84%EC%86%94%EB%A1%9C%2017%20%EA%BF%88%EB%B0%94%EB%9D%BC%EA%B8%B0"
-  },
-  {
-    "id": "naver/208d4107d1f31d27",
-    "name": "대우농가",
-    "region": "경북",
-    "city": "포항시",
-    "address": "경상북도 포항시 남구 장기면 방산로 3",
-    "roadAddress": "경상북도 포항시 남구 장기면 방산로 3",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%ED%8F%AC%ED%95%AD%EC%8B%9C%20%EB%82%A8%EA%B5%AC%20%EC%9E%A5%EA%B8%B0%EB%A9%B4%20%EB%B0%A9%EC%82%B0%EB%A1%9C%203"
-  },
-  {
     "id": "naver/3367ead806bc4ac5",
     "name": "라원블루베리",
     "region": "경북",
@@ -22679,39 +18499,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://smartstore.naver.com/rawonblueberry"
-  },
-  {
-    "id": "naver/2cea962eacebe425",
-    "name": "상옥농장",
-    "region": "경북",
-    "city": "포항시",
-    "address": "경상북도 포항시 북구 죽장면 기북로 1745",
-    "roadAddress": "경상북도 포항시 북구 죽장면 기북로 1745",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/sangok9811"
-  },
-  {
-    "id": "naver/b02691cde90749e2",
-    "name": "식물가게 눈록",
-    "region": "경북",
-    "city": "포항시",
-    "address": "경상북도 포항시 북구 용흥로 53-1 1층",
-    "roadAddress": "경상북도 포항시 북구 용흥로 53-1 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/chorokplantshop"
-  },
-  {
-    "id": "naver/47b6ea00c3b4bf5a",
-    "name": "포철꽃농원",
-    "region": "경북",
-    "city": "포항시",
-    "address": "경상북도 포항시 북구 흥해읍",
-    "roadAddress": "경상북도 포항시 북구 흥해읍",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%ED%8F%AC%ED%95%AD%EC%8B%9C%20%EB%B6%81%EA%B5%AC%20%ED%9D%A5%ED%95%B4%EC%9D%8D"
   },
   {
     "id": "naver/9158cbce30524f0e",
@@ -22736,17 +18523,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EB%A7%A5%EB%8F%84%EA%B8%B8265%EB%B2%88%EA%B8%B8%20185"
   },
   {
-    "id": "naver/d119eee3338c801f",
-    "name": "거웅농원",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 기장군 장안읍 신명1길 6",
-    "roadAddress": "부산광역시 기장군 장안읍 신명1길 6",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B8%B0%EC%9E%A5%EA%B5%B0%20%EC%9E%A5%EC%95%88%EC%9D%8D%20%EC%8B%A0%EB%AA%851%EA%B8%B8%206"
-  },
-  {
     "id": "naver/3bbfd45b70d99a9d",
     "name": "권씨네 토마토 농장",
     "region": "부산",
@@ -22756,17 +18532,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "http://jjritomato.com/"
-  },
-  {
-    "id": "naver/02904f64a6bb6372",
-    "name": "금정화훼단지",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 금정구 두구로 5",
-    "roadAddress": "부산광역시 금정구 두구로 5",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B8%88%EC%A0%95%EA%B5%AC%20%EB%91%90%EA%B5%AC%EB%A1%9C%205"
   },
   {
     "id": "naver/fd4757b57cfd5e41",
@@ -22780,138 +18545,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EC%9A%B8%EB%A7%8C%EB%A1%9C25%EB%B2%88%EA%B8%B8%205%20%EA%B9%80%EB%8F%84%EC%97%B0%ED%86%A0%EB%A7%88%ED%86%A0%EB%86%8D%EC%9E%A5"
   },
   {
-    "id": "naver/8e4034e105122671",
-    "name": "까사플라워",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 사상구 강변대로 512 도매시장 70호",
-    "roadAddress": "부산광역시 사상구 강변대로 512 도매시장 70호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/casaflower70"
-  },
-  {
-    "id": "naver/47cbad64cee5f9d9",
-    "name": "농가소돼지생고기도매센터",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 기장군 기장읍 차성로288번길 30 1층",
-    "roadAddress": "부산광역시 기장군 기장읍 차성로288번길 30 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B8%B0%EC%9E%A5%EA%B5%B0%20%EA%B8%B0%EC%9E%A5%EC%9D%8D%20%EC%B0%A8%EC%84%B1%EB%A1%9C288%EB%B2%88%EA%B8%B8%2030%201%EC%B8%B5"
-  },
-  {
-    "id": "naver/6d5ac2a1a393e741",
-    "name": "농장생오리집",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 수영구 망미번영로 79",
-    "roadAddress": "부산광역시 수영구 망미번영로 79",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%88%98%EC%98%81%EA%B5%AC%20%EB%A7%9D%EB%AF%B8%EB%B2%88%EC%98%81%EB%A1%9C%2079"
-  },
-  {
-    "id": "naver/7da54cd28e47e314",
-    "name": "대삼체험농장",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 강서구 대저동서로 135",
-    "roadAddress": "부산광역시 강서구 대저동서로 135",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EB%8C%80%EC%A0%80%EB%8F%99%EC%84%9C%EB%A1%9C%20135"
-  },
-  {
-    "id": "naver/617cf42967fabac5",
-    "name": "대저농협로컬푸드직매장",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 강서구 대저1동 1-1 대저로 229",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EB%8C%80%EC%A0%801%EB%8F%99%201-1%20%EB%8C%80%EC%A0%80%EB%A1%9C%20229"
-  },
-  {
-    "id": "naver/7c5622039beae2b4",
-    "name": "더팜471",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 금정구 하마2길 28-17 더팜471",
-    "roadAddress": "부산광역시 금정구 하마2길 28-17 더팜471",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/cafe_thefarm471/"
-  },
-  {
-    "id": "naver/d0f1dcc9f2cbb2ca",
-    "name": "데팡스 가든센터",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 금정구 중앙대로 2315",
-    "roadAddress": "부산광역시 금정구 중앙대로 2315",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.depanse.co.kr/"
-  },
-  {
-    "id": "naver/1d67e3a34dd2e531",
-    "name": "도시농가코페도코",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 부산진구 중앙대로666번길 17 시연빌딩 1층",
-    "roadAddress": "부산광역시 부산진구 중앙대로666번길 17 시연빌딩 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.instagram.com/doco_cafe/"
-  },
-  {
-    "id": "naver/ad68bcdfff3155dc",
-    "name": "동부산로컬푸드복합문화센터(2026년예정)",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 기장군 정관읍 정관덕산길 37 농협",
-    "roadAddress": "부산광역시 기장군 정관읍 정관덕산길 37 농협",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B8%B0%EC%9E%A5%EA%B5%B0%20%EC%A0%95%EA%B4%80%EC%9D%8D%20%EC%A0%95%EA%B4%80%EB%8D%95%EC%82%B0%EA%B8%B8%2037%20%EB%86%8D%ED%98%91"
-  },
-  {
-    "id": "naver/5aecd025722bfb15",
-    "name": "동화농산물직거래",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 동래구 안남로 35",
-    "roadAddress": "부산광역시 동래구 안남로 35",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8F%99%EB%9E%98%EA%B5%AC%20%EC%95%88%EB%82%A8%EB%A1%9C%2035"
-  },
-  {
-    "id": "naver/f5c4021f53c76c3c",
-    "name": "두루팜",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 강서구 봉죽길91번길 65-37",
-    "roadAddress": "부산광역시 강서구 봉죽길91번길 65-37",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://durufarm.kr/"
-  },
-  {
-    "id": "naver/63f3e42432b09018",
-    "name": "두명마을 자연체험촌",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 기장군 정관읍 두명1길 49",
-    "roadAddress": "부산광역시 기장군 정관읍 두명1길 49",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.farmnfamily.com/"
-  },
-  {
     "id": "naver/5447249b47ea92c4",
     "name": "람이네 대저짭짤이토마토농장",
     "region": "부산",
@@ -22923,105 +18556,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EC%9C%A0%ED%86%B5%EB%8B%A8%EC%A7%801%EB%A1%9C131%EB%B2%88%EA%B8%B8%202%20%EB%9E%8C%EC%9D%B4%EB%84%A4"
   },
   {
-    "id": "naver/4d86344ba5f63157",
-    "name": "루츠오가닉",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 강서구 명지국제7로 170 1층 101호",
-    "roadAddress": "부산광역시 강서구 명지국제7로 170 1층 101호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/"
-  },
-  {
-    "id": "naver/cc9400b5acfc5a31",
-    "name": "백씨농장",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 강서구 정관길 192 제일안쪽건물",
-    "roadAddress": "부산광역시 강서구 정관길 192 제일안쪽건물",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/asa1"
-  },
-  {
-    "id": "naver/19ba4ddbba789e64",
-    "name": "베리굿농장",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 기장군 철마면 입석길 6",
-    "roadAddress": "부산광역시 기장군 철마면 입석길 6",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B8%B0%EC%9E%A5%EA%B5%B0%20%EC%B2%A0%EB%A7%88%EB%A9%B4%20%EC%9E%85%EC%84%9D%EA%B8%B8%206"
-  },
-  {
-    "id": "naver/17b63b7baed8908f",
-    "name": "부산라벤더 팜",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 기장군 철마면 개좌로 679-30 부산라벤더팜",
-    "roadAddress": "부산광역시 기장군 철마면 개좌로 679-30 부산라벤더팜",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.facebook.com/busanlavenderfarm"
-  },
-  {
-    "id": "naver/4315bf72b03a78c3",
-    "name": "부산로컬푸드랩",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 동래구 충렬대로237번길 28",
-    "roadAddress": "부산광역시 동래구 충렬대로237번길 28",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8F%99%EB%9E%98%EA%B5%AC%20%EC%B6%A9%EB%A0%AC%EB%8C%80%EB%A1%9C237%EB%B2%88%EA%B8%B8%2028"
-  },
-  {
-    "id": "naver/e2e79a389cedc390",
-    "name": "부산미래화훼영농조합법인",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 기장군 철마면 강변길 67-22",
-    "roadAddress": "부산광역시 기장군 철마면 강변길 67-22",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B8%B0%EC%9E%A5%EA%B5%B0%20%EC%B2%A0%EB%A7%88%EB%A9%B4%20%EA%B0%95%EB%B3%80%EA%B8%B8%2067-22"
-  },
-  {
-    "id": "naver/c288dbdf74236614",
-    "name": "부산친환경로컬푸드협동조합",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 강서구 평강로193번길 19",
-    "roadAddress": "부산광역시 강서구 평강로193번길 19",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%ED%8F%89%EA%B0%95%EB%A1%9C193%EB%B2%88%EA%B8%B8%2019"
-  },
-  {
-    "id": "naver/a8380f77ee756341",
-    "name": "부산팜",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 동래구 금강로 19 303호",
-    "roadAddress": "부산광역시 동래구 금강로 19 303호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%8F%99%EB%9E%98%EA%B5%AC%20%EA%B8%88%EA%B0%95%EB%A1%9C%2019%20303%ED%98%B8"
-  },
-  {
-    "id": "naver/cc060958a3d2c2f5",
-    "name": "분홍베리농장",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 강서구 봉죽길443번길 122 분홍베리농장",
-    "roadAddress": "부산광역시 강서구 봉죽길443번길 122 분홍베리농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/pink_berry_farm"
-  },
-  {
     "id": "naver/a8b9c35a4aa057c8",
     "name": "빈이네 대저 토마토 농장",
     "region": "부산",
@@ -23031,28 +18565,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://smartstore.naver.com/binfarm22"
-  },
-  {
-    "id": "naver/6b7c549be67418ed",
-    "name": "삼근농장",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 금정구 두구동 626-6",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B8%88%EC%A0%95%EA%B5%AC%20%EB%91%90%EA%B5%AC%EB%8F%99%20626-6"
-  },
-  {
-    "id": "naver/bffb8a39b744b449",
-    "name": "스미스씨네농장",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 해운대구 해운대로483번가길 31",
-    "roadAddress": "부산광역시 해운대구 해운대로483번가길 31",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://app.catchtable.co.kr/ct/shop/smithsfarm"
   },
   {
     "id": "naver/575f4542cde839ec",
@@ -23077,17 +18589,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EA%B0%95%EB%8F%99%EC%8B%A0%EB%8D%951%EA%B8%B8%2056"
   },
   {
-    "id": "naver/c9708f141d691b9f",
-    "name": "장안굼벵이",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 기장군 장안읍 협동로 65-81",
-    "roadAddress": "부산광역시 기장군 장안읍 협동로 65-81",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://blog.naver.com/gjcsc6070"
-  },
-  {
     "id": "naver/5d1cf7ba41b2d2d4",
     "name": "장안딸기농장",
     "region": "부산",
@@ -23097,17 +18598,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B8%B0%EC%9E%A5%EA%B5%B0%20%EC%9E%A5%EC%95%88%EC%9D%8D"
-  },
-  {
-    "id": "naver/468107f9e56cf2b6",
-    "name": "정영 농원",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 강서구 대저1동 3350 정영 농원",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EB%8C%80%EC%A0%801%EB%8F%99%203350%20%EC%A0%95%EC%98%81%20%EB%86%8D%EC%9B%90"
   },
   {
     "id": "naver/95ea0a85d8a76f85",
@@ -23130,50 +18620,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EA%B2%BD%EC%A0%84%EC%B2%A0%EB%A1%9C%20319"
-  },
-  {
-    "id": "naver/80478ab0e554a750",
-    "name": "치유농장 온담",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 기장군 정관읍 곰내길 654-60 2층 치유농장 온담",
-    "roadAddress": "부산광역시 기장군 정관읍 곰내길 654-60 2층 치유농장 온담",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://ondam.qshop.ai"
-  },
-  {
-    "id": "naver/6505f95ff120c8b1",
-    "name": "태성농장",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 기장군 장안읍 장안로 52",
-    "roadAddress": "부산광역시 기장군 장안읍 장안로 52",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/taedo0116"
-  },
-  {
-    "id": "naver/95455df9e5fe572e",
-    "name": "플랜비 체험농장",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 강서구 식만로 13-60 플랜비 체험농장(부산 강서구 죽림동 529번지)",
-    "roadAddress": "부산광역시 강서구 식만로 13-60 플랜비 체험농장(부산 강서구 죽림동 529번지)",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/jdy647/223695305801"
-  },
-  {
-    "id": "naver/fbb01939fc3729ea",
-    "name": "현대 모터스튜디오 마이클 어반팜 테이블",
-    "region": "부산",
-    "city": "부산광역시",
-    "address": "부산광역시 수영구 구락로123번길 20 현대 모터스튜디오 부산 4층 마이클어반팜테이블",
-    "roadAddress": "부산광역시 수영구 구락로123번길 20 현대 모터스튜디오 부산 4층 마이클어반팜테이블",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://app.catchtable.co.kr/ct/shop/michaels_busan"
   },
   {
     "id": "way/533964598",
@@ -23284,83 +18730,6 @@ const realFarmSources = [
     "generatedName": true
   },
   {
-    "id": "naver/ebfeac9873f40b00",
-    "name": "달콤농장",
-    "region": "전국",
-    "city": "광주광역시",
-    "address": "광주광역시 서구 매월2로 16 광주광역시 서부농산물 도매시장 두레 80호",
-    "roadAddress": "광주광역시 서구 매월2로 16 광주광역시 서부농산물 도매시장 두레 80호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://band.us/@sweetfarm01079425642"
-  },
-  {
-    "id": "naver/e3f2e35fdb30f20c",
-    "name": "서민농장",
-    "region": "전국",
-    "city": "광주광역시",
-    "address": "광주광역시 광산구 동곡분토길 109-3",
-    "roadAddress": "광주광역시 광산구 동곡분토길 109-3",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/seominhouse_"
-  },
-  {
-    "id": "naver/0acf475ef27dd56b",
-    "name": "달달부부농장",
-    "region": "전국",
-    "city": "",
-    "address": "달달부부농장",
-    "roadAddress": "달달부부농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://mkt.shopping.naver.com/link/69d72ed08faf7216762d53ca"
-  },
-  {
-    "id": "naver/cafa18bb05785123",
-    "name": "다솜농장",
-    "region": "전국",
-    "city": "대구광역시",
-    "address": "대구광역시 군위군 산성면 화전리 736",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C%20%EA%B5%B0%EC%9C%84%EA%B5%B0%20%EC%82%B0%EC%84%B1%EB%A9%B4%20%ED%99%94%EC%A0%84%EB%A6%AC%20736"
-  },
-  {
-    "id": "naver/12a3bb9b12ddd9e1",
-    "name": "담꼬로컬푸드직매장",
-    "region": "전국",
-    "city": "대구광역시",
-    "address": "대구광역시 수성구 달구벌대로 3170 영농마이스터지원센터 1층(대구농업마이스터고 수영장)",
-    "roadAddress": "대구광역시 수성구 달구벌대로 3170 영농마이스터지원센터 1층(대구농업마이스터고 수영장)",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%88%98%EC%84%B1%EA%B5%AC%20%EB%8B%AC%EA%B5%AC%EB%B2%8C%EB%8C%80%EB%A1%9C%203170%20%EC%98%81%EB%86%8D%EB%A7%88%EC%9D%B4%EC%8A%A4%ED%84%B0%EC%A7%80%EC%9B%90%EC%84%BC%ED%84%B0%201%EC%B8%B5(%EB%8C%80%EA%B5%AC%EB%86%8D%EC%97%85%EB%A7%88%EC%9D%B4%EC%8A%A4%ED%84%B0%EA%B3%A0%20%EC%88%98%EC%98%81%EC%9E%A5)"
-  },
-  {
-    "id": "naver/1f57263d730965cd",
-    "name": "호감농장",
-    "region": "전국",
-    "city": "대구광역시",
-    "address": "대구광역시 동구 팔공산로277길 9-6 호감농장",
-    "roadAddress": "대구광역시 동구 팔공산로277길 9-6 호감농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.farmhogam.com"
-  },
-  {
-    "id": "naver/cfe1ed4d71888186",
-    "name": "희야농장",
-    "region": "전국",
-    "city": "대구광역시",
-    "address": "대구광역시 동구 금호강변로 417",
-    "roadAddress": "대구광역시 동구 금호강변로 417",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/asm0304"
-  },
-  {
     "id": "naver/239ced11ec4f20fb",
     "name": "복사골 복숭아농장",
     "region": "전국",
@@ -23372,61 +18741,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/bok-soong-a"
   },
   {
-    "id": "naver/7e1753aafe48f4c2",
-    "name": "산속가온 농장",
-    "region": "전국",
-    "city": "대전광역시",
-    "address": "대전광역시 유성구 성북로301번길 159-120",
-    "roadAddress": "대전광역시 유성구 성북로301번길 159-120",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%84%B1%EB%B6%81%EB%A1%9C301%EB%B2%88%EA%B8%B8%20159-120"
-  },
-  {
-    "id": "naver/c6cedde204368fa3",
-    "name": "송헌주말농장",
-    "region": "전국",
-    "city": "대전광역시",
-    "address": "대전광역시 유성구 계산동 176-2",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/heon5421"
-  },
-  {
-    "id": "naver/d8e5410a3c425152",
-    "name": "순이네농장",
-    "region": "전국",
-    "city": "대전광역시",
-    "address": "대전광역시 유성구 원계산로 274",
-    "roadAddress": "대전광역시 유성구 원계산로 274",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%EC%9B%90%EA%B3%84%EC%82%B0%EB%A1%9C%20274"
-  },
-  {
-    "id": "naver/67a216a29b46a229",
-    "name": "청림농장",
-    "region": "전국",
-    "city": "대전광역시",
-    "address": "대전광역시 유성구 방동 744-1",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/cjyong0"
-  },
-  {
-    "id": "naver/18abe42731111342",
-    "name": "아산팜",
-    "region": "전국",
-    "city": "서울특별시",
-    "address": "서울특별시 송파구 토성로6길 8",
-    "roadAddress": "서울특별시 송파구 토성로6길 8",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%86%A1%ED%8C%8C%EA%B5%AC%20%ED%86%A0%EC%84%B1%EB%A1%9C6%EA%B8%B8%208"
-  },
-  {
     "id": "naver/782400cff77a500d",
     "name": "국촌포도농원",
     "region": "전국",
@@ -23436,17 +18750,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%84%B8%EC%A2%85%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EC%8B%9C%20%EC%97%B0%EC%84%9C%EB%A9%B4%20%ED%95%A8%EB%B0%95%EB%A1%9C%20250"
-  },
-  {
-    "id": "naver/bb0a41ea2f03017f",
-    "name": "도원농장",
-    "region": "전국",
-    "city": "세종특별자치시",
-    "address": "세종특별자치시 전동면 소죽골길 85 심중리 378-3",
-    "roadAddress": "세종특별자치시 전동면 소죽골길 85 심중리 378-3",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%84%B8%EC%A2%85%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EC%8B%9C%20%EC%A0%84%EB%8F%99%EB%A9%B4%20%EC%86%8C%EC%A3%BD%EA%B3%A8%EA%B8%B8%2085%20%EC%8B%AC%EC%A4%91%EB%A6%AC%20378-3"
   },
   {
     "id": "naver/73815786a87a7e6d",
@@ -23469,28 +18772,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%84%B8%EC%A2%85%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EC%8B%9C%20%EC%97%B0%EB%8F%99%EB%A9%B4%20%EC%96%B8%EA%B3%A0%EA%B0%9C%EA%B8%B8%2022-8"
-  },
-  {
-    "id": "naver/883a38f421fcad1b",
-    "name": "성아농원",
-    "region": "전국",
-    "city": "세종특별자치시",
-    "address": "세종특별자치시 연서면 큰창고개길 51",
-    "roadAddress": "세종특별자치시 연서면 큰창고개길 51",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/sunganongwon"
-  },
-  {
-    "id": "naver/b1f90d2e22ff8c64",
-    "name": "세종로컬푸드 싱싱장터 새롬점",
-    "region": "전국",
-    "city": "세종특별자치시",
-    "address": "세종특별자치시 새롬로 20",
-    "roadAddress": "세종특별자치시 새롬로 20",
-    "salesType": "네이버 지역검색 등록 판매처",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%84%B8%EC%A2%85%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EC%8B%9C%20%EC%83%88%EB%A1%AC%EB%A1%9C%2020"
   },
   {
     "id": "naver/52715bced05f4306",
@@ -23548,182 +18829,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/psa2685"
   },
   {
-    "id": "naver/468618a83454cf8c",
-    "name": "지아농장",
-    "region": "전국",
-    "city": "세종특별자치시",
-    "address": "세종특별자치시 조치원읍 세종로 2512 1층",
-    "roadAddress": "세종특별자치시 조치원읍 세종로 2512 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%84%B8%EC%A2%85%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EC%8B%9C%20%EC%A1%B0%EC%B9%98%EC%9B%90%EC%9D%8D%20%EC%84%B8%EC%A2%85%EB%A1%9C%202512%201%EC%B8%B5"
-  },
-  {
-    "id": "naver/d2e75511cf89aef3",
-    "name": "탐다른농장",
-    "region": "전국",
-    "city": "",
-    "address": "탐다른농장",
-    "roadAddress": "탐다른농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/daruen_farm"
-  },
-  {
-    "id": "naver/c9cca82247e596ce",
-    "name": "푸요팜",
-    "region": "전국",
-    "city": "",
-    "address": "도로변 하우스",
-    "roadAddress": "도로변 하우스",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/puyofarm"
-  },
-  {
-    "id": "naver/3df40e9c2722a094",
-    "name": "두부콩방",
-    "region": "전남",
-    "city": "강진군",
-    "address": "전라남도 강진군 성전면 무위사로 90",
-    "roadAddress": "전라남도 강진군 성전면 무위사로 90",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EA%B0%95%EC%A7%84%EA%B5%B0%20%EC%84%B1%EC%A0%84%EB%A9%B4%20%EB%AC%B4%EC%9C%84%EC%82%AC%EB%A1%9C%2090"
-  },
-  {
-    "id": "naver/b24c91e8e7ccec9a",
-    "name": "뚜왈기팜",
-    "region": "전남",
-    "city": "강진군",
-    "address": "전라남도 강진군 강진읍 송전리 1033-8",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EA%B0%95%EC%A7%84%EA%B5%B0%20%EA%B0%95%EC%A7%84%EC%9D%8D%20%EC%86%A1%EC%A0%84%EB%A6%AC%201033-8"
-  },
-  {
-    "id": "naver/ae152faa4deed875",
-    "name": "신전아름농장",
-    "region": "전남",
-    "city": "강진군",
-    "address": "전라남도 강진군 신전면 신전중앙길 35-8",
-    "roadAddress": "전라남도 강진군 신전면 신전중앙길 35-8",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/kscha2413"
-  },
-  {
-    "id": "naver/5673ff23ca112fa2",
-    "name": "청남농장",
-    "region": "전남",
-    "city": "강진군",
-    "address": "전라남도 강진군 신전면",
-    "roadAddress": "전라남도 강진군 신전면",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EA%B0%95%EC%A7%84%EA%B5%B0%20%EC%8B%A0%EC%A0%84%EB%A9%B4"
-  },
-  {
-    "id": "naver/365073271d5c50c3",
-    "name": "24시 무인 꽃집 금싸빠 고흥점",
-    "region": "전남",
-    "city": "고흥군",
-    "address": "전라남도 고흥군 고흥읍 여산당촌길 19 1층 18호",
-    "roadAddress": "전라남도 고흥군 고흥읍 여산당촌길 19 1층 18호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://open.kakao.com/o/sY1Nsb2g"
-  },
-  {
-    "id": "naver/bcf92191b1a1d90e",
-    "name": "가자고흥앵무새체험장",
-    "region": "전남",
-    "city": "고흥군",
-    "address": "전라남도 고흥군 포두면 외산길 46-30",
-    "roadAddress": "전라남도 고흥군 포두면 외산길 46-30",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/goheung_parrotfarm/?next=%2F"
-  },
-  {
-    "id": "naver/a24b3c2e3a1246b8",
-    "name": "고템길커피농장",
-    "region": "전남",
-    "city": "고흥군",
-    "address": "전라남도 고흥군 포두면 우주로 546-6",
-    "roadAddress": "전라남도 고흥군 포두면 우주로 546-6",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/ghm21849"
-  },
-  {
-    "id": "naver/81ec0f380dcdcf3a",
-    "name": "고흥 스마트팜 혁신밸리 전기차충전소",
-    "region": "전남",
-    "city": "고흥군",
-    "address": "전라남도 고흥군 도덕면 스마트팜길 74",
-    "roadAddress": "전라남도 고흥군 도덕면 스마트팜길 74",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EA%B3%A0%ED%9D%A5%EA%B5%B0%20%EB%8F%84%EB%8D%95%EB%A9%B4%20%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8C%9C%EA%B8%B8%2074"
-  },
-  {
-    "id": "naver/8f8cb0823c9e5dd9",
-    "name": "고흥군 로컬푸드 직매장",
-    "region": "전남",
-    "city": "고흥군",
-    "address": "전라남도 고흥군 동강면 고흥로 4797",
-    "roadAddress": "전라남도 고흥군 동강면 고흥로 4797",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EA%B3%A0%ED%9D%A5%EA%B5%B0%20%EB%8F%99%EA%B0%95%EB%A9%B4%20%EA%B3%A0%ED%9D%A5%EB%A1%9C%204797"
-  },
-  {
-    "id": "naver/1f1082cbbe1f8500",
-    "name": "고흥백향과농장",
-    "region": "전남",
-    "city": "고흥군",
-    "address": "전라남도 고흥군 도덕면 자양사길 43-45 1층",
-    "roadAddress": "전라남도 고흥군 도덕면 자양사길 43-45 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://youtube.com/https://www.youtube.com/@user-qn8uj4sp9d"
-  },
-  {
-    "id": "naver/75056a9af4b477f3",
-    "name": "고흥스마트팜혁신밸리지원센터",
-    "region": "전남",
-    "city": "고흥군",
-    "address": "전라남도 고흥군 도덕면 스마트팜길 74",
-    "roadAddress": "전라남도 고흥군 도덕면 스마트팜길 74",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EA%B3%A0%ED%9D%A5%EA%B5%B0%20%EB%8F%84%EB%8D%95%EB%A9%B4%20%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8C%9C%EA%B8%B8%2074"
-  },
-  {
-    "id": "naver/d242b50f8296d1ad",
-    "name": "고흥팜",
-    "region": "전남",
-    "city": "고흥군",
-    "address": "전라남도 고흥군 풍양면 백석길 190-25 고흥팜",
-    "roadAddress": "전라남도 고흥군 풍양면 백석길 190-25 고흥팜",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EA%B3%A0%ED%9D%A5%EA%B5%B0%20%ED%92%8D%EC%96%91%EB%A9%B4%20%EB%B0%B1%EC%84%9D%EA%B8%B8%20190-25%20%EA%B3%A0%ED%9D%A5%ED%8C%9C"
-  },
-  {
-    "id": "naver/4f50e9b090cf6492",
-    "name": "기러기농장",
-    "region": "전남",
-    "city": "고흥군",
-    "address": "전라남도 고흥군 포두면 천마로 3583-79",
-    "roadAddress": "전라남도 고흥군 포두면 천마로 3583-79",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EA%B3%A0%ED%9D%A5%EA%B5%B0%20%ED%8F%AC%EB%91%90%EB%A9%B4%20%EC%B2%9C%EB%A7%88%EB%A1%9C%203583-79"
-  },
-  {
     "id": "naver/ffdaad78ddce665b",
     "name": "대봉유자농원",
     "region": "전남",
@@ -23757,83 +18862,6 @@ const realFarmSources = [
     "osmUrl": "http://www.고흥블루베리.kr/"
   },
   {
-    "id": "naver/fc11af0c90b9f8eb",
-    "name": "백수골달팽이농장",
-    "region": "전남",
-    "city": "고흥군",
-    "address": "전라남도 고흥군 포두면 상대리 1581-10",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.백수골달팽이.com"
-  },
-  {
-    "id": "naver/b9304293b12fb415",
-    "name": "비타민농장",
-    "region": "전남",
-    "city": "고흥군",
-    "address": "전라남도 고흥군 도덕면 고흥만로 172 (가야리 2067)",
-    "roadAddress": "전라남도 고흥군 도덕면 고흥만로 172 (가야리 2067)",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://wew.instagram.com/farm.gose/"
-  },
-  {
-    "id": "naver/41f9c752c3dbc3e4",
-    "name": "빨간농장",
-    "region": "전남",
-    "city": "고흥군",
-    "address": "전라남도 고흥군 포두면 평중길 47",
-    "roadAddress": "전라남도 고흥군 포두면 평중길 47",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EA%B3%A0%ED%9D%A5%EA%B5%B0%20%ED%8F%AC%EB%91%90%EB%A9%B4%20%ED%8F%89%EC%A4%91%EA%B8%B8%2047"
-  },
-  {
-    "id": "naver/294b2a2e6dde921f",
-    "name": "성원농장",
-    "region": "전남",
-    "city": "고흥군",
-    "address": "전라남도 고흥군 동강면 동강상송길 14",
-    "roadAddress": "전라남도 고흥군 동강면 동강상송길 14",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://ikj2067.blog.me/"
-  },
-  {
-    "id": "naver/5334d59288519c54",
-    "name": "은하수 농장",
-    "region": "전남",
-    "city": "고흥군",
-    "address": "전라남도 고흥군 대서면 화산리 814-3",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/sesgalaxyfarm"
-  },
-  {
-    "id": "naver/752a0b48dac83553",
-    "name": "전남 고흥 스마트팜 혁신밸리",
-    "region": "전남",
-    "city": "고흥군",
-    "address": "전라남도 고흥군 도덕면 가야리 3742",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EA%B3%A0%ED%9D%A5%EA%B5%B0%20%EB%8F%84%EB%8D%95%EB%A9%B4%20%EA%B0%80%EC%95%BC%EB%A6%AC%203742"
-  },
-  {
-    "id": "naver/1399dd12cffb3011",
-    "name": "조용한농장",
-    "region": "전남",
-    "city": "고흥군",
-    "address": "전라남도 고흥군 도덕면 스마트팜길 76-41 B동 4구역",
-    "roadAddress": "전라남도 고흥군 도덕면 스마트팜길 76-41 B동 4구역",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https:///smartstore.naver.com/quietfarm/products/11190760759"
-  },
-  {
     "id": "naver/5e6c2274666f8420",
     "name": "주렁주렁딸기농장",
     "region": "전남",
@@ -23843,28 +18871,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://www.instagram.com/juju_berryfarm"
-  },
-  {
-    "id": "naver/b3adc407009abe73",
-    "name": "죽암농장",
-    "region": "전남",
-    "city": "고흥군",
-    "address": "전라남도 고흥군 동강면 장덕리 1047-3",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://farm.jukam.co.kr/"
-  },
-  {
-    "id": "naver/61cf57a168cf6047",
-    "name": "탑바이오 깨비농장 남부총판",
-    "region": "전남",
-    "city": "고흥군",
-    "address": "전라남도 고흥군 대서면 봉두로 450-13",
-    "roadAddress": "전라남도 고흥군 대서면 봉두로 450-13",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/topbio"
   },
   {
     "id": "naver/00a0ec31fb18ea77",
@@ -23878,72 +18884,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/ho7232951"
   },
   {
-    "id": "naver/a424150cfaa17909",
-    "name": "불로치농장",
-    "region": "전남",
-    "city": "곡성군",
-    "address": "전라남도 곡성군 삼기면 곡순로 832-9",
-    "roadAddress": "전라남도 곡성군 삼기면 곡순로 832-9",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.bullochi.co.kr/"
-  },
-  {
-    "id": "naver/cc19a1c95fefacb7",
-    "name": "석진농장",
-    "region": "전남",
-    "city": "곡성군",
-    "address": "전라남도 곡성군 곡성읍 대평리 1140-5",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EA%B3%A1%EC%84%B1%EA%B5%B0%20%EA%B3%A1%EC%84%B1%EC%9D%8D%20%EB%8C%80%ED%8F%89%EB%A6%AC%201140-5"
-  },
-  {
-    "id": "naver/125be2c0a29515ea",
-    "name": "광양원예농협 로컬푸드직매장",
-    "region": "전남",
-    "city": "광양시",
-    "address": "전라남도 광양시 광양읍 유당로 30 광양원예농협 로컬푸드직매장",
-    "roadAddress": "전라남도 광양시 광양읍 유당로 30 광양원예농협 로컬푸드직매장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.로컬푸드마켓.kr/"
-  },
-  {
-    "id": "naver/02f11485670dd5e3",
-    "name": "그루터기식물원",
-    "region": "전남",
-    "city": "광양시",
-    "address": "전라남도 광양시 광양읍 월파길 13-9 그루터기식물원",
-    "roadAddress": "전라남도 광양시 광양읍 월파길 13-9 그루터기식물원",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/stumplant"
-  },
-  {
-    "id": "naver/eefe3b9ee18e0251",
-    "name": "나래농장",
-    "region": "전남",
-    "city": "광양시",
-    "address": "전라남도 광양시 옥룡면 상운길 57-8",
-    "roadAddress": "전라남도 광양시 옥룡면 상운길 57-8",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/narae-farm"
-  },
-  {
-    "id": "naver/940621ef9f2afbbb",
-    "name": "남정체험농장",
-    "region": "전남",
-    "city": "광양시",
-    "address": "전라남도 광양시 옥룡면 남정길 209-16",
-    "roadAddress": "전라남도 광양시 옥룡면 남정길 209-16",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%98%A5%EB%A3%A1%EB%A9%B4%20%EB%82%A8%EC%A0%95%EA%B8%B8%20209-16"
-  },
-  {
     "id": "naver/b05284f4beda1ff9",
     "name": "산토토마토농장",
     "region": "전남",
@@ -23953,116 +18893,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EA%B4%91%EC%96%91%EC%9D%8D%20%EB%8F%84%EC%9B%94%EB%A6%AC%20555-1"
-  },
-  {
-    "id": "naver/f33e980cc7424fb5",
-    "name": "컴포즈커피 광양동부농협로컬푸드점",
-    "region": "전남",
-    "city": "광양시",
-    "address": "전라남도 광양시 옥곡면 신금로 110 1층 컴포즈커피",
-    "roadAddress": "전라남도 광양시 옥곡면 신금로 110 1층 컴포즈커피",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EA%B4%91%EC%96%91%EC%8B%9C%20%EC%98%A5%EA%B3%A1%EB%A9%B4%20%EC%8B%A0%EA%B8%88%EB%A1%9C%20110%201%EC%B8%B5%20%EC%BB%B4%ED%8F%AC%EC%A6%88%EC%BB%A4%ED%94%BC"
-  },
-  {
-    "id": "naver/4f192be65a390e48",
-    "name": "번덕뜰 체험농장",
-    "region": "전남",
-    "city": "구례군",
-    "address": "전라남도 구례군 광의면 난동길 79-33 번덕뜰 체험농장",
-    "roadAddress": "전라남도 구례군 광의면 난동길 79-33 번덕뜰 체험농장",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://beondeok.com/"
-  },
-  {
-    "id": "naver/834ad1b1a0d7e59d",
-    "name": "한아름농산물직거래장터",
-    "region": "전남",
-    "city": "구례군",
-    "address": "전라남도 구례군 산동면 지리산온천로 39",
-    "roadAddress": "전라남도 구례군 산동면 지리산온천로 39",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EA%B5%AC%EB%A1%80%EA%B5%B0%20%EC%82%B0%EB%8F%99%EB%A9%B4%20%EC%A7%80%EB%A6%AC%EC%82%B0%EC%98%A8%EC%B2%9C%EB%A1%9C%2039"
-  },
-  {
-    "id": "naver/a3f735f3c65c2ea0",
-    "name": "개미와베짱이",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 노안면 금산로 33",
-    "roadAddress": "전라남도 나주시 노안면 금산로 33",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://blog.naver.com/najunews"
-  },
-  {
-    "id": "naver/c820e940d0f2bb1d",
-    "name": "그린언약",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 금천면 솔안길 92 1층",
-    "roadAddress": "전라남도 나주시 금천면 솔안길 92 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%82%98%EC%A3%BC%EC%8B%9C%20%EA%B8%88%EC%B2%9C%EB%A9%B4%20%EC%86%94%EC%95%88%EA%B8%B8%2092%201%EC%B8%B5"
-  },
-  {
-    "id": "naver/f8f7bb536561b80b",
-    "name": "나주시로컬푸드직매장 빛가람점",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 문화로 153 나주로컬푸드직매장 빛가람점",
-    "roadAddress": "전라남도 나주시 문화로 153 나주로컬푸드직매장 빛가람점",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://najulocalfood.kr/"
-  },
-  {
-    "id": "naver/bf8e401dd3824002",
-    "name": "나주시로컬푸드통합지원센터",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 산포면 내기리 942-7",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%82%98%EC%A3%BC%EC%8B%9C%20%EC%82%B0%ED%8F%AC%EB%A9%B4%20%EB%82%B4%EA%B8%B0%EB%A6%AC%20942-7"
-  },
-  {
-    "id": "naver/83e262ec8b192077",
-    "name": "나주팜",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 반남면 부흥길 62-13 나주팜",
-    "roadAddress": "전라남도 나주시 반남면 부흥길 62-13 나주팜",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/najuparm"
-  },
-  {
-    "id": "naver/12f8fbd46bf05e21",
-    "name": "네이처플레이스",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 금천면 빛가람로 467 3동(주)",
-    "roadAddress": "전라남도 나주시 금천면 빛가람로 467 3동(주)",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/natureplacekr"
-  },
-  {
-    "id": "naver/0946b9c884b04842",
-    "name": "농업회사법인 만들평야",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 건재로 278",
-    "roadAddress": "전라남도 나주시 건재로 278",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%82%98%EC%A3%BC%EC%8B%9C%20%EA%B1%B4%EC%9E%AC%EB%A1%9C%20278"
   },
   {
     "id": "naver/5a1fc36c3e9cd9a0",
@@ -24076,28 +18906,6 @@ const realFarmSources = [
     "osmUrl": "https://smartstore.naver.com/dalkom8936"
   },
   {
-    "id": "naver/93a1e164d3493e0d",
-    "name": "더 초록디자인",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 다시면 무숙로 776-16 단독",
-    "roadAddress": "전라남도 나주시 다시면 무숙로 776-16 단독",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://youtube.com/@the_chorok530?si=cDXCNaylsRsXSfZb"
-  },
-  {
-    "id": "naver/0abf7fabfe5980ce",
-    "name": "레인보우팜",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 동수농공단지길 30-5 기업지원동 1층 생산실",
-    "roadAddress": "전라남도 나주시 동수농공단지길 30-5 기업지원동 1층 생산실",
-    "salesType": "네이버 지역검색 등록 판매처",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/rainbowfarm21"
-  },
-  {
     "id": "naver/0ba90e17df6a5141",
     "name": "루루블루베리체험농장",
     "region": "전남",
@@ -24107,105 +18915,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://blog.naver.com/lulu200520"
-  },
-  {
-    "id": "naver/00646de7906fab19",
-    "name": "머시머시체험농장",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 동강면 백련산로 329 머시머시체험장",
-    "roadAddress": "전라남도 나주시 동강면 백련산로 329 머시머시체험장",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/musimusi325"
-  },
-  {
-    "id": "naver/527d0d344c15014e",
-    "name": "목사골로컬푸드",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 공산면 덕음로 9-1",
-    "roadAddress": "전라남도 나주시 공산면 덕음로 9-1",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%82%98%EC%A3%BC%EC%8B%9C%20%EA%B3%B5%EC%82%B0%EB%A9%B4%20%EB%8D%95%EC%9D%8C%EB%A1%9C%209-1"
-  },
-  {
-    "id": "naver/d21391b8613164c7",
-    "name": "몽송뜨락농장",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 동강면 옥정리 87-4",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/farmer_yung"
-  },
-  {
-    "id": "naver/61205cb619869842",
-    "name": "미래팜 열대과일 관광농원",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 금당길 9",
-    "roadAddress": "전라남도 나주시 금당길 9",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%82%98%EC%A3%BC%EC%8B%9C%20%EA%B8%88%EB%8B%B9%EA%B8%B8%209"
-  },
-  {
-    "id": "naver/b43f9b836f9e8039",
-    "name": "부엉이농원",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 봉황면 죽석리 323 비닐하우스 제1동",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/owlfarmgarden"
-  },
-  {
-    "id": "naver/6bdc46d935102be4",
-    "name": "뷰티풀농장",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 대기1길 265-29",
-    "roadAddress": "전라남도 나주시 대기1길 265-29",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/jwem012"
-  },
-  {
-    "id": "naver/f835cedff39431ff",
-    "name": "소피아리움",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 상야1길 7 140호",
-    "roadAddress": "전라남도 나주시 상야1길 7 140호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/jiseong_lee"
-  },
-  {
-    "id": "naver/3d70e6db97048d32",
-    "name": "양새댁농산물",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 대호길 10",
-    "roadAddress": "전라남도 나주시 대호길 10",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%82%98%EC%A3%BC%EC%8B%9C%20%EB%8C%80%ED%98%B8%EA%B8%B8%2010"
-  },
-  {
-    "id": "naver/d3e9283696a40a5b",
-    "name": "에스비팜나주농업회사법인",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 동강면 동강로 307-142",
-    "roadAddress": "전라남도 나주시 동강면 동강로 307-142",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://sbfarm.kr/"
   },
   {
     "id": "naver/1fa33dd3758303f3",
@@ -24219,28 +18928,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%82%98%EC%A3%BC%EC%8B%9C"
   },
   {
-    "id": "naver/09c7799e77597245",
-    "name": "예다민팜",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 노안면 장림길 12-14",
-    "roadAddress": "전라남도 나주시 노안면 장림길 12-14",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/ths23dydejr"
-  },
-  {
-    "id": "naver/ede40e86ca26ceee",
-    "name": "우영원예사",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 금천면 신가로 8",
-    "roadAddress": "전라남도 나주시 금천면 신가로 8",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%82%98%EC%A3%BC%EC%8B%9C%20%EA%B8%88%EC%B2%9C%EB%A9%B4%20%EC%8B%A0%EA%B0%80%EB%A1%9C%208"
-  },
-  {
     "id": "naver/98c4c67a9ac9acad",
     "name": "음악속포도농원",
     "region": "전남",
@@ -24250,17 +18937,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%82%98%EC%A3%BC%EC%8B%9C%20%EB%82%A8%ED%8F%89%EC%9D%8D"
-  },
-  {
-    "id": "naver/c9818252dcb6b101",
-    "name": "이상향농원",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 봉황면 용전리 산65-10",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/boksun_peach"
   },
   {
     "id": "naver/0959bd9adf996b94",
@@ -24274,116 +18950,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/cantaloupemelon"
   },
   {
-    "id": "naver/44628507f05ee419",
-    "name": "장성농장",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 봉황면 장성길 40-68",
-    "roadAddress": "전라남도 나주시 봉황면 장성길 40-68",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%82%98%EC%A3%BC%EC%8B%9C%20%EB%B4%89%ED%99%A9%EB%A9%B4%20%EC%9E%A5%EC%84%B1%EA%B8%B8%2040-68"
-  },
-  {
-    "id": "naver/87e75def036ef575",
-    "name": "지엘농장",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 다시면 석관로 386-17 농업회사법인 지엘",
-    "roadAddress": "전라남도 나주시 다시면 석관로 386-17 농업회사법인 지엘",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.glfarm.co.kr"
-  },
-  {
-    "id": "naver/ecb4f7ff7606cdeb",
-    "name": "축복농장",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 산포면 산남로 134-17",
-    "roadAddress": "전라남도 나주시 산포면 산남로 134-17",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%82%98%EC%A3%BC%EC%8B%9C%20%EC%82%B0%ED%8F%AC%EB%A9%B4%20%EC%82%B0%EB%82%A8%EB%A1%9C%20134-17"
-  },
-  {
-    "id": "naver/4e0ff3dd301d684b",
-    "name": "평화농장",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 봉황로 313-5",
-    "roadAddress": "전라남도 나주시 봉황로 313-5",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%82%98%EC%A3%BC%EC%8B%9C%20%EB%B4%89%ED%99%A9%EB%A1%9C%20313-5"
-  },
-  {
-    "id": "naver/9b533f455f50b08c",
-    "name": "하나로마트 산포농협로컬푸드직매장",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 한빛로 171 산포농협하나로마트로컬푸드직매장",
-    "roadAddress": "전라남도 나주시 한빛로 171 산포농협하나로마트로컬푸드직매장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%82%98%EC%A3%BC%EC%8B%9C%20%ED%95%9C%EB%B9%9B%EB%A1%9C%20171%20%EC%82%B0%ED%8F%AC%EB%86%8D%ED%98%91%ED%95%98%EB%82%98%EB%A1%9C%EB%A7%88%ED%8A%B8%EB%A1%9C%EC%BB%AC%ED%91%B8%EB%93%9C%EC%A7%81%EB%A7%A4%EC%9E%A5"
-  },
-  {
-    "id": "naver/f72a96519fd8ccbe",
-    "name": "한아름농장",
-    "region": "전남",
-    "city": "나주시",
-    "address": "전라남도 나주시 반남면 자미로 131 한아름농장",
-    "roadAddress": "전라남도 나주시 반남면 자미로 131 한아름농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%82%98%EC%A3%BC%EC%8B%9C%20%EB%B0%98%EB%82%A8%EB%A9%B4%20%EC%9E%90%EB%AF%B8%EB%A1%9C%20131%20%ED%95%9C%EC%95%84%EB%A6%84%EB%86%8D%EC%9E%A5"
-  },
-  {
-    "id": "naver/b4559f4692164b78",
-    "name": "꼬마농장",
-    "region": "전남",
-    "city": "담양군",
-    "address": "전라남도 담양군 금성면 금성산성길 298-10",
-    "roadAddress": "전라남도 담양군 금성면 금성산성길 298-10",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/ggomafarm"
-  },
-  {
-    "id": "naver/23e498e359573b30",
-    "name": "꿈에그린체험농장",
-    "region": "전남",
-    "city": "담양군",
-    "address": "전라남도 담양군 수북면 대방두정길 76 농업회사법인꿈에그린농장",
-    "roadAddress": "전라남도 담양군 수북면 대방두정길 76 농업회사법인꿈에그린농장",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/rhworb0"
-  },
-  {
-    "id": "naver/05136527dfb75a0b",
-    "name": "담양꽃빛농원",
-    "region": "전남",
-    "city": "담양군",
-    "address": "전라남도 담양군 고서면 신양길 44-30 담양꽃빛농원",
-    "roadAddress": "전라남도 담양군 고서면 신양길 44-30 담양꽃빛농원",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.youtube.com/channel/UCfkk4aB1gZhq3Jtz0ca9Cug"
-  },
-  {
-    "id": "naver/798e72c359d3999e",
-    "name": "딸기공방",
-    "region": "전남",
-    "city": "담양군",
-    "address": "전라남도 담양군 대전면 추성1로 407 딸기공방",
-    "roadAddress": "전라남도 담양군 대전면 추성1로 407 딸기공방",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/atelierstrawberry"
-  },
-  {
     "id": "naver/377320fd6bf729a5",
     "name": "한재골포도농장직판장",
     "region": "전남",
@@ -24393,171 +18959,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%8B%B4%EC%96%91%EA%B5%B0%20%EB%8C%80%EC%A0%84%EB%A9%B4"
-  },
-  {
-    "id": "naver/76694ed677716e60",
-    "name": "농가통닭 옥암점",
-    "region": "전남",
-    "city": "목포시",
-    "address": "전라남도 목포시 당가두로 28 1층",
-    "roadAddress": "전라남도 목포시 당가두로 28 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%AA%A9%ED%8F%AC%EC%8B%9C%20%EB%8B%B9%EA%B0%80%EB%91%90%EB%A1%9C%2028%201%EC%B8%B5"
-  },
-  {
-    "id": "naver/b6b60b621e705e8d",
-    "name": "농가통닭 포미점",
-    "region": "전남",
-    "city": "목포시",
-    "address": "전라남도 목포시 용해지구로88번길 23 상가동 108호",
-    "roadAddress": "전라남도 목포시 용해지구로88번길 23 상가동 108호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%AA%A9%ED%8F%AC%EC%8B%9C%20%EC%9A%A9%ED%95%B4%EC%A7%80%EA%B5%AC%EB%A1%9C88%EB%B2%88%EA%B8%B8%2023%20%EC%83%81%EA%B0%80%EB%8F%99%20108%ED%98%B8"
-  },
-  {
-    "id": "naver/ba678169d642581f",
-    "name": "농가통닭하당점",
-    "region": "전남",
-    "city": "목포시",
-    "address": "전라남도 목포시 신흥로 14-1 1층",
-    "roadAddress": "전라남도 목포시 신흥로 14-1 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%AA%A9%ED%8F%AC%EC%8B%9C%20%EC%8B%A0%ED%9D%A5%EB%A1%9C%2014-1%201%EC%B8%B5"
-  },
-  {
-    "id": "naver/0a46f19c39ad6ae3",
-    "name": "목포농협 하나로마트 로컬푸드 북항점",
-    "region": "전남",
-    "city": "목포시",
-    "address": "전라남도 목포시 청호로219번길 4 1층",
-    "roadAddress": "전라남도 목포시 청호로219번길 4 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%AA%A9%ED%8F%AC%EC%8B%9C%20%EC%B2%AD%ED%98%B8%EB%A1%9C219%EB%B2%88%EA%B8%B8%204%201%EC%B8%B5"
-  },
-  {
-    "id": "naver/a6bcf04fad4217b7",
-    "name": "하나로마트 목포농협로컬푸드직매장",
-    "region": "전남",
-    "city": "목포시",
-    "address": "전라남도 목포시 송림로40번길 9",
-    "roadAddress": "전라남도 목포시 송림로40번길 9",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%AA%A9%ED%8F%AC%EC%8B%9C%20%EC%86%A1%EB%A6%BC%EB%A1%9C40%EB%B2%88%EA%B8%B8%209"
-  },
-  {
-    "id": "naver/5a6d2a14fbd1ff6c",
-    "name": "경숙다육키핑",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 삼향읍 삼일로 364-46 경숙다육키핑",
-    "roadAddress": "전라남도 무안군 삼향읍 삼일로 364-46 경숙다육키핑",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%AC%B4%EC%95%88%EA%B5%B0%20%EC%82%BC%ED%96%A5%EC%9D%8D%20%EC%82%BC%EC%9D%BC%EB%A1%9C%20364-46%20%EA%B2%BD%EC%88%99%EB%8B%A4%EC%9C%A1%ED%82%A4%ED%95%91"
-  },
-  {
-    "id": "naver/e697c697f33adf12",
-    "name": "과일팜 남악점",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 삼향읍 남악4로82번길 19 1층 104호, 105호",
-    "roadAddress": "전라남도 무안군 삼향읍 남악4로82번길 19 1층 104호, 105호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://band.us/band/101919387"
-  },
-  {
-    "id": "naver/329286baacf9b9a9",
-    "name": "규영이네농장",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 무안읍 용월리",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/rornflaks3"
-  },
-  {
-    "id": "naver/963609c8a02b5156",
-    "name": "나눔드림",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 운남면 운해로 260",
-    "roadAddress": "전라남도 무안군 운남면 운해로 260",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/sharingdream"
-  },
-  {
-    "id": "naver/7be57ada8fb494d5",
-    "name": "농바름 체험",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 현경면 현경신촌길 28",
-    "roadAddress": "전라남도 무안군 현경면 현경신촌길 28",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/p/DXI2e3TlLOm/?img_index=1"
-  },
-  {
-    "id": "naver/49a65cf5b3840fa5",
-    "name": "담이농장",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 현경면 석북길 91-2",
-    "roadAddress": "전라남도 무안군 현경면 석북길 91-2",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://담이농장.com"
-  },
-  {
-    "id": "naver/c4a3a324379c70c8",
-    "name": "둘리꽃농원",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 삼향읍 임성로 203-3 둘리꽃농원",
-    "roadAddress": "전라남도 무안군 삼향읍 임성로 203-3 둘리꽃농원",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%AC%B4%EC%95%88%EA%B5%B0%20%EC%82%BC%ED%96%A5%EC%9D%8D%20%EC%9E%84%EC%84%B1%EB%A1%9C%20203-3%20%EB%91%98%EB%A6%AC%EA%BD%83%EB%86%8D%EC%9B%90"
-  },
-  {
-    "id": "naver/7bf4ea2c2451e590",
-    "name": "레드베리팜",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 몽탄면 몽탄로 918-5",
-    "roadAddress": "전라남도 무안군 몽탄면 몽탄로 918-5",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%AC%B4%EC%95%88%EA%B5%B0%20%EB%AA%BD%ED%83%84%EB%A9%B4%20%EB%AA%BD%ED%83%84%EB%A1%9C%20918-5"
-  },
-  {
-    "id": "naver/563a4b2876c43a8f",
-    "name": "무안농장",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 몽탄면 양마길 24-10",
-    "roadAddress": "전라남도 무안군 몽탄면 양마길 24-10",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%AC%B4%EC%95%88%EA%B5%B0%20%EB%AA%BD%ED%83%84%EB%A9%B4%20%EC%96%91%EB%A7%88%EA%B8%B8%2024-10"
-  },
-  {
-    "id": "naver/f9769d9d66e5ff22",
-    "name": "사랑꽃농원",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 삼향읍 임성리 931",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%AC%B4%EC%95%88%EA%B5%B0%20%EC%82%BC%ED%96%A5%EC%9D%8D%20%EC%9E%84%EC%84%B1%EB%A6%AC%20931"
   },
   {
     "id": "naver/dbdb6df0c8146f75",
@@ -24571,50 +18972,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%AC%B4%EC%95%88%EA%B5%B0%20%EC%82%BC%ED%96%A5%EC%9D%8D%20%EC%82%BC%ED%96%A5%EC%A4%91%EC%95%99%EB%A1%9C%20113"
   },
   {
-    "id": "naver/7cad5a72aae89708",
-    "name": "스마일농장",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 현경면 석북길 83-5",
-    "roadAddress": "전라남도 무안군 현경면 석북길 83-5",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/gosmilefarm"
-  },
-  {
-    "id": "naver/9177b6f2e782b5d6",
-    "name": "옐로우팜 목포남악점",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 삼향읍 대죽동로16번길 21 협승프라자 103호",
-    "roadAddress": "전라남도 무안군 삼향읍 대죽동로16번길 21 협승프라자 103호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://link.inpock.co.kr/yellowfarmnamak"
-  },
-  {
-    "id": "naver/5b108da1cabb4b57",
-    "name": "우리농장",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 해제면 현해로 1651-1",
-    "roadAddress": "전라남도 무안군 해제면 현해로 1651-1",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.wefarm.co.kr"
-  },
-  {
-    "id": "naver/6ce6e5aa3eb1ee90",
-    "name": "우리팜약국",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 삼향읍 남악3로 71 더 트리폴리앙",
-    "roadAddress": "전라남도 무안군 삼향읍 남악3로 71 더 트리폴리앙",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%AC%B4%EC%95%88%EA%B5%B0%20%EC%82%BC%ED%96%A5%EC%9D%8D%20%EB%82%A8%EC%95%853%EB%A1%9C%2071%20%EB%8D%94%20%ED%8A%B8%EB%A6%AC%ED%8F%B4%EB%A6%AC%EC%95%99"
-  },
-  {
     "id": "naver/640076b41337e07e",
     "name": "유달블루베리농장",
     "region": "전남",
@@ -24624,149 +18981,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%AC%B4%EC%95%88%EA%B5%B0%20%EC%9D%BC%EB%A1%9C%EC%9D%8D"
-  },
-  {
-    "id": "naver/f5387fb42b119a68",
-    "name": "인문학농장",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 무안읍 성남2길 22",
-    "roadAddress": "전라남도 무안군 무안읍 성남2길 22",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/jkj7717"
-  },
-  {
-    "id": "naver/3fa5edd91f263959",
-    "name": "일로농협 로컬푸드직매장",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 일로읍 일로로 64",
-    "roadAddress": "전라남도 무안군 일로읍 일로로 64",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%AC%B4%EC%95%88%EA%B5%B0%20%EC%9D%BC%EB%A1%9C%EC%9D%8D%20%EC%9D%BC%EB%A1%9C%EB%A1%9C%2064"
-  },
-  {
-    "id": "naver/dd55a4baa78d77fd",
-    "name": "정병철친환경쌀농가",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 몽탄면 도산길 47-1",
-    "roadAddress": "전라남도 무안군 몽탄면 도산길 47-1",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.061-452-2978.bestbz.com/"
-  },
-  {
-    "id": "naver/8e9ca90b5036fb33",
-    "name": "통일농장",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 운남면 월악길 139-26",
-    "roadAddress": "전라남도 무안군 운남면 월악길 139-26",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/leejg4615"
-  },
-  {
-    "id": "naver/a9c38f5c78850e73",
-    "name": "평강농장",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 무안읍 공항로 75-9",
-    "roadAddress": "전라남도 무안군 무안읍 공항로 75-9",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%AC%B4%EC%95%88%EA%B5%B0%20%EB%AC%B4%EC%95%88%EC%9D%8D%20%EA%B3%B5%ED%95%AD%EB%A1%9C%2075-9"
-  },
-  {
-    "id": "naver/573452d3c4eb681d",
-    "name": "하마농장",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 현경면 석북길 89",
-    "roadAddress": "전라남도 무안군 현경면 석북길 89",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/meeppi0628"
-  },
-  {
-    "id": "naver/1bce1d778b4d50c6",
-    "name": "한골농장",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 청계면 문화로 279",
-    "roadAddress": "전라남도 무안군 청계면 문화로 279",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%AC%B4%EC%95%88%EA%B5%B0%20%EC%B2%AD%EA%B3%84%EB%A9%B4%20%EB%AC%B8%ED%99%94%EB%A1%9C%20279"
-  },
-  {
-    "id": "naver/bd769beb443a3bbc",
-    "name": "한꼴농장",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 청계면 문화로 279",
-    "roadAddress": "전라남도 무안군 청계면 문화로 279",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/hanggol_farm"
-  },
-  {
-    "id": "naver/2fc9bf090da3ee4d",
-    "name": "해야농장",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 현경면 현경신촌길 6",
-    "roadAddress": "전라남도 무안군 현경면 현경신촌길 6",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.haeya.kr"
-  },
-  {
-    "id": "naver/9b54be317d1c0bc2",
-    "name": "행복한밥상의로컬푸드마켓",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 삼향읍 남악4로82번가길 20",
-    "roadAddress": "전라남도 무안군 삼향읍 남악4로82번가길 20",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/happymarket_namak/"
-  },
-  {
-    "id": "naver/bb71fee984210d62",
-    "name": "환벽오디농장",
-    "region": "전남",
-    "city": "무안군",
-    "address": "전라남도 무안군 몽탄면 법천길 289-46",
-    "roadAddress": "전라남도 무안군 몽탄면 법천길 289-46",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/be1477"
-  },
-  {
-    "id": "naver/eddf90db3e135e34",
-    "name": "그린참다래농장",
-    "region": "전남",
-    "city": "보성군",
-    "address": "전라남도 보성군 조성면 은곡리 92",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.kiwiman.co.kr/"
-  },
-  {
-    "id": "naver/a74646ed2b2d3ece",
-    "name": "금전농원",
-    "region": "전남",
-    "city": "보성군",
-    "address": "전라남도 보성군 벌교읍 지동리 78-5",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%B3%B4%EC%84%B1%EA%B5%B0%20%EB%B2%8C%EA%B5%90%EC%9D%8D%20%EC%A7%80%EB%8F%99%EB%A6%AC%2078-5"
   },
   {
     "id": "naver/9b8e467a28392c60",
@@ -24791,28 +19005,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EB%B3%B4%EC%84%B1%EA%B5%B0%20%EB%B2%8C%EA%B5%90%EC%9D%8D%20%EC%9E%A5%EC%95%94%EB%A6%AC%201149-6%20%ED%9B%88%EB%82%A8%EB%94%B8%EA%B8%B0"
   },
   {
-    "id": "naver/a49d482f18ca6ce9",
-    "name": "가야농장",
-    "region": "전남",
-    "city": "순천시",
-    "address": "전라남도 순천시 해룡면 농주리 662-1",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EC%88%9C%EC%B2%9C%EC%8B%9C%20%ED%95%B4%EB%A3%A1%EB%A9%B4%20%EB%86%8D%EC%A3%BC%EB%A6%AC%20662-1"
-  },
-  {
-    "id": "naver/9fc42f356007b8ba",
-    "name": "고요풀",
-    "region": "전남",
-    "city": "순천시",
-    "address": "전라남도 순천시 왕지2길 9-10",
-    "roadAddress": "전라남도 순천시 왕지2길 9-10",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/goyoful"
-  },
-  {
     "id": "naver/c2e4faa4a01ab6c2",
     "name": "낙안블루베리농장",
     "region": "전남",
@@ -24822,50 +19014,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://blog.naver.com/dnrudwns5959"
-  },
-  {
-    "id": "naver/2d123cac3c0ab771",
-    "name": "낙안풍경소리다육농장",
-    "region": "전남",
-    "city": "순천시",
-    "address": "전라남도 순천시 낙안면 조정래길 438",
-    "roadAddress": "전라남도 순천시 낙안면 조정래길 438",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://youtube.com/channel/UCrVL8ZMZLR149fRd89YiFQA"
-  },
-  {
-    "id": "naver/78934b91e426cdf9",
-    "name": "농가밥상 여미락",
-    "region": "전남",
-    "city": "순천시",
-    "address": "전라남도 순천시 국가정원1호길 152-55",
-    "roadAddress": "전라남도 순천시 국가정원1호길 152-55",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EC%88%9C%EC%B2%9C%EC%8B%9C%20%EA%B5%AD%EA%B0%80%EC%A0%95%EC%9B%901%ED%98%B8%EA%B8%B8%20152-55"
-  },
-  {
-    "id": "naver/6cf822afba2eee94",
-    "name": "덕천농장",
-    "region": "전남",
-    "city": "순천시",
-    "address": "전라남도 순천시 낙안면 덕천길 80",
-    "roadAddress": "전라남도 순천시 낙안면 덕천길 80",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.deokcheon.co.kr/"
-  },
-  {
-    "id": "naver/c31ace72134b123a",
-    "name": "모랭이농장",
-    "region": "전남",
-    "city": "순천시",
-    "address": "전라남도 순천시 월등면 월등로 777",
-    "roadAddress": "전라남도 순천시 월등면 월등로 777",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EC%88%9C%EC%B2%9C%EC%8B%9C%20%EC%9B%94%EB%93%B1%EB%A9%B4%20%EC%9B%94%EB%93%B1%EB%A1%9C%20777"
   },
   {
     "id": "naver/7a659099b91b6b4e",
@@ -24888,28 +19036,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EC%88%9C%EC%B2%9C%EC%8B%9C%20%EC%9B%94%EB%93%B1%EB%A9%B4%20%EC%9B%94%EB%93%B1%EB%A1%9C%20530"
-  },
-  {
-    "id": "naver/8642df649c7e2138",
-    "name": "농가옛날통닭 신안점",
-    "region": "전남",
-    "city": "신안군",
-    "address": "전라남도 신안군 암태면 중부로 1816 2동 5호",
-    "roadAddress": "전라남도 신안군 암태면 중부로 1816 2동 5호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EC%8B%A0%EC%95%88%EA%B5%B0%20%EC%95%94%ED%83%9C%EB%A9%B4%20%EC%A4%91%EB%B6%80%EB%A1%9C%201816%202%EB%8F%99%205%ED%98%B8"
-  },
-  {
-    "id": "naver/3627ac92343e1a0d",
-    "name": "신안군산림조합 나무꽃직매장",
-    "region": "전남",
-    "city": "신안군",
-    "address": "전라남도 신안군 압해읍 압해로 360",
-    "roadAddress": "전라남도 신안군 압해읍 압해로 360",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://sinan.nfcf.or.kr"
   },
   {
     "id": "naver/3582f2969e838490",
@@ -24945,28 +19071,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EC%98%81%EC%95%94%EA%B5%B0%20%EB%AF%B8%EC%95%94%EB%A9%B4%20%EC%9E%BF%EB%93%B1%EB%A1%9C%2026-42"
   },
   {
-    "id": "naver/fdd9f1ce8e8e836c",
-    "name": "농업회사법인 월출산꽃따리농장",
-    "region": "전남",
-    "city": "영암군",
-    "address": "전라남도 영암군 미암면 선황로 310-11",
-    "roadAddress": "전라남도 영암군 미암면 선황로 310-11",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://kkotdarifarm.imweb.me"
-  },
-  {
-    "id": "naver/54f41979c779b007",
-    "name": "로컬푸드직매장",
-    "region": "전남",
-    "city": "영암군",
-    "address": "전라남도 영암군 학산면 독천로 177",
-    "roadAddress": "전라남도 영암군 학산면 독천로 177",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EC%98%81%EC%95%94%EA%B5%B0%20%ED%95%99%EC%82%B0%EB%A9%B4%20%EB%8F%85%EC%B2%9C%EB%A1%9C%20177"
-  },
-  {
     "id": "naver/498836eda628328d",
     "name": "성원토마토농장",
     "region": "전남",
@@ -24976,61 +19080,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EC%98%81%EC%95%94%EA%B5%B0%20%EC%84%9C%ED%98%B8%EB%A9%B4%20%EC%9E%A5%EC%B2%9C%EB%A6%AC%20363-1"
-  },
-  {
-    "id": "naver/919432c6379f9af3",
-    "name": "신안농장",
-    "region": "전남",
-    "city": "영암군",
-    "address": "전라남도 영암군 신북면 호산로 556-59 신안농장",
-    "roadAddress": "전라남도 영암군 신북면 호산로 556-59 신안농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.metasinan.co.kr/"
-  },
-  {
-    "id": "naver/f51ad0135c5eb7d9",
-    "name": "완도뽕가네농장",
-    "region": "전남",
-    "city": "완도군",
-    "address": "전라남도 완도군 완도읍 부흥2길 34",
-    "roadAddress": "전라남도 완도군 완도읍 부흥2길 34",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EC%99%84%EB%8F%84%EA%B5%B0%20%EC%99%84%EB%8F%84%EC%9D%8D%20%EB%B6%80%ED%9D%A52%EA%B8%B8%2034"
-  },
-  {
-    "id": "naver/6664238a8244b73d",
-    "name": "농업회사법인시우팜",
-    "region": "전남",
-    "city": "장성군",
-    "address": "전라남도 장성군 북일면 봉암로 936",
-    "roadAddress": "전라남도 장성군 북일면 봉암로 936",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EC%9E%A5%EC%84%B1%EA%B5%B0%20%EB%B6%81%EC%9D%BC%EB%A9%B4%20%EB%B4%89%EC%95%94%EB%A1%9C%20936"
-  },
-  {
-    "id": "naver/8e12460b1272d399",
-    "name": "달봉농장",
-    "region": "전남",
-    "city": "장성군",
-    "address": "전라남도 장성군 남면 월곡리 937-3",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EC%9E%A5%EC%84%B1%EA%B5%B0%20%EB%82%A8%EB%A9%B4%20%EC%9B%94%EA%B3%A1%EB%A6%AC%20937-3"
-  },
-  {
-    "id": "naver/50aa71782503e2f2",
-    "name": "신토불이농산물직거래",
-    "region": "전남",
-    "city": "장성군",
-    "address": "전라남도 장성군 장성읍 단풍로 218",
-    "roadAddress": "전라남도 장성군 장성읍 단풍로 218",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EC%9E%A5%EC%84%B1%EA%B5%B0%20%EC%9E%A5%EC%84%B1%EC%9D%8D%20%EB%8B%A8%ED%92%8D%EB%A1%9C%20218"
   },
   {
     "id": "naver/75c9224c693d2314",
@@ -25088,39 +19137,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%EC%9E%A5%EC%84%B1%EA%B5%B0%20%ED%99%A9%EB%A3%A1%EB%A9%B4%20%ED%95%84%EC%95%94%EB%A6%AC%20699-1"
   },
   {
-    "id": "naver/675cfcfa8746fa1e",
-    "name": "진도군수협로컬푸드센터",
-    "region": "전남",
-    "city": "진도군",
-    "address": "전라남도 진도군 진도읍 동외1길 15 진도군수협로컬푸드센터",
-    "roadAddress": "전라남도 진도군 진도읍 동외1길 15 진도군수협로컬푸드센터",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://진도로컬푸드.com"
-  },
-  {
-    "id": "naver/91d11e38cadbf2b4",
-    "name": "나리네농장",
-    "region": "전남",
-    "city": "함평군",
-    "address": "전라남도 함평군 함평읍 월선길 69-7",
-    "roadAddress": "전라남도 함평군 함평읍 월선길 69-7",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%ED%95%A8%ED%8F%89%EA%B5%B0%20%ED%95%A8%ED%8F%89%EC%9D%8D%20%EC%9B%94%EC%84%A0%EA%B8%B8%2069-7"
-  },
-  {
-    "id": "naver/41abb65b31c6e925",
-    "name": "오매향흑염소농장",
-    "region": "전남",
-    "city": "함평군",
-    "address": "전라남도 함평군 대동면 백련동길 17-56",
-    "roadAddress": "전라남도 함평군 대동면 백련동길 17-56",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/hadase8810"
-  },
-  {
     "id": "naver/c9fea69fce48d1ed",
     "name": "천지사과농장",
     "region": "전남",
@@ -25130,28 +19146,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://blog.naver.com/hukuriku0830"
-  },
-  {
-    "id": "naver/b8cf4f2c26aae23a",
-    "name": "플럼코트 김일병농장",
-    "region": "전남",
-    "city": "함평군",
-    "address": "전라남도 함평군 엄다면 영흥길 50",
-    "roadAddress": "전라남도 함평군 엄다면 영흥길 50",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%ED%95%A8%ED%8F%89%EA%B5%B0%20%EC%97%84%EB%8B%A4%EB%A9%B4%20%EC%98%81%ED%9D%A5%EA%B8%B8%2050"
-  },
-  {
-    "id": "naver/53be60cf5a2cb2aa",
-    "name": "함평로컬푸드직매장 함평점",
-    "region": "전남",
-    "city": "함평군",
-    "address": "전라남도 함평군 함평읍 함장로 1158 1층",
-    "roadAddress": "전라남도 함평군 함평읍 함장로 1158 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/plus9450"
   },
   {
     "id": "naver/22b75b98548b304d",
@@ -25165,105 +19159,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/soonsunongsan"
   },
   {
-    "id": "naver/d7c48e78a99e0155",
-    "name": "금수농장",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 마산면 대상길 11-3",
-    "roadAddress": "전라남도 해남군 마산면 대상길 11-3",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/hsasia"
-  },
-  {
-    "id": "naver/e27473a4dcf627b4",
-    "name": "김씨농가",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 북평면 땅끝해안로 3283-12",
-    "roadAddress": "전라남도 해남군 북평면 땅끝해안로 3283-12",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/farmkim"
-  },
-  {
-    "id": "naver/813d7d29b5dd780c",
-    "name": "너이농장",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 현산면 오시골길 147",
-    "roadAddress": "전라남도 해남군 현산면 오시골길 147",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/4youngfarmers"
-  },
-  {
-    "id": "naver/7e99182650722e96",
-    "name": "농가푸드영농조합법인",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 마산면 덕정리길 22-3",
-    "roadAddress": "전라남도 해남군 마산면 덕정리길 22-3",
-    "salesType": "네이버 지역검색 등록 판매처",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%ED%95%B4%EB%82%A8%EA%B5%B0%20%EB%A7%88%EC%82%B0%EB%A9%B4%20%EB%8D%95%EC%A0%95%EB%A6%AC%EA%B8%B8%2022-3"
-  },
-  {
-    "id": "naver/5e7a64fb8f49d411",
-    "name": "다한농장",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 삼산면 봉학리 55-7 번지",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%ED%95%B4%EB%82%A8%EA%B5%B0%20%EC%82%BC%EC%82%B0%EB%A9%B4%20%EB%B4%89%ED%95%99%EB%A6%AC%2055-7%20%EB%B2%88%EC%A7%80"
-  },
-  {
-    "id": "naver/5d449bb989410b6b",
-    "name": "달마산바베트",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 송지면 마봉송종길 279-126 달마산바베트",
-    "roadAddress": "전라남도 해남군 송지면 마봉송종길 279-126 달마산바베트",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%ED%95%B4%EB%82%A8%EA%B5%B0%20%EC%86%A1%EC%A7%80%EB%A9%B4%20%EB%A7%88%EB%B4%89%EC%86%A1%EC%A2%85%EA%B8%B8%20279-126%20%EB%8B%AC%EB%A7%88%EC%82%B0%EB%B0%94%EB%B2%A0%ED%8A%B8"
-  },
-  {
-    "id": "naver/e24f9e0f12e6c421",
-    "name": "더불어숲 농업회사법인",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 삼산면 고산로 767-17",
-    "roadAddress": "전라남도 해남군 삼산면 고산로 767-17",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/9foret"
-  },
-  {
-    "id": "naver/b079021abf25a28d",
-    "name": "두륜산야생화농장",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 북평면 산마길 109-3",
-    "roadAddress": "전라남도 해남군 북평면 산마길 109-3",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://smartstore.naver.com/drsflower"
-  },
-  {
-    "id": "naver/f5c4b67bebbb3020",
-    "name": "땅끝개미농장",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 문내면 신창길 36",
-    "roadAddress": "전라남도 해남군 문내면 신창길 36",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%ED%95%B4%EB%82%A8%EA%B5%B0%20%EB%AC%B8%EB%82%B4%EB%A9%B4%20%EC%8B%A0%EC%B0%BD%EA%B8%B8%2036"
-  },
-  {
     "id": "naver/18f4e66f888fb15a",
     "name": "땅끝참고구마농장",
     "region": "전남",
@@ -25273,39 +19168,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%ED%95%B4%EB%82%A8%EA%B5%B0%20%ED%99%94%EC%82%B0%EB%A9%B4"
-  },
-  {
-    "id": "naver/8f935cdd77c2a765",
-    "name": "만재농장",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 북평면 동촌길 28-28",
-    "roadAddress": "전라남도 해남군 북평면 동촌길 28-28",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/snow3041"
-  },
-  {
-    "id": "naver/95a3209eb5eefb18",
-    "name": "미실팜",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 옥천면 옥천로 290-17",
-    "roadAddress": "전라남도 해남군 옥천면 옥천로 290-17",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.msfarm.org/"
-  },
-  {
-    "id": "naver/e57886682e5ce6e5",
-    "name": "범홍농장",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 현산면 달마로 703",
-    "roadAddress": "전라남도 해남군 현산면 달마로 703",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%ED%95%B4%EB%82%A8%EA%B5%B0%20%ED%98%84%EC%82%B0%EB%A9%B4%20%EB%8B%AC%EB%A7%88%EB%A1%9C%20703"
   },
   {
     "id": "naver/0f52ff5ca73d71ac",
@@ -25319,83 +19181,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%ED%95%B4%EB%82%A8%EA%B5%B0%20%EC%82%B0%EC%9D%B4%EB%A9%B4%20%EC%98%88%EB%8D%95%EA%B8%B8%20125-89"
   },
   {
-    "id": "naver/82b45bb6d09af91f",
-    "name": "아르뫼농장",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 북평면 남전길 27-13",
-    "roadAddress": "전라남도 해남군 북평면 남전길 27-13",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/arme"
-  },
-  {
-    "id": "naver/787dbe7c50397f22",
-    "name": "안녕해당화",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 해남읍 북부순환로 106 안녕 해당화",
-    "roadAddress": "전라남도 해남군 해남읍 북부순환로 106 안녕 해당화",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/sunmigy"
-  },
-  {
-    "id": "naver/68478d3a4214a27c",
-    "name": "이랑이네농장",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 마산면 상등길 57",
-    "roadAddress": "전라남도 해남군 마산면 상등길 57",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%ED%95%B4%EB%82%A8%EA%B5%B0%20%EB%A7%88%EC%82%B0%EB%A9%B4%20%EC%83%81%EB%93%B1%EA%B8%B8%2057"
-  },
-  {
-    "id": "naver/0dd826911b29b4e3",
-    "name": "이심이농장",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 산이면 당후길 45 이심이농장",
-    "roadAddress": "전라남도 해남군 산이면 당후길 45 이심이농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/2simfarm"
-  },
-  {
-    "id": "naver/8bf40af449e0514d",
-    "name": "장보고팜 해남",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 화원면 금평길 12 1층",
-    "roadAddress": "전라남도 해남군 화원면 금평길 12 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%ED%95%B4%EB%82%A8%EA%B5%B0%20%ED%99%94%EC%9B%90%EB%A9%B4%20%EA%B8%88%ED%8F%89%EA%B8%B8%2012%201%EC%B8%B5"
-  },
-  {
-    "id": "naver/cf0307a95e825543",
-    "name": "청솔농장",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 삼산면 고산로 612 번지",
-    "roadAddress": "전라남도 해남군 삼산면 고산로 612 번지",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.haenammall.net"
-  },
-  {
-    "id": "naver/0d41e155ec600465",
-    "name": "초호감농원",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 현산면 초호길 35-15",
-    "roadAddress": "전라남도 해남군 현산면 초호길 35-15",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%ED%95%B4%EB%82%A8%EA%B5%B0%20%ED%98%84%EC%82%B0%EB%A9%B4%20%EC%B4%88%ED%98%B8%EA%B8%B8%2035-15"
-  },
-  {
     "id": "naver/18c615aff5eb3cb5",
     "name": "포도 형제농장",
     "region": "전남",
@@ -25407,17 +19192,6 @@ const realFarmSources = [
     "osmUrl": "https://booking.naver.com/"
   },
   {
-    "id": "naver/2aa33927f6911c3d",
-    "name": "한라봉 황금농장",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 현산면 황산리길 110",
-    "roadAddress": "전라남도 해남군 현산면 황산리길 110",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/hanlabonggoldfarm"
-  },
-  {
     "id": "naver/a40ac5a41629a64f",
     "name": "한자리블루베리농장",
     "region": "전남",
@@ -25427,61 +19201,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://smartstore.naver.com/hanblue"
-  },
-  {
-    "id": "naver/36d3f62a3219d890",
-    "name": "해남로컬푸드 직매장",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 해남읍 구교3길 4 해남 로컬푸드 직매장",
-    "roadAddress": "전라남도 해남군 해남읍 구교3길 4 해남 로컬푸드 직매장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://haenamlocalfood.kr"
-  },
-  {
-    "id": "naver/c2ca24f39d060377",
-    "name": "형제종계농장",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 계곡면 흑석로 1103-15",
-    "roadAddress": "전라남도 해남군 계곡면 흑석로 1103-15",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%ED%95%B4%EB%82%A8%EA%B5%B0%20%EA%B3%84%EA%B3%A1%EB%A9%B4%20%ED%9D%91%EC%84%9D%EB%A1%9C%201103-15"
-  },
-  {
-    "id": "naver/daefa465a4e1fe8e",
-    "name": "황산농가영농조합법인",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 황산면 부곡길 394-40",
-    "roadAddress": "전라남도 해남군 황산면 부곡길 394-40",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%ED%95%B4%EB%82%A8%EA%B5%B0%20%ED%99%A9%EC%82%B0%EB%A9%B4%20%EB%B6%80%EA%B3%A1%EA%B8%B8%20394-40"
-  },
-  {
-    "id": "naver/39926b2d073258db",
-    "name": "흑석산 농산물직거래장터",
-    "region": "전남",
-    "city": "해남군",
-    "address": "전라남도 해남군 계곡면 해남로 1539-16",
-    "roadAddress": "전라남도 해남군 계곡면 해남로 1539-16",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%ED%95%B4%EB%82%A8%EA%B5%B0%20%EA%B3%84%EA%B3%A1%EB%A9%B4%20%ED%95%B4%EB%82%A8%EB%A1%9C%201539-16"
-  },
-  {
-    "id": "naver/8bfb372feec78211",
-    "name": "스윙베리",
-    "region": "전남",
-    "city": "화순군",
-    "address": "전라남도 화순군 도곡면 죽청리 613-53 스윙베리",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/swing__berry?igsh=MXhucmpzczBnZThyaA%3D%3D&utm_source=qr"
   },
   {
     "id": "naver/769fff9e2367ada9",
@@ -25517,28 +19236,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/k55316"
   },
   {
-    "id": "naver/4a30a4d5fe339487",
-    "name": "푸릇푸릇농장",
-    "region": "전남",
-    "city": "화순군",
-    "address": "전라남도 화순군 도곡면 평리 637-2",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%82%A8%EB%8F%84%20%ED%99%94%EC%88%9C%EA%B5%B0%20%EB%8F%84%EA%B3%A1%EB%A9%B4%20%ED%8F%89%EB%A6%AC%20637-2"
-  },
-  {
-    "id": "naver/e780ee643dc55fd8",
-    "name": "하나로마트 능주농협 로컬푸드복합문화센터",
-    "region": "전남",
-    "city": "화순군",
-    "address": "전라남도 화순군 능주면 학포로 1984 능주농협 로컬푸드 복합문화센터 하나로마트",
-    "roadAddress": "전라남도 화순군 능주면 학포로 1984 능주농협 로컬푸드 복합문화센터 하나로마트",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://pf.kakao.com/_sjPxaxj"
-  },
-  {
     "id": "naver/a4e2a7761f9e494b",
     "name": "햇살짱토마토 평리농장",
     "region": "전남",
@@ -25559,72 +19256,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "http://dreamsweet.co.kr/"
-  },
-  {
-    "id": "naver/622cd07743afa5c4",
-    "name": "만석꾼농장",
-    "region": "전북",
-    "city": "고창군",
-    "address": "전북특별자치도 고창군 공음면 구암리 1372",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/jjjhhh4497"
-  },
-  {
-    "id": "naver/2ba2ce5e3abd43e4",
-    "name": "선녀농장",
-    "region": "전북",
-    "city": "고창군",
-    "address": "전북특별자치도 고창군 성내면 운산길 15-5",
-    "roadAddress": "전북특별자치도 고창군 성내면 운산길 15-5",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/seonnyeofarm"
-  },
-  {
-    "id": "naver/307b309db3b33cdb",
-    "name": "잠실농장태복블항",
-    "region": "전북",
-    "city": "고창군",
-    "address": "전북특별자치도 고창군 무장면 가라1길 23",
-    "roadAddress": "전북특별자치도 고창군 무장면 가라1길 23",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B3%A0%EC%B0%BD%EA%B5%B0%20%EB%AC%B4%EC%9E%A5%EB%A9%B4%20%EA%B0%80%EB%9D%BC1%EA%B8%B8%2023"
-  },
-  {
-    "id": "naver/2d44d88afdd764a5",
-    "name": "필베베팜",
-    "region": "전북",
-    "city": "고창군",
-    "address": "전북특별자치도 고창군 아산면 인천강서길 438 필베베팜",
-    "roadAddress": "전북특별자치도 고창군 아산면 인천강서길 438 필베베팜",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://mkt.shopping.naver.com/link/69d9c0918faf7216762d5710"
-  },
-  {
-    "id": "naver/787e81868404e547",
-    "name": "깐치멀체험농장",
-    "region": "전북",
-    "city": "군산시",
-    "address": "전북특별자치도 군산시 성산면 깐치멀1길 27",
-    "roadAddress": "전북특별자치도 군산시 성산면 깐치멀1길 27",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B5%B0%EC%82%B0%EC%8B%9C%20%EC%84%B1%EC%82%B0%EB%A9%B4%20%EA%B9%90%EC%B9%98%EB%A9%801%EA%B8%B8%2027"
-  },
-  {
-    "id": "naver/2290b6ee39eb5318",
-    "name": "로컬푸드 대야농산물직거래장터",
-    "region": "전북",
-    "city": "군산시",
-    "address": "전북특별자치도 군산시 대야면 번영로 936",
-    "roadAddress": "전북특별자치도 군산시 대야면 번영로 936",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B5%B0%EC%82%B0%EC%8B%9C%20%EB%8C%80%EC%95%BC%EB%A9%B4%20%EB%B2%88%EC%98%81%EB%A1%9C%20936"
   },
   {
     "id": "naver/93fddbd2d78adb4e",
@@ -25660,50 +19291,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/blueberry707"
   },
   {
-    "id": "naver/8d3b2c7aef603cce",
-    "name": "고기팜바베큐",
-    "region": "전북",
-    "city": "김제시",
-    "address": "전북특별자치도 김제시 금구면 풍요로 1059 고기팜바베큐",
-    "roadAddress": "전북특별자치도 김제시 금구면 풍요로 1059 고기팜바베큐",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EA%B8%88%EA%B5%AC%EB%A9%B4%20%ED%92%8D%EC%9A%94%EB%A1%9C%201059%20%EA%B3%A0%EA%B8%B0%ED%8C%9C%EB%B0%94%EB%B2%A0%ED%81%90"
-  },
-  {
-    "id": "naver/5a1b7be15be74f7f",
-    "name": "꽃다비팜",
-    "region": "전북",
-    "city": "김제시",
-    "address": "전북특별자치도 김제시 금산면 용산3길 157-1 꽃다비팜",
-    "roadAddress": "전북특별자치도 김제시 금산면 용산3길 157-1 꽃다비팜",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/oak0940"
-  },
-  {
-    "id": "naver/14e62bca163c5905",
-    "name": "농장촌",
-    "region": "전북",
-    "city": "김제시",
-    "address": "전북특별자치도 김제시 공덕면 동계1길 144-10",
-    "roadAddress": "전북특별자치도 김제시 공덕면 동계1길 144-10",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EA%B3%B5%EB%8D%95%EB%A9%B4%20%EB%8F%99%EA%B3%841%EA%B8%B8%20144-10"
-  },
-  {
-    "id": "naver/63be45b3e8b24136",
-    "name": "늘봄수국농장",
-    "region": "전북",
-    "city": "김제시",
-    "address": "전북특별자치도 김제시 금산면 쌍용리 274-1 김제시 모악5길20",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EA%B8%88%EC%82%B0%EB%A9%B4%20%EC%8C%8D%EC%9A%A9%EB%A6%AC%20274-1%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EB%AA%A8%EC%95%855%EA%B8%B820"
-  },
-  {
     "id": "naver/2073a9c14124ffd4",
     "name": "딸기코빨강코딸기체험농장",
     "region": "전북",
@@ -25713,17 +19300,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "http://www.딸기체험농장.net/"
-  },
-  {
-    "id": "naver/1d792087df71a498",
-    "name": "상생농장",
-    "region": "전북",
-    "city": "김제시",
-    "address": "전북특별자치도 김제시 연정동 7-1",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EA%B9%80%EC%A0%9C%EC%8B%9C%20%EC%97%B0%EC%A0%95%EB%8F%99%207-1"
   },
   {
     "id": "naver/b63a0d3c85153ec6",
@@ -25770,17 +19346,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%82%A8%EC%9B%90%EC%8B%9C%20%EC%88%98%EC%A7%80%EB%A9%B4%20%EB%82%A8%EC%B0%BD%EB%A6%AC%201866-1"
   },
   {
-    "id": "naver/1ad71435a7005df1",
-    "name": "이언농장",
-    "region": "전북",
-    "city": "남원시",
-    "address": "전북특별자치도 남원시 주생면 상동길 40-10",
-    "roadAddress": "전북특별자치도 남원시 주생면 상동길 40-10",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.instagram.com/eonfarm"
-  },
-  {
     "id": "naver/b139348f15c90040",
     "name": "무주사과한실농장",
     "region": "전북",
@@ -25803,17 +19368,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%AC%B4%EC%A3%BC%EA%B5%B0%20%EC%84%A4%EC%B2%9C%EB%A9%B4%20%EC%B2%AD%EB%9F%89%EB%A6%AC%201204"
   },
   {
-    "id": "naver/e413281046427ce8",
-    "name": "나날이행복농장",
-    "region": "전북",
-    "city": "부안군",
-    "address": "전북특별자치도 부안군 보안면 신복리 2-29",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EB%B6%80%EC%95%88%EA%B5%B0%20%EB%B3%B4%EC%95%88%EB%A9%B4%20%EC%8B%A0%EB%B3%B5%EB%A6%AC%202-29"
-  },
-  {
     "id": "naver/a47bff1f92dac5b6",
     "name": "백순호감자농장",
     "region": "전북",
@@ -25823,17 +19377,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://blog.naver.com/leebaekgyun"
-  },
-  {
-    "id": "naver/a97fc19dbcbc56ec",
-    "name": "뽕디이레농원",
-    "region": "전북",
-    "city": "부안군",
-    "address": "전북특별자치도 부안군 보안면 청자로 1483-43 이레농원",
-    "roadAddress": "전북특별자치도 부안군 보안면 청자로 1483-43 이레농원",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/odisesang/"
   },
   {
     "id": "naver/2c5f746c1fe485af",
@@ -25869,17 +19412,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%99%84%EC%A3%BC%EA%B5%B0%20%EA%B3%A0%EC%82%B0%EB%A9%B4%20%EA%B3%A0%EC%82%B0%EB%A1%9C%20118"
   },
   {
-    "id": "naver/1ceb0f1efe6fdf78",
-    "name": "농가레스토랑 행복정거장 모악산점",
-    "region": "전북",
-    "city": "완주군",
-    "address": "전북특별자치도 완주군 구이면 모악산길 95 2층 농가레스토랑 행복정거장",
-    "roadAddress": "전북특별자치도 완주군 구이면 모악산길 95 2층 농가레스토랑 행복정거장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/realdooyou"
-  },
-  {
     "id": "naver/fa98d287ba3850ff",
     "name": "사탕블루베리농장",
     "region": "전북",
@@ -25889,17 +19421,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%99%84%EC%A3%BC%EA%B5%B0%20%EB%B4%89%EB%8F%99%EC%9D%8D%20%EC%9D%80%EC%83%81%EA%B8%B8%2068-46"
-  },
-  {
-    "id": "naver/dcc483358b0ffbbb",
-    "name": "옐로우팜 본점",
-    "region": "전북",
-    "city": "완주군",
-    "address": "전북특별자치도 완주군 용진읍 상운길 46-10",
-    "roadAddress": "전북특별자치도 완주군 용진읍 상운길 46-10",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/yellow.farm_official/"
   },
   {
     "id": "naver/714772acd9b2ed2c",
@@ -25913,28 +19434,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%9D%B5%EC%82%B0%EC%8B%9C%20%EC%99%95%EA%B6%81%EB%A9%B4%20%EC%9E%A5%EC%A4%91%EA%B8%B8%2074"
   },
   {
-    "id": "naver/81657ee76ee0acc2",
-    "name": "농산물직거래장터",
-    "region": "전북",
-    "city": "익산시",
-    "address": "전북특별자치도 익산시 고봉로34길 44-1",
-    "roadAddress": "전북특별자치도 익산시 고봉로34길 44-1",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%9D%B5%EC%82%B0%EC%8B%9C%20%EA%B3%A0%EB%B4%89%EB%A1%9C34%EA%B8%B8%2044-1"
-  },
-  {
-    "id": "naver/c8ace0c3d5f26a96",
-    "name": "더불어농장",
-    "region": "전북",
-    "city": "익산시",
-    "address": "전북특별자치도 익산시 망성면 내촌리 1293-6",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%9D%B5%EC%82%B0%EC%8B%9C%20%EB%A7%9D%EC%84%B1%EB%A9%B4%20%EB%82%B4%EC%B4%8C%EB%A6%AC%201293-6"
-  },
-  {
     "id": "naver/305632c22e53feed",
     "name": "법성포도농장",
     "region": "전북",
@@ -25944,39 +19443,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%9D%B5%EC%82%B0%EC%8B%9C%20%EC%9A%A9%EC%95%88%EB%A9%B4%20%EC%9A%A9%EB%B6%81%EB%A1%9C%20181"
-  },
-  {
-    "id": "naver/bbbe613e52ebe8f5",
-    "name": "서동팜",
-    "region": "전북",
-    "city": "익산시",
-    "address": "전북특별자치도 익산시 금마면 각봉길 15 서동팜",
-    "roadAddress": "전북특별자치도 익산시 금마면 각봉길 15 서동팜",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.facebook.com/"
-  },
-  {
-    "id": "naver/364e555f669d4333",
-    "name": "여수내농장",
-    "region": "전북",
-    "city": "익산시",
-    "address": "전북특별자치도 익산시 낭산면 호천길 76",
-    "roadAddress": "전북특별자치도 익산시 낭산면 호천길 76",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.ok114.co.kr/01087555853"
-  },
-  {
-    "id": "naver/bd2993b62c2be5bd",
-    "name": "윤현농장",
-    "region": "전북",
-    "city": "익산시",
-    "address": "전북특별자치도 익산시 석탄동 150-1",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%9D%B5%EC%82%B0%EC%8B%9C%20%EC%84%9D%ED%83%84%EB%8F%99%20150-1"
   },
   {
     "id": "naver/3ecd39196dd7c6fa",
@@ -25990,17 +19456,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/kds8102"
   },
   {
-    "id": "naver/ae4cb10848441b6d",
-    "name": "자람농장",
-    "region": "전북",
-    "city": "익산시",
-    "address": "전북특별자치도 익산시 망성면 내촌리 1280-5 연동하우스",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.instagram.com/melonyfarm"
-  },
-  {
     "id": "way/1358311865",
     "name": "전북특별자치도 익산시 케일농장 1",
     "region": "전북",
@@ -26011,17 +19466,6 @@ const realFarmSources = [
     "source": "OpenStreetMap",
     "osmUrl": "https://www.openstreetmap.org/way/1358311865",
     "generatedName": true
-  },
-  {
-    "id": "naver/6a5601b523c3db63",
-    "name": "컴포즈커피 익산삼기농협로컬푸드점",
-    "region": "전북",
-    "city": "익산시",
-    "address": "전북특별자치도 익산시 삼기면 하나로 1334",
-    "roadAddress": "전북특별자치도 익산시 삼기면 하나로 1334",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%9D%B5%EC%82%B0%EC%8B%9C%20%EC%82%BC%EA%B8%B0%EB%A9%B4%20%ED%95%98%EB%82%98%EB%A1%9C%201334"
   },
   {
     "id": "naver/9b2a9570ad30e078",
@@ -26055,17 +19499,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 체험 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://blog.naver.com/togetherpiano/222923897059"
-  },
-  {
-    "id": "naver/9f990242de049853",
-    "name": "박사골 농산물직거래장터",
-    "region": "전북",
-    "city": "임실군",
-    "address": "전북특별자치도 임실군 삼계면 봉현1길 56",
-    "roadAddress": "전북특별자치도 임실군 삼계면 봉현1길 56",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://smartstore.naver.com/ssugho"
   },
   {
     "id": "naver/25d4721bd5a6ff83",
@@ -26143,17 +19576,6 @@ const realFarmSources = [
     "salesType": "지도 등록 농장구역",
     "source": "OpenStreetMap",
     "osmUrl": "https://www.openstreetmap.org/way/455026908"
-  },
-  {
-    "id": "way/1206062013",
-    "name": "바람직한농부",
-    "region": "전북",
-    "city": "전북권",
-    "lat": 35.698119,
-    "lng": 126.676408,
-    "salesType": "농산물 직매장",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/1206062013"
   },
   {
     "id": "way/1089792274",
@@ -43157,28 +36579,6 @@ const realFarmSources = [
     "osmUrl": "https://www.openstreetmap.org/way/1465089686"
   },
   {
-    "id": "naver/fa5b8ec0a07122e2",
-    "name": "농가레스토랑행복정거장 전북혁신점",
-    "region": "전북",
-    "city": "전주시",
-    "address": "전북특별자치도 전주시 덕진구 오공로 38",
-    "roadAddress": "전북특별자치도 전주시 덕진구 오공로 38",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/wjlocalfood"
-  },
-  {
-    "id": "naver/1c992d3c220b9462",
-    "name": "달콤농장",
-    "region": "전북",
-    "city": "전주시",
-    "address": "전북특별자치도 전주시 완산구 노송여울1길 5 1층",
-    "roadAddress": "전북특별자치도 전주시 완산구 노송여울1길 5 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/dkfruit_?igsh=MWoxNXBmbXlrMWhiMQ=="
-  },
-  {
     "id": "naver/6ae35483eb75b432",
     "name": "베짱이복숭아농장",
     "region": "전북",
@@ -43190,50 +36590,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%84%EC%A3%BC%EC%8B%9C%20%EC%99%84%EC%82%B0%EA%B5%AC%20%EC%9A%B0%EB%AA%A9%EA%B8%B8%2074"
   },
   {
-    "id": "naver/de112f790f73c53a",
-    "name": "안심농장",
-    "region": "전북",
-    "city": "전주시",
-    "address": "전북특별자치도 전주시 완산구 강변로 284 1층",
-    "roadAddress": "전북특별자치도 전주시 완산구 강변로 284 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/hanwoo_jeonju"
-  },
-  {
-    "id": "naver/5b7ed6a2acdf50b8",
-    "name": "옐로우팜 전주객사점",
-    "region": "전북",
-    "city": "전주시",
-    "address": "전북특별자치도 전주시 완산구 전주객사5길 13-8 1층",
-    "roadAddress": "전북특별자치도 전주시 완산구 전주객사5길 13-8 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%84%EC%A3%BC%EC%8B%9C%20%EC%99%84%EC%82%B0%EA%B5%AC%20%EC%A0%84%EC%A3%BC%EA%B0%9D%EC%82%AC5%EA%B8%B8%2013-8%201%EC%B8%B5"
-  },
-  {
-    "id": "naver/a3e10873a13ee5a2",
-    "name": "옐로우팜 혁신직영점",
-    "region": "전북",
-    "city": "전주시",
-    "address": "전북특별자치도 전주시 덕진구 오공로 38 1,2층",
-    "roadAddress": "전북특별자치도 전주시 덕진구 오공로 38 1,2층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/yellow.farm_official/"
-  },
-  {
-    "id": "naver/28f910d80aa72b3d",
-    "name": "을목",
-    "region": "전북",
-    "city": "전주시",
-    "address": "전북특별자치도 전주시 완산구 전주객사2길 45-3 1층",
-    "roadAddress": "전북특별자치도 전주시 완산구 전주객사2길 45-3 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/_eulmok"
-  },
-  {
     "id": "naver/fac9986b548abdd4",
     "name": "이두현 복숭아 농장",
     "region": "전북",
@@ -43243,72 +36599,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%84%EC%A3%BC%EC%8B%9C%20%EC%99%84%EC%82%B0%EA%B5%AC%20%EC%82%BC%EC%B2%9C%EB%8F%992%EA%B0%80%20257-2"
-  },
-  {
-    "id": "naver/13e0ddc2ea901303",
-    "name": "장수농장",
-    "region": "전북",
-    "city": "전주시",
-    "address": "전북특별자치도 전주시 완산구 홍산북로 21-7 스타빌딩 1층",
-    "roadAddress": "전북특별자치도 전주시 완산구 홍산북로 21-7 스타빌딩 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%84%EC%A3%BC%EC%8B%9C%20%EC%99%84%EC%82%B0%EA%B5%AC%20%ED%99%8D%EC%82%B0%EB%B6%81%EB%A1%9C%2021-7%20%EC%8A%A4%ED%83%80%EB%B9%8C%EB%94%A9%201%EC%B8%B5"
-  },
-  {
-    "id": "naver/4453dcb5c1720510",
-    "name": "전북화훼직매장",
-    "region": "전북",
-    "city": "전주시",
-    "address": "전북특별자치도 전주시 덕진구 태진로 126-3 전북화훼직매장",
-    "roadAddress": "전북특별자치도 전주시 덕진구 태진로 126-3 전북화훼직매장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%84%EC%A3%BC%EC%8B%9C%20%EB%8D%95%EC%A7%84%EA%B5%AC%20%ED%83%9C%EC%A7%84%EB%A1%9C%20126-3%20%EC%A0%84%EB%B6%81%ED%99%94%ED%9B%BC%EC%A7%81%EB%A7%A4%EC%9E%A5"
-  },
-  {
-    "id": "naver/2a420ae3237a0c2d",
-    "name": "전주레인보우팜",
-    "region": "전북",
-    "city": "전주시",
-    "address": "전북특별자치도 전주시 덕진구 용덕길 65-77",
-    "roadAddress": "전북특별자치도 전주시 덕진구 용덕길 65-77",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.youtube.com/channel/UCcu9SRaZGDuP-J1TDvBO14A"
-  },
-  {
-    "id": "naver/7a4312347ab8e093",
-    "name": "팜",
-    "region": "전북",
-    "city": "전주시",
-    "address": "전북특별자치도 전주시 완산구 안행로 130",
-    "roadAddress": "전북특별자치도 전주시 완산구 안행로 130",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%84%EC%A3%BC%EC%8B%9C%20%EC%99%84%EC%82%B0%EA%B5%AC%20%EC%95%88%ED%96%89%EB%A1%9C%20130"
-  },
-  {
-    "id": "naver/d5aeba83de22b073",
-    "name": "농산물 직거래장터",
-    "region": "전북",
-    "city": "정읍시",
-    "address": "전북특별자치도 정읍시 중앙로 239-1 농산물 직거래 장터",
-    "roadAddress": "전북특별자치도 정읍시 중앙로 239-1 농산물 직거래 장터",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%95%EC%9D%8D%EC%8B%9C%20%EC%A4%91%EC%95%99%EB%A1%9C%20239-1%20%EB%86%8D%EC%82%B0%EB%AC%BC%20%EC%A7%81%EA%B1%B0%EB%9E%98%20%EC%9E%A5%ED%84%B0"
-  },
-  {
-    "id": "naver/bd67e4731e401202",
-    "name": "바른흙농장",
-    "region": "전북",
-    "city": "정읍시",
-    "address": "전북특별자치도 정읍시 용북길 175-9",
-    "roadAddress": "전북특별자치도 정읍시 용북길 175-9",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/iliade7"
   },
   {
     "id": "naver/831f9a69d4d6bead",
@@ -43333,61 +36623,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/as716253"
   },
   {
-    "id": "naver/0f17015e4b9cf8cc",
-    "name": "소성 농산물 직거래장터",
-    "region": "전북",
-    "city": "정읍시",
-    "address": "전북특별자치도 정읍시 소성면 춘수1길 55-92",
-    "roadAddress": "전북특별자치도 정읍시 소성면 춘수1길 55-92",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.soseongmall.co.kr/"
-  },
-  {
-    "id": "naver/ed913a9fa8d0a73c",
-    "name": "수지농장",
-    "region": "전북",
-    "city": "정읍시",
-    "address": "전북특별자치도 정읍시 구량1길 214-2",
-    "roadAddress": "전북특별자치도 정읍시 구량1길 214-2",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://cafe.daum.net/SUJIFarm"
-  },
-  {
-    "id": "naver/ae20fdc74a8a9841",
-    "name": "정읍 허브원",
-    "region": "전북",
-    "city": "정읍시",
-    "address": "전북특별자치도 정읍시 구량1길 188-29",
-    "roadAddress": "전북특별자치도 정읍시 구량1길 188-29",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/herb_one"
-  },
-  {
-    "id": "naver/a25d5b5e796cd5db",
-    "name": "정읍원예농협 로컬푸드 하나로마트 학산로점",
-    "region": "전북",
-    "city": "정읍시",
-    "address": "전북특별자치도 정읍시 학산로 89-19 학산타워 1동 1층",
-    "roadAddress": "전북특별자치도 정읍시 학산로 89-19 학산타워 1동 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%95%EC%9D%8D%EC%8B%9C%20%ED%95%99%EC%82%B0%EB%A1%9C%2089-19%20%ED%95%99%EC%82%B0%ED%83%80%EC%9B%8C%201%EB%8F%99%201%EC%B8%B5"
-  },
-  {
-    "id": "naver/c223b1fe0627c255",
-    "name": "하우스로",
-    "region": "전북",
-    "city": "정읍시",
-    "address": "전북특별자치도 정읍시 서부산업도로 34-6 하우스로",
-    "roadAddress": "전북특별자치도 정읍시 서부산업도로 34-6 하우스로",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/housero.farm"
-  },
-  {
     "id": "naver/93de47a379fc002a",
     "name": "백운토마토농장",
     "region": "전북",
@@ -43397,17 +36632,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%84%EB%B6%81%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A7%84%EC%95%88%EA%B5%B0%20%EB%B0%B1%EC%9A%B4%EB%A9%B4%20%EB%B0%B1%EC%9A%B4%EB%8F%99%EB%A1%9C%2088-6"
-  },
-  {
-    "id": "naver/c434c33ce7e11325",
-    "name": "그린포니앤팜",
-    "region": "제주",
-    "city": "서귀포시",
-    "address": "제주특별자치도 서귀포시 이어도로 774 1,2,3층 그린포니 & 팜",
-    "roadAddress": "제주특별자치도 서귀포시 이어도로 774 1,2,3층 그린포니 & 팜",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/greenpony_n.farm/"
   },
   {
     "id": "naver/5d25828832870aa0",
@@ -43421,28 +36645,6 @@ const realFarmSources = [
     "osmUrl": "https://www.instagram.com/seungbeom1214"
   },
   {
-    "id": "naver/2db34e22363a4ded",
-    "name": "농가주택",
-    "region": "제주",
-    "city": "서귀포시",
-    "address": "제주특별자치도 서귀포시 인정오름로85번길 58-7",
-    "roadAddress": "제주특별자치도 서귀포시 인정오름로85번길 58-7",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%9D%B8%EC%A0%95%EC%98%A4%EB%A6%84%EB%A1%9C85%EB%B2%88%EA%B8%B8%2058-7"
-  },
-  {
-    "id": "naver/4b442d6ec8125115",
-    "name": "농부네농산물직거래",
-    "region": "제주",
-    "city": "서귀포시",
-    "address": "제주특별자치도 서귀포시 남원읍 태신로 198 농부네농산물직거래 대표농장",
-    "roadAddress": "제주특별자치도 서귀포시 남원읍 태신로 198 농부네농산물직거래 대표농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/nongboone112"
-  },
-  {
     "id": "naver/7cbbe808c70abee6",
     "name": "단산딸기농장",
     "region": "제주",
@@ -43452,28 +36654,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 체험 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://www.instagram.com/shin._.dansan"
-  },
-  {
-    "id": "naver/cc6d60e8edc50684",
-    "name": "망고농가",
-    "region": "제주",
-    "city": "서귀포시",
-    "address": "제주특별자치도 서귀포시 남원읍 남원월산로 102-1",
-    "roadAddress": "제주특별자치도 서귀포시 남원읍 남원월산로 102-1",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EB%82%A8%EC%9B%90%EC%9D%8D%20%EB%82%A8%EC%9B%90%EC%9B%94%EC%82%B0%EB%A1%9C%20102-1"
-  },
-  {
-    "id": "naver/15e98987486a473b",
-    "name": "번내골애플망고농장",
-    "region": "제주",
-    "city": "서귀포시",
-    "address": "제주특별자치도 서귀포시 안덕면 화순리 694",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%95%88%EB%8D%95%EB%A9%B4%20%ED%99%94%EC%88%9C%EB%A6%AC%20694"
   },
   {
     "id": "naver/7d4217845edb2ae3",
@@ -43487,28 +36667,6 @@ const realFarmSources = [
     "osmUrl": "https://smartstore.naver.com/jejubongbongfarm"
   },
   {
-    "id": "naver/f05f6a8a560ee0ad",
-    "name": "봉쥬르농원",
-    "region": "제주",
-    "city": "서귀포시",
-    "address": "제주특별자치도 서귀포시 대정읍 일주서로 2363",
-    "roadAddress": "제주특별자치도 서귀포시 대정읍 일주서로 2363",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.daangn.com/kr/business-profiles/919baf8c76af471d98462d76868e7138/?tab=HOME"
-  },
-  {
-    "id": "naver/d5a7708cf5bbdd78",
-    "name": "비스비제주 앤 팜빌리지",
-    "region": "제주",
-    "city": "서귀포시",
-    "address": "제주특별자치도 서귀포시 속골로 29-10 비스비제주 앤 팜빌리지",
-    "roadAddress": "제주특별자치도 서귀포시 속골로 29-10 비스비제주 앤 팜빌리지",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.palmvillage.co.kr/page/"
-  },
-  {
     "id": "naver/9ff65b8096114eaa",
     "name": "삼대블루베리농장",
     "region": "제주",
@@ -43518,72 +36676,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%95%88%EB%8D%95%EB%A9%B4%20%EC%9D%BC%EC%A3%BC%EC%84%9C%EB%A1%9C2048%EB%B2%88%EA%B8%B8%2053-7"
-  },
-  {
-    "id": "naver/2cc3ffdd2613e277",
-    "name": "샛별한라봉농장",
-    "region": "제주",
-    "city": "서귀포시",
-    "address": "제주특별자치도 서귀포시 신효동 1124-2",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://hallabong.info/"
-  },
-  {
-    "id": "naver/86c9c94dea9e2025",
-    "name": "쇠소깍 산물 관광농원",
-    "region": "제주",
-    "city": "서귀포시",
-    "address": "제주특별자치도 서귀포시 남원읍 하례로 90 쇠소깍 산물 관광농원",
-    "roadAddress": "제주특별자치도 서귀포시 남원읍 하례로 90 쇠소깍 산물 관광농원",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://sanmool-jeju.co.kr"
-  },
-  {
-    "id": "naver/6339386bd90631ca",
-    "name": "수정농장",
-    "region": "제주",
-    "city": "서귀포시",
-    "address": "제주특별자치도 서귀포시 열리로 30",
-    "roadAddress": "제주특별자치도 서귀포시 열리로 30",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://pf.kakao.com/_Exhexhd"
-  },
-  {
-    "id": "naver/18ee930807bd8aa8",
-    "name": "식물:인간",
-    "region": "제주",
-    "city": "서귀포시",
-    "address": "제주특별자치도 서귀포시 호근서호로 184 1층",
-    "roadAddress": "제주특별자치도 서귀포시 호근서호로 184 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/the_plants_between_us"
-  },
-  {
-    "id": "naver/209c1c6ce2f2a8d2",
-    "name": "아꼬아체험농장",
-    "region": "제주",
-    "city": "서귀포시",
-    "address": "제주특별자치도 서귀포시 남원읍 생기악로 47-38 아꼬아체험농장",
-    "roadAddress": "제주특별자치도 서귀포시 남원읍 생기악로 47-38 아꼬아체험농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/akkoa_farm_jeju"
-  },
-  {
-    "id": "naver/9488d5cb968e7645",
-    "name": "안덕농협로컬푸드직매장제주1호점",
-    "region": "제주",
-    "city": "서귀포시",
-    "address": "제주특별자치도 서귀포시 안덕면 화순로 122",
-    "roadAddress": "제주특별자치도 서귀포시 안덕면 화순로 122",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%95%88%EB%8D%95%EB%A9%B4%20%ED%99%94%EC%88%9C%EB%A1%9C%20122"
   },
   {
     "id": "naver/40a0abe2c6951037",
@@ -43597,17 +36689,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/botanyaa"
   },
   {
-    "id": "naver/3ec1f9ecfe768677",
-    "name": "열대과일농장 유진팡",
-    "region": "제주",
-    "city": "서귀포시",
-    "address": "제주특별자치도 서귀포시 남원읍 원님로399번길 31-7",
-    "roadAddress": "제주특별자치도 서귀포시 남원읍 원님로399번길 31-7",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/yujinfang.kr/"
-  },
-  {
     "id": "naver/662bedf694efddd0",
     "name": "은하감귤체험농장",
     "region": "제주",
@@ -43617,61 +36698,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "http://instagram.com/jeju_eunha"
-  },
-  {
-    "id": "naver/1ba533206702fa74",
-    "name": "일출봉유채밭",
-    "region": "제주",
-    "city": "서귀포시",
-    "address": "제주특별자치도 서귀포시 성산읍 성산리 397",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%84%B1%EC%82%B0%EC%9D%8D%20%EC%84%B1%EC%82%B0%EB%A6%AC%20397"
-  },
-  {
-    "id": "naver/cffcfa82bc1f0ad5",
-    "name": "정덕준농가",
-    "region": "제주",
-    "city": "서귀포시",
-    "address": "제주특별자치도 서귀포시 남원읍 남원리 155-1",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EB%82%A8%EC%9B%90%EC%9D%8D%20%EB%82%A8%EC%9B%90%EB%A6%AC%20155-1"
-  },
-  {
-    "id": "naver/2ebc3fa9fc56acc9",
-    "name": "제주체험농장",
-    "region": "제주",
-    "city": "서귀포시",
-    "address": "제주특별자치도 서귀포시 안덕면 덕수동로25번길 42-8 .",
-    "roadAddress": "제주특별자치도 서귀포시 안덕면 덕수동로25번길 42-8 .",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%95%88%EB%8D%95%EB%A9%B4%20%EB%8D%95%EC%88%98%EB%8F%99%EB%A1%9C25%EB%B2%88%EA%B8%B8%2042-8%20."
-  },
-  {
-    "id": "naver/826c2bfebc1d170e",
-    "name": "제주치유농장꽃숨",
-    "region": "제주",
-    "city": "서귀포시",
-    "address": "제주특별자치도 서귀포시 대정읍 상모와우로 87 제주치유농장꽃숨",
-    "roadAddress": "제주특별자치도 서귀포시 대정읍 상모와우로 87 제주치유농장꽃숨",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/jeju_evergreen_flower"
-  },
-  {
-    "id": "naver/4908b7b3e333b73e",
-    "name": "제주황금농장",
-    "region": "제주",
-    "city": "서귀포시",
-    "address": "제주특별자치도 서귀포시 남원읍 태신해안로 217-2",
-    "roadAddress": "제주특별자치도 서귀포시 남원읍 태신해안로 217-2",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/jeju_alice_sister/profilecard/?igsh=MWEya2MzMzRmbTR3aw=="
   },
   {
     "id": "naver/99d328db44edb930",
@@ -43729,28 +36755,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EB%82%A8%EC%9B%90%EC%9D%8D%20%ED%95%98%EB%A1%80%EB%A6%AC%20964-2"
   },
   {
-    "id": "naver/b2fd071ecc87abfb",
-    "name": "한라봉체험농장 효성농원",
-    "region": "제주",
-    "city": "서귀포시",
-    "address": "제주특별자치도 서귀포시 일주동로 8989",
-    "roadAddress": "제주특별자치도 서귀포시 일주동로 8989",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/rlaxogy1023"
-  },
-  {
-    "id": "naver/f749c1328696dbb7",
-    "name": "형제농원",
-    "region": "제주",
-    "city": "서귀포시",
-    "address": "제주특별자치도 서귀포시 표선면 가시로 655",
-    "roadAddress": "제주특별자치도 서귀포시 표선면 가시로 655",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/wlgus5856"
-  },
-  {
     "id": "naver/fe127fe33a3bcef3",
     "name": "경미네농장 감귤체험농장",
     "region": "제주",
@@ -43784,28 +36788,6 @@ const realFarmSources = [
     "osmUrl": "https://smartstore.naver.com/jejugbfarm"
   },
   {
-    "id": "naver/af2983b9ace09b34",
-    "name": "김경숙해바라기농장",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 번영로 854-1",
-    "roadAddress": "제주특별자치도 제주시 번영로 854-1",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EB%B2%88%EC%98%81%EB%A1%9C%20854-1"
-  },
-  {
-    "id": "naver/c890c4d6d3c29948",
-    "name": "납읍언니꽃농장",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 애월읍 신엄리 3020-2",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/daisycottage_gardening2"
-  },
-  {
     "id": "naver/3b71a6f4d09e99cc",
     "name": "딸기나무",
     "region": "제주",
@@ -43815,28 +36797,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 체험 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EA%B5%AC%EC%A2%8C%EC%9D%8D%20%EB%8D%95%ED%96%89%EB%A1%9C%20323"
-  },
-  {
-    "id": "naver/f36d3594e981d80f",
-    "name": "뚜레쥬르 조천농협로컬푸드",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 조천읍 남조로 3015",
-    "roadAddress": "제주특별자치도 제주시 조천읍 남조로 3015",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%A1%B0%EC%B2%9C%EC%9D%8D%20%EB%82%A8%EC%A1%B0%EB%A1%9C%203015"
-  },
-  {
-    "id": "naver/d5f1782c6ad1f3b8",
-    "name": "랑이준이네농장",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 한림읍 월림리 255",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/rudgml8029"
   },
   {
     "id": "naver/31aaf6c53d604305",
@@ -43850,39 +36810,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/moonhj8030"
   },
   {
-    "id": "naver/d3b43c5ef924840c",
-    "name": "메론농원",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시",
-    "roadAddress": "제주특별자치도 제주시",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C"
-  },
-  {
-    "id": "naver/4ffa6a3230d4a0a6",
-    "name": "부영농장",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 애월읍 천덕로 388",
-    "roadAddress": "제주특별자치도 제주시 애월읍 천덕로 388",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/booyoung_nongjang"
-  },
-  {
-    "id": "naver/45d78c868ec3d88c",
-    "name": "성이시돌목장",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치 제주시 산록남로 53",
-    "roadAddress": "제주특별자치 제주시 산록남로 53",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%82%B0%EB%A1%9D%EB%82%A8%EB%A1%9C%2053"
-  },
-  {
     "id": "naver/4cecc43a8b6c8f7d",
     "name": "스카이블루베리농장",
     "region": "제주",
@@ -43892,83 +36819,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%ED%95%9C%EA%B2%BD%EB%A9%B4%20%EC%8B%A0%ED%95%9C%EB%A1%9C%20167-1"
-  },
-  {
-    "id": "naver/8d66b9af6f1db1fe",
-    "name": "애월농가양채류작업장",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 애월읍 애원로 69",
-    "roadAddress": "제주특별자치도 제주시 애월읍 애원로 69",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%95%A0%EC%9B%94%EC%9D%8D%20%EC%95%A0%EC%9B%90%EB%A1%9C%2069"
-  },
-  {
-    "id": "naver/05629e20f1224c61",
-    "name": "애월로컬푸드협동조합",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 애월읍 하소로 157",
-    "roadAddress": "제주특별자치도 제주시 애월읍 하소로 157",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%95%A0%EC%9B%94%EC%9D%8D%20%ED%95%98%EC%86%8C%EB%A1%9C%20157"
-  },
-  {
-    "id": "naver/214df5e1d85c38c0",
-    "name": "애월이색체험알레스팜",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 애월읍 중산간서로 5397 샤인히얼60",
-    "roadAddress": "제주특별자치도 제주시 애월읍 중산간서로 5397 샤인히얼60",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%95%A0%EC%9B%94%EC%9D%8D%20%EC%A4%91%EC%82%B0%EA%B0%84%EC%84%9C%EB%A1%9C%205397%20%EC%83%A4%EC%9D%B8%ED%9E%88%EC%96%BC60"
-  },
-  {
-    "id": "naver/90842d953ec9f761",
-    "name": "올레로컬푸드",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 월성로 35 302호",
-    "roadAddress": "제주특별자치도 제주시 월성로 35 302호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/ollehfood50"
-  },
-  {
-    "id": "naver/137ebe9d04499f90",
-    "name": "유기농제주팜",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 한림읍 대림로 73",
-    "roadAddress": "제주특별자치도 제주시 한림읍 대림로 73",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/tlstjals1199"
-  },
-  {
-    "id": "naver/49bca9e804b8cc0e",
-    "name": "은파농장",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 애월읍 상귀서길 32",
-    "roadAddress": "제주특별자치도 제주시 애월읍 상귀서길 32",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.eunpa.net/"
-  },
-  {
-    "id": "naver/f83c04a249405a06",
-    "name": "재연농원",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 애월읍 봉성동4길 3",
-    "roadAddress": "제주특별자치도 제주시 애월읍 봉성동4길 3",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%95%A0%EC%9B%94%EC%9D%8D%20%EB%B4%89%EC%84%B1%EB%8F%994%EA%B8%B8%203"
   },
   {
     "id": "naver/d317df0eb46c65aa",
@@ -43982,50 +36832,6 @@ const realFarmSources = [
     "osmUrl": "http://smartstore.naver.com/jeju_gulfarm"
   },
   {
-    "id": "naver/f09817e28802ff96",
-    "name": "제주농산물직거래장터3호점",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 한림읍 한림로 385 1층",
-    "roadAddress": "제주특별자치도 제주시 한림읍 한림로 385 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/hyupjaefruitshop"
-  },
-  {
-    "id": "naver/2de2a1c5517fb0a1",
-    "name": "제주로컬푸드 썸제주",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 일주서로 7815 산림조합 1층",
-    "roadAddress": "제주특별자치도 제주시 일주서로 7815 산림조합 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/ssumjeju"
-  },
-  {
-    "id": "naver/ad8dd0e89016055e",
-    "name": "제주로컬푸드 연동점",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 일주서로 7815",
-    "roadAddress": "제주특별자치도 제주시 일주서로 7815",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%9D%BC%EC%A3%BC%EC%84%9C%EB%A1%9C%207815"
-  },
-  {
-    "id": "naver/5770550a3944bae8",
-    "name": "제주미트팜",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 동광로16길 13 1층 제주미트팜",
-    "roadAddress": "제주특별자치도 제주시 동광로16길 13 1층 제주미트팜",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EB%8F%99%EA%B4%91%EB%A1%9C16%EA%B8%B8%2013%201%EC%B8%B5%20%EC%A0%9C%EC%A3%BC%EB%AF%B8%ED%8A%B8%ED%8C%9C"
-  },
-  {
     "id": "naver/4fadcf6e65d5fba8",
     "name": "제주보메와산감귤체험농장",
     "region": "제주",
@@ -44035,193 +36841,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://blog.naver.com/dolmi3290"
-  },
-  {
-    "id": "naver/5ba5e3dfcd4f1151",
-    "name": "제주송당안가네대농장",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 구좌읍 비자림로 1839-7 1층",
-    "roadAddress": "제주특별자치도 제주시 구좌읍 비자림로 1839-7 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/happyan0714"
-  },
-  {
-    "id": "naver/a46f19c99f4aae74",
-    "name": "제주시농협 농산물공판장",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 남광로 206",
-    "roadAddress": "제주특별자치도 제주시 남광로 206",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EB%82%A8%EA%B4%91%EB%A1%9C%20206"
-  },
-  {
-    "id": "naver/e755540f4cbb28af",
-    "name": "제주팜",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 애월읍 애월로 63",
-    "roadAddress": "제주특별자치도 제주시 애월읍 애월로 63",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/77728637"
-  },
-  {
-    "id": "naver/f151489c78501d89",
-    "name": "제주팜비치",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 조천읍 조함해안로 329-1",
-    "roadAddress": "제주특별자치도 제주시 조천읍 조함해안로 329-1",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%A1%B0%EC%B2%9C%EC%9D%8D%20%EC%A1%B0%ED%95%A8%ED%95%B4%EC%95%88%EB%A1%9C%20329-1"
-  },
-  {
-    "id": "naver/4f3e0aebf4b44f27",
-    "name": "조천농협 로컬푸드하나로마트",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 조천읍 조천우회로 325",
-    "roadAddress": "제주특별자치도 제주시 조천읍 조천우회로 325",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%A1%B0%EC%B2%9C%EC%9D%8D%20%EC%A1%B0%EC%B2%9C%EC%9A%B0%ED%9A%8C%EB%A1%9C%20325"
-  },
-  {
-    "id": "naver/ea487ec57a7d022b",
-    "name": "지산농원",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 조천읍",
-    "roadAddress": "제주특별자치도 제주시 조천읍",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%A1%B0%EC%B2%9C%EC%9D%8D"
-  },
-  {
-    "id": "naver/1aa474c1e1ab9a2c",
-    "name": "탐나는농장",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 애월읍 오당빌레길 88 탐나는농장",
-    "roadAddress": "제주특별자치도 제주시 애월읍 오당빌레길 88 탐나는농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://instagram.com/tamnaneun_farm"
-  },
-  {
-    "id": "naver/7475dbf183f85d5d",
-    "name": "푸름맘농장",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 애월읍 봉성리 4262-1",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://instagram.com/gyeong1007"
-  },
-  {
-    "id": "naver/52049734b0efd319",
-    "name": "하대왓농원",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 한림읍 중산간서로 4386-22",
-    "roadAddress": "제주특별자치도 제주시 한림읍 중산간서로 4386-22",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/akh3717"
-  },
-  {
-    "id": "naver/06c0ba9a435a31ca",
-    "name": "한밭농장",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 애월읍 천덕로 516-3",
-    "roadAddress": "제주특별자치도 제주시 애월읍 천덕로 516-3",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%95%A0%EC%9B%94%EC%9D%8D%20%EC%B2%9C%EB%8D%95%EB%A1%9C%20516-3"
-  },
-  {
-    "id": "naver/5ea3cf8ced9d295c",
-    "name": "해피하우스농촌교육농장",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 한경면 저지6길 25-67",
-    "roadAddress": "제주특별자치도 제주시 한경면 저지6길 25-67",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%ED%95%9C%EA%B2%BD%EB%A9%B4%20%EC%A0%80%EC%A7%806%EA%B8%B8%2025-67"
-  },
-  {
-    "id": "naver/c251b04c2b032907",
-    "name": "황금팜농원",
-    "region": "제주",
-    "city": "제주시",
-    "address": "제주특별자치도 제주시 애월읍 상가로8길 67-7 황금팜농원",
-    "roadAddress": "제주특별자치도 제주시 애월읍 상가로8길 67-7 황금팜농원",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EC%95%A0%EC%9B%94%EC%9D%8D%20%EC%83%81%EA%B0%80%EB%A1%9C8%EA%B8%B8%2067-7%20%ED%99%A9%EA%B8%88%ED%8C%9C%EB%86%8D%EC%9B%90"
-  },
-  {
-    "id": "naver/7ae349034b7cec07",
-    "name": "계룡산채 로컬푸드",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 반포면 사봉길 77-10",
-    "roadAddress": "충청남도 공주시 반포면 사봉길 77-10",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/sanchae/"
-  },
-  {
-    "id": "naver/205aafa322176ac5",
-    "name": "고향농원가든",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 계룡면 갑사로 260",
-    "roadAddress": "충청남도 공주시 계룡면 갑사로 260",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://ok114.co.kr/0418560816"
-  },
-  {
-    "id": "naver/68acfb1fed0c503a",
-    "name": "공주로컬푸드직매장 공주휴게소 당진방향",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 의당면 청룡리 65-20",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EA%B3%B5%EC%A3%BC%EC%8B%9C%20%EC%9D%98%EB%8B%B9%EB%A9%B4%20%EC%B2%AD%EB%A3%A1%EB%A6%AC%2065-20"
-  },
-  {
-    "id": "naver/1b5f552790a06661",
-    "name": "공주웰빙오디체험농장",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 의당면",
-    "roadAddress": "충청남도 공주시 의당면",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EA%B3%B5%EC%A3%BC%EC%8B%9C%20%EC%9D%98%EB%8B%B9%EB%A9%B4"
-  },
-  {
-    "id": "naver/e47b22dec9df7770",
-    "name": "공주정안밤직거래농가",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 정안면 북촌길 59",
-    "roadAddress": "충청남도 공주시 정안면 북촌길 59",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://kongjubam.com/"
   },
   {
     "id": "naver/0f5453cb0ca94b2c",
@@ -44235,72 +36854,6 @@ const realFarmSources = [
     "osmUrl": "http://pf.kakao.com/_xjQxoaK"
   },
   {
-    "id": "naver/a108de7283d166a1",
-    "name": "금맥로컬푸드직매장",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 계룡면 선바위길 110",
-    "roadAddress": "충청남도 공주시 계룡면 선바위길 110",
-    "salesType": "네이버 지역검색 등록 판매처",
-    "source": "Naver Local Search",
-    "osmUrl": "http://farmspia.co.kr"
-  },
-  {
-    "id": "naver/522411e169e7e5a2",
-    "name": "대왕산삼백숙농원 동학사 본점",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 반포면 사봉길 7",
-    "roadAddress": "충청남도 공주시 반포면 사봉길 7",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EA%B3%B5%EC%A3%BC%EC%8B%9C%20%EB%B0%98%ED%8F%AC%EB%A9%B4%20%EC%82%AC%EB%B4%89%EA%B8%B8%207"
-  },
-  {
-    "id": "naver/ecbcc77f05fc64b8",
-    "name": "대운농장",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 이인면 발양리 841-2 대운농장",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/happyfarm041"
-  },
-  {
-    "id": "naver/5ae456da81377517",
-    "name": "도윤농장",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 의당면 의당길 9-2",
-    "roadAddress": "충청남도 공주시 의당면 의당길 9-2",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EA%B3%B5%EC%A3%BC%EC%8B%9C%20%EC%9D%98%EB%8B%B9%EB%A9%B4%20%EC%9D%98%EB%8B%B9%EA%B8%B8%209-2"
-  },
-  {
-    "id": "naver/011fd865e9f3317d",
-    "name": "동학사농원",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 반포면 동학사2로 46 농원",
-    "roadAddress": "충청남도 공주시 반포면 동학사2로 46 농원",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/nongone_official/"
-  },
-  {
-    "id": "naver/4e93f7df319b9362",
-    "name": "드림팜",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 의당면 요골길 42",
-    "roadAddress": "충청남도 공주시 의당면 요골길 42",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/74311tiger"
-  },
-  {
     "id": "naver/1c31e45e75835298",
     "name": "딸기마루",
     "region": "충남",
@@ -44310,17 +36863,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 체험 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://blog.naver.com/coryhaim"
-  },
-  {
-    "id": "naver/91823dcb937b6a1d",
-    "name": "바로팜",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 용당길 17 1층 105호",
-    "roadAddress": "충청남도 공주시 용당길 17 1층 105호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/barofarmstore"
   },
   {
     "id": "naver/d72ce3c2c897dbe7",
@@ -44356,17 +36898,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EA%B3%B5%EC%A3%BC%EC%8B%9C%20%EC%A0%95%EC%95%88%EB%A9%B4%20%EA%B3%A0%EC%84%B11%EA%B8%B8%20227-11%20%EB%B8%94%EB%A3%A8%EB%B2%A0%EB%A6%AC%20%EB%86%8D%EC%9E%A5"
   },
   {
-    "id": "naver/b6ec38bc0de7566a",
-    "name": "볏짚굼벵이 신원농가",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 의당면 의당초교길 14",
-    "roadAddress": "충청남도 공주시 의당면 의당초교길 14",
-    "salesType": "네이버 지역검색 등록 판매처",
-    "source": "Naver Local Search",
-    "osmUrl": "http://goom.co.kr"
-  },
-  {
     "id": "naver/4778f2a2a103affb",
     "name": "빛뜨란블루베리농장",
     "region": "충남",
@@ -44376,83 +36907,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EA%B3%B5%EC%A3%BC%EC%8B%9C%20%EC%8B%A0%ED%92%8D%EB%A9%B4%20%EB%A8%B9%EB%B1%85%EC%9D%B4%EA%B8%B8%204-21"
-  },
-  {
-    "id": "naver/af2ca613c749ae65",
-    "name": "삼은농장",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 계룡면 소와리1길 58-19",
-    "roadAddress": "충청남도 공주시 계룡면 소와리1길 58-19",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EA%B3%B5%EC%A3%BC%EC%8B%9C%20%EA%B3%84%EB%A3%A1%EB%A9%B4%20%EC%86%8C%EC%99%80%EB%A6%AC1%EA%B8%B8%2058-19"
-  },
-  {
-    "id": "naver/4fafc58907c305de",
-    "name": "새터농장",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 동현동 292-1",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EA%B3%B5%EC%A3%BC%EC%8B%9C%20%EB%8F%99%ED%98%84%EB%8F%99%20292-1"
-  },
-  {
-    "id": "naver/e6d0ede2487ec9c4",
-    "name": "승주농원",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 유구읍 백교안골길 16-3 승주농원",
-    "roadAddress": "충청남도 공주시 유구읍 백교안골길 16-3 승주농원",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/papas_apples"
-  },
-  {
-    "id": "naver/804e637afc83f88c",
-    "name": "승호농원",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 반포면 마암리 602-6",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EA%B3%B5%EC%A3%BC%EC%8B%9C%20%EB%B0%98%ED%8F%AC%EB%A9%B4%20%EB%A7%88%EC%95%94%EB%A6%AC%20602-6"
-  },
-  {
-    "id": "naver/2691ac2b721c5287",
-    "name": "신원농가 누에 굼벵이 농장",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 의당면 의당덕골길 11",
-    "roadAddress": "충청남도 공주시 의당면 의당덕골길 11",
-    "salesType": "네이버 지역검색 등록 판매처",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.goom.co.kr/"
-  },
-  {
-    "id": "naver/a0f4ade176fe547a",
-    "name": "영우네농장",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 사곡면 월은길 40",
-    "roadAddress": "충청남도 공주시 사곡면 월은길 40",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://cafe.naver.com/owoofarm"
-  },
-  {
-    "id": "naver/3f2001a5462d528d",
-    "name": "예원이네농장",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 계룡면 금대리 210",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EA%B3%B5%EC%A3%BC%EC%8B%9C%20%EA%B3%84%EB%A3%A1%EB%A9%B4%20%EA%B8%88%EB%8C%80%EB%A6%AC%20210"
   },
   {
     "id": "naver/352ee97c430f6198",
@@ -44466,17 +36920,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EA%B3%B5%EC%A3%BC%EC%8B%9C%20%EB%B0%98%ED%8F%AC%EB%A9%B4%20%EB%A7%88%EC%95%94%EA%B8%B8%2031-13%20%EB%B2%88%EC%A7%80"
   },
   {
-    "id": "naver/7c4b4ac89b32ba7b",
-    "name": "원더팜",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 정안면 허수아비길 85 원더팜",
-    "roadAddress": "충청남도 공주시 정안면 허수아비길 85 원더팜",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://cafe.naver.com/wonderfarm"
-  },
-  {
     "id": "naver/a8ccaced1a182e5b",
     "name": "유구IC딸기농장",
     "region": "충남",
@@ -44486,61 +36929,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EA%B3%B5%EC%A3%BC%EC%8B%9C%20%EC%9C%A0%EA%B5%AC%EC%9D%8D%20%EA%B8%88%EA%B3%84%EC%82%B0%EB%A1%9C%20243"
-  },
-  {
-    "id": "naver/61db0010583efdaf",
-    "name": "자연골농원",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 의당면 의당길 114-41",
-    "roadAddress": "충청남도 공주시 의당면 의당길 114-41",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EA%B3%B5%EC%A3%BC%EC%8B%9C%20%EC%9D%98%EB%8B%B9%EB%A9%B4%20%EC%9D%98%EB%8B%B9%EA%B8%B8%20114-41"
-  },
-  {
-    "id": "naver/97636d774e6d5e88",
-    "name": "자연농장",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 반포면 사봉길 43",
-    "roadAddress": "충청남도 공주시 반포면 사봉길 43",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EA%B3%B5%EC%A3%BC%EC%8B%9C%20%EB%B0%98%ED%8F%AC%EB%A9%B4%20%EC%82%AC%EB%B4%89%EA%B8%B8%2043"
-  },
-  {
-    "id": "naver/53dec876a9080aba",
-    "name": "좋은나무",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 계룡면 하대리 178-25",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/pobi1324"
-  },
-  {
-    "id": "naver/0f3845c3d4ce47f3",
-    "name": "킨더팜 체험농장",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 정안면 어물길 239-29 킨더팜체험농장",
-    "roadAddress": "충청남도 공주시 정안면 어물길 239-29 킨더팜체험농장",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/kinderfarm_"
-  },
-  {
-    "id": "naver/845fd71676f804a7",
-    "name": "트리팜 관광농원",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 이인면 새터1길 27-12",
-    "roadAddress": "충청남도 공주시 이인면 새터1길 27-12",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.camfit.co.kr/camp/60d95a78d3d980001ebcc219"
   },
   {
     "id": "naver/2d2cc54c93fc2959",
@@ -44554,17 +36942,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EA%B3%B5%EC%A3%BC%EC%8B%9C%20%EC%9D%B4%EC%9D%B8%EB%A9%B4%20%EC%A3%BC%EB%B4%89%EB%A6%AC%20463%20%ED%8C%8C%EC%9D%B8%EB%B8%94%EB%A3%A8%EB%B2%A0%EB%A6%AC%EB%86%8D%EC%9E%A5"
   },
   {
-    "id": "naver/e2c90e6088567f7a",
-    "name": "황고개농장",
-    "region": "충남",
-    "city": "공주시",
-    "address": "충청남도 공주시 우성면 황고개길 61",
-    "roadAddress": "충청남도 공주시 우성면 황고개길 61",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://smartstore.naver.comskj7844"
-  },
-  {
     "id": "naver/e6b5dafc27369410",
     "name": "가나안블루베리농장",
     "region": "충남",
@@ -44574,17 +36951,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EA%B8%88%EC%82%B0%EA%B5%B0%20%EA%B8%88%EC%82%B0%EC%9D%8D%20%EC%A4%91%EB%8F%84%EB%A6%AC%20173-4"
-  },
-  {
-    "id": "naver/0312fef37daffa09",
-    "name": "하늘물빛정원",
-    "region": "충남",
-    "city": "금산군",
-    "address": "충청남도 금산군 추부면 검한1길 156 하늘물빛정원",
-    "roadAddress": "충청남도 금산군 추부면 검한1길 156 하늘물빛정원",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://gardenofsky.com/"
   },
   {
     "id": "naver/7ae92e1f364555c6",
@@ -44598,17 +36964,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%85%BC%EC%82%B0%EC%8B%9C%20%EA%B0%80%EC%95%BC%EA%B3%A1%EB%A9%B4%20%EC%9B%90%EC%95%99%EB%A1%9C249%EB%B2%88%EA%B8%B8%2042"
   },
   {
-    "id": "naver/3110fdfe4f4658ae",
-    "name": "가야골",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 가야곡면 덕은로 4",
-    "roadAddress": "충청남도 논산시 가야곡면 덕은로 4",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/emfla0316"
-  },
-  {
     "id": "naver/ca264d45ffcf47c5",
     "name": "낭청토마토농장",
     "region": "충남",
@@ -44620,28 +36975,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/kiss61001"
   },
   {
-    "id": "naver/64bbc3af19dc1d04",
-    "name": "논산관광농원",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 관촉로58번길 7 논산관광농원",
-    "roadAddress": "충청남도 논산시 관촉로58번길 7 논산관광농원",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://nonsanfarm.com"
-  },
-  {
-    "id": "naver/54f4a137db12ba51",
-    "name": "논산농협 로컬푸드직매장",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 내동 1263",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%85%BC%EC%82%B0%EC%8B%9C%20%EB%82%B4%EB%8F%99%201263"
-  },
-  {
     "id": "naver/9d47f261b72b3a3d",
     "name": "논산딸기아인팜",
     "region": "충남",
@@ -44651,83 +36984,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://blog.naver.com/supiafarm2020"
-  },
-  {
-    "id": "naver/6ae692a1a692ec35",
-    "name": "논산로컬푸드상설농부장터",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 부적면 부적로 722-1 논산로컬푸드 상설농부장터",
-    "roadAddress": "충청남도 논산시 부적면 부적로 722-1 논산로컬푸드 상설농부장터",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%85%BC%EC%82%B0%EC%8B%9C%20%EB%B6%80%EC%A0%81%EB%A9%B4%20%EB%B6%80%EC%A0%81%EB%A1%9C%20722-1%20%EB%85%BC%EC%82%B0%EB%A1%9C%EC%BB%AC%ED%91%B8%EB%93%9C%20%EC%83%81%EC%84%A4%EB%86%8D%EB%B6%80%EC%9E%A5%ED%84%B0"
-  },
-  {
-    "id": "naver/eb1864cbc90a3cd5",
-    "name": "논산양촌농가생활체험",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 양촌면 매죽헌로 1612-23",
-    "roadAddress": "충청남도 논산시 양촌면 매죽헌로 1612-23",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%85%BC%EC%82%B0%EC%8B%9C%20%EC%96%91%EC%B4%8C%EB%A9%B4%20%EB%A7%A4%EC%A3%BD%ED%97%8C%EB%A1%9C%201612-23"
-  },
-  {
-    "id": "naver/451de93318ff7f36",
-    "name": "논산팜",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 부적면 계백로1546번길 55",
-    "roadAddress": "충청남도 논산시 부적면 계백로1546번길 55",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://nsfarm4.com"
-  },
-  {
-    "id": "naver/f77bd8042fea10a6",
-    "name": "농산물직거래장터",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 가야곡면 산노3길 65",
-    "roadAddress": "충청남도 논산시 가야곡면 산노3길 65",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%85%BC%EC%82%B0%EC%8B%9C%20%EA%B0%80%EC%95%BC%EA%B3%A1%EB%A9%B4%20%EC%82%B0%EB%85%B83%EA%B8%B8%2065"
-  },
-  {
-    "id": "naver/9f39a1ab1493c6d5",
-    "name": "달토농장",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 성동면 금백로 307-5",
-    "roadAddress": "충청남도 논산시 성동면 금백로 307-5",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%85%BC%EC%82%B0%EC%8B%9C%20%EC%84%B1%EB%8F%99%EB%A9%B4%20%EA%B8%88%EB%B0%B1%EB%A1%9C%20307-5"
-  },
-  {
-    "id": "naver/4c69bfcde9c06f4d",
-    "name": "더드림 농장",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 연산면 사계로 1472-95 더드림농장",
-    "roadAddress": "충청남도 논산시 연산면 사계로 1472-95 더드림농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%85%BC%EC%82%B0%EC%8B%9C%20%EC%97%B0%EC%82%B0%EB%A9%B4%20%EC%82%AC%EA%B3%84%EB%A1%9C%201472-95%20%EB%8D%94%EB%93%9C%EB%A6%BC%EB%86%8D%EC%9E%A5"
-  },
-  {
-    "id": "naver/0b28b232f291a448",
-    "name": "들꽃처럼농장",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 상월면 월오5길 61",
-    "roadAddress": "충청남도 논산시 상월면 월오5길 61",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%85%BC%EC%82%B0%EC%8B%9C%20%EC%83%81%EC%9B%94%EB%A9%B4%20%EC%9B%94%EC%98%A45%EA%B8%B8%2061"
   },
   {
     "id": "naver/563b7595baff1dbe",
@@ -44763,17 +37019,6 @@ const realFarmSources = [
     "osmUrl": "https://www.instagram.com/ddororong_strawberry/"
   },
   {
-    "id": "naver/7a1b8fe53388558f",
-    "name": "로컬푸드통합지원센터",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 부적면 부적로 665",
-    "roadAddress": "충청남도 논산시 부적면 부적로 665",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%85%BC%EC%82%B0%EC%8B%9C%20%EB%B6%80%EC%A0%81%EB%A9%B4%20%EB%B6%80%EC%A0%81%EB%A1%9C%20665"
-  },
-  {
     "id": "naver/06fdc72c2a1772a2",
     "name": "베릴리 berily 딸기체험 농장",
     "region": "충남",
@@ -44796,72 +37041,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%85%BC%EC%82%B0%EC%8B%9C%20%EC%97%B0%EC%82%B0%EB%A9%B4%20%EC%84%A0%EB%B9%84%EB%A1%9C357%EB%B2%88%EA%B8%B8%2062-23"
   },
   {
-    "id": "naver/f6dfa63dc1310809",
-    "name": "복자네농장",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 노성면 죽림리 514-11",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://smartstore.naver.com/kbhy5474"
-  },
-  {
-    "id": "naver/af9252e9f635f34f",
-    "name": "새콤달콤 논산로컬푸드직매장",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 부적면 부적로 665 부적농협 논산로컬푸드직매장",
-    "roadAddress": "충청남도 논산시 부적면 부적로 665 부적농협 논산로컬푸드직매장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/localfood9007"
-  },
-  {
-    "id": "naver/ec2ed3e3cb914dcb",
-    "name": "성풍농장",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 부적면 감곡길 53-8",
-    "roadAddress": "충청남도 논산시 부적면 감곡길 53-8",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%85%BC%EC%82%B0%EC%8B%9C%20%EB%B6%80%EC%A0%81%EB%A9%B4%20%EA%B0%90%EA%B3%A1%EA%B8%B8%2053-8"
-  },
-  {
-    "id": "naver/fb9d65c6a3eda62c",
-    "name": "수혁이네 행복농장",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 성동면 원봉리 393-2",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%85%BC%EC%82%B0%EC%8B%9C%20%EC%84%B1%EB%8F%99%EB%A9%B4%20%EC%9B%90%EB%B4%89%EB%A6%AC%20393-2"
-  },
-  {
-    "id": "naver/0e31adddce6af007",
-    "name": "아는농장",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 노성면 벼슬로 318-17",
-    "roadAddress": "충청남도 논산시 노성면 벼슬로 318-17",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/tedkim78"
-  },
-  {
-    "id": "naver/0b2cc5164bc64e8e",
-    "name": "아바바 커피농장",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 연산면 덕암리 299-2 아바바커피농장",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/avava"
-  },
-  {
     "id": "naver/6b67d6b41da2e133",
     "name": "아침애딸기농장",
     "region": "충남",
@@ -44873,28 +37052,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/jjy6769"
   },
   {
-    "id": "naver/e34379529f9d1fef",
-    "name": "양솔농장",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 부적면 신교리 709-4",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.ytomato.com/"
-  },
-  {
-    "id": "naver/6ff792a6a51e544f",
-    "name": "예스민팜포유협동조합",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 부적면 부적로157번길 13-1",
-    "roadAddress": "충청남도 논산시 부적면 부적로157번길 13-1",
-    "salesType": "네이버 지역검색 등록 판매처",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.farm4u.kr"
-  },
-  {
     "id": "naver/cb5d28d53a874956",
     "name": "온누리딸기농장",
     "region": "충남",
@@ -44904,28 +37061,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://talk.naver.com/profile/wc3jlo"
-  },
-  {
-    "id": "naver/3c5b26981edee973",
-    "name": "와유농장",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 노성면 벼슬로 349-29",
-    "roadAddress": "충청남도 논산시 노성면 벼슬로 349-29",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%85%BC%EC%82%B0%EC%8B%9C%20%EB%85%B8%EC%84%B1%EB%A9%B4%20%EB%B2%BC%EC%8A%AC%EB%A1%9C%20349-29"
-  },
-  {
-    "id": "naver/4c18cc4ef5f70265",
-    "name": "은명체험농장",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 은진면 원앙로 1107-30",
-    "roadAddress": "충청남도 논산시 은진면 원앙로 1107-30",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%85%BC%EC%82%B0%EC%8B%9C%20%EC%9D%80%EC%A7%84%EB%A9%B4%20%EC%9B%90%EC%95%99%EB%A1%9C%201107-30"
   },
   {
     "id": "naver/3a176732d5a90eca",
@@ -44950,28 +37085,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%85%BC%EC%82%B0%EC%8B%9C%20%EB%B2%8C%EA%B3%A1%EB%A9%B4%20%EB%8F%84%EC%82%B0%EB%A6%AC%2045"
   },
   {
-    "id": "naver/e7aa7aa8d9a721fa",
-    "name": "주성농장",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 은진면 탑정로 637 주성농장",
-    "roadAddress": "충청남도 논산시 은진면 탑정로 637 주성농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/hms0667"
-  },
-  {
-    "id": "naver/a8a9cbeaee2f782a",
-    "name": "주옥농장",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 부적면 신교리 153",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://sagwa.net/"
-  },
-  {
     "id": "naver/de7ff3ca8dd8aac4",
     "name": "지열블루베리농원",
     "region": "충남",
@@ -44981,39 +37094,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%85%BC%EC%82%B0%EC%8B%9C%20%EC%96%91%EC%B4%8C%EB%A9%B4%20%EB%B0%98%EC%95%94%EB%A6%AC%20245-2"
-  },
-  {
-    "id": "naver/e17a7fdb6a24a561",
-    "name": "챌린지팜",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 연무읍 신화길 81-20 챌린지팜",
-    "roadAddress": "충청남도 논산시 연무읍 신화길 81-20 챌린지팜",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/challenge_farm_/"
-  },
-  {
-    "id": "naver/d5569f56929a0a6d",
-    "name": "천호산농원체험농장",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 연산면 천호2길 27",
-    "roadAddress": "충청남도 논산시 연산면 천호2길 27",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%85%BC%EC%82%B0%EC%8B%9C%20%EC%97%B0%EC%82%B0%EB%A9%B4%20%EC%B2%9C%ED%98%B82%EA%B8%B8%2027"
-  },
-  {
-    "id": "naver/d97397529ffbe695",
-    "name": "청유리원",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 가야곡면 원앙종연1길 71-7",
-    "roadAddress": "충청남도 논산시 가야곡면 원앙종연1길 71-7",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/mk_cheongyuriwon"
   },
   {
     "id": "naver/3535f5fc8e2ba29e",
@@ -45027,17 +37107,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%85%BC%EC%82%B0%EC%8B%9C%20%EC%96%91%EC%B4%8C%EB%A9%B4"
   },
   {
-    "id": "naver/b4f729a1784b8111",
-    "name": "코코주말농장",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 중앙로497번길 2",
-    "roadAddress": "충청남도 논산시 중앙로497번길 2",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.cocojumal.com"
-  },
-  {
     "id": "naver/74ab2900e53d9b09",
     "name": "큰송이포도농장",
     "region": "충남",
@@ -45047,39 +37116,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://www.instagram.com/grapesbro"
-  },
-  {
-    "id": "naver/debd64dac49dce72",
-    "name": "팜팜",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 광석면 득안대로 1753-72",
-    "roadAddress": "충청남도 논산시 광석면 득안대로 1753-72",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%85%BC%EC%82%B0%EC%8B%9C%20%EA%B4%91%EC%84%9D%EB%A9%B4%20%EB%93%9D%EC%95%88%EB%8C%80%EB%A1%9C%201753-72"
-  },
-  {
-    "id": "naver/8bb602abae413d33",
-    "name": "하이팜양계장",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 성동면 우곤3길 129-56",
-    "roadAddress": "충청남도 논산시 성동면 우곤3길 129-56",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%85%BC%EC%82%B0%EC%8B%9C%20%EC%84%B1%EB%8F%99%EB%A9%B4%20%EC%9A%B0%EA%B3%A43%EA%B8%B8%20129-56"
-  },
-  {
-    "id": "naver/9e31d2bc2125a619",
-    "name": "한다농장",
-    "region": "충남",
-    "city": "논산시",
-    "address": "충청남도 논산시 체육로 39",
-    "roadAddress": "충청남도 논산시 체육로 39",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%85%BC%EC%82%B0%EC%8B%9C%20%EC%B2%B4%EC%9C%A1%EB%A1%9C%2039"
   },
   {
     "id": "naver/143fe86925e7a0dc",
@@ -45126,17 +37162,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%8B%B9%EC%A7%84%EC%8B%9C%20%EA%B3%A0%EB%8C%80%EB%A9%B4%20%EC%82%BC%ED%8F%AC%EA%B8%B8%2083"
   },
   {
-    "id": "naver/f17c965a8471dcf9",
-    "name": "아미여울농가",
-    "region": "충남",
-    "city": "당진시",
-    "address": "충청남도 당진시 순성면 남부로 848",
-    "roadAddress": "충청남도 당진시 순성면 남부로 848",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%8B%B9%EC%A7%84%EC%8B%9C%20%EC%88%9C%EC%84%B1%EB%A9%B4%20%EB%82%A8%EB%B6%80%EB%A1%9C%20848"
-  },
-  {
     "id": "naver/1139c2b34a0fdedb",
     "name": "용연포도농장",
     "region": "충남",
@@ -45148,17 +37173,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%8B%B9%EC%A7%84%EC%8B%9C"
   },
   {
-    "id": "naver/d6d54bf819e4ca98",
-    "name": "큰돌농장",
-    "region": "충남",
-    "city": "당진시",
-    "address": "충청남도 당진시 송악읍 복운로 201-13",
-    "roadAddress": "충청남도 당진시 송악읍 복운로 201-13",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.youtube.com/@큰돌농장"
-  },
-  {
     "id": "naver/2aef5714f7014c8d",
     "name": "황토배고구마농장",
     "region": "충남",
@@ -45168,28 +37182,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%8B%B9%EC%A7%84%EC%8B%9C%20%EA%B3%A0%EB%8C%80%EB%A9%B4%20%ED%99%A9%ED%86%A0%EB%A7%88%EC%9D%84%EB%A1%9C%20239-64%2060-13"
-  },
-  {
-    "id": "naver/d2597c7b51fde951",
-    "name": "보령팜 플러스",
-    "region": "충남",
-    "city": "보령시",
-    "address": "충청남도 보령시 내항동 966-8",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/boryeongfarm_plus?igsh=YnVyeWJycndmdmRh"
-  },
-  {
-    "id": "naver/8c2103e15146144c",
-    "name": "보령팜체험농장",
-    "region": "충남",
-    "city": "보령시",
-    "address": "충청남도 보령시 내항동 968 보령팜체험농장",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://linktr.ee/brfarmberry"
   },
   {
     "id": "way/1529347684",
@@ -45216,17 +37208,6 @@ const realFarmSources = [
     "generatedName": true
   },
   {
-    "id": "naver/8ecfba156229b26c",
-    "name": "굿뜨래로컬푸드종합유통센터",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 장암면 의자로1235번길 35",
-    "roadAddress": "충청남도 부여군 장암면 의자로1235번길 35",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%B6%80%EC%97%AC%EA%B5%B0%20%EC%9E%A5%EC%95%94%EB%A9%B4%20%EC%9D%98%EC%9E%90%EB%A1%9C1235%EB%B2%88%EA%B8%B8%2035"
-  },
-  {
     "id": "naver/3809c1db81106366",
     "name": "김참한블루베리농원",
     "region": "충남",
@@ -45236,94 +37217,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%B6%80%EC%97%AC%EA%B5%B0%20%EC%84%B8%EB%8F%84%EB%A9%B4%20%EB%B6%80%ED%9D%A5%EB%A1%9C1100%EB%B2%88%EA%B8%B8%2017-1"
-  },
-  {
-    "id": "naver/9d905ffc7360f0f3",
-    "name": "깔깔마녀체험농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 초촌면 송정로 33",
-    "roadAddress": "충청남도 부여군 초촌면 송정로 33",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/gosh606"
-  },
-  {
-    "id": "naver/83216c225f54707c",
-    "name": "꼬마토농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 세도면 의자로 124-46",
-    "roadAddress": "충청남도 부여군 세도면 의자로 124-46",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://ok114.co.kr/01094006736"
-  },
-  {
-    "id": "naver/f4e254778f0f5d21",
-    "name": "꿀단지농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 규암면 합송서로 146",
-    "roadAddress": "충청남도 부여군 규암면 합송서로 146",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/dalcom6656"
-  },
-  {
-    "id": "naver/151efcf38b4f82b5",
-    "name": "노적봉오디농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 내산면 만자로39번길 41",
-    "roadAddress": "충청남도 부여군 내산면 만자로39번길 41",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%B6%80%EC%97%AC%EA%B5%B0%20%EB%82%B4%EC%82%B0%EB%A9%B4%20%EB%A7%8C%EC%9E%90%EB%A1%9C39%EB%B2%88%EA%B8%B8%2041"
-  },
-  {
-    "id": "naver/10c0e01e1dc4c9fc",
-    "name": "농업회사법인달콤농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 규암면 흥수로 738-44",
-    "roadAddress": "충청남도 부여군 규암면 흥수로 738-44",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%B6%80%EC%97%AC%EA%B5%B0%20%EA%B7%9C%EC%95%94%EB%A9%B4%20%ED%9D%A5%EC%88%98%EB%A1%9C%20738-44"
-  },
-  {
-    "id": "naver/26779577526d3559",
-    "name": "다맛농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 구룡면 논티리 202-8",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://alltastefarm.viewket.com"
-  },
-  {
-    "id": "naver/8cbe6e1984285302",
-    "name": "달문농가",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 내산면 금지로 207-7",
-    "roadAddress": "충청남도 부여군 내산면 금지로 207-7",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%B6%80%EC%97%AC%EA%B5%B0%20%EB%82%B4%EC%82%B0%EB%A9%B4%20%EA%B8%88%EC%A7%80%EB%A1%9C%20207-7"
-  },
-  {
-    "id": "naver/16dac05301adc7f9",
-    "name": "도암농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 양화면",
-    "roadAddress": "충청남도 부여군 양화면",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%B6%80%EC%97%AC%EA%B5%B0%20%EC%96%91%ED%99%94%EB%A9%B4"
   },
   {
     "id": "naver/667df70b128faf7c",
@@ -45337,28 +37230,6 @@ const realFarmSources = [
     "osmUrl": "http://www.facebook.com/sun1460"
   },
   {
-    "id": "naver/1a1be3fc74f1182d",
-    "name": "메디팜중앙약국",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 은산면 충의로 667",
-    "roadAddress": "충청남도 부여군 은산면 충의로 667",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://aroundpharm.com/pharmacy/7443"
-  },
-  {
-    "id": "naver/bf8c72c2fd696bbf",
-    "name": "메리골드화랑농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 장암면 합곡리 644-1",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%B6%80%EC%97%AC%EA%B5%B0%20%EC%9E%A5%EC%95%94%EB%A9%B4%20%ED%95%A9%EA%B3%A1%EB%A6%AC%20644-1"
-  },
-  {
     "id": "naver/13b3e90b89cb40a9",
     "name": "모닝딸기와체리농장",
     "region": "충남",
@@ -45368,39 +37239,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "http://모닝딸기와체리농장.hrsite.kr"
-  },
-  {
-    "id": "naver/8a31d4255b702f56",
-    "name": "베리프레시팜",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 옥산면 대백제로 504-16",
-    "roadAddress": "충청남도 부여군 옥산면 대백제로 504-16",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/berryfresh_farm"
-  },
-  {
-    "id": "naver/2feb26ab0c439616",
-    "name": "별밤농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 충화면 팔충로420번길 63 별밤농장",
-    "roadAddress": "충청남도 부여군 충화면 팔충로420번길 63 별밤농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/byulbam_farm"
-  },
-  {
-    "id": "naver/ac4c003ebd155784",
-    "name": "부림농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 양화면 유왕로 122-40 부림농장",
-    "roadAddress": "충청남도 부여군 양화면 유왕로 122-40 부림농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%B6%80%EC%97%AC%EA%B5%B0%20%EC%96%91%ED%99%94%EB%A9%B4%20%EC%9C%A0%EC%99%95%EB%A1%9C%20122-40%20%EB%B6%80%EB%A6%BC%EB%86%8D%EC%9E%A5"
   },
   {
     "id": "naver/9984c148292d3071",
@@ -45414,17 +37252,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%B6%80%EC%97%AC%EA%B5%B0%20%ED%99%8D%EC%82%B0%EB%A9%B4%20%EB%8C%80%EB%B0%B1%EC%A0%9C%EB%A1%9C%20779-7"
   },
   {
-    "id": "naver/63a62a7d7dcaeffd",
-    "name": "부여군굿뜨래경영사업소 로컬푸드",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 부여읍 가탑로 75",
-    "roadAddress": "충청남도 부여군 부여읍 가탑로 75",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%B6%80%EC%97%AC%EA%B5%B0%20%EB%B6%80%EC%97%AC%EC%9D%8D%20%EA%B0%80%ED%83%91%EB%A1%9C%2075"
-  },
-  {
     "id": "naver/d643c7a766b31415",
     "name": "부여사과대추농장",
     "region": "충남",
@@ -45436,116 +37263,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%B6%80%EC%97%AC%EA%B5%B0%20%EA%B5%AC%EB%A3%A1%EB%A9%B4%20%EC%9A%A9%EB%8B%B9%EB%A1%9C2%EB%B2%88%EA%B8%B8%2057%20%EC%95%9E%20%EB%B9%84%EB%8B%90%ED%95%98%EC%9A%B0%EC%8A%A4%EB%86%8D%EC%9E%A5"
   },
   {
-    "id": "naver/7d3bf83750c981ad",
-    "name": "부여서울농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 장암면 의자로1235번길 31 부여서울농장",
-    "roadAddress": "충청남도 부여군 장암면 의자로1235번길 31 부여서울농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/cn200117"
-  },
-  {
-    "id": "naver/15ca481396ae0e05",
-    "name": "사비농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 규암면 진변리 18-1",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/heoceolmu4"
-  },
-  {
-    "id": "naver/1b32488312999de4",
-    "name": "세온농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 규암면 부두로289번길 141-19 세온농장",
-    "roadAddress": "충청남도 부여군 규암면 부두로289번길 141-19 세온농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/hjmathjjang"
-  },
-  {
-    "id": "naver/0f2b4236bdbaca90",
-    "name": "송이송이 양송이농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 석성면 금백로429번길 17",
-    "roadAddress": "충청남도 부여군 석성면 금백로429번길 17",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%B6%80%EC%97%AC%EA%B5%B0%20%EC%84%9D%EC%84%B1%EB%A9%B4%20%EA%B8%88%EB%B0%B1%EB%A1%9C429%EB%B2%88%EA%B8%B8%2017"
-  },
-  {
-    "id": "naver/eebc865698268ab3",
-    "name": "숲속고요팜",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 외산면 만수로신근북길 49-43",
-    "roadAddress": "충청남도 부여군 외산면 만수로신근북길 49-43",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/goyofarmer22"
-  },
-  {
-    "id": "naver/42398c4cce542b67",
-    "name": "시경농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 세도면 청포2길 109",
-    "roadAddress": "충청남도 부여군 세도면 청포2길 109",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%B6%80%EC%97%AC%EA%B5%B0%20%EC%84%B8%EB%8F%84%EB%A9%B4%20%EC%B2%AD%ED%8F%AC2%EA%B8%B8%20109"
-  },
-  {
-    "id": "naver/ca08e078735ec03f",
-    "name": "영재농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 은산면 충절로 3009-2",
-    "roadAddress": "충청남도 부여군 은산면 충절로 3009-2",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/youngjae-podoemo"
-  },
-  {
-    "id": "naver/6e95c9170fa3420d",
-    "name": "오번리탁구네농장 구기자맥문동재배",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 은산면 은북로229번길 53 오번리탁구네농장",
-    "roadAddress": "충청남도 부여군 은산면 은북로229번길 53 오번리탁구네농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/obunri__/"
-  },
-  {
-    "id": "naver/aa87b17e272dae20",
-    "name": "와샘농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 부여읍 정동로148번길 8",
-    "roadAddress": "충청남도 부여군 부여읍 정동로148번길 8",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://wasam.viewket.com"
-  },
-  {
-    "id": "naver/d15a9134a7df9bbc",
-    "name": "용일농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 세도면 가회3길 25",
-    "roadAddress": "충청남도 부여군 세도면 가회3길 25",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://smartstore.naver.com/8ja"
-  },
-  {
     "id": "naver/907a626cf136cc30",
     "name": "우리포도농장",
     "region": "충남",
@@ -45555,28 +37272,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%B6%80%EC%97%AC%EA%B5%B0%20%EC%9D%80%EC%82%B0%EB%A9%B4%20%EC%9D%80%EC%82%B0%EB%A1%9C%2016-6"
-  },
-  {
-    "id": "naver/adcab5e455ff4566",
-    "name": "유가네농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 규암면 나복리 77-2",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http:// yufamily.viewket.com"
-  },
-  {
-    "id": "naver/e68525fdcb86c67f",
-    "name": "이유농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 부여읍 정동리 48-6 하우스",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%B6%80%EC%97%AC%EA%B5%B0%20%EB%B6%80%EC%97%AC%EC%9D%8D%20%EC%A0%95%EB%8F%99%EB%A6%AC%2048-6%20%ED%95%98%EC%9A%B0%EC%8A%A4"
   },
   {
     "id": "naver/4b72ae8347a16f16",
@@ -45601,61 +37296,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%B6%80%EC%97%AC%EA%B5%B0%20%EC%84%B8%EB%8F%84%EB%A9%B4%20%EB%8B%A4%EA%B7%BC%EB%A1%9C%2030-19"
   },
   {
-    "id": "naver/87043142d423e4bd",
-    "name": "조금느려도괜찮아치유농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 외산면 만수로주암길 42-30",
-    "roadAddress": "충청남도 부여군 외산면 만수로주암길 42-30",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.facebook.com/slowisok"
-  },
-  {
-    "id": "naver/fe73488b9611e87a",
-    "name": "진영농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 홍산면 조무로176번길 13-7",
-    "roadAddress": "충청남도 부여군 홍산면 조무로176번길 13-7",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://jinyungfarm.viewket.com"
-  },
-  {
-    "id": "naver/53be58bdc08bef57",
-    "name": "청명농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 홍산면 상천로73번길 152",
-    "roadAddress": "충청남도 부여군 홍산면 상천로73번길 152",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%B6%80%EC%97%AC%EA%B5%B0%20%ED%99%8D%EC%82%B0%EB%A9%B4%20%EC%83%81%EC%B2%9C%EB%A1%9C73%EB%B2%88%EA%B8%B8%20152"
-  },
-  {
-    "id": "naver/4823d46d7bdced62",
-    "name": "초촌산들농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 초촌면 송국로80번길 149-12",
-    "roadAddress": "충청남도 부여군 초촌면 송국로80번길 149-12",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/qndu108410"
-  },
-  {
-    "id": "naver/d45581a43ff9a316",
-    "name": "충화 다원농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 충화면 덕림남로20번길 15 15호",
-    "roadAddress": "충청남도 부여군 충화면 덕림남로20번길 15 15호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/myxuyen159"
-  },
-  {
     "id": "naver/5ecc9ba15b7d625b",
     "name": "칠산블루베리농원",
     "region": "충남",
@@ -45665,17 +37305,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://blog.naver.com/gpwl1019"
-  },
-  {
-    "id": "naver/1a49d5c26711f6aa",
-    "name": "톨스토이농장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 양화서로778번길 40",
-    "roadAddress": "충청남도 부여군 양화서로778번길 40",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%B6%80%EC%97%AC%EA%B5%B0%20%EC%96%91%ED%99%94%EC%84%9C%EB%A1%9C778%EB%B2%88%EA%B8%B8%2040"
   },
   {
     "id": "naver/95ac6ecc82a77698",
@@ -45689,17 +37318,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%B6%80%EC%97%AC%EA%B5%B0%20%EC%9D%80%EC%82%B0%EB%A9%B4%20%EC%B6%A9%EC%9D%98%EB%A1%9C%20575-4%20%EC%A3%BC%ED%83%9D"
   },
   {
-    "id": "naver/700caa6276717a9d",
-    "name": "팜젤라또",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 부여읍 중앙로13번길 25 복합상점 [두부] 1층",
-    "roadAddress": "충청남도 부여군 부여읍 중앙로13번길 25 복합상점 [두부] 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/season_of_buyeo/products/11767413243"
-  },
-  {
     "id": "naver/b55f4518fd2e2155",
     "name": "포도사랑농원",
     "region": "충남",
@@ -45709,39 +37327,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%B6%80%EC%97%AC%EA%B5%B0%20%EC%9D%80%EC%82%B0%EB%A9%B4"
-  },
-  {
-    "id": "naver/bea7e6b5aa92d826",
-    "name": "홍산관광농원",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 홍산면 삽티로 465 야외수영장",
-    "roadAddress": "충청남도 부여군 홍산면 삽티로 465 야외수영장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/hongsan_114/224270540125"
-  },
-  {
-    "id": "naver/caeed4367be70764",
-    "name": "홍산관광농원수영장",
-    "region": "충남",
-    "city": "부여군",
-    "address": "충청남도 부여군 홍산면 삽티로 465",
-    "roadAddress": "충청남도 부여군 홍산면 삽티로 465",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EB%B6%80%EC%97%AC%EA%B5%B0%20%ED%99%8D%EC%82%B0%EB%A9%B4%20%EC%82%BD%ED%8B%B0%EB%A1%9C%20465"
-  },
-  {
-    "id": "naver/40d83b5863f163ec",
-    "name": "153농장",
-    "region": "충남",
-    "city": "서산시",
-    "address": "충청남도 서산시 성연면 갈현리 253-1",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/chonh1229"
   },
   {
     "id": "naver/1681635c1edfe8e0",
@@ -45766,17 +37351,6 @@ const realFarmSources = [
     "osmUrl": "http://www.tomato24.co.kr/"
   },
   {
-    "id": "naver/bdba23709da15185",
-    "name": "가도농장",
-    "region": "충남",
-    "city": "서천군",
-    "address": "충청남도 서천군 마산면 관포길 113-28",
-    "roadAddress": "충청남도 서천군 마산면 관포길 113-28",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://m.smartstore.naver.com/"
-  },
-  {
     "id": "naver/4e521701abeff277",
     "name": "땡큐블루베리농장",
     "region": "충남",
@@ -45788,94 +37362,6 @@ const realFarmSources = [
     "osmUrl": "https://smartstore.naver.com/thankyouberryfarm"
   },
   {
-    "id": "naver/8cbf6dda042c7e6c",
-    "name": "구성농장",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 영인면 아산호로 470-59",
-    "roadAddress": "충청남도 아산시 영인면 아산호로 470-59",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/rntjdfl1010"
-  },
-  {
-    "id": "naver/7f0d55c83de6f062",
-    "name": "그을린",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 배방읍 북수동로 3 101호",
-    "roadAddress": "충청남도 아산시 배방읍 북수동로 3 101호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/geulreen_"
-  },
-  {
-    "id": "naver/02304774845d241d",
-    "name": "농가마트 신일점",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 염치읍 송곡길68번길 3",
-    "roadAddress": "충청남도 아산시 염치읍 송곡길68번길 3",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%95%84%EC%82%B0%EC%8B%9C%20%EC%97%BC%EC%B9%98%EC%9D%8D%20%EC%86%A1%EA%B3%A1%EA%B8%B868%EB%B2%88%EA%B8%B8%203"
-  },
-  {
-    "id": "naver/01f872377e8cd2a2",
-    "name": "농가마트호서대점",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 배방읍 호서로 112",
-    "roadAddress": "충청남도 아산시 배방읍 호서로 112",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%95%84%EC%82%B0%EC%8B%9C%20%EB%B0%B0%EB%B0%A9%EC%9D%8D%20%ED%98%B8%EC%84%9C%EB%A1%9C%20112"
-  },
-  {
-    "id": "naver/49719df75fd4c80a",
-    "name": "농가의아침",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 송악면 송악로 805-13",
-    "roadAddress": "충청남도 아산시 송악면 송악로 805-13",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%95%84%EC%82%B0%EC%8B%9C%20%EC%86%A1%EC%95%85%EB%A9%B4%20%EC%86%A1%EC%95%85%EB%A1%9C%20805-13"
-  },
-  {
-    "id": "naver/38c2015251ad3a5c",
-    "name": "농가한우전문점",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 탕정면 탕정면로8번길 14-16 1층",
-    "roadAddress": "충청남도 아산시 탕정면 탕정면로8번길 14-16 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%95%84%EC%82%B0%EC%8B%9C%20%ED%83%95%EC%A0%95%EB%A9%B4%20%ED%83%95%EC%A0%95%EB%A9%B4%EB%A1%9C8%EB%B2%88%EA%B8%B8%2014-16%201%EC%B8%B5"
-  },
-  {
-    "id": "naver/e9969f48a52a7b8e",
-    "name": "달기농장",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 영인면 신봉길223번길 69 달기농장",
-    "roadAddress": "충청남도 아산시 영인면 신봉길223번길 69 달기농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://smartstore.naver.com/dalgifarm"
-  },
-  {
-    "id": "naver/e0cea93087698373",
-    "name": "달꽃체험농장",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 순천향로 847-20",
-    "roadAddress": "충청남도 아산시 순천향로 847-20",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%95%84%EC%82%B0%EC%8B%9C%20%EC%88%9C%EC%B2%9C%ED%96%A5%EB%A1%9C%20847-20"
-  },
-  {
     "id": "naver/21e0136503aa74dc",
     "name": "달콤딸기농장",
     "region": "충남",
@@ -45885,28 +37371,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%95%84%EC%82%B0%EC%8B%9C%20%EC%8B%A0%EC%B0%BD%EB%A9%B4%20%EC%8B%A0%EB%8B%AC%EB%A6%AC%20651"
-  },
-  {
-    "id": "naver/9c2736b44a6df3ea",
-    "name": "바나나마을",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 영인면 토정로 117",
-    "roadAddress": "충청남도 아산시 영인면 토정로 117",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://바나나마을.com"
-  },
-  {
-    "id": "naver/eb3f314464c5e9f7",
-    "name": "부활농장",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 음봉면 산동로 58 부활농장",
-    "roadAddress": "충청남도 아산시 음봉면 산동로 58 부활농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%95%84%EC%82%B0%EC%8B%9C%20%EC%9D%8C%EB%B4%89%EB%A9%B4%20%EC%82%B0%EB%8F%99%EB%A1%9C%2058%20%EB%B6%80%ED%99%9C%EB%86%8D%EC%9E%A5"
   },
   {
     "id": "naver/3430f0dad8199b05",
@@ -45975,17 +37439,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%95%84%EC%82%B0%EC%8B%9C%20%EC%84%A0%EC%9E%A5%EB%A9%B4%20%EB%8F%84%EA%B3%A0%EC%98%A8%EC%B2%9C%EB%A1%9C%20254-8"
   },
   {
-    "id": "naver/9e1fe0cf6e4e37dd",
-    "name": "서해로컬푸드",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 인주면 서해로 640 서해로컬푸드",
-    "roadAddress": "충청남도 아산시 인주면 서해로 640 서해로컬푸드",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%95%84%EC%82%B0%EC%8B%9C%20%EC%9D%B8%EC%A3%BC%EB%A9%B4%20%EC%84%9C%ED%95%B4%EB%A1%9C%20640%20%EC%84%9C%ED%95%B4%EB%A1%9C%EC%BB%AC%ED%91%B8%EB%93%9C"
-  },
-  {
     "id": "naver/f7eb735605b1f69a",
     "name": "석정딸기농원",
     "region": "충남",
@@ -45995,17 +37448,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "http://www.석정딸기농웡.com/"
-  },
-  {
-    "id": "naver/d137255d282cc78e",
-    "name": "선물농장",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 염치읍 염치로201번길 3-29 선물농장",
-    "roadAddress": "충청남도 아산시 염치읍 염치로201번길 3-29 선물농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%95%84%EC%82%B0%EC%8B%9C%20%EC%97%BC%EC%B9%98%EC%9D%8D%20%EC%97%BC%EC%B9%98%EB%A1%9C201%EB%B2%88%EA%B8%B8%203-29%20%EC%84%A0%EB%AC%BC%EB%86%8D%EC%9E%A5"
   },
   {
     "id": "naver/530523cadd2486e0",
@@ -46030,39 +37472,6 @@ const realFarmSources = [
     "osmUrl": "https://www.instagram.com/dochi_farm/"
   },
   {
-    "id": "naver/6325d8f116c21652",
-    "name": "아산로컬푸드직매장",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 온천대로 1336",
-    "roadAddress": "충청남도 아산시 온천대로 1336",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%95%84%EC%82%B0%EC%8B%9C%20%EC%98%A8%EC%B2%9C%EB%8C%80%EB%A1%9C%201336"
-  },
-  {
-    "id": "naver/67995976efc69051",
-    "name": "아산로컬푸드파트너즈",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 배방읍 북수로 101 7호8호",
-    "roadAddress": "충청남도 아산시 배방읍 북수로 101 7호8호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%95%84%EC%82%B0%EC%8B%9C%20%EB%B0%B0%EB%B0%A9%EC%9D%8D%20%EB%B6%81%EC%88%98%EB%A1%9C%20101%207%ED%98%B88%ED%98%B8"
-  },
-  {
-    "id": "naver/2a52075891f4a9e7",
-    "name": "아산팜영농조합법인",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 염치읍 염성길 70-30",
-    "roadAddress": "충청남도 아산시 염치읍 염성길 70-30",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%95%84%EC%82%B0%EC%8B%9C%20%EC%97%BC%EC%B9%98%EC%9D%8D%20%EC%97%BC%EC%84%B1%EA%B8%B8%2070-30"
-  },
-  {
     "id": "naver/7416dfc7cfc96f82",
     "name": "역말농장 토마토",
     "region": "충남",
@@ -46072,17 +37481,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "http://www.instagram.com/asantomato"
-  },
-  {
-    "id": "naver/1c7b48c3ea3e3e81",
-    "name": "영구네농장",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 도고면 도산리 104-2",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/kwonyg0209"
   },
   {
     "id": "naver/9d5fb7a435cdf653",
@@ -46096,39 +37494,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%95%84%EC%82%B0%EC%8B%9C%20%EC%98%81%EC%9D%B8%EB%A9%B4%20%ED%86%A0%EC%A0%95%EB%A1%9C120%EB%B2%88%EA%B8%B8%2020"
   },
   {
-    "id": "naver/8cbde2a399ee2ed4",
-    "name": "온양꽃농원",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 배방읍 구령리 104-12 온양꽃농원",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/zooey1122"
-  },
-  {
-    "id": "naver/cb0c2ace3901e2a4",
-    "name": "와우농원",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 영인면 성내안길 108",
-    "roadAddress": "충청남도 아산시 영인면 성내안길 108",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/cowboy45"
-  },
-  {
-    "id": "naver/f58d2cc26a1aa90a",
-    "name": "원골농원",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 둔포면 관대안길 62-4 원골농원",
-    "roadAddress": "충청남도 아산시 둔포면 관대안길 62-4 원골농원",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/wongol_nongwon/"
-  },
-  {
     "id": "naver/e9a4fb1ef4aa817b",
     "name": "이데아 유기농 토마토 농장",
     "region": "충남",
@@ -46138,17 +37503,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%95%84%EC%82%B0%EC%8B%9C%20%EC%9D%8C%EB%B4%89%EB%A9%B4%20%EC%95%84%EC%82%B0%EC%98%A8%EC%B2%9C%EB%A1%9C%20432-17"
-  },
-  {
-    "id": "naver/f0191faf5a47c179",
-    "name": "이안에식물",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 배방읍 신흥리 265-1",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%95%84%EC%82%B0%EC%8B%9C%20%EB%B0%B0%EB%B0%A9%EC%9D%8D%20%EC%8B%A0%ED%9D%A5%EB%A6%AC%20265-1"
   },
   {
     "id": "naver/d4b0f27598db55d8",
@@ -46193,39 +37547,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%95%84%EC%82%B0%EC%8B%9C%20%EC%86%A1%EC%95%85%EB%A9%B4%20%ED%8F%89%EC%B4%8C%EB%A6%AC%20531"
-  },
-  {
-    "id": "naver/fa29458d08cd629b",
-    "name": "판다팜 아산모종점",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 삼동로8번길 23",
-    "roadAddress": "충청남도 아산시 삼동로8번길 23",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%95%84%EC%82%B0%EC%8B%9C%20%EC%82%BC%EB%8F%99%EB%A1%9C8%EB%B2%88%EA%B8%B8%2023"
-  },
-  {
-    "id": "naver/44ed6c81b09bada0",
-    "name": "팽오리농장 아산점",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 탕정면 탕정면로 95",
-    "roadAddress": "충청남도 아산시 탕정면 탕정면로 95",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%95%84%EC%82%B0%EC%8B%9C%20%ED%83%95%EC%A0%95%EB%A9%B4%20%ED%83%95%EC%A0%95%EB%A9%B4%EB%A1%9C%2095"
-  },
-  {
-    "id": "naver/937c527eae3c5b29",
-    "name": "플라워에코하우스",
-    "region": "충남",
-    "city": "아산시",
-    "address": "충청남도 아산시 배방읍 구령리 92-2 탕정 꽃 화훼단지 내 플라워에코하우스",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/flowerecohouse"
   },
   {
     "id": "naver/942abf7bbfc31fbf",
@@ -46316,28 +37637,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%98%88%EC%82%B0%EA%B5%B0%20%EC%8B%A0%EC%95%94%EB%A9%B4%20%EC%A1%B0%EA%B3%A1%EC%A4%91%EC%98%88%EA%B8%B8%2046-8"
   },
   {
-    "id": "naver/45ba2f03ea524f31",
-    "name": "우유농가",
-    "region": "충남",
-    "city": "예산군",
-    "address": "충청남도 예산군 고덕면 상몽2길 236 우유농가",
-    "roadAddress": "충청남도 예산군 고덕면 상몽2길 236 우유농가",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.agroland.co.kr"
-  },
-  {
-    "id": "naver/265e4caff375f9d5",
-    "name": "킹콩농장",
-    "region": "충남",
-    "city": "예산군",
-    "address": "충청남도 예산군 삽교읍 가리 310",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/king_kongfarm"
-  },
-  {
     "id": "naver/9a132ba8c2d2714d",
     "name": "황토골사과농장",
     "region": "충남",
@@ -46347,28 +37646,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "http://www.041apple.com/"
-  },
-  {
-    "id": "naver/ec9d0330a52a3eeb",
-    "name": "갑순이농원",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 동남구 수신면",
-    "roadAddress": "충청남도 천안시 동남구 수신면",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EB%8F%99%EB%82%A8%EA%B5%AC%20%EC%88%98%EC%8B%A0%EB%A9%B4"
-  },
-  {
-    "id": "naver/9eceb5ed32ba37cc",
-    "name": "강당골 농가쌈밥",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 동남구 원성천1길 163 1층 101호",
-    "roadAddress": "충청남도 천안시 동남구 원성천1길 163 1층 101호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EB%8F%99%EB%82%A8%EA%B5%AC%20%EC%9B%90%EC%84%B1%EC%B2%9C1%EA%B8%B8%20163%201%EC%B8%B5%20101%ED%98%B8"
   },
   {
     "id": "naver/377e41c716a923e3",
@@ -46382,17 +37659,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/nollida"
   },
   {
-    "id": "naver/d76ce760f7eab204",
-    "name": "광덕팜",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 동남구 광덕면 검단리길 25",
-    "roadAddress": "충청남도 천안시 동남구 광덕면 검단리길 25",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/gwang_deok_farm"
-  },
-  {
     "id": "naver/991c60d7d8562559",
     "name": "그린멜론농장",
     "region": "충남",
@@ -46402,83 +37668,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EB%8F%99%EB%82%A8%EA%B5%AC%20%EC%88%98%EC%8B%A0%EB%A9%B4%20%EB%B0%B1%EC%9E%90%EB%A6%AC%20433-6"
-  },
-  {
-    "id": "naver/fae3f4eaf936dd7f",
-    "name": "깨비농장 본사",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 서북구 성거읍 삼곡2길 123",
-    "roadAddress": "충청남도 천안시 서북구 성거읍 삼곡2길 123",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://kebifarm.co.kr"
-  },
-  {
-    "id": "naver/05a6537ea9260191",
-    "name": "꽃사랑농원",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 동남구 유량로 83 꽃사랑농원",
-    "roadAddress": "충청남도 천안시 동남구 유량로 83 꽃사랑농원",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/flowerlove-"
-  },
-  {
-    "id": "naver/3a38c16e76e0bcc6",
-    "name": "녹색식물원",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 동남구 남부대로 169 남부화훼단지",
-    "roadAddress": "충청남도 천안시 동남구 남부대로 169 남부화훼단지",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EB%8F%99%EB%82%A8%EA%B5%AC%20%EB%82%A8%EB%B6%80%EB%8C%80%EB%A1%9C%20169%20%EB%82%A8%EB%B6%80%ED%99%94%ED%9B%BC%EB%8B%A8%EC%A7%80"
-  },
-  {
-    "id": "naver/398b8c254e4eb6d2",
-    "name": "농가마트 남관점",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 동남구 풍세면 풍세로 453",
-    "roadAddress": "충청남도 천안시 동남구 풍세면 풍세로 453",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EB%8F%99%EB%82%A8%EA%B5%AC%20%ED%92%8D%EC%84%B8%EB%A9%B4%20%ED%92%8D%EC%84%B8%EB%A1%9C%20453"
-  },
-  {
-    "id": "naver/5b539da065ed321e",
-    "name": "농가마트 목천 서리점",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 동남구 목천읍 서리2길 8 1층 농가마트 목천 서리점",
-    "roadAddress": "충청남도 천안시 동남구 목천읍 서리2길 8 1층 농가마트 목천 서리점",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EB%8F%99%EB%82%A8%EA%B5%AC%20%EB%AA%A9%EC%B2%9C%EC%9D%8D%20%EC%84%9C%EB%A6%AC2%EA%B8%B8%208%201%EC%B8%B5%20%EB%86%8D%EA%B0%80%EB%A7%88%ED%8A%B8%20%EB%AA%A9%EC%B2%9C%20%EC%84%9C%EB%A6%AC%EC%A0%90"
-  },
-  {
-    "id": "naver/47f1fc56a6fadfdb",
-    "name": "농가마트 목천점",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 동남구 목천읍 충절로 846",
-    "roadAddress": "충청남도 천안시 동남구 목천읍 충절로 846",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EB%8F%99%EB%82%A8%EA%B5%AC%20%EB%AA%A9%EC%B2%9C%EC%9D%8D%20%EC%B6%A9%EC%A0%88%EB%A1%9C%20846"
-  },
-  {
-    "id": "naver/3f54979de4a48987",
-    "name": "농가마트청수점",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 동남구 청수로 74",
-    "roadAddress": "충청남도 천안시 동남구 청수로 74",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EB%8F%99%EB%82%A8%EA%B5%AC%20%EC%B2%AD%EC%88%98%EB%A1%9C%2074"
   },
   {
     "id": "naver/cff25f46feb46358",
@@ -46501,17 +37690,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 체험 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://www.instagram.com/neulsom_strawberry"
-  },
-  {
-    "id": "naver/f0fd8dac5b0efdfd",
-    "name": "다롱농장",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 동남구 풍세면 휴대세교길 347-45 남관리 541-2",
-    "roadAddress": "충청남도 천안시 동남구 풍세면 휴대세교길 347-45 남관리 541-2",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/darongfarm"
   },
   {
     "id": "naver/cfec2c4206929b1a",
@@ -46547,17 +37725,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EB%8F%99%EB%82%A8%EA%B5%AC%20%EC%B6%A9%EB%AC%B4%EB%A1%9C%2048-64%20%EB%8F%84%EC%9C%A4%EC%9D%B4%EB%84%A4%ED%8F%AC%EB%8F%84%EB%86%8D%EC%9E%A5"
   },
   {
-    "id": "naver/17183a1dff8bd8a0",
-    "name": "동천안농협 로컬푸드 하나로마트",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 동남구 목천읍 신계4길 4",
-    "roadAddress": "충청남도 천안시 동남구 목천읍 신계4길 4",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.dchnh.com/"
-  },
-  {
     "id": "naver/9eaf44595a4e816b",
     "name": "만나딸기체험농장",
     "region": "충남",
@@ -46580,28 +37747,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EC%84%9C%EB%B6%81%EA%B5%AC%20%EC%84%B1%EA%B1%B0%EC%9D%8D%20%EB%B4%89%EC%A3%BC%EB%A1%9C%20411-46"
   },
   {
-    "id": "naver/79736cadbbeb2b80",
-    "name": "미애친애 농촌체험교육농장",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 동남구 병천면 남부대로 1420 충청남도 천안시 동남구 병천면 가전리 532-3",
-    "roadAddress": "충청남도 천안시 동남구 병천면 남부대로 1420 충청남도 천안시 동남구 병천면 가전리 532-3",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/ricelove_mi_ae_chin_ae"
-  },
-  {
-    "id": "naver/be640a66f1f09c71",
-    "name": "미죽골농장",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 동남구 풍세면 미죽로 367 미죽골농장",
-    "roadAddress": "충청남도 천안시 동남구 풍세면 미죽로 367 미죽골농장",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/cks_farm"
-  },
-  {
     "id": "naver/2f7231c5aa0e4331",
     "name": "뱅어골 멜론농장",
     "region": "충남",
@@ -46611,28 +37756,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EB%8F%99%EB%82%A8%EA%B5%AC%20%EC%88%98%EC%8B%A0%EB%A9%B4%20%EB%B0%B1%EC%9E%90%EB%A6%AC%20475-5"
-  },
-  {
-    "id": "naver/fde7fcc631f27607",
-    "name": "별꽃원예치유농장",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 서북구 성거읍 저리길 41-23",
-    "roadAddress": "충청남도 천안시 서북구 성거읍 저리길 41-23",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/star_flower137_2"
-  },
-  {
-    "id": "naver/c3f650e7755c34ec",
-    "name": "봉황52 농촌교육농장",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 동남구 병천면 봉항로 718 봉황52농장",
-    "roadAddress": "충청남도 천안시 동남구 병천면 봉항로 718 봉황52농장",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://youtube.com/@52tv19"
   },
   {
     "id": "naver/bd351c5cb8b32a0e",
@@ -46646,39 +37769,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EB%8F%99%EB%82%A8%EA%B5%AC%20%EB%8F%99%EB%A9%B4%20%ED%99%94%EB%8D%95%EB%A6%AC%20256"
   },
   {
-    "id": "naver/4851d408ec4d0576",
-    "name": "삼촌네 농장",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 동남구 성남면 신사3길 17 단독2층",
-    "roadAddress": "충청남도 천안시 동남구 성남면 신사3길 17 단독2층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EB%8F%99%EB%82%A8%EA%B5%AC%20%EC%84%B1%EB%82%A8%EB%A9%B4%20%EC%8B%A0%EC%82%AC3%EA%B8%B8%2017%20%EB%8B%A8%EB%8F%852%EC%B8%B5"
-  },
-  {
-    "id": "naver/f794c83f6324ffd8",
-    "name": "성호육묘장",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 서북구 부대동 45-1",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EC%84%9C%EB%B6%81%EA%B5%AC%20%EB%B6%80%EB%8C%80%EB%8F%99%2045-1"
-  },
-  {
-    "id": "naver/d86f0ecc92580dfd",
-    "name": "세운농장",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 서북구 성거읍 소댕이4길 39",
-    "roadAddress": "충청남도 천안시 서북구 성거읍 소댕이4길 39",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EC%84%9C%EB%B6%81%EA%B5%AC%20%EC%84%B1%EA%B1%B0%EC%9D%8D%20%EC%86%8C%EB%8C%95%EC%9D%B44%EA%B8%B8%2039"
-  },
-  {
     "id": "naver/b4882c50d76898d4",
     "name": "수신남산멜론농장",
     "region": "충남",
@@ -46688,17 +37778,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EB%8F%99%EB%82%A8%EA%B5%AC%20%EC%88%98%EC%8B%A0%EB%A9%B4%20%EC%9E%A5%EC%82%B02%EA%B8%B8%2071"
-  },
-  {
-    "id": "naver/3f33ecdb0eadc506",
-    "name": "순박이네농장",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 서북구 입장면 호당리 153-6",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EC%84%9C%EB%B6%81%EA%B5%AC%20%EC%9E%85%EC%9E%A5%EB%A9%B4%20%ED%98%B8%EB%8B%B9%EB%A6%AC%20153-6"
   },
   {
     "id": "naver/a7b2e2a5784f6431",
@@ -46712,17 +37791,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EC%84%9C%EB%B6%81%EA%B5%AC%20%EC%84%B1%EA%B1%B0%EC%9D%8D%20%EC%83%88%ED%84%B0%EA%B8%B8%2075-25"
   },
   {
-    "id": "naver/c36e909bd60e93b5",
-    "name": "아람베리농장",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 서북구 직산읍 삼은리 237-2",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EC%84%9C%EB%B6%81%EA%B5%AC%20%EC%A7%81%EC%82%B0%EC%9D%8D%20%EC%82%BC%EC%9D%80%EB%A6%AC%20237-2"
-  },
-  {
     "id": "naver/025912ea3f37f353",
     "name": "아름다운딸기농원",
     "region": "충남",
@@ -46732,17 +37800,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EB%8F%99%EB%82%A8%EA%B5%AC%20%EB%AA%A9%EC%B2%9C%EC%9D%8D%20%EC%82%BC%EB%B0%A9%EB%A1%9C%20855%20%EB%B6%81%EB%A9%B4%20%EC%83%81%EB%8F%992%EA%B8%B8%20142(2%EB%86%8D%EC%9E%A5)"
-  },
-  {
-    "id": "naver/f25ba7bc3dfb9b69",
-    "name": "아름다운정원화수목",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 동남구 목천읍 교천지산길 175",
-    "roadAddress": "충청남도 천안시 동남구 목천읍 교천지산길 175",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.facebook.com/flostree.co.kr"
   },
   {
     "id": "naver/e0c6439b1c3b9758",
@@ -46756,28 +37813,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EB%8F%99%EB%82%A8%EA%B5%AC%20%EB%B3%91%EC%B2%9C%EB%A9%B4%20%ED%83%91%EC%9B%901%EA%B8%B8%2067-8"
   },
   {
-    "id": "naver/0be96967aec4879a",
-    "name": "에덴농원",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 동남구 충무로 46-4",
-    "roadAddress": "충청남도 천안시 동남구 충무로 46-4",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.instagram.com/cheonan_edenplantation"
-  },
-  {
-    "id": "naver/5bb08e9e9e9d2f59",
-    "name": "영숙이네농장",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 동남구 병천면 송정리5길 10-28",
-    "roadAddress": "충청남도 천안시 동남구 병천면 송정리5길 10-28",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EB%8F%99%EB%82%A8%EA%B5%AC%20%EB%B3%91%EC%B2%9C%EB%A9%B4%20%EC%86%A1%EC%A0%95%EB%A6%AC5%EA%B8%B8%2010-28"
-  },
-  {
     "id": "naver/29d6f911c1dcccd6",
     "name": "요한멜론농장",
     "region": "충남",
@@ -46787,61 +37822,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EB%8F%99%EB%82%A8%EA%B5%AC%20%EC%88%98%EC%8B%A0%EB%A9%B4%20%EC%86%8D%EC%B0%BD%EB%A6%AC%20226-3"
-  },
-  {
-    "id": "naver/cacb7864ddcdf788",
-    "name": "이레농원",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 서북구 입장면 독정기로길 4-12",
-    "roadAddress": "충청남도 천안시 서북구 입장면 독정기로길 4-12",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://cafe.naver.com/irefarm"
-  },
-  {
-    "id": "naver/a5f8e8d203be9be3",
-    "name": "이루팜 천안직산점",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 서북구 직산읍 삼은3길 14 1층 104호",
-    "roadAddress": "충청남도 천안시 서북구 직산읍 삼은3길 14 1층 104호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/jeonsangyeong28"
-  },
-  {
-    "id": "naver/15da0c76c5141163",
-    "name": "장수농원",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 서북구 입장면 망향로 1210",
-    "roadAddress": "충청남도 천안시 서북구 입장면 망향로 1210",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EC%84%9C%EB%B6%81%EA%B5%AC%20%EC%9E%85%EC%9E%A5%EB%A9%B4%20%EB%A7%9D%ED%96%A5%EB%A1%9C%201210"
-  },
-  {
-    "id": "naver/7bc660f6f39e82bb",
-    "name": "정원의아이",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 서북구 미라3길 66 1층",
-    "roadAddress": "충청남도 천안시 서북구 미라3길 66 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/garden_1222"
-  },
-  {
-    "id": "naver/4a804212dacf063a",
-    "name": "조운농원",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 서북구 성환읍 율금1길 233-8 조은농원",
-    "roadAddress": "충청남도 천안시 서북구 성환읍 율금1길 233-8 조은농원",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EC%84%9C%EB%B6%81%EA%B5%AC%20%EC%84%B1%ED%99%98%EC%9D%8D%20%EC%9C%A8%EA%B8%881%EA%B8%B8%20233-8%20%EC%A1%B0%EC%9D%80%EB%86%8D%EC%9B%90"
   },
   {
     "id": "naver/e6a514561d6cbc6f",
@@ -46855,17 +37835,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EC%84%9C%EB%B6%81%EA%B5%AC%20%EC%9E%85%EC%9E%A5%EB%A9%B4%20%EC%84%B1%EC%A7%84%EB%A1%9C%20832-7"
   },
   {
-    "id": "naver/f3ac6627857262ab",
-    "name": "직거래푸줏간",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 서북구 쌍용14길 61",
-    "roadAddress": "충청남도 천안시 서북구 쌍용14길 61",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EC%84%9C%EB%B6%81%EA%B5%AC%20%EC%8C%8D%EC%9A%A914%EA%B8%B8%2061"
-  },
-  {
     "id": "naver/e188fad3583f1c15",
     "name": "천안딸기힐링팜",
     "region": "충남",
@@ -46875,50 +37844,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://www.facebook.com/profile.php?id=100024544096136&locale=ko_KR"
-  },
-  {
-    "id": "naver/1e9fdbe81efd1690",
-    "name": "천안로컬푸드 쌍용점",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 서북구 월봉로 95 지하1층 천안로컬푸드 쌍용점",
-    "roadAddress": "충청남도 천안시 서북구 월봉로 95 지하1층 천안로컬푸드 쌍용점",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/moniga/223518423580"
-  },
-  {
-    "id": "naver/e5079b6f5712c513",
-    "name": "천안명품로컬푸드직매장",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 서북구 성거읍 망향로 283",
-    "roadAddress": "충청남도 천안시 서북구 성거읍 망향로 283",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EC%84%9C%EB%B6%81%EA%B5%AC%20%EC%84%B1%EA%B1%B0%EC%9D%8D%20%EB%A7%9D%ED%96%A5%EB%A1%9C%20283"
-  },
-  {
-    "id": "naver/1b2d062b6c6dd8b7",
-    "name": "천안팜",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 동남구 병천면 개목고개길 206",
-    "roadAddress": "충청남도 천안시 동남구 병천면 개목고개길 206",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EB%8F%99%EB%82%A8%EA%B5%AC%20%EB%B3%91%EC%B2%9C%EB%A9%B4%20%EA%B0%9C%EB%AA%A9%EA%B3%A0%EA%B0%9C%EA%B8%B8%20206"
-  },
-  {
-    "id": "naver/32a4db441ab97c02",
-    "name": "천안팜스퀘어약국",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 서북구 번영로 608 B동 1호",
-    "roadAddress": "충청남도 천안시 서북구 번영로 608 B동 1호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://pf.kakao.com/_xcKRxlG"
   },
   {
     "id": "naver/758af739f04c75b0",
@@ -46932,17 +37857,6 @@ const realFarmSources = [
     "osmUrl": "https://www.instagram.com/pureum.cherryfarm/"
   },
   {
-    "id": "naver/c2f8355011ca1896",
-    "name": "팽오리농장 천안점",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 서북구 공단로 65 1층",
-    "roadAddress": "충청남도 천안시 서북구 공단로 65 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EC%84%9C%EB%B6%81%EA%B5%AC%20%EA%B3%B5%EB%8B%A8%EB%A1%9C%2065%201%EC%B8%B5"
-  },
-  {
     "id": "naver/436890be3c4bd6c7",
     "name": "하이멜론농장",
     "region": "충남",
@@ -46952,28 +37866,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://smartstore.naver.com/hi-melon/"
-  },
-  {
-    "id": "naver/2e26fb1b9dedee56",
-    "name": "한나네제일농장",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 동남구 수신면 수신로 472",
-    "roadAddress": "충청남도 천안시 동남구 수신면 수신로 472",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EB%8F%99%EB%82%A8%EA%B5%AC%20%EC%88%98%EC%8B%A0%EB%A9%B4%20%EC%88%98%EC%8B%A0%EB%A1%9C%20472"
-  },
-  {
-    "id": "naver/c8bed84237f17766",
-    "name": "향기농원",
-    "region": "충남",
-    "city": "천안시",
-    "address": "충청남도 천안시 서북구 성환읍 신방4길 92-8",
-    "roadAddress": "충청남도 천안시 서북구 성환읍 신방4길 92-8",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EC%84%9C%EB%B6%81%EA%B5%AC%20%EC%84%B1%ED%99%98%EC%9D%8D%20%EC%8B%A0%EB%B0%A94%EA%B8%B8%2092-8"
   },
   {
     "id": "naver/353b97a839410366",
@@ -46987,28 +37879,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%9C%EC%95%88%EC%8B%9C%20%EC%84%9C%EB%B6%81%EA%B5%AC%20%EC%84%B1%EA%B1%B0%EC%9D%8D%20%EB%B4%89%EC%A3%BC%EB%A1%9C%20399"
   },
   {
-    "id": "naver/8dbcc70372fd5c3f",
-    "name": "농가의 빵집",
-    "region": "충남",
-    "city": "청양군",
-    "address": "충청남도 청양군 청양읍 중앙로 140 1층",
-    "roadAddress": "충청남도 청양군 청양읍 중앙로 140 1층",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/pain_de_menage1997/profilecard/?igsh=MWUxd29zdGFsd3Fubw=="
-  },
-  {
-    "id": "naver/548a5293b3186dfe",
-    "name": "다온농장",
-    "region": "충남",
-    "city": "청양군",
-    "address": "충청남도 청양군 비봉면 신기길 87 다온농장",
-    "roadAddress": "충청남도 청양군 비봉면 신기길 87 다온농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%AD%EC%96%91%EA%B5%B0%20%EB%B9%84%EB%B4%89%EB%A9%B4%20%EC%8B%A0%EA%B8%B0%EA%B8%B8%2087%20%EB%8B%A4%EC%98%A8%EB%86%8D%EC%9E%A5"
-  },
-  {
     "id": "naver/45f18e1b2acc8050",
     "name": "쌍둥이네방울토마토농장",
     "region": "충남",
@@ -47020,17 +37890,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%B2%AD%EC%96%91%EA%B5%B0%20%EB%AA%A9%EB%A9%B4%20%EC%B9%A0%EA%B0%91%EC%82%B0%EB%A1%9C%202726-34"
   },
   {
-    "id": "naver/5df259a5353608f4",
-    "name": "청양군로컬푸드영농조합법인",
-    "region": "충남",
-    "city": "청양군",
-    "address": "충청남도 청양군 청양읍 고리섬들길 77",
-    "roadAddress": "충청남도 청양군 청양읍 고리섬들길 77",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://chilgapsan.co.kr/"
-  },
-  {
     "id": "way/774670108",
     "name": "꿈꾸는정원",
     "region": "충남",
@@ -47040,50 +37899,6 @@ const realFarmSources = [
     "salesType": "지도 등록 농장구역",
     "source": "OpenStreetMap",
     "osmUrl": "https://www.openstreetmap.org/way/774670108"
-  },
-  {
-    "id": "node/11393951397",
-    "name": "농부마켓",
-    "region": "충남",
-    "city": "충남권",
-    "lat": 36.438545,
-    "lng": 126.849287,
-    "salesType": "농산물 직매장",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/node/11393951397"
-  },
-  {
-    "id": "node/13894363665",
-    "name": "다모아과일촌",
-    "region": "충남",
-    "city": "충남권",
-    "lat": 36.362601,
-    "lng": 127.367206,
-    "salesType": "농산물 직매장",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/node/13894363665"
-  },
-  {
-    "id": "way/1027121304",
-    "name": "대소농협 농산물 산지유통센터",
-    "region": "충남",
-    "city": "충남권",
-    "lat": 36.965737,
-    "lng": 127.491751,
-    "salesType": "생산 품목: watermelon;pumpkin",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/1027121304"
-  },
-  {
-    "id": "way/1027121306",
-    "name": "맹동농협 농산물 산지유통센터",
-    "region": "충남",
-    "city": "충남권",
-    "lat": 36.93264,
-    "lng": 127.550767,
-    "salesType": "생산 품목: watermelon;melon",
-    "source": "OpenStreetMap",
-    "osmUrl": "https://www.openstreetmap.org/way/1027121306"
   },
   {
     "id": "way/1168264242",
@@ -48005,28 +38820,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%ED%83%9C%EC%95%88%EA%B5%B0%20%EC%86%8C%EC%9B%90%EB%A9%B4%20%EC%86%8C%EA%B7%BC%EB%A1%9C%20420-8"
   },
   {
-    "id": "naver/9e1345b32cb423fd",
-    "name": "팜카밀레",
-    "region": "충남",
-    "city": "태안군",
-    "address": "충청남도 태안군 남면 우운길 56-19 팜카밀레",
-    "roadAddress": "충청남도 태안군 남면 우운길 56-19 팜카밀레",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.kamille.co.kr/"
-  },
-  {
-    "id": "naver/b0e4d56ba3436377",
-    "name": "달호농장",
-    "region": "충남",
-    "city": "홍성군",
-    "address": "충청남도 홍성군 서부면 남당항로264번길 91",
-    "roadAddress": "충청남도 홍성군 서부면 남당항로264번길 91",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/dalho_farm/"
-  },
-  {
     "id": "naver/91777e1cd1e9b792",
     "name": "괴산사과농장",
     "region": "충북",
@@ -48036,39 +38829,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "http://www.괴산사과.kr/"
-  },
-  {
-    "id": "naver/ce6c2f371defa45c",
-    "name": "박가네 삼남매농장",
-    "region": "충북",
-    "city": "괴산군",
-    "address": "충청북도 괴산군 감물면 광전5길 72",
-    "roadAddress": "충청북도 괴산군 감물면 광전5길 72",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EA%B4%B4%EC%82%B0%EA%B5%B0%20%EA%B0%90%EB%AC%BC%EB%A9%B4%20%EA%B4%91%EC%A0%845%EA%B8%B8%2072"
-  },
-  {
-    "id": "naver/b9771ee5ba8817c3",
-    "name": "별이 잘보이는 농장",
-    "region": "충북",
-    "city": "괴산군",
-    "address": "충청북도 괴산군 소수면 아성리 874",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/worb38"
-  },
-  {
-    "id": "naver/5240f8e9d2fda6fa",
-    "name": "보광산농장",
-    "region": "충북",
-    "city": "괴산군",
-    "address": "충청북도 괴산군 사리면 사리로사담1길 52",
-    "roadAddress": "충청북도 괴산군 사리면 사리로사담1길 52",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EA%B4%B4%EC%82%B0%EA%B5%B0%20%EC%82%AC%EB%A6%AC%EB%A9%B4%20%EC%82%AC%EB%A6%AC%EB%A1%9C%EC%82%AC%EB%8B%B41%EA%B8%B8%2052"
   },
   {
     "id": "naver/7414150f1566de5f",
@@ -48082,50 +38842,6 @@ const realFarmSources = [
     "osmUrl": "https://blog.naver.com/suoka"
   },
   {
-    "id": "naver/3e9122b18f5c3e22",
-    "name": "순정농부 로컬푸드직매장",
-    "region": "충북",
-    "city": "괴산군",
-    "address": "충청북도 괴산군 괴산읍 문무로 12 괴산청결고추복합유통센터",
-    "roadAddress": "충청북도 괴산군 괴산읍 문무로 12 괴산청결고추복합유통센터",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EA%B4%B4%EC%82%B0%EA%B5%B0%20%EA%B4%B4%EC%82%B0%EC%9D%8D%20%EB%AC%B8%EB%AC%B4%EB%A1%9C%2012%20%EA%B4%B4%EC%82%B0%EC%B2%AD%EA%B2%B0%EA%B3%A0%EC%B6%94%EB%B3%B5%ED%95%A9%EC%9C%A0%ED%86%B5%EC%84%BC%ED%84%B0"
-  },
-  {
-    "id": "naver/49eb25610175d803",
-    "name": "유안농장",
-    "region": "충북",
-    "city": "괴산군",
-    "address": "충청북도 괴산군 감물면 이담리 890-1 유안농장",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/batt_d.arc"
-  },
-  {
-    "id": "naver/d85e3bd9098d6ed8",
-    "name": "장개울농장",
-    "region": "충북",
-    "city": "괴산군",
-    "address": "충청북도 괴산군 사리면 사리로소매2길 137",
-    "roadAddress": "충청북도 괴산군 사리면 사리로소매2길 137",
-    "salesType": "네이버 지역검색 등록 판매처",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/janggaeul_farm"
-  },
-  {
-    "id": "naver/783f55b380710d4b",
-    "name": "토박이네농장",
-    "region": "충북",
-    "city": "괴산군",
-    "address": "충청북도 괴산군 괴산읍 정용리 산43",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EA%B4%B4%EC%82%B0%EA%B5%B0%20%EA%B4%B4%EC%82%B0%EC%9D%8D%20%EC%A0%95%EC%9A%A9%EB%A6%AC%20%EC%82%B043"
-  },
-  {
     "id": "naver/00e56cd08507b951",
     "name": "팜마티나 사과농장 & 쌀 베이커리",
     "region": "충북",
@@ -48135,39 +38851,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 체험 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://smartstore.naver.com/homemade_desserts"
-  },
-  {
-    "id": "naver/1836f1f5488d6d9d",
-    "name": "푸르네농장",
-    "region": "충북",
-    "city": "괴산군",
-    "address": "충청북도 괴산군 청천면 신후평2길 87",
-    "roadAddress": "충청북도 괴산군 청천면 신후평2길 87",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EA%B4%B4%EC%82%B0%EA%B5%B0%20%EC%B2%AD%EC%B2%9C%EB%A9%B4%20%EC%8B%A0%ED%9B%84%ED%8F%892%EA%B8%B8%2087"
-  },
-  {
-    "id": "naver/0a2a6ed6bdfae017",
-    "name": "풀뿌리농장",
-    "region": "충북",
-    "city": "괴산군",
-    "address": "충청북도 괴산군 감물면 광전4길 12 광전4길16",
-    "roadAddress": "충청북도 괴산군 감물면 광전4길 12 광전4길16",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/spdlqj2580"
-  },
-  {
-    "id": "naver/f613859c6dcd10ec",
-    "name": "할머니된장농산물직거래",
-    "region": "충북",
-    "city": "괴산군",
-    "address": "충청북도 괴산군 칠성면 괴강로 405",
-    "roadAddress": "충청북도 괴산군 칠성면 괴강로 405",
-    "salesType": "네이버 지역검색 등록 판매처",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EA%B4%B4%EC%82%B0%EA%B5%B0%20%EC%B9%A0%EC%84%B1%EB%A9%B4%20%EA%B4%B4%EA%B0%95%EB%A1%9C%20405"
   },
   {
     "id": "naver/f04b97cae05587eb",
@@ -48181,28 +38864,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EB%8B%A8%EC%96%91%EA%B5%B0%20%EB%A7%A4%ED%8F%AC%EC%9D%8D%20%EC%9D%91%EC%8B%A42%EA%B8%B8%2027"
   },
   {
-    "id": "naver/514dd456ba9dad08",
-    "name": "단고을단양군농특산물직거래판매장",
-    "region": "충북",
-    "city": "단양군",
-    "address": "충청북도 단양군 적성면 옷바위길 60-186",
-    "roadAddress": "충청북도 단양군 적성면 옷바위길 60-186",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EB%8B%A8%EC%96%91%EA%B5%B0%20%EC%A0%81%EC%84%B1%EB%A9%B4%20%EC%98%B7%EB%B0%94%EC%9C%84%EA%B8%B8%2060-186"
-  },
-  {
-    "id": "naver/acca5796b1336a16",
-    "name": "꼬농이네 농장",
-    "region": "충북",
-    "city": "보은군",
-    "address": "충청북도 보은군 수한면 묘서1길 5-16 꼬농이네 농장",
-    "roadAddress": "충청북도 보은군 수한면 묘서1길 5-16 꼬농이네 농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/jjmm6936"
-  },
-  {
     "id": "naver/5fb3460f5a50bedd",
     "name": "아침N사과농장",
     "region": "충북",
@@ -48212,17 +38873,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EB%B3%B4%EC%9D%80%EA%B5%B0%20%EC%82%B0%EC%99%B8%EB%A9%B4%20%EC%82%B0%EC%99%B8%EA%B8%88%EA%B4%80%EB%A1%9C%20126"
-  },
-  {
-    "id": "naver/5cb176d46a220219",
-    "name": "원광농장",
-    "region": "충북",
-    "city": "보은군",
-    "address": "충청북도 보은군 탄부면 덕동매화길 53-10",
-    "roadAddress": "충청북도 보은군 탄부면 덕동매화길 53-10",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EB%B3%B4%EC%9D%80%EA%B5%B0%20%ED%83%84%EB%B6%80%EB%A9%B4%20%EB%8D%95%EB%8F%99%EB%A7%A4%ED%99%94%EA%B8%B8%2053-10"
   },
   {
     "id": "naver/2699b223d3886508",
@@ -48247,17 +38897,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%98%81%EB%8F%99%EA%B5%B0%20%ED%95%99%EC%82%B0%EB%A9%B4"
   },
   {
-    "id": "naver/cb53dc5be0559a42",
-    "name": "농가빵 본점",
-    "region": "충북",
-    "city": "옥천군",
-    "address": "충청북도 옥천군 옥천읍 신기3길 26-1",
-    "roadAddress": "충청북도 옥천군 옥천읍 신기3길 26-1",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.농가빵.kr"
-  },
-  {
     "id": "naver/fa79a523e81c3e2b",
     "name": "달빛맘포도농장",
     "region": "충북",
@@ -48267,50 +38906,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%98%A5%EC%B2%9C%EA%B5%B0%20%EC%9D%B4%EC%9B%90%EB%A9%B4%20%EA%B0%9C%EC%8B%AC2%EA%B8%B8%2070"
-  },
-  {
-    "id": "naver/6d7c705f30b59154",
-    "name": "드럼치는농장",
-    "region": "충북",
-    "city": "옥천군",
-    "address": "충청북도 옥천군 안내면 동대2길 109",
-    "roadAddress": "충청북도 옥천군 안내면 동대2길 109",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/sjsj111381"
-  },
-  {
-    "id": "naver/dd7bf081dcf2fad2",
-    "name": "옥천로컬푸드직매장",
-    "region": "충북",
-    "city": "옥천군",
-    "address": "충청북도 옥천군 옥천읍 가화길 88 옥천로컬푸드직매장",
-    "roadAddress": "충청북도 옥천군 옥천읍 가화길 88 옥천로컬푸드직매장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%98%A5%EC%B2%9C%EA%B5%B0%20%EC%98%A5%EC%B2%9C%EC%9D%8D%20%EA%B0%80%ED%99%94%EA%B8%B8%2088%20%EC%98%A5%EC%B2%9C%EB%A1%9C%EC%BB%AC%ED%91%B8%EB%93%9C%EC%A7%81%EB%A7%A4%EC%9E%A5"
-  },
-  {
-    "id": "naver/c20e46c85326e129",
-    "name": "줄바위농장",
-    "region": "충북",
-    "city": "옥천군",
-    "address": "충청북도 옥천군 이원면 장찬길 205-1",
-    "roadAddress": "충청북도 옥천군 이원면 장찬길 205-1",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%98%A5%EC%B2%9C%EA%B5%B0%20%EC%9D%B4%EC%9B%90%EB%A9%B4%20%EC%9E%A5%EC%B0%AC%EA%B8%B8%20205-1"
-  },
-  {
-    "id": "naver/52cc05405cfa20b5",
-    "name": "충북농원",
-    "region": "충북",
-    "city": "옥천군",
-    "address": "충청북도 옥천군 이원면 신흥길 61",
-    "roadAddress": "충청북도 옥천군 이원면 신흥길 61",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.cbfarm.co.k"
   },
   {
     "id": "naver/5bfd505a44f92f20",
@@ -48333,17 +38928,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "http://www.gidosori.com/"
-  },
-  {
-    "id": "naver/2014d9daf777a4dd",
-    "name": "달콤한 옥자네",
-    "region": "충북",
-    "city": "음성군",
-    "address": "충청북도 음성군 감곡면 음성로2568번길 118-2",
-    "roadAddress": "충청북도 음성군 감곡면 음성로2568번길 118-2",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/okjanongwon"
   },
   {
     "id": "naver/7fbb6f786a0e7653",
@@ -48379,94 +38963,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%9D%8C%EC%84%B1%EA%B5%B0%20%EC%9D%8C%EC%84%B1%EC%9D%8D%20%ED%95%98%EC%B4%88%EB%A1%9C%20276"
   },
   {
-    "id": "naver/b86240e2e719350d",
-    "name": "인생농원",
-    "region": "충북",
-    "city": "음성군",
-    "address": "충청북도 음성군 맹동면 쌍정리 265",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/lifefarm2020"
-  },
-  {
-    "id": "naver/52add4bf62c65dae",
-    "name": "농가옛날통닭",
-    "region": "충북",
-    "city": "제천시",
-    "address": "충청북도 제천시 풍양로17길 2",
-    "roadAddress": "충청북도 제천시 풍양로17길 2",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%A0%9C%EC%B2%9C%EC%8B%9C%20%ED%92%8D%EC%96%91%EB%A1%9C17%EA%B8%B8%202"
-  },
-  {
-    "id": "naver/548f5a72c52ab986",
-    "name": "늘품야생화숲농원",
-    "region": "충북",
-    "city": "제천시",
-    "address": "충청북도 제천시 봉양읍 논골로6길 96-1",
-    "roadAddress": "충청북도 제천시 봉양읍 논골로6길 96-1",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%A0%9C%EC%B2%9C%EC%8B%9C%20%EB%B4%89%EC%96%91%EC%9D%8D%20%EB%85%BC%EA%B3%A8%EB%A1%9C6%EA%B8%B8%2096-1"
-  },
-  {
-    "id": "naver/d24d8925e1168bf7",
-    "name": "레드히어로즈 체험농장",
-    "region": "충북",
-    "city": "제천시",
-    "address": "충청북도 제천시 천남동 436 A동 3호",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/red__heroes"
-  },
-  {
-    "id": "naver/ad26e23742ea7a38",
-    "name": "제천로컬푸드협동조합",
-    "region": "충북",
-    "city": "제천시",
-    "address": "충청북도 제천시 신죽하로 50-1",
-    "roadAddress": "충청북도 제천시 신죽하로 50-1",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%A0%9C%EC%B2%9C%EC%8B%9C%20%EC%8B%A0%EC%A3%BD%ED%95%98%EB%A1%9C%2050-1"
-  },
-  {
-    "id": "naver/150f61855578e5c0",
-    "name": "팜데이",
-    "region": "충북",
-    "city": "제천시",
-    "address": "충청북도 제천시 탑안로 291-10",
-    "roadAddress": "충청북도 제천시 탑안로 291-10",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/farmday_yangji"
-  },
-  {
-    "id": "naver/45a0aa8e8a8b6e4f",
-    "name": "할랑이농장",
-    "region": "충북",
-    "city": "제천시",
-    "address": "충청북도 제천시 봉양읍 미당리 738",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%A0%9C%EC%B2%9C%EC%8B%9C%20%EB%B4%89%EC%96%91%EC%9D%8D%20%EB%AF%B8%EB%8B%B9%EB%A6%AC%20738"
-  },
-  {
-    "id": "naver/7605c18590bfc1ea",
-    "name": "토담농장",
-    "region": "충북",
-    "city": "증평군",
-    "address": "충청북도 증평군 증평읍 용강리 1123 1124",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%A6%9D%ED%8F%89%EA%B5%B0%20%EC%A6%9D%ED%8F%89%EC%9D%8D%20%EC%9A%A9%EA%B0%95%EB%A6%AC%201123%201124"
-  },
-  {
     "id": "naver/ffd0435ad33ae784",
     "name": "봄을 담은 딸기 체험농장",
     "region": "충북",
@@ -48476,39 +38972,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://blog.naver.com/jfman"
-  },
-  {
-    "id": "naver/3fa0a5fdcb100b67",
-    "name": "에코팜",
-    "region": "충북",
-    "city": "진천군",
-    "address": "충청북도 진천군 초평면 초평로 307 에코팜",
-    "roadAddress": "충청북도 진천군 초평면 초평로 307 에코팜",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%A7%84%EC%B2%9C%EA%B5%B0%20%EC%B4%88%ED%8F%89%EB%A9%B4%20%EC%B4%88%ED%8F%89%EB%A1%9C%20307%20%EC%97%90%EC%BD%94%ED%8C%9C"
-  },
-  {
-    "id": "naver/11388c46de94b40e",
-    "name": "용소농장",
-    "region": "충북",
-    "city": "진천군",
-    "address": "충청북도 진천군 광혜원면 모치울길 8",
-    "roadAddress": "충청북도 진천군 광혜원면 모치울길 8",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%A7%84%EC%B2%9C%EA%B5%B0%20%EA%B4%91%ED%98%9C%EC%9B%90%EB%A9%B4%20%EB%AA%A8%EC%B9%98%EC%9A%B8%EA%B8%B8%208"
-  },
-  {
-    "id": "naver/37c33fa3de4ecad8",
-    "name": "은덕농장",
-    "region": "충북",
-    "city": "진천군",
-    "address": "충청북도 진천군 덕산읍 몽촌1길 35-8",
-    "roadAddress": "충청북도 진천군 덕산읍 몽촌1길 35-8",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/youngfarmer_01"
   },
   {
     "id": "naver/18667129bca45fb1",
@@ -48522,17 +38985,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%A7%84%EC%B2%9C%EA%B5%B0%20%EA%B4%91%ED%98%9C%EC%9B%90%EB%A9%B4%20%EC%A7%84%EA%B4%91%EB%A1%9C%201190"
   },
   {
-    "id": "naver/3ea31ac50fa1e354",
-    "name": "진천 삼촌농장",
-    "region": "충북",
-    "city": "진천군",
-    "address": "충청북도 진천군 이월면 진광로 928-29",
-    "roadAddress": "충청북도 진천군 이월면 진광로 928-29",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%A7%84%EC%B2%9C%EA%B5%B0%20%EC%9D%B4%EC%9B%94%EB%A9%B4%20%EC%A7%84%EA%B4%91%EB%A1%9C%20928-29"
-  },
-  {
     "id": "naver/41fc5c33fcdd612e",
     "name": "초록오이농장",
     "region": "충북",
@@ -48542,17 +38994,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%A7%84%EC%B2%9C%EA%B5%B0%20%EC%A7%84%EC%B2%9C%EC%9D%8D%20%EC%9D%B4%EC%83%81%EC%84%A4%EA%B8%B8%2060%20%EC%B4%88%EB%A1%9D%EC%98%A4%EC%9D%B4%EB%86%8D%EC%9E%A5"
-  },
-  {
-    "id": "naver/46bf92a9b5547138",
-    "name": "한천농장",
-    "region": "충북",
-    "city": "진천군",
-    "address": "충청북도 진천군 덕산읍 한천리 25-10",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%A7%84%EC%B2%9C%EA%B5%B0%20%EB%8D%95%EC%82%B0%EC%9D%8D%20%ED%95%9C%EC%B2%9C%EB%A6%AC%2025-10"
   },
   {
     "id": "naver/8eb607be92f38abd",
@@ -48566,105 +39007,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%83%81%EB%8B%B9%EA%B5%AC%20%EA%B0%80%EB%8D%95%EB%A9%B4%20%EA%B3%A0%EC%9D%80%EB%91%90%EC%82%B0%EB%A1%9C%20188"
   },
   {
-    "id": "naver/4720b905d0c33d7c",
-    "name": "곰베사농장",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 상당구 미원면 옥화1길 41-1",
-    "roadAddress": "충청북도 청주시 상당구 미원면 옥화1길 41-1",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.instagram.com/gbsfarm"
-  },
-  {
-    "id": "naver/765aeb8db6fed3c2",
-    "name": "까치골 농장",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 흥덕구 미호로 3-57",
-    "roadAddress": "충청북도 청주시 흥덕구 미호로 3-57",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://까치골.com/"
-  },
-  {
-    "id": "naver/e9860d524e1bfaaa",
-    "name": "낭성로컬푸드",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 상당구 낭성면 산성로 1357",
-    "roadAddress": "충청북도 청주시 상당구 낭성면 산성로 1357",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%83%81%EB%8B%B9%EA%B5%AC%20%EB%82%AD%EC%84%B1%EB%A9%B4%20%EC%82%B0%EC%84%B1%EB%A1%9C%201357"
-  },
-  {
-    "id": "naver/190bfb42f7c11e98",
-    "name": "녹색체험휴암주말텃밭농원",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 흥덕구 유성로 22",
-    "roadAddress": "충청북도 청주시 흥덕구 유성로 22",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%ED%9D%A5%EB%8D%95%EA%B5%AC%20%EC%9C%A0%EC%84%B1%EB%A1%9C%2022"
-  },
-  {
-    "id": "naver/b2051bf395de6aa2",
-    "name": "농가생활협동조합",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 흥덕구 직지대로 130-11",
-    "roadAddress": "충청북도 청주시 흥덕구 직지대로 130-11",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%ED%9D%A5%EB%8D%95%EA%B5%AC%20%EC%A7%81%EC%A7%80%EB%8C%80%EB%A1%9C%20130-11"
-  },
-  {
-    "id": "naver/babb9e9616fe5c5c",
-    "name": "농가식품",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 청원구 내수읍 풍정3길 64 주식회사 농가식품",
-    "roadAddress": "충청북도 청주시 청원구 내수읍 풍정3길 64 주식회사 농가식품",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://nonggafood.co.kr"
-  },
-  {
-    "id": "naver/36538bdd5ea4d8ad",
-    "name": "농산물직거래장터",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 흥덕구 복대로158번길 7",
-    "roadAddress": "충청북도 청주시 흥덕구 복대로158번길 7",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%ED%9D%A5%EB%8D%95%EA%B5%AC%20%EB%B3%B5%EB%8C%80%EB%A1%9C158%EB%B2%88%EA%B8%B8%207"
-  },
-  {
-    "id": "naver/e3eacbaab1ae86e2",
-    "name": "농협하나로클럽청주점농산물직거래큰장터",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 상당구 무농정로 32",
-    "roadAddress": "충청북도 청주시 상당구 무농정로 32",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%83%81%EB%8B%B9%EA%B5%AC%20%EB%AC%B4%EB%86%8D%EC%A0%95%EB%A1%9C%2032"
-  },
-  {
-    "id": "naver/17fb7d4838a9068b",
-    "name": "다잘커팜",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 흥덕구 청주역로297번길 288-36 다잘커팜농장",
-    "roadAddress": "충청북도 청주시 흥덕구 청주역로297번길 288-36 다잘커팜농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/dazalker_farm?igsh=N3N6bmNyeGd2cjVj&utm_source=qr"
-  },
-  {
     "id": "naver/157a8e96158bf1ef",
     "name": "담소블루베리 농장",
     "region": "충북",
@@ -48674,28 +39016,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%B2%AD%EC%9B%90%EA%B5%AC%20%EB%82%B4%EC%88%98%EC%9D%8D%20%EB%8F%84%EC%9B%90%EB%A6%AC%2038-1"
-  },
-  {
-    "id": "naver/c2917cc167b81cc0",
-    "name": "들말농장",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 청원구 오창읍 탑리길 5",
-    "roadAddress": "충청북도 청주시 청원구 오창읍 탑리길 5",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/ddl_.mal.farm?igsh=MWpjaWpwYWpjNWl1bQ%3D%3D&utm_source=qr"
-  },
-  {
-    "id": "naver/ccc1add6eaa66f16",
-    "name": "라윤체험농장",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 청원구 북이면 신기초정로 495",
-    "roadAddress": "충청북도 청주시 청원구 북이면 신기초정로 495",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/layoon_farm"
   },
   {
     "id": "naver/4514ae24ec5242e0",
@@ -48709,17 +39029,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%ED%9D%A5%EB%8D%95%EA%B5%AC%20%EC%98%A4%EC%86%A1%EC%9D%8D%20%EC%84%9C%ED%8F%89%EB%A6%AC%20190-2"
   },
   {
-    "id": "naver/396a56c1b01f6de5",
-    "name": "물잎",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 상당구 대성로 154 102호",
-    "roadAddress": "충청북도 청주시 상당구 대성로 154 102호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/moolif_"
-  },
-  {
     "id": "naver/47d545489245db64",
     "name": "미래블루베리 농장",
     "region": "충북",
@@ -48731,17 +39040,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%83%81%EB%8B%B9%EA%B5%AC%20%EA%B0%80%EB%8D%95%EB%A9%B4%20%EC%88%98%EA%B3%A1%EB%A6%AC%20401"
   },
   {
-    "id": "naver/936216cc65d93d4b",
-    "name": "민준주말농장체험학습장",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 서원구 용평로71번길 74",
-    "roadAddress": "충청북도 청주시 서원구 용평로71번길 74",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%84%9C%EC%9B%90%EA%B5%AC%20%EC%9A%A9%ED%8F%89%EB%A1%9C71%EB%B2%88%EA%B8%B8%2074"
-  },
-  {
     "id": "naver/bfc1bef38e87bbc3",
     "name": "방울네포도농장",
     "region": "충북",
@@ -48751,17 +39049,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%83%81%EB%8B%B9%EA%B5%AC%20%EB%82%99%EA%B0%80%EC%82%B0%EB%A1%9C79%EB%B2%88%EA%B8%B8%2053"
-  },
-  {
-    "id": "naver/60d8a12b0f2c30fd",
-    "name": "부부농장",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 상당구 문의면 대청호반로 834-1",
-    "roadAddress": "충청북도 청주시 상당구 문의면 대청호반로 834-1",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%83%81%EB%8B%B9%EA%B5%AC%20%EB%AC%B8%EC%9D%98%EB%A9%B4%20%EB%8C%80%EC%B2%AD%ED%98%B8%EB%B0%98%EB%A1%9C%20834-1"
   },
   {
     "id": "naver/156ac95e33364db2",
@@ -48852,39 +39139,6 @@ const realFarmSources = [
     "osmUrl": "https://smartstore.naver.com/berry79"
   },
   {
-    "id": "naver/be150e36d4c6986e",
-    "name": "양촌화훼",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 서원구 남이면 석판리 16-10",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%84%9C%EC%9B%90%EA%B5%AC%20%EB%82%A8%EC%9D%B4%EB%A9%B4%20%EC%84%9D%ED%8C%90%EB%A6%AC%2016-10"
-  },
-  {
-    "id": "naver/e8096f9a2f57dfd2",
-    "name": "어쩌나농장",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 청원구 오창읍 오창가좌길 94-6",
-    "roadAddress": "충청북도 청주시 청원구 오창읍 오창가좌길 94-6",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%B2%AD%EC%9B%90%EA%B5%AC%20%EC%98%A4%EC%B0%BD%EC%9D%8D%20%EC%98%A4%EC%B0%BD%EA%B0%80%EC%A2%8C%EA%B8%B8%2094-6"
-  },
-  {
-    "id": "naver/608b164814c60faf",
-    "name": "열려라농장",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 상당구 용담.명암.산성동 255",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/wooksfarm"
-  },
-  {
     "id": "naver/c4050fcb4b1e6cbf",
     "name": "오성딸기체험농장",
     "region": "충북",
@@ -48896,28 +39150,6 @@ const realFarmSources = [
     "osmUrl": "http://ohsung-berry.edenstore.co.kr/"
   },
   {
-    "id": "naver/459ac8b36761d8f4",
-    "name": "오손농장",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 서원구 현도면 노산하석로 130 오손농장",
-    "roadAddress": "충청북도 청주시 서원구 현도면 노산하석로 130 오손농장",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://band.us/n/a5a07aA9Q2dbp"
-  },
-  {
-    "id": "naver/d839c0d00e4a9b91",
-    "name": "유니크플랜트",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 상당구 영운천로51번길 16",
-    "roadAddress": "충청북도 청주시 상당구 영운천로51번길 16",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/uniqueplant"
-  },
-  {
     "id": "naver/5fa987f43aa51276",
     "name": "유송블루베리농장",
     "region": "충북",
@@ -48927,17 +39159,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://naver.me/GoDqw50Q"
-  },
-  {
-    "id": "naver/8e68ce0440e8b815",
-    "name": "윤하의뜰 체험치유농장",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 청원구 오창읍 두릉1길 161-1",
-    "roadAddress": "충청북도 청주시 청원구 오창읍 두릉1길 161-1",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/yunha_ddeul"
   },
   {
     "id": "naver/23eba2e10e2cf968",
@@ -48962,94 +39183,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%83%81%EB%8B%B9%EA%B5%AC%20%EB%82%99%EA%B0%80%EC%82%B0%EB%A1%9C%20154"
   },
   {
-    "id": "naver/45f303f9da9296e7",
-    "name": "청남농협로컬푸드직매장",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 상당구 남일면 단재로 708",
-    "roadAddress": "충청북도 청주시 상당구 남일면 단재로 708",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%83%81%EB%8B%B9%EA%B5%AC%20%EB%82%A8%EC%9D%BC%EB%A9%B4%20%EB%8B%A8%EC%9E%AC%EB%A1%9C%20708"
-  },
-  {
-    "id": "naver/1c596957dd9ca364",
-    "name": "청남로컬푸드직매장",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 상당구 남일면 척산화당로 581",
-    "roadAddress": "충청북도 청주시 상당구 남일면 척산화당로 581",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%83%81%EB%8B%B9%EA%B5%AC%20%EB%82%A8%EC%9D%BC%EB%A9%B4%20%EC%B2%99%EC%82%B0%ED%99%94%EB%8B%B9%EB%A1%9C%20581"
-  },
-  {
-    "id": "naver/c511d35f4c7323dd",
-    "name": "청주농촌사랑 영농조합법인",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 상당구 가덕면 상장인차로 513-21",
-    "roadAddress": "충청북도 청주시 상당구 가덕면 상장인차로 513-21",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%83%81%EB%8B%B9%EA%B5%AC%20%EA%B0%80%EB%8D%95%EB%A9%B4%20%EC%83%81%EC%9E%A5%EC%9D%B8%EC%B0%A8%EB%A1%9C%20513-21"
-  },
-  {
-    "id": "naver/e685e853cbac3963",
-    "name": "청주시로컬푸드직매장 이마트청주점",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 서원구 청남로 1853 이.마트",
-    "roadAddress": "충청북도 청주시 서원구 청남로 1853 이.마트",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%84%9C%EC%9B%90%EA%B5%AC%20%EC%B2%AD%EB%82%A8%EB%A1%9C%201853%20%EC%9D%B4.%EB%A7%88%ED%8A%B8"
-  },
-  {
-    "id": "naver/7097d1296b2c66e1",
-    "name": "청주유통로컬푸드마트",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 서원구 매봉로60번길 26",
-    "roadAddress": "충청북도 청주시 서원구 매봉로60번길 26",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%84%9C%EC%9B%90%EA%B5%AC%20%EB%A7%A4%EB%B4%89%EB%A1%9C60%EB%B2%88%EA%B8%B8%2026"
-  },
-  {
-    "id": "naver/0098a684ede04bd6",
-    "name": "청주팜",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 흥덕구 강서로1번길 9",
-    "roadAddress": "충청북도 청주시 흥덕구 강서로1번길 9",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%ED%9D%A5%EB%8D%95%EA%B5%AC%20%EA%B0%95%EC%84%9C%EB%A1%9C1%EB%B2%88%EA%B8%B8%209"
-  },
-  {
-    "id": "naver/f2d11cfca6cb319a",
-    "name": "코씨드바이오팜",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 흥덕구 오송읍 오송생명2로 68",
-    "roadAddress": "충청북도 청주시 흥덕구 오송읍 오송생명2로 68",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.coseed.co.kr/"
-  },
-  {
-    "id": "naver/23c7f990d8f05401",
-    "name": "티디에스팜",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 흥덕구 오송읍 오송생명4로 168-49",
-    "roadAddress": "충청북도 청주시 흥덕구 오송읍 오송생명4로 168-49",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://www.tdspharm.com/"
-  },
-  {
     "id": "naver/61b38ca2d4b477b0",
     "name": "팜앤딸기",
     "region": "충북",
@@ -49059,149 +39192,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 체험 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://www.instagram.com/pamaend"
-  },
-  {
-    "id": "naver/0d3e783d4aaeff13",
-    "name": "팜앤포크 숨포크",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 흥덕구 송절로76번길 17",
-    "roadAddress": "충청북도 청주시 흥덕구 송절로76번길 17",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://soom-mall.com/"
-  },
-  {
-    "id": "naver/c7a05817a759fb66",
-    "name": "팜한농 작물보호영업팀",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 청원구 오창읍 중심상업로 14",
-    "roadAddress": "충청북도 청주시 청원구 오창읍 중심상업로 14",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B2%AD%EC%A3%BC%EC%8B%9C%20%EC%B2%AD%EC%9B%90%EA%B5%AC%20%EC%98%A4%EC%B0%BD%EC%9D%8D%20%EC%A4%91%EC%8B%AC%EC%83%81%EC%97%85%EB%A1%9C%2014"
-  },
-  {
-    "id": "naver/b040d8f7aee7c5d4",
-    "name": "플라타너스 가드닝 샵",
-    "region": "충북",
-    "city": "청주시",
-    "address": "충청북도 청주시 상당구 중고개로125번길 36-2 플라타너스",
-    "roadAddress": "충청북도 청주시 상당구 중고개로125번길 36-2 플라타너스",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/gonzosiktam"
-  },
-  {
-    "id": "naver/7c65d6058e9a046c",
-    "name": "건희농장",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 중앙탑면 하구암리 716",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://smartstore.naver.com/gunifarm"
-  },
-  {
-    "id": "naver/a3f00f60fb95ae1e",
-    "name": "계란팜 충주칠금점",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 금릉로 61 103호",
-    "roadAddress": "충청북도 충주시 금릉로 61 103호",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://youtube.com/seongeen"
-  },
-  {
-    "id": "naver/c60d994c84cb2f51",
-    "name": "금봉산 주말농장",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 고든골길 73 직동290번지로 오시면 됩니다.",
-    "roadAddress": "충청북도 충주시 고든골길 73 직동290번지로 오시면 됩니다.",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EA%B3%A0%EB%93%A0%EA%B3%A8%EA%B8%B8%2073%20%EC%A7%81%EB%8F%99290%EB%B2%88%EC%A7%80%EB%A1%9C%20%EC%98%A4%EC%8B%9C%EB%A9%B4%20%EB%90%A9%EB%8B%88%EB%8B%A4."
-  },
-  {
-    "id": "naver/0458984eded9c455",
-    "name": "나온다육식물",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 동량면 동산로 29 나온다육식물",
-    "roadAddress": "충청북도 충주시 동량면 동산로 29 나온다육식물",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://youtube.com/channel/UCulYCzV6qa2pVUZwv0XKvvw?si=kR3m-jjdUhf9fvdP"
-  },
-  {
-    "id": "naver/9a49d2e48fe3dd6c",
-    "name": "농가염소탕",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 안림로 65",
-    "roadAddress": "충청북도 충주시 안림로 65",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EC%95%88%EB%A6%BC%EB%A1%9C%2065"
-  },
-  {
-    "id": "naver/f1e3ceaa724eed52",
-    "name": "농가온",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 동량면 대전조돈길 23",
-    "roadAddress": "충청북도 충주시 동량면 대전조돈길 23",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EB%8F%99%EB%9F%89%EB%A9%B4%20%EB%8C%80%EC%A0%84%EC%A1%B0%EB%8F%88%EA%B8%B8%2023"
-  },
-  {
-    "id": "naver/b23938dc39ae9544",
-    "name": "농장염소탕",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 충인1길 36 농장염소탕",
-    "roadAddress": "충청북도 충주시 충인1길 36 농장염소탕",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EC%B6%A9%EC%9D%B81%EA%B8%B8%2036%20%EB%86%8D%EC%9E%A5%EC%97%BC%EC%86%8C%ED%83%95"
-  },
-  {
-    "id": "naver/f69a477556e7127e",
-    "name": "다팜MALL 충주점",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 중원대로 3478",
-    "roadAddress": "충청북도 충주시 중원대로 3478",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EC%A4%91%EC%9B%90%EB%8C%80%EB%A1%9C%203478"
-  },
-  {
-    "id": "naver/46e59ab9ab97ee57",
-    "name": "도장골농장",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 호암동 384",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/dincle"
-  },
-  {
-    "id": "naver/41a9879ee7d6e2a1",
-    "name": "도화농장",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 신니면 선당길 196",
-    "roadAddress": "충청북도 충주시 신니면 선당길 196",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EC%8B%A0%EB%8B%88%EB%A9%B4%20%EC%84%A0%EB%8B%B9%EA%B8%B8%20196"
   },
   {
     "id": "naver/184ece60bb94cd0e",
@@ -49237,50 +39227,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EC%82%B0%EC%B2%99%EB%A9%B4%20%EA%B3%A0%EC%9E%A5%EC%88%98%EA%B8%B8%2010"
   },
   {
-    "id": "naver/807975fb2184f8d3",
-    "name": "로컬푸드행복장터 충주휴게소",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 중앙탑면 용전리 산56-20",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EC%A4%91%EC%95%99%ED%83%91%EB%A9%B4%20%EC%9A%A9%EC%A0%84%EB%A6%AC%20%EC%82%B056-20"
-  },
-  {
-    "id": "naver/0fc26b34145f0f53",
-    "name": "마니따농장",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 하용두2길 46",
-    "roadAddress": "충청북도 충주시 하용두2길 46",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/happy1726"
-  },
-  {
-    "id": "naver/f89eb6fe615275ae",
-    "name": "마주,봄",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 금봉대로 234",
-    "roadAddress": "충청북도 충주시 금봉대로 234",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/maju__bom"
-  },
-  {
-    "id": "naver/7d09c84691f9639a",
-    "name": "매남구술길농장",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 주덕읍 매남구술길 319-9",
-    "roadAddress": "충청북도 충주시 주덕읍 매남구술길 319-9",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EC%A3%BC%EB%8D%95%EC%9D%8D%20%EB%A7%A4%EB%82%A8%EA%B5%AC%EC%88%A0%EA%B8%B8%20319-9"
-  },
-  {
     "id": "naver/49c85b5ca3f6ea83",
     "name": "블루베리농장",
     "region": "충북",
@@ -49290,105 +39236,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EB%8C%80%EC%86%8C%EC%9B%90%EB%A9%B4%20%EA%B8%88%EA%B3%A1%EB%A7%8C%EC%A0%95%EA%B8%B8%2074%20-1"
-  },
-  {
-    "id": "naver/c09b08522f662ad2",
-    "name": "상대촌마을농가밥상",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 앙성면 둔터로 558",
-    "roadAddress": "충청북도 충주시 앙성면 둔터로 558",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EC%95%99%EC%84%B1%EB%A9%B4%20%EB%91%94%ED%84%B0%EB%A1%9C%20558"
-  },
-  {
-    "id": "naver/b4422478939344e7",
-    "name": "새싹분재원",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 신니면 하랭이길 214-20 새싹분재원",
-    "roadAddress": "충청북도 충주시 신니면 하랭이길 214-20 새싹분재원",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/qnswodnjs0806"
-  },
-  {
-    "id": "naver/8f69450eecc29133",
-    "name": "성호팜",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 새말3길 32",
-    "roadAddress": "충청북도 충주시 새말3길 32",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EC%83%88%EB%A7%903%EA%B8%B8%2032"
-  },
-  {
-    "id": "naver/6a1f6a3bab7f12db",
-    "name": "솔마루농장",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 산척면 송강리 763-7 솔마루농장",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/cwhuh6090"
-  },
-  {
-    "id": "naver/b2f057d71c2268b9",
-    "name": "솔이테오디누에농장",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 노은면 솔고개로 671-1",
-    "roadAddress": "충청북도 충주시 노은면 솔고개로 671-1",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EB%85%B8%EC%9D%80%EB%A9%B4%20%EC%86%94%EA%B3%A0%EA%B0%9C%EB%A1%9C%20671-1"
-  },
-  {
-    "id": "naver/2bc0a1d6bcbca6d4",
-    "name": "쇠불리교육협동조합",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 소태면 구룡로 769 쇠불리사회적농장",
-    "roadAddress": "충청북도 충주시 소태면 구룡로 769 쇠불리사회적농장",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EC%86%8C%ED%83%9C%EB%A9%B4%20%EA%B5%AC%EB%A3%A1%EB%A1%9C%20769%20%EC%87%A0%EB%B6%88%EB%A6%AC%EC%82%AC%ED%9A%8C%EC%A0%81%EB%86%8D%EC%9E%A5"
-  },
-  {
-    "id": "naver/2882329e8c846620",
-    "name": "슈슈네농장",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 금가면 강수로 249-2 충청북도 충주시 금가면 도촌리 435",
-    "roadAddress": "충청북도 충주시 금가면 강수로 249-2 충청북도 충주시 금가면 도촌리 435",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EA%B8%88%EA%B0%80%EB%A9%B4%20%EA%B0%95%EC%88%98%EB%A1%9C%20249-2%20%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EA%B8%88%EA%B0%80%EB%A9%B4%20%EB%8F%84%EC%B4%8C%EB%A6%AC%20435"
-  },
-  {
-    "id": "naver/6e568def270c5b88",
-    "name": "시민다육",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 중앙탑면 중앙탑길 77-1",
-    "roadAddress": "충청북도 충주시 중앙탑면 중앙탑길 77-1",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EC%A4%91%EC%95%99%ED%83%91%EB%A9%B4%20%EC%A4%91%EC%95%99%ED%83%91%EA%B8%B8%2077-1"
-  },
-  {
-    "id": "naver/45e5b6ea61e5e45e",
-    "name": "아로미개구리 올챙이체험농장",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 동량면 서운리 98",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EB%8F%99%EB%9F%89%EB%A9%B4%20%EC%84%9C%EC%9A%B4%EB%A6%AC%2098"
   },
   {
     "id": "naver/416cfebca80f1445",
@@ -49402,17 +39249,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EA%B8%88%EA%B0%80%EB%A9%B4%20%EC%98%A4%EB%AF%B8%EA%B8%B01%EA%B8%B8%2024%20%EC%95%84%EB%A1%A0%EB%94%B8%EA%B8%B0"
   },
   {
-    "id": "naver/6942458129cad7dc",
-    "name": "안드레아 농장",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 소태면 덕은새말1길 31",
-    "roadAddress": "충청북도 충주시 소태면 덕은새말1길 31",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/dckang04"
-  },
-  {
     "id": "naver/69bd9063f4674a86",
     "name": "연희네사과농장",
     "region": "충북",
@@ -49424,72 +39260,6 @@ const realFarmSources = [
     "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EB%8F%99%EB%9F%89%EB%A9%B4%20%ED%98%B8%EB%B0%98%EB%A1%9C%20121"
   },
   {
-    "id": "naver/9a0309bbd3734ab3",
-    "name": "운보농원",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 엄정면 원당길 6-53",
-    "roadAddress": "충청북도 충주시 엄정면 원당길 6-53",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://okqr.kr/15654"
-  },
-  {
-    "id": "naver/0929cea2af084968",
-    "name": "웅이네농장",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 앙성면 지당리 518-2",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.youtube.com/watch?si=BfLi-qsMWqZaTa0Q&v=22atxbZo5a0&feature=youtu.be"
-  },
-  {
-    "id": "naver/db680b193f87dfcf",
-    "name": "이루팜 충주점",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 호암수청1로 60 제일 풍경채 상가동 108",
-    "roadAddress": "충청북도 충주시 호암수청1로 60 제일 풍경채 상가동 108",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://www.instagram.com/elufarm_chungju?igsh=MXA2ZGR1aHJxYjM4NQ%3D%3D&utm_source=qr"
-  },
-  {
-    "id": "naver/2194d6341e685337",
-    "name": "이순재농장",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 금가면 오석리 239-6",
-    "roadAddress": "",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EA%B8%88%EA%B0%80%EB%A9%B4%20%EC%98%A4%EC%84%9D%EB%A6%AC%20239-6"
-  },
-  {
-    "id": "naver/f01f2ebba89b8690",
-    "name": "인삼농가 홍삼명가",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 살미면 중원대로 2244",
-    "roadAddress": "충청북도 충주시 살미면 중원대로 2244",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EC%82%B4%EB%AF%B8%EB%A9%B4%20%EC%A4%91%EC%9B%90%EB%8C%80%EB%A1%9C%202244"
-  },
-  {
-    "id": "naver/30af5032bb3a1209",
-    "name": "진농원",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 주덕읍 제내사락길 304-22",
-    "roadAddress": "충청북도 충주시 주덕읍 제내사락길 304-22",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://blog.naver.com/kjinni66"
-  },
-  {
     "id": "naver/3d502e847fc83cb8",
     "name": "참된농부가사과농장",
     "region": "충북",
@@ -49499,94 +39269,6 @@ const realFarmSources = [
     "salesType": "네이버 지역검색 등록 체험 농장",
     "source": "Naver Local Search",
     "osmUrl": "https://www.instagram.com/truefarmer_"
-  },
-  {
-    "id": "naver/34bffca8033eea00",
-    "name": "참샘골 연꽃농원",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 신니면 수청골길 94 참샘골연꽃농원",
-    "roadAddress": "충청북도 충주시 신니면 수청골길 94 참샘골연꽃농원",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://smartstore.naver.com/"
-  },
-  {
-    "id": "naver/9f761a3e3bfb3eed",
-    "name": "충주 로컬푸드",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 엄정면 안골3길 19 충주 로컬푸드",
-    "roadAddress": "충청북도 충주시 엄정면 안골3길 19 충주 로컬푸드",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EC%97%84%EC%A0%95%EB%A9%B4%20%EC%95%88%EA%B3%A83%EA%B8%B8%2019%20%EC%B6%A9%EC%A3%BC%20%EB%A1%9C%EC%BB%AC%ED%91%B8%EB%93%9C"
-  },
-  {
-    "id": "naver/8141c99fe91afda6",
-    "name": "충주시 로컬푸드 행복장터 창원방향",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 중앙탑면 중부내륙고속도로 231",
-    "roadAddress": "충청북도 충주시 중앙탑면 중부내륙고속도로 231",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EC%A4%91%EC%95%99%ED%83%91%EB%A9%B4%20%EC%A4%91%EB%B6%80%EB%82%B4%EB%A5%99%EA%B3%A0%EC%86%8D%EB%8F%84%EB%A1%9C%20231"
-  },
-  {
-    "id": "naver/e1c21f6f562dccc3",
-    "name": "충주시로컬푸드유통센터",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 모시래길 76 충주시로컬푸드유통센터",
-    "roadAddress": "충청북도 충주시 모시래길 76 충주시로컬푸드유통센터",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EB%AA%A8%EC%8B%9C%EB%9E%98%EA%B8%B8%2076%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%EB%A1%9C%EC%BB%AC%ED%91%B8%EB%93%9C%EC%9C%A0%ED%86%B5%EC%84%BC%ED%84%B0"
-  },
-  {
-    "id": "naver/105093fa95219658",
-    "name": "충주시로컬푸드직매장 충주씨샵",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 남한강로 24",
-    "roadAddress": "충청북도 충주시 남한강로 24",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://chungjuc.com/"
-  },
-  {
-    "id": "naver/f44a93b9f2d9cfa5",
-    "name": "충주팜",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 산척면 충원대로 1651",
-    "roadAddress": "충청북도 충주시 산척면 충원대로 1651",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "http://storefarm.naver.com/cjfarm"
-  },
-  {
-    "id": "naver/30223d6bcdaa06d2",
-    "name": "하이텍팜충주공장",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 대소원면 첨단산업6로 12",
-    "roadAddress": "충청북도 충주시 대소원면 첨단산업6로 12",
-    "salesType": "네이버 지역검색 등록 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EB%8C%80%EC%86%8C%EC%9B%90%EB%A9%B4%20%EC%B2%A8%EB%8B%A8%EC%82%B0%EC%97%856%EB%A1%9C%2012"
-  },
-  {
-    "id": "naver/b1602e889c6f4ce5",
-    "name": "햇살아래체험농장",
-    "region": "충북",
-    "city": "충주시",
-    "address": "충청북도 충주시 대소원면 창현로 809",
-    "roadAddress": "충청북도 충주시 대소원면 창현로 809",
-    "salesType": "네이버 지역검색 등록 체험 농장",
-    "source": "Naver Local Search",
-    "osmUrl": "https://map.naver.com/p/search/%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%20%EC%B6%A9%EC%A3%BC%EC%8B%9C%20%EB%8C%80%EC%86%8C%EC%9B%90%EB%A9%B4%20%EC%B0%BD%ED%98%84%EB%A1%9C%20809"
   },
   {
     "id": "naver/5f9e264997d2ab43",
