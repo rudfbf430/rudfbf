@@ -797,6 +797,7 @@ function normalizeActualFarm(farm) {
     lat: farm.lat,
     lng: farm.lng,
     osmUrl: farm.osmUrl,
+    generatedName: farm.generatedName,
     actual: true,
   };
 }

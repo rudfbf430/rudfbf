@@ -18,6 +18,10 @@ const page = {
   pick: document.querySelector("#pagePick"),
   storage: document.querySelector("#pageStorage"),
   related: document.querySelector("#relatedList"),
+  commentForm: document.querySelector("#commentForm"),
+  commentName: document.querySelector("#commentName"),
+  commentText: document.querySelector("#commentText"),
+  commentList: document.querySelector("#commentList"),
 };
 
 function getFavorites() {
@@ -74,10 +78,102 @@ function renderRelated(crop, source) {
     .join("");
 }
 
+function getFarmGrade(source) {
+  if (!source || source.generatedName) {
+    return {
+      level: "1단계",
+      title: "등록 후보 농장",
+      description: "지도 구역 기반 임시 정보입니다. 이름과 상세 정보는 추후 보완이 필요합니다.",
+    };
+  }
+
+  if (source.roadAddress || source.address || source.salesType?.includes("Naver Local Search")) {
+    return {
+      level: "3단계",
+      title: "주소 확인 농장",
+      description: "네이버 지역 검색 또는 주소 정보가 연결된 농장입니다.",
+    };
+  }
+
+  return {
+    level: "2단계",
+    title: "지도 확인 농장",
+    description: "지도 좌표와 원본 데이터로 위치를 확인할 수 있는 농장입니다.",
+  };
+}
+
+function getCommentKey(crop, source) {
+  return `farmComments:${source?.sourceId || crop.id}`;
+}
+
+function escapeHtml(value) {
+  return value
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function loadComments(crop, source) {
+  try {
+    return JSON.parse(localStorage.getItem(getCommentKey(crop, source))) || [];
+  } catch {
+    return [];
+  }
+}
+
+function saveComments(crop, source, comments) {
+  localStorage.setItem(getCommentKey(crop, source), JSON.stringify(comments));
+}
+
+function renderComments(crop, source) {
+  const comments = loadComments(crop, source);
+  if (!comments.length) {
+    page.commentList.innerHTML = '<p class="empty">아직 댓글이 없습니다. 첫 방문 메모를 남겨보세요.</p>';
+    return;
+  }
+
+  page.commentList.innerHTML = comments
+    .map(
+      (comment) => `
+        <article class="comment-item">
+          <div>
+            <strong>${escapeHtml(comment.name)}</strong>
+            <time>${escapeHtml(comment.date)}</time>
+          </div>
+          <p>${escapeHtml(comment.text)}</p>
+        </article>
+      `,
+    )
+    .join("");
+}
+
+function setupComments(crop, source) {
+  page.commentForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const name = page.commentName.value.trim();
+    const text = page.commentText.value.trim();
+    if (!name || !text) return;
+
+    const comments = loadComments(crop, source);
+    comments.unshift({
+      name,
+      text,
+      date: new Date().toLocaleDateString("ko-KR"),
+    });
+    saveComments(crop, source, comments.slice(0, 20));
+    page.commentForm.reset();
+    renderComments(crop, source);
+  });
+  renderComments(crop, source);
+}
+
 function renderDetailPage() {
   const crop = data.crops.find((item) => item.id === cropId) || data.crops[0];
   const source = data.getLocalSource(crop, selectedRegion, selectedSourceId);
   const farmTitle = source ? source.farmName : crop.name;
+  const grade = getFarmGrade(source);
 
   document.title = `${farmTitle} | 근처밭`;
   page.image.style.backgroundImage = `url("${crop.image}")`;
@@ -88,6 +184,7 @@ function renderDetailPage() {
     : "";
   page.description.textContent = crop.description;
   page.badges.innerHTML = [
+    `<span class="grade-badge">${grade.level} · ${grade.title}</span>`,
     `<span>${crop.name}</span>`,
     `<span>${source ? data.getFarmScale(source) : "소규모 농장"}</span>`,
     `<span>신선도 ${data.freshnessScore(crop, selectedMonth)}점</span>`,
@@ -116,6 +213,8 @@ function renderDetailPage() {
     <dd>${source ? data.getFarmScale(source) : "확인 필요"}</dd>
     <dt>구매 방식</dt>
     <dd>${source ? source.salesType : "확인 필요"}</dd>
+    <dt>농장 등급</dt>
+    <dd>${grade.level} · ${grade.title}<small>${grade.description}</small></dd>
     <dt>예상 판매가</dt>
     <dd>${data.getPriceInfo(crop)} <small>직거래 참고가</small></dd>
     <dt>지도 데이터</dt>
@@ -130,6 +229,7 @@ function renderDetailPage() {
   page.favorite.addEventListener("click", () => toggleFavorite(crop));
   renderFavorite(crop);
   renderRelated(crop, source);
+  setupComments(crop, source);
 }
 
 renderDetailPage();
