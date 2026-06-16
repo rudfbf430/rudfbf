@@ -882,6 +882,7 @@ const state = {
   category: "all",
   month: new Date().getMonth() + 1,
   selectedId: "",
+  currentPosition: null,
   favorites: loadFavorites(),
 };
 
@@ -1178,6 +1179,12 @@ function getNearbySources(position) {
     .sort((a, b) => a.distance - b.distance);
 }
 
+function getResultDistance(item) {
+  if (!state.currentPosition || !item?.source) return Infinity;
+  const point = getSourcePoint(item.source);
+  return point ? distanceKm(state.currentPosition, point) : Infinity;
+}
+
 function getSeasonalCrops(month = state.month) {
   return crops
     .filter((crop) => crop.seasonMonths.includes(month))
@@ -1305,6 +1312,8 @@ function renderCards(filteredCrops) {
     getSearchResultSources(crop).map((source) => ({ crop, source })),
   ).sort((a, b) => {
     if (!state.search.trim()) return 0;
+    const distanceSort = getResultDistance(a) - getResultDistance(b);
+    if (Number.isFinite(distanceSort) && distanceSort !== 0) return distanceSort;
     return farmGradeRank(b.source) - farmGradeRank(a.source)
       || freshnessScore(b.crop) - freshnessScore(a.crop)
       || a.crop.name.localeCompare(b.crop.name, "ko")
@@ -1321,7 +1330,10 @@ function renderCards(filteredCrops) {
 
   elements.cropGrid.innerHTML = resultItems
     .map(
-      ({ crop, source }) => `
+      ({ crop, source }) => {
+        const distance = state.search.trim() && state.currentPosition ? getResultDistance({ crop, source }) : Infinity;
+        const distanceBadge = Number.isFinite(distance) ? `<span class="badge">약 ${distance.toFixed(1)}km</span>` : "";
+        return `
         <button class="crop-card ${crop.id === state.selectedId ? "active" : ""}" type="button" data-id="${crop.id}" data-source-id="${source?.sourceId || ""}">
           <span class="crop-image" style="background-image: url('${crop.image}')"></span>
           <span class="crop-body">
@@ -1330,13 +1342,15 @@ function renderCards(filteredCrops) {
             <p>${crop.name} · ${crop.description}</p>
             <span class="badge-row">
               <span class="badge gold">제철 ${seasonLabel(crop.seasonMonths)}</span>
+              ${distanceBadge}
               <span class="badge">${getFarmScale(source)}</span>
               <span class="badge">${getPriceInfo(crop)}</span>
             </span>
             <span class="farm-extra">${source ? getFarmAddress(source) : "주소 정보 확인 필요"}</span>
           </span>
         </button>
-      `,
+      `;
+      },
     )
     .join("");
 }
@@ -1617,6 +1631,7 @@ function findNearMe() {
         lat: position.coords.latitude,
         lng: position.coords.longitude,
       };
+      state.currentPosition = current;
       const nearby = getNearbySources(current);
       elements.locationStatus.textContent =
         `현재 위치 기준 ${NEARBY_RADIUS_KM}km 안의 로컬 농장 후보를 가까운 순서로 정리했습니다.`;
@@ -1644,8 +1659,35 @@ function scrollToTodayRecommendation() {
 }
 
 function submitSearch() {
+  const scrollToResults = () => {
+    document.querySelector("#crop-list").scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
+  if (state.search.trim() && !state.currentPosition && navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        state.currentPosition = {
+          lat: position.coords.latitude,
+          lng: position.coords.longitude,
+        };
+        render();
+        scrollToResults();
+      },
+      () => {
+        render();
+        scrollToResults();
+      },
+      {
+        enableHighAccuracy: false,
+        timeout: 8000,
+        maximumAge: 300000,
+      },
+    );
+    return;
+  }
+
   render();
-  document.querySelector("#crop-list").scrollIntoView({ behavior: "smooth", block: "start" });
+  scrollToResults();
 }
 
 function revealDeferredSection() {
