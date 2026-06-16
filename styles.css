@@ -1108,10 +1108,6 @@ select:focus {
   display: block;
 }
 
-.dashboard.deferred-section.section-visible {
-  display: grid;
-}
-
 .location-status,
 .section-note {
   margin-bottom: 14px;

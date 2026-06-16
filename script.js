@@ -1595,8 +1595,6 @@ function scrollToTodayRecommendation() {
 
 function submitSearch() {
   render();
-  window.location.hash = "crop-list";
-  revealDeferredSection();
   document.querySelector("#crop-list").scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
